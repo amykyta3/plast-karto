@@ -1,0 +1,171 @@
+mrsidinfo: Copyright (c) 2010 LizardTech. All rights reserved.
+
+basic image info:
+  format:            MrSID/MG2
+  width:             110000
+  height:            145000
+  nband:             3
+  color space:       RGB
+  datatype:          uint8
+  precision:         8
+  dyn range min:     (natural)
+  dyn range max:     (natural)
+  background color:  (255, 255, 255)
+  nodata color:      (255, 255, 255)
+  nominal size:      47850000000  (45 GB)
+  physical size:     1304821586  (1 GB)
+  compression ratio: 36.7 : 1
+  mag range:         0.001953 to 1048576.000000
+  metadata records:  19
+  num AOI regions:   0
+
+geo coordinate info:
+  X UL:              2270000.500000
+  Y UL:              754999.500000
+  X res:             1.000000
+  Y res:             -1.000000
+  X rot:             0.000000
+  Y rot:             0.000000
+
+geo points (pixel centers):
+  upper left:        (2270000.500000, 754999.500000)
+  upper right:       (2379999.500000, 754999.500000)
+  lower left:        (2270000.500000, 610000.500000)
+  lower right:       (2379999.500000, 610000.500000)
+  center:            (2325000.000000, 682500.000000)
+
+MrSID image info:
+  number of levels:  9
+  is locked:         false
+  file version:      1.0.1. 
+
+MrSID/MG2-specific image info:
+  is dithered:       false
+  block size:        2048
+
+
+
+Image Metadata:
+Record 0:
+  Tag: GEOTIFF_CHAR::GTModelTypeGeoKey
+  Type: ASCII[1]
+  Data: 
+    [0]: Undefined
+
+Record 1:
+  Tag: GEOTIFF_CHAR::GTRasterTypeGeoKey
+  Type: ASCII[1]
+  Data: 
+    [0]: RasterPixelIsArea
+
+Record 2:
+  Tag: GEOTIFF_CHAR::ProjLinearUnitsGeoKey
+  Type: ASCII[1]
+  Data: 
+    [0]: Linear_Foot_US_Survey
+
+Record 3:
+  Tag: GEOTIFF_NUM::1024::GTModelTypeGeoKey
+  Type: UINT16[1]
+  Data: 
+    [0]: 0
+
+Record 4:
+  Tag: GEOTIFF_NUM::1025::GTRasterTypeGeoKey
+  Type: UINT16[1]
+  Data: 
+    [0]: 1
+
+Record 5:
+  Tag: GEOTIFF_NUM::1026::GTCitationGeoKey
+  Type: ASCII[1]
+  Data: 
+    [0]: IMAGINE GeoTIFF Support
+Copyright 1991 - 2001 by ERDAS, Inc. All Rights Reserved
+@(#)$RCSfile: egtf.c $ $Revision: 1.9.2.9 $ $Date: 2002/10/28 15:14:13EST $
+Geocoding information not available
+Projection Name = NAD_1983_HARN_StatePlane_Ohio_North_FIPS_3401
+Units = us_survey_feet
+GeoTIFF Units = feet
+
+Record 6:
+  Tag: GEOTIFF_NUM::3076::ProjLinearUnitsGeoKey
+  Type: UINT16[1]
+  Data: 
+    [0]: 9003
+
+Record 7:
+  Tag: IMAGE::COMPRESSION_BLOCK_SIZE
+  Type: UINT32[1]
+  Data: 
+    [0]: 2048
+
+Record 8:
+  Tag: IMAGE::COMPRESSION_GAMMA
+  Type: FLOAT32[1]
+  Data: 
+    [0]: 2.000000
+
+Record 9:
+  Tag: IMAGE::COMPRESSION_NLEV
+  Type: UINT32[1]
+  Data: 
+    [0]: 9
+
+Record 10:
+  Tag: IMAGE::COMPRESSION_VERSION
+  Type: SINT32[3]
+  Data: 
+    [0]: 2
+    [1]: 0
+    [2]: 0
+
+Record 11:
+  Tag: IMAGE::COMPRESSION_WEIGHT
+  Type: FLOAT32[1]
+  Data: 
+    [0]: 4.000000
+
+Record 12:
+  Tag: IMAGE::CREATION_DATE
+  Type: ASCII[1]
+  Data: 
+    [0]: Fri May 18 19:29:19 2007
+
+
+Record 13:
+  Tag: IMAGE::ENCODING_APPLICATION
+  Type: ASCII[1]
+  Data: 
+    [0]: GeoExpress 6.1.1.1513
+
+Record 14:
+  Tag: IMAGE::INPUT_FILE_SIZE
+  Type: FLOAT64[1]
+  Data: 
+    [0]: 39246370826.000000
+
+Record 15:
+  Tag: IMAGE::INPUT_FORMAT
+  Type: ASCII[1]
+  Data: 
+    [0]: TIFF w/ World File
+
+Record 16:
+  Tag: IMAGE::INPUT_NAME
+  Type: ASCII[1]
+  Data: 
+    [0]: N:\65148_OH_Statewide_final_lut\N2375750.tif, N:\65148_OH_Statewide_final_lut\N2375745.tif, N:\65148_OH_Statewide_final_lut\N2375740.tif, N:\65148_OH_Statewide_final_lut\N2375735.tif, N:\65148_OH_Statewide_final_lut\N2375730.tif, N:\65148_OH_Statewide_final_lut\N2375725.tif, N:\65148_OH_Statewide_final_lut\N2375720.tif, N:\65148_OH_Statewide_final_lut\N2375715.tif, N:\65148_OH_Statewide_final_lut\N2375710.tif, N:\65148_OH_Statewide_final_lut\N2375705.tif, N:\65148_OH_Statewide_final_lut\N2375700.tif, N:\65148_OH_Statewide_final_lut\N2375695.tif, N:\65148_OH_Statewide_final_lut\N2375690.tif, N:\65148_OH_Statewide_final_lut\N2375685.tif, N:\65148_OH_Statewide_final_lut\N2375680.tif, N:\65148_OH_Statewide_final_lut\N2375675.tif, N:\65148_OH_Statewide_final_lut\N2375670.tif, N:\65148_OH_Statewide_final_lut\N2375665.tif, N:\65148_OH_Statewide_final_lut\N2375660.tif, N:\65148_OH_Statewide_final_lut\N2375655.tif, N:\65148_OH_Statewide_final_lut\N2375650.tif, N:\65148_OH_Statewide_final_lut\N2375645.tif, N:\65148_OH_Statewide_final_lut\N2375640.tif, N:\65148_OH_Statewide_final_lut\N2375635.tif, N:\65148_OH_Statewide_final_lut\N2375630.tif, N:\65148_OH_Statewide_final_lut\N2375625.tif, N:\65148_OH_Statewide_final_lut\N2375620.tif, N:\65148_OH_Statewide_final_lut\N2375615.tif, N:\65148_OH_Statewide_final_lut\N2375610.tif, N:\65148_OH_Statewide_final_lut\N2370750.tif, N:\65148_OH_Statewide_final_lut\N2370745.tif, N:\65148_OH_Statewide_final_lut\N2370740.tif, N:\65148_OH_Statewide_final_lut\N2370735.tif, N:\65148_OH_Statewide_final_lut\N2370730.tif, N:\65148_OH_Statewide_final_lut\N2370725.tif, N:\65148_OH_Statewide_final_lut\N2370720.tif, N:\65148_OH_Statewide_final_lut\N2370715.tif, N:\65148_OH_Statewide_final_lut\N2370710.tif, N:\65148_OH_Statewide_final_lut\N2370705.tif, N:\65148_OH_Statewide_final_lut\N2370700.tif, N:\65148_OH_Statewide_final_lut\N2370695.tif, N:\65148_OH_Statewide_final_lut\N2370690.tif, N:\65148_OH_Statewide_final_lut\N2370685.tif, N:\65148_OH_Statewide_final_lut\N2370680.tif, N:\65148_OH_Statewide_final_lut\N2370675.tif, N:\65148_OH_Statewide_final_lut\N2370670.tif, N:\65148_OH_Statewide_final_lut\N2370665.tif, N:\65148_OH_Statewide_final_lut\N2370660.tif, N:\65148_OH_Statewide_final_lut\N2370655.tif, N:\65148_OH_Statewide_final_lut\N2370650.tif, N:\65148_OH_Statewide_final_lut\N2370645.tif, N:\65148_OH_Statewide_final_lut\N2370640.tif, N:\65148_OH_Statewide_final_lut\N2370635.tif, N:\65148_OH_Statewide_final_lut\N2370630.tif, N:\65148_OH_Statewide_final_lut\N2370625.tif, N:\65148_OH_Statewide_final_lut\N2370620.tif, N:\65148_OH_Statewide_final_lut\N2370615.tif, N:\65148_OH_Statewide_final_lut\N2370610.tif, N:\65148_OH_Statewide_final_lut\N2365750.tif, N:\65148_OH_Statewide_final_lut\N2365745.tif, N:\65148_OH_Statewide_final_lut\N2365740.tif, N:\65148_OH_Statewide_final_lut\N2365735.tif, N:\65148_OH_Statewide_final_lut\N2365730.tif, N:\65148_OH_Statewide_final_lut\N2365725.tif, N:\65148_OH_Statewide_final_lut\N2365720.tif, N:\65148_OH_Statewide_final_lut\N2365715.tif, N:\65148_OH_Statewide_final_lut\N2365710.tif, N:\65148_OH_Statewide_final_lut\N2365705.tif, N:\65148_OH_Statewide_final_lut\N2365700.tif, N:\65148_OH_Statewide_final_lut\N2365695.tif, N:\65148_OH_Statewide_final_lut\N2365690.tif, N:\65148_OH_Statewide_final_lut\N2365685.tif, N:\65148_OH_Statewide_final_lut\N2365680.tif, N:\65148_OH_Statewide_final_lut\N2365675.tif, N:\65148_OH_Statewide_final_lut\N2365670.tif, N:\65148_OH_Statewide_final_lut\N2365665.tif, N:\65148_OH_Statewide_final_lut\N2365660.tif, N:\65148_OH_Statewide_final_lut\N2365655.tif, N:\65148_OH_Statewide_final_lut\N2365650.tif, N:\65148_OH_Statewide_final_lut\N2365645.tif, N:\65148_OH_Statewide_final_lut\N2365640.tif, N:\65148_OH_Statewide_final_lut\N2365635.tif, N:\65148_OH_Statewide_final_lut\N2365630.tif, N:\65148_OH_Statewide_final_lut\N2365625.tif, N:\65148_OH_Statewide_final_lut\N2365620.tif, N:\65148_OH_Statewide_final_lut\N2365615.tif, N:\65148_OH_Statewide_final_lut\N2365610.tif, N:\65148_OH_Statewide_final_lut\N2360750.tif, N:\65148_OH_Statewide_final_lut\N2360745.tif, N:\65148_OH_Statewide_final_lut\N2360740.tif, N:\65148_OH_Statewide_final_lut\N2360735.tif, N:\65148_OH_Statewide_final_lut\N2360730.tif, N:\65148_OH_Statewide_final_lut\N2360725.tif, N:\65148_OH_Statewide_final_lut\N2360720.tif, N:\65148_OH_Statewide_final_lut\N2360715.tif, N:\65148_OH_Statewide_final_lut\N2360710.tif, N:\65148_OH_Statewide_final_lut\N2360705.tif, N:\65148_OH_Statewide_final_lut\N2360700.tif, N:\65148_OH_Statewide_final_lut\N2360695.tif, N:\65148_OH_Statewide_final_lut\N2360690.tif, N:\65148_OH_Statewide_final_lut\N2360685.tif, N:\65148_OH_Statewide_final_lut\N2360680.tif, N:\65148_OH_Statewide_final_lut\N2360675.tif, N:\65148_OH_Statewide_final_lut\N2360670.tif, N:\65148_OH_Statewide_final_lut\N2360665.tif, N:\65148_OH_Statewide_final_lut\N2360660.tif, N:\65148_OH_Statewide_final_lut\N2360655.tif, N:\65148_OH_Statewide_final_lut\N2360650.tif, N:\65148_OH_Statewide_final_lut\N2360645.tif, N:\65148_OH_Statewide_final_lut\N2360640.tif, N:\65148_OH_Statewide_final_lut\N2360635.tif, N:\65148_OH_Statewide_final_lut\N2360630.tif, N:\65148_OH_Statewide_final_lut\N2360625.tif, N:\65148_OH_Statewide_final_lut\N2360620.tif, N:\65148_OH_Statewide_final_lut\N2360615.tif, N:\65148_OH_Statewide_final_lut\N2360610.tif, N:\65148_OH_Statewide_final_lut\N2355750.tif, N:\65148_OH_Statewide_final_lut\N2355745.tif, N:\65148_OH_Statewide_final_lut\N2355740.tif, N:\65148_OH_Statewide_final_lut\N2355735.tif, N:\65148_OH_Statewide_final_lut\N2355730.tif, N:\65148_OH_Statewide_final_lut\N2355725.tif, N:\65148_OH_Statewide_final_lut\N2355720.tif, N:\65148_OH_Statewide_final_lut\N2355715.tif, N:\65148_OH_Statewide_final_lut\N2355710.tif, N:\65148_OH_Statewide_final_lut\N2355705.tif, N:\65148_OH_Statewide_final_lut\N2355700.tif, N:\65148_OH_Statewide_final_lut\N2355695.tif, N:\65148_OH_Statewide_final_lut\N2355690.tif, N:\65148_OH_Statewide_final_lut\N2355685.tif, N:\65148_OH_Statewide_final_lut\N2355680.tif, N:\65148_OH_Statewide_final_lut\N2355675.tif, N:\65148_OH_Statewide_final_lut\N2355670.tif, N:\65148_OH_Statewide_final_lut\N2355665.tif, N:\65148_OH_Statewide_final_lut\N2355660.tif, N:\65148_OH_Statewide_final_lut\N2355655.tif, N:\65148_OH_Statewide_final_lut\N2355650.tif, N:\65148_OH_Statewide_final_lut\N2355645.tif, N:\65148_OH_Statewide_final_lut\N2355640.tif, N:\65148_OH_Statewide_final_lut\N2355635.tif, N:\65148_OH_Statewide_final_lut\N2355630.tif, N:\65148_OH_Statewide_final_lut\N2355625.tif, N:\65148_OH_Statewide_final_lut\N2355620.tif, N:\65148_OH_Statewide_final_lut\N2355615.tif, N:\65148_OH_Statewide_final_lut\N2355610.tif, N:\65148_OH_Statewide_final_lut\N2350750.tif, N:\65148_OH_Statewide_final_lut\N2350745.tif, N:\65148_OH_Statewide_final_lut\N2350740.tif, N:\65148_OH_Statewide_final_lut\N2350735.tif, N:\65148_OH_Statewide_final_lut\N2350730.tif, N:\65148_OH_Statewide_final_lut\N2350725.tif, N:\65148_OH_Statewide_final_lut\N2350720.tif, N:\65148_OH_Statewide_final_lut\N2350715.tif, N:\65148_OH_Statewide_final_lut\N2350710.tif, N:\65148_OH_Statewide_final_lut\N2350705.tif, N:\65148_OH_Statewide_final_lut\N2350700.tif, N:\65148_OH_Statewide_final_lut\N2350695.tif, N:\65148_OH_Statewide_final_lut\N2350690.tif, N:\65148_OH_Statewide_final_lut\N2350685.tif, N:\65148_OH_Statewide_final_lut\N2350680.tif, N:\65148_OH_Statewide_final_lut\N2350675.tif, N:\65148_OH_Statewide_final_lut\N2350670.tif, N:\65148_OH_Statewide_final_lut\N2350665.tif, N:\65148_OH_Statewide_final_lut\N2350660.tif, N:\65148_OH_Statewide_final_lut\N2350655.tif, N:\65148_OH_Statewide_final_lut\N2350650.tif, N:\65148_OH_Statewide_final_lut\N2350645.tif, N:\65148_OH_Statewide_final_lut\N2350640.tif, N:\65148_OH_Statewide_final_lut\N2350635.tif, N:\65148_OH_Statewide_final_lut\N2350630.tif, N:\65148_OH_Statewide_final_lut\N2350625.tif, N:\65148_OH_Statewide_final_lut\N2350620.tif, N:\65148_OH_Statewide_final_lut\N2350615.tif, N:\65148_OH_Statewide_final_lut\N2350610.tif, N:\65148_OH_Statewide_final_lut\N2345750.tif, N:\65148_OH_Statewide_final_lut\N2345745.tif, N:\65148_OH_Statewide_final_lut\N2345740.tif, N:\65148_OH_Statewide_final_lut\N2345735.tif, N:\65148_OH_Statewide_final_lut\N2345730.tif, N:\65148_OH_Statewide_final_lut\N2345725.tif, N:\65148_OH_Statewide_final_lut\N2345720.tif, N:\65148_OH_Statewide_final_lut\N2345715.tif, N:\65148_OH_Statewide_final_lut\N2345710.tif, N:\65148_OH_Statewide_final_lut\N2345705.tif, N:\65148_OH_Statewide_final_lut\N2345700.tif, N:\65148_OH_Statewide_final_lut\N2345695.tif, N:\65148_OH_Statewide_final_lut\N2345690.tif, N:\65148_OH_Statewide_final_lut\N2345685.tif, N:\65148_OH_Statewide_final_lut\N2345680.tif, N:\65148_OH_Statewide_final_lut\N2345675.tif, N:\65148_OH_Statewide_final_lut\N2345670.tif, N:\65148_OH_Statewide_final_lut\N2345665.tif, N:\65148_OH_Statewide_final_lut\N2345660.tif, N:\65148_OH_Statewide_final_lut\N2345655.tif, N:\65148_OH_Statewide_final_lut\N2345650.tif, N:\65148_OH_Statewide_final_lut\N2345645.tif, N:\65148_OH_Statewide_final_lut\N2345640.tif, N:\65148_OH_Statewide_final_lut\N2345635.tif, N:\65148_OH_Statewide_final_lut\N2345630.tif, N:\65148_OH_Statewide_final_lut\N2345625.tif, N:\65148_OH_Statewide_final_lut\N2345620.tif, N:\65148_OH_Statewide_final_lut\N2345615.tif, N:\65148_OH_Statewide_final_lut\N2345610.tif, N:\65148_OH_Statewide_final_lut\N2340720.tif, N:\65148_OH_Statewide_final_lut\N2340715.tif, N:\65148_OH_Statewide_final_lut\N2340710.tif, N:\65148_OH_Statewide_final_lut\N2340705.tif, N:\65148_OH_Statewide_final_lut\N2340700.tif, N:\65148_OH_Statewide_final_lut\N2340695.tif, N:\65148_OH_Statewide_final_lut\N2340690.tif, N:\65148_OH_Statewide_final_lut\N2340685.tif, N:\65148_OH_Statewide_final_lut\N2340680.tif, N:\65148_OH_Statewide_final_lut\N2340675.tif, N:\65148_OH_Statewide_final_lut\N2340670.tif, N:\65148_OH_Statewide_final_lut\N2340665.tif, N:\65148_OH_Statewide_final_lut\N2340660.tif, N:\65148_OH_Statewide_final_lut\N2340655.tif, N:\65148_OH_Statewide_final_lut\N2340650.tif, N:\65148_OH_Statewide_final_lut\N2340645.tif, N:\65148_OH_Statewide_final_lut\N2340640.tif, N:\65148_OH_Statewide_final_lut\N2340635.tif, N:\65148_OH_Statewide_final_lut\N2340630.tif, N:\65148_OH_Statewide_final_lut\N2340625.tif, N:\65148_OH_Statewide_final_lut\N2340620.tif, N:\65148_OH_Statewide_final_lut\N2340615.tif, N:\65148_OH_Statewide_final_lut\N2340610.tif, N:\65148_OH_Statewide_final_lut\N2335720.tif, N:\65148_OH_Statewide_final_lut\N2335715.tif, N:\65148_OH_Statewide_final_lut\N2335710.tif, N:\65148_OH_Statewide_final_lut\N2335705.tif, N:\65148_OH_Statewide_final_lut\N2335700.tif, N:\65148_OH_Statewide_final_lut\N2335695.tif, N:\65148_OH_Statewide_final_lut\N2335690.tif, N:\65148_OH_Statewide_final_lut\N2335685.tif, N:\65148_OH_Statewide_final_lut\N2335680.tif, N:\65148_OH_Statewide_final_lut\N2335675.tif, N:\65148_OH_Statewide_final_lut\N2335670.tif, N:\65148_OH_Statewide_final_lut\N2335665.tif, N:\65148_OH_Statewide_final_lut\N2335660.tif, N:\65148_OH_Statewide_final_lut\N2335655.tif, N:\65148_OH_Statewide_final_lut\N2335650.tif, N:\65148_OH_Statewide_final_lut\N2335645.tif, N:\65148_OH_Statewide_final_lut\N2335640.tif, N:\65148_OH_Statewide_final_lut\N2335635.tif, N:\65148_OH_Statewide_final_lut\N2335630.tif, N:\65148_OH_Statewide_final_lut\N2335625.tif, N:\65148_OH_Statewide_final_lut\N2335620.tif, N:\65148_OH_Statewide_final_lut\N2335615.tif, N:\65148_OH_Statewide_final_lut\N2335610.tif, N:\65148_OH_Statewide_final_lut\N2320720.tif, N:\65148_OH_Statewide_final_lut\N2320715.tif, N:\65148_OH_Statewide_final_lut\N2320710.tif, N:\65148_OH_Statewide_final_lut\N2320705.tif, N:\65148_OH_Statewide_final_lut\N2320700.tif, N:\65148_OH_Statewide_final_lut\N2320695.tif, N:\65148_OH_Statewide_final_lut\N2320690.tif, N:\65148_OH_Statewide_final_lut\N2320685.tif, N:\65148_OH_Statewide_final_lut\N2320680.tif, N:\65148_OH_Statewide_final_lut\N2320675.tif, N:\65148_OH_Statewide_final_lut\N2320670.tif, N:\65148_OH_Statewide_final_lut\N2320665.tif, N:\65148_OH_Statewide_final_lut\N2320660.tif, N:\65148_OH_Statewide_final_lut\N2320655.tif, N:\65148_OH_Statewide_final_lut\N2320650.tif, N:\65148_OH_Statewide_final_lut\N2320645.tif, N:\65148_OH_Statewide_final_lut\N2320640.tif, N:\65148_OH_Statewide_final_lut\N2320635.tif, N:\65148_OH_Statewide_final_lut\N2320630.tif, N:\65148_OH_Statewide_final_lut\N2320625.tif, N:\65148_OH_Statewide_final_lut\N2320620.tif, N:\65148_OH_Statewide_final_lut\N2320615.tif, N:\65148_OH_Statewide_final_lut\N2320610.tif, N:\65148_OH_Statewide_final_lut\N2315720.tif, N:\65148_OH_Statewide_final_lut\N2315715.tif, N:\65148_OH_Statewide_final_lut\N2315710.tif, N:\65148_OH_Statewide_final_lut\N2315705.tif, N:\65148_OH_Statewide_final_lut\N2315700.tif, N:\65148_OH_Statewide_final_lut\N2315695.tif, N:\65148_OH_Statewide_final_lut\N2315690.tif, N:\65148_OH_Statewide_final_lut\N2315685.tif, N:\65148_OH_Statewide_final_lut\N2315680.tif, N:\65148_OH_Statewide_final_lut\N2315675.tif, N:\65148_OH_Statewide_final_lut\N2315670.tif, N:\65148_OH_Statewide_final_lut\N2315665.tif, N:\65148_OH_Statewide_final_lut\N2330720.tif, N:\65148_OH_Statewide_final_lut\N2330715.tif, N:\65148_OH_Statewide_final_lut\N2330710.tif, N:\65148_OH_Statewide_final_lut\N2330705.tif, N:\65148_OH_Statewide_final_lut\N2330700.tif, N:\65148_OH_Statewide_final_lut\N2330695.tif, N:\65148_OH_Statewide_final_lut\N2330690.tif, N:\65148_OH_Statewide_final_lut\N2330685.tif, N:\65148_OH_Statewide_final_lut\N2330680.tif, N:\65148_OH_Statewide_final_lut\N2330675.tif, N:\65148_OH_Statewide_final_lut\N2330670.tif, N:\65148_OH_Statewide_final_lut\N2330665.tif, N:\65148_OH_Statewide_final_lut\N2330660.tif, N:\65148_OH_Statewide_final_lut\N2330655.tif, N:\65148_OH_Statewide_final_lut\N2330650.tif, N:\65148_OH_Statewide_final_lut\N2330645.tif, N:\65148_OH_Statewide_final_lut\N2330640.tif, N:\65148_OH_Statewide_final_lut\N2330635.tif, N:\65148_OH_Statewide_final_lut\N2330630.tif, N:\65148_OH_Statewide_final_lut\N2330625.tif, N:\65148_OH_Statewide_final_lut\N2330620.tif, N:\65148_OH_Statewide_final_lut\N2330615.tif, N:\65148_OH_Statewide_final_lut\N2330610.tif, N:\65148_OH_Statewide_final_lut\N2315660.tif, N:\65148_OH_Statewide_final_lut\N2315655.tif, N:\65148_OH_Statewide_final_lut\N2315650.tif, N:\65148_OH_Statewide_final_lut\N2315645.tif, N:\65148_OH_Statewide_final_lut\N2315640.tif, N:\65148_OH_Statewide_final_lut\N2315635.tif, N:\65148_OH_Statewide_final_lut\N2315630.tif, N:\65148_OH_Statewide_final_lut\N2315625.tif, N:\65148_OH_Statewide_final_lut\N2315620.tif, N:\65148_OH_Statewide_final_lut\N2315615.tif, N:\65148_OH_Statewide_final_lut\N2315610.tif, N:\65148_OH_Statewide_final_lut\N2310720.tif, N:\65148_OH_Statewide_final_lut\N2310715.tif, N:\65148_OH_Statewide_final_lut\N2310710.tif, N:\65148_OH_Statewide_final_lut\N2310705.tif, N:\65148_OH_Statewide_final_lut\N2310700.tif, N:\65148_OH_Statewide_final_lut\N2310695.tif, N:\65148_OH_Statewide_final_lut\N2310690.tif, N:\65148_OH_Statewide_final_lut\N2310685.tif, N:\65148_OH_Statewide_final_lut\N2310680.tif, N:\65148_OH_Statewide_final_lut\N2310675.tif, N:\65148_OH_Statewide_final_lut\N2310670.tif, N:\65148_OH_Statewide_final_lut\N2310665.tif, N:\65148_OH_Statewide_final_lut\N2310660.tif, N:\65148_OH_Statewide_final_lut\N2310655.tif, N:\65148_OH_Statewide_final_lut\N2310650.tif, N:\65148_OH_Statewide_final_lut\N2310645.tif, N:\65148_OH_Statewide_final_lut\N2310640.tif, N:\65148_OH_Statewide_final_lut\N2310635.tif, N:\65148_OH_Statewide_final_lut\N2310630.tif, N:\65148_OH_Statewide_final_lut\N2310625.tif, N:\65148_OH_Statewide_final_lut\N2310620.tif, N:\65148_OH_Statewide_final_lut\N2310615.tif, N:\65148_OH_Statewide_final_lut\N2310610.tif, N:\65148_OH_Statewide_final_lut\N2305720.tif, N:\65148_OH_Statewide_final_lut\N2305715.tif, N:\65148_OH_Statewide_final_lut\N2305710.tif, N:\65148_OH_Statewide_final_lut\N2305705.tif, N:\65148_OH_Statewide_final_lut\N2305700.tif, N:\65148_OH_Statewide_final_lut\N2305695.tif, N:\65148_OH_Statewide_final_lut\N2305690.tif, N:\65148_OH_Statewide_final_lut\N2305685.tif, N:\65148_OH_Statewide_final_lut\N2305680.tif, N:\65148_OH_Statewide_final_lut\N2305675.tif, N:\65148_OH_Statewide_final_lut\N2305670.tif, N:\65148_OH_Statewide_final_lut\N2305665.tif, N:\65148_OH_Statewide_final_lut\N2305660.tif, N:\65148_OH_Statewide_final_lut\N2305655.tif, N:\65148_OH_Statewide_final_lut\N2305650.tif, N:\65148_OH_Statewide_final_lut\N2305645.tif, N:\65148_OH_Statewide_final_lut\N2305640.tif, N:\65148_OH_Statewide_final_lut\N2305635.tif, N:\65148_OH_Statewide_final_lut\N2305630.tif, N:\65148_OH_Statewide_final_lut\N2305625.tif, N:\65148_OH_Statewide_final_lut\N2305620.tif, N:\65148_OH_Statewide_final_lut\N2305615.tif, N:\65148_OH_Statewide_final_lut\N2305610.tif, N:\65148_OH_Statewide_final_lut\N2300720.tif, N:\65148_OH_Statewide_final_lut\N2300715.tif, N:\65148_OH_Statewide_final_lut\N2300710.tif, N:\65148_OH_Statewide_final_lut\N2300705.tif, N:\65148_OH_Statewide_final_lut\N2300700.tif, N:\65148_OH_Statewide_final_lut\N2300695.tif, N:\65148_OH_Statewide_final_lut\N2300690.tif, N:\65148_OH_Statewide_final_lut\N2300685.tif, N:\65148_OH_Statewide_final_lut\N2300680.tif, N:\65148_OH_Statewide_final_lut\N2300675.tif, N:\65148_OH_Statewide_final_lut\N2300670.tif, N:\65148_OH_Statewide_final_lut\N2300665.tif, N:\65148_OH_Statewide_final_lut\N2300660.tif, N:\65148_OH_Statewide_final_lut\N2300655.tif, N:\65148_OH_Statewide_final_lut\N2300650.tif, N:\65148_OH_Statewide_final_lut\N2300645.tif, N:\65148_OH_Statewide_final_lut\N2300640.tif, N:\65148_OH_Statewide_final_lut\N2300635.tif, N:\65148_OH_Statewide_final_lut\N2300630.tif, N:\65148_OH_Statewide_final_lut\N2300625.tif, N:\65148_OH_Statewide_final_lut\N2300620.tif, N:\65148_OH_Statewide_final_lut\N2300615.tif, N:\65148_OH_Statewide_final_lut\N2300610.tif, N:\65148_OH_Statewide_final_lut\N2295720.tif, N:\65148_OH_Statewide_final_lut\N2295715.tif, N:\65148_OH_Statewide_final_lut\N2295710.tif, N:\65148_OH_Statewide_final_lut\N2295705.tif, N:\65148_OH_Statewide_final_lut\N2295700.tif, N:\65148_OH_Statewide_final_lut\N2295695.tif, N:\65148_OH_Statewide_final_lut\N2295690.tif, N:\65148_OH_Statewide_final_lut\N2295685.tif, N:\65148_OH_Statewide_final_lut\N2295680.tif, N:\65148_OH_Statewide_final_lut\N2295675.tif, N:\65148_OH_Statewide_final_lut\N2295670.tif, N:\65148_OH_Statewide_final_lut\N2295665.tif, N:\65148_OH_Statewide_final_lut\N2295660.tif, N:\65148_OH_Statewide_final_lut\N2295655.tif, N:\65148_OH_Statewide_final_lut\N2295650.tif, N:\65148_OH_Statewide_final_lut\N2295645.tif, N:\65148_OH_Statewide_final_lut\N2295640.tif, N:\65148_OH_Statewide_final_lut\N2295635.tif, N:\65148_OH_Statewide_final_lut\N2295630.tif, N:\65148_OH_Statewide_final_lut\N2295625.tif, N:\65148_OH_Statewide_final_lut\N2295620.tif, N:\65148_OH_Statewide_final_lut\N2295615.tif, N:\65148_OH_Statewide_final_lut\N2295610.tif, N:\65148_OH_Statewide_final_lut\N2290695.tif, N:\65148_OH_Statewide_final_lut\N2290690.tif, N:\65148_OH_Statewide_final_lut\N2290685.tif, N:\65148_OH_Statewide_final_lut\N2290680.tif, N:\65148_OH_Statewide_final_lut\N2290675.tif, N:\65148_OH_Statewide_final_lut\N2290670.tif, N:\65148_OH_Statewide_final_lut\N2290665.tif, N:\65148_OH_Statewide_final_lut\N2290660.tif, N:\65148_OH_Statewide_final_lut\N2290655.tif, N:\65148_OH_Statewide_final_lut\N2290650.tif, N:\65148_OH_Statewide_final_lut\N2290645.tif, N:\65148_OH_Statewide_final_lut\N2290640.tif, N:\65148_OH_Statewide_final_lut\N2290635.tif, N:\65148_OH_Statewide_final_lut\N2290630.tif, N:\65148_OH_Statewide_final_lut\N2290625.tif, N:\65148_OH_Statewide_final_lut\N2290620.tif, N:\65148_OH_Statewide_final_lut\N2290615.tif, N:\65148_OH_Statewide_final_lut\N2290610.tif, N:\65148_OH_Statewide_final_lut\N2280695.tif, N:\65148_OH_Statewide_final_lut\N2280690.tif, N:\65148_OH_Statewide_final_lut\N2280685.tif, N:\65148_OH_Statewide_final_lut\N2280680.tif, N:\65148_OH_Statewide_final_lut\N2280675.tif, N:\65148_OH_Statewide_final_lut\N2280670.tif, N:\65148_OH_Statewide_final_lut\N2280665.tif, N:\65148_OH_Statewide_final_lut\N2280660.tif, N:\65148_OH_Statewide_final_lut\N2280655.tif, N:\65148_OH_Statewide_final_lut\N2280650.tif, N:\65148_OH_Statewide_final_lut\N2280645.tif, N:\65148_OH_Statewide_final_lut\N2280640.tif, N:\65148_OH_Statewide_final_lut\N2280635.tif, N:\65148_OH_Statewide_final_lut\N2280630.tif, N:\65148_OH_Statewide_final_lut\N2280625.tif, N:\65148_OH_Statewide_final_lut\N2280620.tif, N:\65148_OH_Statewide_final_lut\N2280615.tif, N:\65148_OH_Statewide_final_lut\N2280610.tif, N:\65148_OH_Statewide_final_lut\N2275695.tif, N:\65148_OH_Statewide_final_lut\N2275690.tif, N:\65148_OH_Statewide_final_lut\N2275685.tif, N:\65148_OH_Statewide_final_lut\N2275680.tif, N:\65148_OH_Statewide_final_lut\N2275675.tif, N:\65148_OH_Statewide_final_lut\N2275670.tif, N:\65148_OH_Statewide_final_lut\N2275665.tif, N:\65148_OH_Statewide_final_lut\N2275660.tif, N:\65148_OH_Statewide_final_lut\N2275655.tif, N:\65148_OH_Statewide_final_lut\N2275650.tif, N:\65148_OH_Statewide_final_lut\N2275645.tif, N:\65148_OH_Statewide_final_lut\N2275640.tif, N:\65148_OH_Statewide_final_lut\N2275635.tif, N:\65148_OH_Statewide_final_lut\N2275630.tif, N:\65148_OH_Statewide_final_lut\N2275625.tif, N:\65148_OH_Statewide_final_lut\N2275620.tif, N:\65148_OH_Statewide_final_lut\N2275615.tif, N:\65148_OH_Statewide_final_lut\N2275610.tif, N:\65148_OH_Statewide_final_lut\N2270695.tif, N:\65148_OH_Statewide_final_lut\N2270690.tif, N:\65148_OH_Statewide_final_lut\N2270685.tif, N:\65148_OH_Statewide_final_lut\N2270680.tif, N:\65148_OH_Statewide_final_lut\N2270675.tif, N:\65148_OH_Statewide_final_lut\N2270670.tif, N:\65148_OH_Statewide_final_lut\N2270665.tif, N:\65148_OH_Statewide_final_lut\N2270660.tif, N:\65148_OH_Statewide_final_lut\N2270655.tif, N:\65148_OH_Statewide_final_lut\N2270650.tif, N:\65148_OH_Statewide_final_lut\N2270645.tif, N:\65148_OH_Statewide_final_lut\N2270640.tif, N:\65148_OH_Statewide_final_lut\N2270635.tif, N:\65148_OH_Statewide_final_lut\N2270630.tif, N:\65148_OH_Statewide_final_lut\N2270625.tif, N:\65148_OH_Statewide_final_lut\N2270620.tif, N:\65148_OH_Statewide_final_lut\N2270615.tif, N:\65148_OH_Statewide_final_lut\N2270610.tif, N:\65148_OH_Statewide_final_lut\N2325720.tif, N:\65148_OH_Statewide_final_lut\N2325715.tif, N:\65148_OH_Statewide_final_lut\N2325710.tif, N:\65148_OH_Statewide_final_lut\N2325705.tif, N:\65148_OH_Statewide_final_lut\N2325700.tif, N:\65148_OH_Statewide_final_lut\N2325695.tif, N:\65148_OH_Statewide_final_lut\N2325690.tif, N:\65148_OH_Statewide_final_lut\N2325685.tif, N:\65148_OH_Statewide_final_lut\N2325680.tif, N:\65148_OH_Statewide_final_lut\N2325675.tif, N:\65148_OH_Statewide_final_lut\N2325670.tif, N:\65148_OH_Statewide_final_lut\N2325665.tif, N:\65148_OH_Statewide_final_lut\N2325660.tif, N:\65148_OH_Statewide_final_lut\N2325655.tif, N:\65148_OH_Statewide_final_lut\N2325650.tif, N:\65148_OH_Statewide_final_lut\N2325645.tif, N:\65148_OH_Statewide_final_lut\N2325640.tif, N:\65148_OH_Statewide_final_lut\N2325635.tif, N:\65148_OH_Statewide_final_lut\N2325630.tif, N:\65148_OH_Statewide_final_lut\N2325625.tif, N:\65148_OH_Statewide_final_lut\N2325620.tif, N:\65148_OH_Statewide_final_lut\N2325615.tif, N:\65148_OH_Statewide_final_lut\N2325610.tif, N:\65148_OH_Statewide_final_lut\N2285695.tif, N:\65148_OH_Statewide_final_lut\N2285690.tif, N:\65148_OH_Statewide_final_lut\N2285685.tif, N:\65148_OH_Statewide_final_lut\N2285680.tif, N:\65148_OH_Statewide_final_lut\N2285675.tif, N:\65148_OH_Statewide_final_lut\N2285670.tif, N:\65148_OH_Statewide_final_lut\N2285665.tif, N:\65148_OH_Statewide_final_lut\N2285660.tif, N:\65148_OH_Statewide_final_lut\N2285655.tif, N:\65148_OH_Statewide_final_lut\N2285650.tif, N:\65148_OH_Statewide_final_lut\N2285645.tif, N:\65148_OH_Statewide_final_lut\N2285640.tif, N:\65148_OH_Statewide_final_lut\N2285635.tif, N:\65148_OH_Statewide_final_lut\N2285630.tif, N:\65148_OH_Statewide_final_lut\N2285625.tif, N:\65148_OH_Statewide_final_lut\N2285620.tif, N:\65148_OH_Statewide_final_lut\N2285615.tif, N:\65148_OH_Statewide_final_lut\N2285610.tif
+
+Record 17:
+  Tag: IMAGE::NO_DITHER
+  Type: UINT8[1]
+  Data: 
+    [0]: 0
+
+Record 18:
+  Tag: IMAGE::TARGET_COMPRESSION_RATIO
+  Type: FLOAT32[1]
+  Data: 
+    [0]: 29.999998
+

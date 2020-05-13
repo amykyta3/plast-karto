@@ -1,0 +1,523 @@
+<?xml version="1.0"?>
+<!--<!DOCTYPE metadata SYSTEM "http://www.esri.com/metadata/esriprof80.dtd">-->
+<metadata xml:lang="en">
+	<Esri>
+		<CreaDate>20070614</CreaDate>
+		<CreaTime>11030300</CreaTime>
+		<SyncOnce>FALSE</SyncOnce>
+		<SyncDate>20070614</SyncDate>
+		<SyncTime>11030400</SyncTime>
+		<ModDate>20070614</ModDate>
+		<ModTime>11041400</ModTime>
+		<MetaID>{B3F72ADE-3446-459E-ADD4-0B0B78818947}</MetaID></Esri>
+	<idinfo>
+		<native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.2.2.1350</native>
+		<descript>
+			<langdata Sync="TRUE">en</langdata>
+			<abstract>The 2006 OSIP digital orthophotography was collected during the months of March and April (leaf-off conditions).
+
+The MrSID Images covering each county at 1-foot pixel resolution will be created at a 30:1 compression ratio.  At a 30:1 compression ratio, the resulting MrSID file size will average around 2GBs in size (dependent upon county size).
+
+MrSID Images will also be created for each buy-up county.  These MrSIDs, will be compressed at a 20:1 ratio.  In some cases, buy-up counties have requested a higher compression ratio.  Hancock and Fairfield Counties have requested countywide ECW image files.</abstract>
+			<purpose>The State of Ohio has a goal to develop and maintain a seamless statewide base map, referred to as OSIP (Ohio Statewide Imagery Program). OSIP is an initiative partnered through several State Agencies (i.e. ODOT, ODNR) through OGRIP. Data from this project forms the foundation of the Statewide base map, and was developed primarily to support multi-use applications, including homeland security, emergency management, economic development, and the business of government.</purpose>
+			<supplinf>The delivery of the countywide MrSID Images are based upon the geotiffs that were delivered to each individual county.  In some cases, additional geotiffs (from surrounding counties) may have been added to enhance the visual depiction of the SID file.  Each countywide MrSID was compressed at a 30:1 compression ratio.</supplinf>
+		</descript>
+		<citation>
+			<citeinfo>
+				<origin>State of Ohio Office of Information Technology, Ohio Geographically Referenced Information Program</origin>
+				<pubdate>20070101</pubdate>
+				<title Sync="TRUE">Geauga.sid</title>
+				<geoform Sync="TRUE">raster digital data</geoform>
+				<ftname Sync="TRUE">Geauga.sid</ftname><onlink Sync="TRUE">X:\STATE\OSIP06\expressserver\Geauga.sid</onlink></citeinfo>
+		</citation>
+		<timeperd>
+			<current>ground condition</current>
+			<timeinfo>
+				<mdattim>
+					<sngdate>
+						<caldate>20060415</caldate>
+					</sngdate>
+					<sngdate>
+						<caldate>20060417</caldate>
+					</sngdate>
+				</mdattim>
+			</timeinfo>
+		</timeperd>
+		<status>
+			<progress>In work</progress>
+			<update>Unknown</update>
+		</status>
+		<spdom>
+			<bounding><westbc Sync="TRUE">-81.402067</westbc><eastbc Sync="TRUE">-80.992437</eastbc><northbc Sync="TRUE">41.733693</northbc><southbc Sync="TRUE">41.331288</southbc></bounding>
+			<lboundng>
+				<leftbc Sync="TRUE">2270000.000000</leftbc>
+				<rightbc Sync="TRUE">2380000.000000</rightbc>
+				<bottombc Sync="TRUE">610000.000000</bottombc>
+				<topbc Sync="TRUE">755000.000000</topbc>
+			</lboundng>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>Digital Orthophotography</themekey>
+				<themekey>imageryBaseMapsEarthCover</themekey>
+				<themekey>statewide imagery</themekey>
+				<themekey>georeferenced image</themekey>
+				<themekey>Georectification</themekey>
+				<themekey>OSIP</themekey>
+				<themekey>orthophotography</themekey>
+				<themekey>aerial photograph</themekey>
+				<themekey>rectified image</themekey>
+				<themekey>digital orthophoto</themekey>
+			</theme>
+			<place>
+				<placekey>US</placekey>
+				<placekey>Ohio</placekey>
+				<placekey>Geuaga County</placekey></place>
+		</keywords>
+		<accconst>None</accconst>
+		<useconst>None</useconst>
+		<natvform Sync="TRUE">Raster Dataset</natvform>
+		<datacred>This data set was acquired for the State of Ohio by Woolpert Inc. Subcontractors for data acquisition include NorthWest Geomatics, Horizons, Delorme, DAS and LandAir.</datacred>
+		<ptcontac>
+			<cntinfo>
+				<cntpos>Project Administrator</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>77 South High Street - Room 1990</address>
+					<city>Columbus</city>
+					<state>Ohio</state>
+					<postal>43215</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>614.466.4747</cntvoice>
+				<cntfax>614.728.5297</cntfax>
+				<cntemail>gis.support@oit.ohio.gov</cntemail>
+				<hours>8:00 am - 5:00 pm</hours>
+				<cntorgp>
+					<cntorg>State of Ohio, through the Office of Information Technology, Investment and Governance Division, for the Office of Information Technology, Services Delivery Division and the Ohio Geographically Referenced Information Program (OGRIP)</cntorg>
+					<cntper>Jeff Smith</cntper>
+				</cntorgp>
+			</cntinfo>
+		</ptcontac>
+		<crossref>
+			<citeinfo>
+				<origin>State of Ohio Office of Information Technology, Ohio Geographically Referenced Information Program</origin>
+			</citeinfo>
+		</crossref>
+	</idinfo>
+	<dataIdInfo>
+		<envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.2.2.1350</envirDesc>
+		<dataLang>
+			<languageCode Sync="TRUE" value="en">
+			</languageCode>
+		</dataLang>
+		<idCitation>
+			<resTitle Sync="TRUE">Geauga.sid</resTitle>
+			<presForm>
+				<PresFormCd Sync="TRUE" value="005">
+				</PresFormCd>
+			</presForm>
+		</idCitation>
+		<spatRpType>
+			<SpatRepTypCd Sync="TRUE" value="002">
+			</SpatRepTypCd>
+		</spatRpType>
+		<dataExt>
+			<geoEle>
+				<GeoBndBox esriExtentType="native">
+					<westBL Sync="TRUE">2270000</westBL>
+					<eastBL Sync="TRUE">2380000</eastBL>
+					<northBL Sync="TRUE">755000</northBL>
+					<southBL Sync="TRUE">610000</southBL>
+					<exTypeCode Sync="TRUE">1</exTypeCode>
+				</GeoBndBox>
+			</geoEle>
+		</dataExt>
+		<geoBox esriExtentType="decdegrees">
+			<westBL Sync="TRUE">-81.402067</westBL>
+			<eastBL Sync="TRUE">-80.992437</eastBL>
+			<northBL Sync="TRUE">41.733693</northBL>
+			<southBL Sync="TRUE">41.331288</southBL>
+			<exTypeCode Sync="TRUE">1</exTypeCode>
+		</geoBox>
+	</dataIdInfo>
+	<metainfo>
+		<langmeta Sync="TRUE">en</langmeta>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<metc>
+			<cntinfo>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<city>Dayton</city>
+					<state>Ohio</state>
+					<postal>45402</postal>
+					<address>409 East Monument Avenue</address>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>937.531.1323</cntvoice>
+				<cntperp>
+					<cntper>Brian Stevens</cntper>
+					<cntorg>Woolpert Inc.</cntorg>
+				</cntperp>
+				<cntpos>Project Manager</cntpos>
+				<cntfax>937.461.0743</cntfax>
+				<cntemail>brian.stevens@woolpert.com</cntemail>
+			</cntinfo>
+		</metc>
+		<metd Sync="TRUE">20070614</metd>
+		<metac>These metadata were produced prior to full state delivery and assume acceptance during QA/QC.  All project sets are to be delivered under contract by February 2007.  Completion status is contingent upon passing QA/QC checks and     acceptance of all products by the State of Ohio.  Delivery to counties occurs after acceptance.  If you are accessing this metadata prior to full project acceptance and delivery, users can view project status at http://ohioortho.woolpert.com/</metac>
+		<metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo>
+	<mdLang>
+		<languageCode Sync="TRUE" value="en">
+		</languageCode>
+	</mdLang>
+	<mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName>
+	<mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer>
+	<mdChar>
+		<CharSetCd Sync="TRUE" value="004">
+		</CharSetCd>
+	</mdChar>
+	<mdHrLv>
+		<ScopeCd Sync="TRUE" value="005">
+		</ScopeCd>
+	</mdHrLv>
+	<mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+	<distinfo>
+		<resdesc>Downloadable Data
+
+External Hard Drives</resdesc>
+		<stdorder>
+			<digform>
+				<digtinfo>
+					<transize>1279.889085</transize>
+					<dssize Sync="TRUE">0.000</dssize>
+					<formname>ZIP</formname></digtinfo>
+				<digtopt><onlinopt><computer><networka><networkr>http://geodata.oit.ohio.gov/geodata/projects/osip/DATA/IMAGERY/SID/Geauga.sid.zip</networkr></networka></computer></onlinopt></digtopt></digform>
+		</stdorder>
+		<distrib>
+			<cntinfo>
+				<cntperp>
+					<cntper>Jeff Smith</cntper>
+					<cntorg>OGRIP</cntorg>
+				</cntperp>
+				<cntpos>Manager</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>77 S. High St. - Rm 1990</address>
+					<city>Columbus</city>
+					<state>Ohio</state>
+					<postal>43215</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>614.466.4747</cntvoice>
+				<cntfax>614.728.5297</cntfax>
+				<cntemail>gis.support@oit.ohio.gov</cntemail>
+			</cntinfo>
+		</distrib>
+		<availabl>
+			<timeinfo>
+				<mdattim>
+					<sngdate>
+						<caldate>20070101</caldate>
+					</sngdate>
+				</mdattim>
+			</timeinfo>
+		</availabl>
+	</distinfo>
+	<distInfo>
+		<distributor>
+			<distorTran>
+				<onLineSrc>
+					<orDesc Sync="TRUE">002</orDesc>
+					<protocol Sync="TRUE">Local Area Network</protocol>
+					<linkage Sync="TRUE">file://X:\STATE\OSIP06\expressserver\Geauga.sid</linkage></onLineSrc>
+				<transSize Sync="TRUE">0.000</transSize>
+			</distorTran>
+			<distorFormat>
+				<formatName Sync="TRUE">Raster Dataset</formatName>
+			</distorFormat>
+		</distributor>
+	</distInfo>
+	<spdoinfo>
+		<direct Sync="TRUE">Raster</direct>
+		<rastinfo>
+			<rasttype Sync="TRUE">Pixel</rasttype>
+			<rastxsz Sync="TRUE">1.000000</rastxsz>
+			<rastysz Sync="TRUE">1.000000</rastysz>
+			<rastbpp Sync="TRUE">8</rastbpp>
+			<vrtcount Sync="TRUE">1</vrtcount>
+			<rastorig Sync="TRUE">Upper Left</rastorig>
+			<rastcmap Sync="TRUE">FALSE</rastcmap>
+			<rastcomp Sync="TRUE">Wavelet</rastcomp>
+			<rastband Sync="TRUE">3</rastband>
+			<rastdtyp Sync="TRUE">pixel codes</rastdtyp>
+			<rastplyr Sync="TRUE">TRUE</rastplyr>
+			<rastifor Sync="TRUE">MrSID</rastifor>
+			<rowcount Sync="TRUE">145000</rowcount><colcount Sync="TRUE">110000</colcount></rastinfo>
+	</spdoinfo>
+	<spatRepInfo>
+		<GridSpatRep>
+			<numDims Sync="TRUE">2</numDims>
+			<cellGeo>
+				<CellGeoCd Sync="TRUE" value="002">
+				</CellGeoCd>
+			</cellGeo>
+			<tranParaAv Sync="TRUE">1</tranParaAv>
+			<axDimProps>
+				<Dimen>
+					<dimName>
+						<DimNameTypCd Sync="TRUE" value="002">
+						</DimNameTypCd>
+					</dimName>
+					<dimSize Sync="TRUE">5000</dimSize>
+					<dimResol>
+						<value Sync="TRUE">0.5</value>
+						<uom>
+							<UomLength>
+								<uomName Sync="TRUE">Foot_US</uomName>
+								<conversionToISOstandardUnit Sync="TRUE">1 Foot_US = 0.304801 Meter(s)</conversionToISOstandardUnit>
+							</UomLength>
+						</uom>
+					</dimResol>
+				</Dimen>
+				<Dimen>
+					<dimName>
+						<DimNameTypCd Sync="TRUE" value="001">
+						</DimNameTypCd>
+					</dimName>
+					<dimSize Sync="TRUE">5000</dimSize>
+					<dimResol>
+						<value Sync="TRUE">0.5</value>
+						<uom>
+							<UomLength>
+								<uomName Sync="TRUE">Foot_US</uomName>
+								<conversionToISOstandardUnit Sync="TRUE">1 Foot_US = 0.304801 Meter(s)</conversionToISOstandardUnit>
+							</UomLength>
+						</uom>
+					</dimResol>
+				</Dimen>
+			</axDimProps>
+		</GridSpatRep>
+	</spatRepInfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<planci>
+					<plance Sync="TRUE">row and column</plance>
+					<coordrep>
+						<absres Sync="TRUE">1.000000</absres>
+						<ordres Sync="TRUE">1.000000</ordres>
+					</coordrep>
+					<plandu Sync="TRUE">survey feet</plandu>
+				</planci>
+				<mapproj><mapprojn Sync="TRUE">Lambert Conformal Conic</mapprojn><lambertc><stdparll Sync="TRUE">40.433333</stdparll><stdparll Sync="TRUE">41.700000</stdparll><longcm Sync="TRUE">-82.500000</longcm><latprjo Sync="TRUE">39.666667</latprjo><feast Sync="TRUE">1968500.000000</feast><fnorth Sync="TRUE">0.000000</fnorth></lambertc></mapproj></planar>
+			<cordsysn>
+				<geogcsn Sync="TRUE">GCS_North_American_1983_HARN</geogcsn>
+				<projcsn Sync="TRUE">NAD_1983_HARN_StatePlane_Ohio_North_FIPS_3401</projcsn>
+			</cordsysn>
+			<geodetic>
+				<horizdn Sync="TRUE">D_North_American_1983_HARN</horizdn>
+				<ellips Sync="TRUE">Geodetic Reference System 80</ellips>
+				<semiaxis Sync="TRUE">6378137.000000</semiaxis>
+				<denflat Sync="TRUE">298.257222</denflat>
+			</geodetic>
+		</horizsys>
+		<vertdef>
+			<altsys>
+				<altdatum>North American Vertical Datum of 1988</altdatum>
+				<altunits>feet</altunits>
+			</altsys>
+		</vertdef>
+	</spref>
+	<mdDateSt Sync="TRUE">20070614</mdDateSt>
+	<refSysInfo>
+		<RefSystem>
+			<refSysID>
+				<identCode Sync="TRUE">NAD_1983_HARN_StatePlane_Ohio_North_FIPS_3401</identCode>
+			</refSysID>
+		</RefSystem>
+	</refSysInfo>
+	<dataqual>
+		<logic> Compliance with the accuracy standard was validated by the collection of photo identifiable GPS ground control points     during the acquisition of aerial imagery. The following checks were performed.
+              
+- The ground control and airborne GPS data were validated through a fully analytical bundle aerotriangulation adjustment.
+
+ - The LiDAR DEM data was checked against the project ground control. The technical staff confirmed the accuracy of the points during initial processing
+
+ - Digital orthophotography was validated through an inspection of edge matching and visual inspection for image quality.
+</logic>
+		<complete>The following methods are used to assure imagery accuracy.
+
+ - Use of IMU and ground control network utilizing GPS techniques.
+
+ - Use of airborne GPS in conjunction with the imagery and LiDAR acquisition.
+
+ - The following software is used for validation of the imagery and surface modeling
+
+              - Aerotriangulation - Leica
+
+              - LiDAR DEM Data - Terrascan, TerraModeler, Leica
+
+              - Digital Orthophotography - Microstation, IRASC, OrthoPro, OrthoVista, ArcGIS, Leica GPro
+
+              - MicroStation
+
+              - ESRI - ArcInfo
+
+              - ERDAS Imagine
+
+              - Woolpert Proprietary software
+
+              - Adobe - Photoshop</complete>
+		<posacc>
+			<horizpa>
+				<horizpar>The 1"=200' scale orthophotos were created to meet 5.0-foot horizontal accuracy, meeting NMAS.
+
+The 1"=100' scale orthophotos were created to meet 2.5-foot horizontal accuracy, meeting NMAS.</horizpar>
+			</horizpa>
+			<vertacc>
+				<vertaccr>The LiDAR DEM was acquired to meet +/- 1-foot vertical accuracy.  This is suitable for rectification of digital orthophotography and for the creation of 2- and 5-foot contours (with the addition of 3D compiled breaklines).</vertaccr>
+			</vertacc>
+		</posacc>
+		<lineage>
+			<srcinfo>
+				<srccontr>The aerial imagery acquisition for the State of Ohio was flown to support the creation of digital orthophotography with a 0.5-foot and 1-foot pixel resolution. The 0.5-foot pixel ortho imagery was flown at an approximate altitude of 4,800-feet AMT and there were approximately 5,762 line miles of imagery.  The 1-foot pixel ortho imagery was flown at approximately 9,600-feet AMT and there were approximately 17,000 line miles of imagery flown. Imagery was flown with an average 30% overlap between flight lines All imagery was collected using the Leica ADS40 digital camera system.</srccontr>
+				<srccite>
+					<citeinfo>
+						<origin>Woolpert Inc.</origin>
+						<pubdate>20060626</pubdate>
+						<title>Aerial Image Acquisition</title>
+						<edition>1</edition>
+					</citeinfo>
+				</srccite>
+				<srcscale>1"=100' &amp; 1"=200'</srcscale>
+				<typesrc>External Hard Drives</typesrc>
+				<srccitea>Imagery Acquisition</srccitea>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<title>GPS Ground Control</title>
+						<origin>Woolpert Inc.</origin>
+						<edition>1</edition>
+					</citeinfo>
+				</srccite>
+				<srcscale>1"=100'</srcscale>
+				<typesrc>External Hard Drives</typesrc>
+				<srccitea>Ground Control</srccitea>
+				<srccontr>Woolpert Inc. acquired 292 photo identifiable ground control points during and after the acquisition of aerial imagery. The ground control points were established using GPS for horizontal and vertical coordinate values.
+
+ NAD83 (2005) - horizontal 
+ NAVD88 - vertical
+ Geoid03
+ Grid
+US survey Feet
+State Plane Ohio North
+
+and
+
+Tuscarawas County
+NAD83 (1986)
+NAVD 88
+US survey Feet
+State Plane Ohio North
+Geoid03
+Grid
+
+Fairfield and Williams Counties
+NAD83 (1995)
+NAVD 88
+US survey Feet
+State Plane Ohio North (Fairfield County - South Zone)
+Geoid03
+Grid
+
+Allen, Ashland, Hancock, Ottawa and Seneca Counties
+NAD83 (2005)
+NAVD 88
+US survey Feet
+State Plane Ohio North
+Geoid03
+Grid</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<title>Aerial Image Acquisition</title>
+						<origin>Northwest Geomatics</origin>
+						<edition>1</edition>
+					</citeinfo>
+				</srccite>
+				<srccitea>Imagery Acquisition</srccitea>
+				<typesrc>External Hard Drives</typesrc>
+				<srcscale>1"=200'</srcscale>
+				<srccontr>Northwest Geomatics was contracted by Woolpert Inc. to acquire 1-foot imagery acquisition. </srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<title>Aerial Image Acquisition</title>
+						<origin>LandAir</origin>
+						<pubdate>20060626</pubdate>
+						<edition>1</edition>
+					</citeinfo>
+				</srccite>
+				<srccontr>LandAir was contracted by Woolpert Inc. to acquire 0.5-foot RGB and 1-meter CIR magery acquisition.</srccontr>
+				<srcscale>1"=100' &amp; 1"=1,000'</srcscale>
+				<typesrc>External Hard Drives</typesrc>
+				<srccitea>Imagery Acquistion</srccitea>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<title>LiDAR Acquisition</title>
+						<origin>Woolpert Inc. </origin>
+						<pubdate>20060626</pubdate>
+						<edition>1</edition>
+					</citeinfo>
+				</srccite>
+				<srcscale>1"=100', 1"=200' and 1"=1,000'</srcscale>
+				<typesrc>External Hard Drives</typesrc>
+				<srccitea>LiDAR Acquisition</srccitea>
+				<srccontr>Woolpert collected LiDAR data, which was used to rectify ortho imagery, as well as, the suitable future generation of contours.</srccontr>
+			</srcinfo>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<title>LiDAR Acquisition</title>
+						<origin>Horizons Inc.</origin>
+						<pubdate>20060626</pubdate>
+						<edition>1</edition>
+					</citeinfo>
+				</srccite>
+				<srcscale>1"=100', 1"=200' and 1"=1,000'</srcscale>
+				<typesrc>External Hard Drives</typesrc>
+				<srccitea>LiDAR Acquisition</srccitea>
+				<srccontr>Horizons was contracted by Woolpert to collect LiDAR data, which was used to rectify ortho imagery, as well as, the suitable future generation of contours.</srccontr>
+			</srcinfo>
+			<procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">X:\STATE\OSIP06\Geauga\IMAGERY\MOSAICS\Geauga.xml</srcused><date Sync="TRUE">20070614</date><time Sync="TRUE">11030300</time></procstep></lineage>
+		<cloud>None</cloud>
+	</dataqual>
+	<eainfo>
+		<overview>
+			<dsoverv>Natural Color Digital Orthophotography
+
+1"=200' scale (statewide)
+
+1"=100' scale (selected county "buy-ups")
+
+"buy-up" counties include: Allen, Ashland, Fairfield, Hancock, Ottawa, Seneca, Tuscarawas and Williams Counties.
+
+Color Infra-red Digital Orthophotography
+
+1"=1,000' scale (statewide)
+
+LiDAR DEM
+
+Supplied in ArcGRID (ASCII); Raster and LAS Formats</dsoverv>
+		</overview>
+	</eainfo>
+</metadata>

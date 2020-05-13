@@ -1,0 +1,4 @@
+# Do not add original SID image databases as they are huge
+*/*.sid
+
+tmp/

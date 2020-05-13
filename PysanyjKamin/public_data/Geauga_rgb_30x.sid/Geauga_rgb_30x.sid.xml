@@ -1,0 +1,315 @@
+<?xml version="1.0"?>
+<!DOCTYPE metadata SYSTEM "http://www.fgdc.gov/metadata/fgdc-std-001-1998.dtd"[]>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>State of Ohio Office of Information Technology, Ohio Geographically Referenced Information Program</origin>
+        <pubdate>20110509</pubdate>
+        <pubtime>Unknown</pubtime>
+        <title Sync="TRUE">Cuyahoga_rgb_30x.sid</title>
+        <geoform Sync="TRUE">raster digital data</geoform>
+        <pubinfo>
+          <pubplace>Columbus, OH</pubplace>
+          <publish>OGRIP</publish>
+        </pubinfo>
+        <onlink Sync="TRUE">Geauga_rgb_30x.sid</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The 2011 OSIP digital orthophotography was collected during the months of March and April (leaf-off conditions).
+
+The MrSID Images covering each county at a 12-inch pixel resolution have been created at a 30:1 compression ratio.  At a 30:1 compression ratio, the resulting MrSID file size will average around 2GBs in size (dependent upon county size).
+
+MrSID Images have also been created for each county buying-up to higher resolution imagery (i.e. 6-inch pixel resolution).  These MrSIDs, will be compressed at a 30:1 ratio.  In addition to the 30:1 compression SIDs, each buy-up county has also received a 100:1 compression SID (for distribution to the public).                                                                                         The delivery of the countywide 12-Inch MrSID Images are based upon the geotiffs that were delivered to each individual county.  In some cases, additional geotiffs (from surrounding counties) may have been added to enhance the visual depiction of the SID file.  Each countywide MrSID was compressed at a 30:1 compression ratio.</abstract>
+      <purpose>The state of Ohio has a goal to develop and maintain a seamless statewide base map, referred to as OSIP (Ohio Statewide Imagery Program). OSIP is an initiative partnered through several State Agencies (i.e. ODOT, ODNR, OEPA) through OGRIP. USGS is also a partner.  Data from this project forms the foundation of the statewide base map, and was developed primarily to support multi-use applications, including homeland security, emergency management, economic development, and the business of government.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <mdattim>
+          <sngdate>
+            <caldate>20110430</caldate>
+          </sngdate>
+          <sngdate>
+            <caldate>20110505</caldate>
+          </sngdate>
+          <sngdate>
+            <caldate>20110509</caldate>
+          </sngdate>
+        </mdattim>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc Sync="TRUE">-81.402067</westbc>
+        <eastbc Sync="TRUE">-80.992437</eastbc>
+        <northbc Sync="TRUE">41.733693</northbc>
+        <southbc Sync="TRUE">41.331288</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Raster</themekey>
+        <themekey>Orthophoto</themekey>
+        <themekey>imageryBaseMapsEarthCover</themekey>
+      </theme>
+      <place>
+        <placekt>none</placekt>
+        <placekey>United States</placekey>
+        <placekey>Ohio</placekey>
+        <placekey>OGRIP</placekey>
+      </place>
+    </keywords>
+    <accconst>This data may be used by the requested party for stated purposes and should not be re-distributed.</accconst>
+    <useconst>This data is for planning purposes only and should not be used for legal or cadastral purposes.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>OGRIP</cntorg>
+        </cntorgp>
+        <cntpos>GIS Manager</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>77 S. High St. - Rm 1990</address>
+          <city>Columbus</city>
+          <state>OH</state>
+          <postal>43215</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>(614) 466-4747</cntvoice>
+        <cntfax>(614) 728-5297</cntfax>
+      </cntinfo>
+    </ptcontac>
+    <secinfo>
+      <secsys>Unclassified</secsys>
+      <secclass>Unclassified</secclass>
+      <sechandl>Unclassified</sechandl>
+    </secinfo>
+    <native Sync="TRUE">Microsoft Windows Vista Version 6.1 (Build 7600) ; ESRI ArcCatalog 9.3.1.3000</native>
+  </idinfo>
+  <dataqual>
+    <logic>This orthophoto imagery follows the boundary of the northeast Ohio Tier (+/- 6,990.9 square miles).</logic>
+    <complete>The dataset is complete</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>The orthoimagery meets the National Map Accuracy Standards for 1"=200' scale.</horizpar>
+        <qhorizpa>
+          <horizpav>5.0 feet</horizpav>
+          <horizpae>All control points and test points that are visible on the aerial photography are visited on screen and the X, Y coordinates are displayed. This information is cross-referenced with the X, Y information provided by the ground survey.</horizpae>
+        </qhorizpa>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>OGRIP</origin>
+            <pubdate>2011</pubdate>
+            <pubtime>Unknown</pubtime>
+            <title>2011 Digital Orthophoto OGRIP</title>
+            <geoform>raster digital data</geoform>
+          </citeinfo>
+        </srccite>
+        <srcscale>9600</srcscale>
+        <typesrc>disc</typesrc>
+        <srctime>
+          <timeinfo>
+            <mdattim>
+              <sngdate>
+                <caldate>20110430</caldate>
+              </sngdate>
+              <sngdate>
+                <caldate>20110505</caldate>
+              </sngdate>
+              <sngdate>
+                <caldate>20110509</caldate>
+              </sngdate>
+            </mdattim>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>Orthophoto</srccitea>
+        <srccontr>Digital aerial imagery was acquired to produce 4-band, 8-bit ortho-imagery. This imagery was orthorectified to the existing LiDAR terrain data obtained for OSIP 1 and the ground control survey.</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>The Leica ADS80-SH81/82 Airborne Digital Sensor is a push-broom geometry sensor, collecting 12-bit data with 12,000 pixel swath coverage with up to a 5-centimeter spatial resolution. The sensor is capable of collecting multiple spectral bands and angles simultaneously. Leica’s ADS80 collects seven bands of imagery simultaneously: three panchromatic CCD lines capture information in the forward, nadir and backward views from the aircraft, while four multispectral lines capture data in the red, green, blue, and near color infrared band. The imagery for this task order was acquired using the Leica ADS80-SH81/82 multispectral scanner. The ADS80-SH81/82 utilizes the Leica’s IPAS20 direct positioning and orientation system that is based on airborne GPS and inertial measurement unit (IMU) technology. The IPAS20 data were reduced using Leica’s IPAS Pro software package (V1.3). All of the source imagery was processed using the Leica XPRO (V5.0.1) software package. This package provides the capability to perform digital image processing, aerial triangulation, and image rectification. The strips of imagery were ortho rectified to newly collected LiDAR digtial elevation model (DEM) data. The individual rectified strips of ortho rectified imagery were then mosaicked together to form a seamless imagery database over the entire task order area using the OrthoVista software (V4.5) by Inpho GmbH. The final digital orthophoto imagery (DOI) were extracted using OrthoVista.</procdesc>
+        <procdate>20110415</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Woolpert, Inc.</cntorg>
+            </cntorgp>
+            <cntpos>Geospatial Services</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>2780 Airport Drive, Suite 100</address>
+              <city>Columbus</city>
+              <state>OH</state>
+              <postal>43219</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>(614) 827-6155</cntvoice>
+            <cntfax>(614) 476-6225</cntfax>
+            <hours>8:00 a.m. to 5:00 p.m. Eastern Time</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc Sync="TRUE">Metadata imported.</procdesc>
+        <srcused Sync="TRUE">Cuyahoga_rgb_30x.sid.xml</srcused>
+        <procdate Sync="TRUE">20120103</procdate>
+        <proctime Sync="TRUE">08080500</proctime>
+      </procstep>
+      <procstep>
+        <procdesc Sync="TRUE">Metadata imported.</procdesc>
+        <srcused Sync="TRUE">Cuyahoga_rgb_30x.sid.xml</srcused>
+        <procdate Sync="TRUE">20120103</procdate>
+        <proctime Sync="TRUE">12114800</proctime>
+      </procstep>
+    </lineage>
+    <cloud>0</cloud>
+  </dataqual>
+  <spdoinfo>
+    <direct Sync="TRUE">Raster</direct>
+    <rastinfo>
+      <rasttype Sync="TRUE">Pixel</rasttype>
+      <rowcount Sync="TRUE">145000</rowcount>
+      <colcount Sync="TRUE">170000</colcount>
+      <vrtcount Sync="TRUE">1</vrtcount>
+    </rastinfo>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <planci>
+          <plance Sync="TRUE">row and column</plance>
+          <coordrep>
+            <absres Sync="TRUE">1.000000</absres>
+            <ordres Sync="TRUE">1.000000</ordres>
+          </coordrep>
+          <plandu Sync="TRUE">survey feet</plandu>
+        </planci>
+        <mapproj>
+          <mapprojn Sync="TRUE">Lambert Conformal Conic</mapprojn>
+          <lambertc>
+            <stdparll Sync="TRUE">40.433333</stdparll>
+            <stdparll Sync="TRUE">41.700000</stdparll>
+            <longcm Sync="TRUE">-82.500000</longcm>
+            <latprjo Sync="TRUE">39.666667</latprjo>
+            <feast Sync="TRUE">6458320.416667</feast>
+            <fnorth Sync="TRUE">0.000000</fnorth>
+          </lambertc>
+        </mapproj>
+      </planar>
+      <geodetic>
+        <horizdn Sync="TRUE">D_North_American_1983_HARN</horizdn>
+        <ellips Sync="TRUE">Geodetic Reference System 80</ellips>
+        <semiaxis Sync="TRUE">6378137.000000</semiaxis>
+        <denflat Sync="TRUE">298.257222</denflat>
+      </geodetic>
+      <cordsysn>
+        <geogcsn Sync="TRUE">GCS_North_American_1983_HARN</geogcsn>
+        <projcsn Sync="TRUE">NAD_1983_HARN_StatePlane_Ohio_North_FIPS_3401_Feet</projcsn>
+      </cordsysn>
+    </horizsys>
+    <vertdef>
+      <altsys>
+        <altdatum>North American Vertical Datum of 1988</altdatum>
+        <altres>1</altres>
+        <altunits>feet</altunits>
+        <altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+      </altsys>
+    </vertdef>
+  </spref>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>OGRIP</cntorg>
+        </cntorgp>
+        <cntpos>GIS Manager</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>77 S. High St. - Rm 1990</address>
+          <city>Columbus</city>
+          <state>OH</state>
+          <postal>43215</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>(614) 466-4747</cntvoice>
+        <cntfax>(614) 728-5297</cntfax>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>Due to the easily alterable nature of electronic media, files, documents, and other deliverables, Woolpert, Inc. makes no warranties, either expressed or implied, with respect to the accuracy, completeness, merchantability, or fitness for any particular purpose, including, but not limited to, use of any/all data as described within this metadata file, by the Client or any other consultant or contractor. Any reuse will be at the Client's sole risk unless Woolpert, Inc., for compensation to be agreed upon, reviews and adapts such deliverables.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>MrSID</formname>
+          <transize>2000.0</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>http://ogrip.oit.ohio.gov/ServicesData/StatewideImagery/tabid/86/Default.aspx</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+          <offoptn>
+            <offmedia>CD-ROM</offmedia>
+            <recfmt>Digital</recfmt>
+          </offoptn>
+        </digtopt>
+      </digform>
+      <fees>None.</fees>
+    </stdorder>
+    <availabl>
+      <timeinfo>
+        <sngdate>
+          <caldate>unknown</caldate>
+          <time>unknown</time>
+        </sngdate>
+      </timeinfo>
+    </availabl>
+  </distinfo>
+  <metainfo>
+    <metd Sync="TRUE">20120103</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>OGRIP</cntorg>
+          <cntper>Jeff Smith</cntper>
+        </cntorgp>
+        <cntpos>GIS Manager</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>77 S. High St. - Rm 1990</address>
+          <city>Columbus</city>
+          <state>OH</state>
+          <postal>43215</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>(614) 466-4747</cntvoice>
+        <cntfax>(614) 728-5297</cntfax>
+      </cntinfo>
+    </metc>
+    <metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+    <mettc Sync="TRUE">local time</mettc>
+    <metextns>
+      <onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+      <metprof>ESRI Metadata Profile</metprof>
+    </metextns>
+    <metextns>
+      <onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink>
+      <metprof Sync="TRUE">ESRI Metadata Profile</metprof>
+    </metextns>
+  </metainfo>
+</metadata>

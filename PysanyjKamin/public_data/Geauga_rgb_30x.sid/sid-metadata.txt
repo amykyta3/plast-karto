@@ -1,0 +1,91 @@
+mrsidinfo: Copyright (c) 2010 LizardTech. All rights reserved.
+
+basic image info:
+  format:            MrSID/MG3
+  width:             110000
+  height:            145000
+  nband:             3
+  color space:       RGB
+  datatype:          uint8
+  precision:         8
+  dyn range min:     (natural)
+  dyn range max:     (natural)
+  background color:  (255, 255, 255)
+  nodata color:      (255, 255, 255)
+  nominal size:      47850000000  (45 GB)
+  physical size:     1594997869  (1 GB)
+  compression ratio: 30.0 : 1
+  mag range:         0.000031 to 1048576.000000
+  metadata records:  7
+  num AOI regions:   0
+
+geo coordinate info:
+  X UL:              2270000.500000
+  Y UL:              754999.500000
+  X res:             1.000000
+  Y res:             -1.000000
+  X rot:             0.000000
+  Y rot:             0.000000
+
+geo points (pixel centers):
+  upper left:        (2270000.500000, 754999.500000)
+  upper right:       (2379999.500000, 754999.500000)
+  lower left:        (2270000.500000, 610000.500000)
+  lower right:       (2379999.500000, 610000.500000)
+  center:            (2325000.000000, 682500.000000)
+
+MrSID image info:
+  number of levels:  15
+  is locked:         false
+  file version:      3.0.26.q
+  modifications      COMPRESSED EMBEDDED REORDERED-BANDS MOSAICKED UNKNOWN
+
+MrSID/MG3 (single) image info:
+  is optimizable:    true
+  block size:        64
+
+
+
+Image Metadata:
+Record 0:
+  Tag: IMAGE::ENCODING_APPLICATION
+  Type: ASCII[1]
+  Data: 
+    [0]: GeoExpress 8.5.0.3330
+
+Record 1:
+  Tag: IMAGE::FORMAT
+  Type: ASCII[1]
+  Data: 
+    [0]: MrSID/MG3
+
+Record 2:
+  Tag: IMAGE::INPUT_FILE_SIZE
+  Type: FLOAT64[1]
+  Data: 
+    [0]: 52489921432.000000
+
+Record 3:
+  Tag: IMAGE::INPUT_FORMAT
+  Type: ASCII[1]
+  Data: 
+    [0]: TIFF w/ World File
+
+Record 4:
+  Tag: IMAGE::INPUT_NAME
+  Type: ASCII[1]
+  Data: 
+    [0]: I:\Geauga\N2270610.tif, I:\Geauga\N2270615.tif, I:\Geauga\N2270620.tif, I:\Geauga\N2270625.tif, I:\Geauga\N2270630.tif, I:\Geauga\N2270635.tif, I:\Geauga\N2270640.tif, I:\Geauga\N2270645.tif, I:\Geauga\N2270650.tif, I:\Geauga\N2270655.tif, I:\Geauga\N2270660.tif, I:\Geauga\N2270665.tif, I:\Geauga\N2270670.tif, I:\Geauga\N2270675.tif, I:\Geauga\N2270680.tif, I:\Geauga\N2270685.tif, I:\Geauga\N2270690.tif, I:\Geauga\N2270695.tif, I:\Geauga\N2275610.tif, I:\Geauga\N2275615.tif, I:\Geauga\N2275620.tif, I:\Geauga\N2275625.tif, I:\Geauga\N2275630.tif, I:\Geauga\N2275635.tif, I:\Geauga\N2275640.tif, I:\Geauga\N2275645.tif, I:\Geauga\N2275650.tif, I:\Geauga\N2275655.tif, I:\Geauga\N2275660.tif, I:\Geauga\N2275665.tif, I:\Geauga\N2275670.tif, I:\Geauga\N2275675.tif, I:\Geauga\N2275680.tif, I:\Geauga\N2275685.tif, I:\Geauga\N2275690.tif, I:\Geauga\N2275695.tif, I:\Geauga\N2280610.tif, I:\Geauga\N2280615.tif, I:\Geauga\N2280620.tif, I:\Geauga\N2280625.tif, I:\Geauga\N2280630.tif, I:\Geauga\N2280635.tif, I:\Geauga\N2280640.tif, I:\Geauga\N2280645.tif, I:\Geauga\N2280650.tif, I:\Geauga\N2280655.tif, I:\Geauga\N2280660.tif, I:\Geauga\N2280665.tif, I:\Geauga\N2280670.tif, I:\Geauga\N2280675.tif, I:\Geauga\N2280680.tif, I:\Geauga\N2280685.tif, I:\Geauga\N2280690.tif, I:\Geauga\N2280695.tif, I:\Geauga\N2285610.tif, I:\Geauga\N2285615.tif, I:\Geauga\N2285620.tif, I:\Geauga\N2285625.tif, I:\Geauga\N2285630.tif, I:\Geauga\N2285635.tif, I:\Geauga\N2285640.tif, I:\Geauga\N2285645.tif, I:\Geauga\N2285650.tif, I:\Geauga\N2285655.tif, I:\Geauga\N2285660.tif, I:\Geauga\N2285665.tif, I:\Geauga\N2285670.tif, I:\Geauga\N2285675.tif, I:\Geauga\N2285680.tif, I:\Geauga\N2285685.tif, I:\Geauga\N2285690.tif, I:\Geauga\N2285695.tif, I:\Geauga\N2290610.tif, I:\Geauga\N2290615.tif, I:\Geauga\N2290620.tif, I:\Geauga\N2290625.tif, I:\Geauga\N2290630.tif, I:\Geauga\N2290635.tif, I:\Geauga\N2290640.tif, I:\Geauga\N2290645.tif, I:\Geauga\N2290650.tif, I:\Geauga\N2290655.tif, I:\Geauga\N2290660.tif, I:\Geauga\N2290665.tif, I:\Geauga\N2290670.tif, I:\Geauga\N2290675.tif, I:\Geauga\N2290680.tif, I:\Geauga\N2290685.tif, I:\Geauga\N2290690.tif, I:\Geauga\N2290695.tif, I:\Geauga\N2295610.tif, I:\Geauga\N2295615.tif, I:\Geauga\N2295620.tif, I:\Geauga\N2295625.tif, I:\Geauga\N2295630.tif, I:\Geauga\N2295635.tif, I:\Geauga\N2295640.tif, I:\Geauga\N2295645.tif, I:\Geauga\N2295650.tif, I:\Geauga\N2295655.tif, I:\Geauga\N2295660.tif, I:\Geauga\N2295665.tif, I:\Geauga\N2295670.tif, I:\Geauga\N2295675.tif, I:\Geauga\N2295680.tif, I:\Geauga\N2295685.tif, I:\Geauga\N2295690.tif, I:\Geauga\N2295695.tif, I:\Geauga\N2295700.tif, I:\Geauga\N2295705.tif, I:\Geauga\N2295710.tif, I:\Geauga\N2295715.tif, I:\Geauga\N2295720.tif, I:\Geauga\N2300610.tif, I:\Geauga\N2300615.tif, I:\Geauga\N2300620.tif, I:\Geauga\N2300625.tif, I:\Geauga\N2300630.tif, I:\Geauga\N2300635.tif, I:\Geauga\N2300640.tif, I:\Geauga\N2300645.tif, I:\Geauga\N2300650.tif, I:\Geauga\N2300655.tif, I:\Geauga\N2300660.tif, I:\Geauga\N2300665.tif, I:\Geauga\N2300670.tif, I:\Geauga\N2300675.tif, I:\Geauga\N2300680.tif, I:\Geauga\N2300685.tif, I:\Geauga\N2300690.tif, I:\Geauga\N2300695.tif, I:\Geauga\N2300700.tif, I:\Geauga\N2300705.tif, I:\Geauga\N2300710.tif, I:\Geauga\N2300715.tif, I:\Geauga\N2300720.tif, I:\Geauga\N2305610.tif, I:\Geauga\N2305615.tif, I:\Geauga\N2305620.tif, I:\Geauga\N2305625.tif, I:\Geauga\N2305630.tif, I:\Geauga\N2305635.tif, I:\Geauga\N2305640.tif, I:\Geauga\N2305645.tif, I:\Geauga\N2305650.tif, I:\Geauga\N2305655.tif, I:\Geauga\N2305660.tif, I:\Geauga\N2305665.tif, I:\Geauga\N2305670.tif, I:\Geauga\N2305675.tif, I:\Geauga\N2305680.tif, I:\Geauga\N2305685.tif, I:\Geauga\N2305690.tif, I:\Geauga\N2305695.tif, I:\Geauga\N2305700.tif, I:\Geauga\N2305705.tif, I:\Geauga\N2305710.tif, I:\Geauga\N2305715.tif, I:\Geauga\N2305720.tif, I:\Geauga\N2310610.tif, I:\Geauga\N2310615.tif, I:\Geauga\N2310620.tif, I:\Geauga\N2310625.tif, I:\Geauga\N2310630.tif, I:\Geauga\N2310635.tif, I:\Geauga\N2310640.tif, I:\Geauga\N2310645.tif, I:\Geauga\N2310650.tif, I:\Geauga\N2310655.tif, I:\Geauga\N2310660.tif, I:\Geauga\N2310665.tif, I:\Geauga\N2310670.tif, I:\Geauga\N2310675.tif, I:\Geauga\N2310680.tif, I:\Geauga\N2310685.tif, I:\Geauga\N2310690.tif, I:\Geauga\N2310695.tif, I:\Geauga\N2310700.tif, I:\Geauga\N2310705.tif, I:\Geauga\N2310710.tif, I:\Geauga\N2310715.tif, I:\Geauga\N2310720.tif, I:\Geauga\N2315610.tif, I:\Geauga\N2315615.tif, I:\Geauga\N2315620.tif, I:\Geauga\N2315625.tif, I:\Geauga\N2315630.tif, I:\Geauga\N2315635.tif, I:\Geauga\N2315640.tif, I:\Geauga\N2315645.tif, I:\Geauga\N2315650.tif, I:\Geauga\N2315655.tif, I:\Geauga\N2315660.tif, I:\Geauga\N2315665.tif, I:\Geauga\N2315670.tif, I:\Geauga\N2315675.tif, I:\Geauga\N2315680.tif, I:\Geauga\N2315685.tif, I:\Geauga\N2315690.tif, I:\Geauga\N2315695.tif, I:\Geauga\N2315700.tif, I:\Geauga\N2315705.tif, I:\Geauga\N2315710.tif, I:\Geauga\N2315715.tif, I:\Geauga\N2315720.tif, I:\Geauga\N2320610.tif, I:\Geauga\N2320615.tif, I:\Geauga\N2320620.tif, I:\Geauga\N2320625.tif, I:\Geauga\N2320630.tif, I:\Geauga\N2320635.tif, I:\Geauga\N2320640.tif, I:\Geauga\N2320645.tif, I:\Geauga\N2320650.tif, I:\Geauga\N2320655.tif, I:\Geauga\N2320660.tif, I:\Geauga\N2320665.tif, I:\Geauga\N2320670.tif, I:\Geauga\N2320675.tif, I:\Geauga\N2320680.tif, I:\Geauga\N2320685.tif, I:\Geauga\N2320690.tif, I:\Geauga\N2320695.tif, I:\Geauga\N2320700.tif, I:\Geauga\N2320705.tif, I:\Geauga\N2320710.tif, I:\Geauga\N2320715.tif, I:\Geauga\N2320720.tif, I:\Geauga\N2325610.tif, I:\Geauga\N2325615.tif, I:\Geauga\N2325620.tif, I:\Geauga\N2325625.tif, I:\Geauga\N2325630.tif, I:\Geauga\N2325635.tif, I:\Geauga\N2325640.tif, I:\Geauga\N2325645.tif, I:\Geauga\N2325650.tif, I:\Geauga\N2325655.tif, I:\Geauga\N2325660.tif, I:\Geauga\N2325665.tif, I:\Geauga\N2325670.tif, I:\Geauga\N2325675.tif, I:\Geauga\N2325680.tif, I:\Geauga\N2325685.tif, I:\Geauga\N2325690.tif, I:\Geauga\N2325695.tif, I:\Geauga\N2325700.tif, I:\Geauga\N2325705.tif, I:\Geauga\N2325710.tif, I:\Geauga\N2325715.tif, I:\Geauga\N2325720.tif, I:\Geauga\N2330610.tif, I:\Geauga\N2330615.tif, I:\Geauga\N2330620.tif, I:\Geauga\N2330625.tif, I:\Geauga\N2330630.tif, I:\Geauga\N2330635.tif, I:\Geauga\N2330640.tif, I:\Geauga\N2330645.tif, I:\Geauga\N2330650.tif, I:\Geauga\N2330655.tif, I:\Geauga\N2330660.tif, I:\Geauga\N2330665.tif, I:\Geauga\N2330670.tif, I:\Geauga\N2330675.tif, I:\Geauga\N2330680.tif, I:\Geauga\N2330685.tif, I:\Geauga\N2330690.tif, I:\Geauga\N2330695.tif, I:\Geauga\N2330700.tif, I:\Geauga\N2330705.tif, I:\Geauga\N2330710.tif, I:\Geauga\N2330715.tif, I:\Geauga\N2330720.tif, I:\Geauga\N2335610.tif, I:\Geauga\N2335615.tif, I:\Geauga\N2335620.tif, I:\Geauga\N2335625.tif, I:\Geauga\N2335630.tif, I:\Geauga\N2335635.tif, I:\Geauga\N2335640.tif, I:\Geauga\N2335645.tif, I:\Geauga\N2335650.tif, I:\Geauga\N2335655.tif, I:\Geauga\N2335660.tif, I:\Geauga\N2335665.tif, I:\Geauga\N2335670.tif, I:\Geauga\N2335675.tif, I:\Geauga\N2335680.tif, I:\Geauga\N2335685.tif, I:\Geauga\N2335690.tif, I:\Geauga\N2335695.tif, I:\Geauga\N2335700.tif, I:\Geauga\N2335705.tif, I:\Geauga\N2335710.tif, I:\Geauga\N2335715.tif, I:\Geauga\N2335720.tif, I:\Geauga\N2340610.tif, I:\Geauga\N2340615.tif, I:\Geauga\N2340620.tif, I:\Geauga\N2340625.tif, I:\Geauga\N2340630.tif, I:\Geauga\N2340635.tif, I:\Geauga\N2340640.tif, I:\Geauga\N2340645.tif, I:\Geauga\N2340650.tif, I:\Geauga\N2340655.tif, I:\Geauga\N2340660.tif, I:\Geauga\N2340665.tif, I:\Geauga\N2340670.tif, I:\Geauga\N2340675.tif, I:\Geauga\N2340680.tif, I:\Geauga\N2340685.tif, I:\Geauga\N2340690.tif, I:\Geauga\N2340695.tif, I:\Geauga\N2340700.tif, I:\Geauga\N2340705.tif, I:\Geauga\N2340710.tif, I:\Geauga\N2340715.tif, I:\Geauga\N2340720.tif, I:\Geauga\N2345610.tif, I:\Geauga\N2345615.tif, I:\Geauga\N2345620.tif, I:\Geauga\N2345625.tif, I:\Geauga\N2345630.tif, I:\Geauga\N2345635.tif, I:\Geauga\N2345640.tif, I:\Geauga\N2345645.tif, I:\Geauga\N2345650.tif, I:\Geauga\N2345655.tif, I:\Geauga\N2345660.tif, I:\Geauga\N2345665.tif, I:\Geauga\N2345670.tif, I:\Geauga\N2345675.tif, I:\Geauga\N2345680.tif, I:\Geauga\N2345685.tif, I:\Geauga\N2345690.tif, I:\Geauga\N2345695.tif, I:\Geauga\N2345700.tif, I:\Geauga\N2345705.tif, I:\Geauga\N2345710.tif, I:\Geauga\N2345715.tif, I:\Geauga\N2345720.tif, I:\Geauga\N2345725.tif, I:\Geauga\N2345730.tif, I:\Geauga\N2345735.tif, I:\Geauga\N2345740.tif, I:\Geauga\N2345745.tif, I:\Geauga\N2345750.tif, I:\Geauga\N2350610.tif, I:\Geauga\N2350615.tif, I:\Geauga\N2350620.tif, I:\Geauga\N2350625.tif, I:\Geauga\N2350630.tif, I:\Geauga\N2350635.tif, I:\Geauga\N2350640.tif, I:\Geauga\N2350645.tif, I:\Geauga\N2350650.tif, I:\Geauga\N2350655.tif, I:\Geauga\N2350660.tif, I:\Geauga\N2350665.tif, I:\Geauga\N2350670.tif, I:\Geauga\N2350675.tif, I:\Geauga\N2350680.tif, I:\Geauga\N2350685.tif, I:\Geauga\N2350690.tif, I:\Geauga\N2350695.tif, I:\Geauga\N2350700.tif, I:\Geauga\N2350705.tif, I:\Geauga\N2350710.tif, I:\Geauga\N2350715.tif, I:\Geauga\N2350720.tif, I:\Geauga\N2350725.tif, I:\Geauga\N2350730.tif, I:\Geauga\N2350735.tif, I:\Geauga\N2350740.tif, I:\Geauga\N2350745.tif, I:\Geauga\N2350750.tif, I:\Geauga\N2355610.tif, I:\Geauga\N2355615.tif, I:\Geauga\N2355620.tif, I:\Geauga\N2355625.tif, I:\Geauga\N2355630.tif, I:\Geauga\N2355635.tif, I:\Geauga\N2355640.tif, I:\Geauga\N2355645.tif, I:\Geauga\N2355650.tif, I:\Geauga\N2355655.tif, I:\Geauga\N2355660.tif, I:\Geauga\N2355665.tif, I:\Geauga\N2355670.tif, I:\Geauga\N2355675.tif, I:\Geauga\N2355680.tif, I:\Geauga\N2355685.tif, I:\Geauga\N2355690.tif, I:\Geauga\N2355695.tif, I:\Geauga\N2355700.tif, I:\Geauga\N2355705.tif, I:\Geauga\N2355710.tif, I:\Geauga\N2355715.tif, I:\Geauga\N2355720.tif, I:\Geauga\N2355725.tif, I:\Geauga\N2355730.tif, I:\Geauga\N2355735.tif, I:\Geauga\N2355740.tif, I:\Geauga\N2355745.tif, I:\Geauga\N2355750.tif, I:\Geauga\N2360610.tif, I:\Geauga\N2360615.tif, I:\Geauga\N2360620.tif, I:\Geauga\N2360625.tif, I:\Geauga\N2360630.tif, I:\Geauga\N2360635.tif, I:\Geauga\N2360640.tif, I:\Geauga\N2360645.tif, I:\Geauga\N2360650.tif, I:\Geauga\N2360655.tif, I:\Geauga\N2360660.tif, I:\Geauga\N2360665.tif, I:\Geauga\N2360670.tif, I:\Geauga\N2360675.tif, I:\Geauga\N2360680.tif, I:\Geauga\N2360685.tif, I:\Geauga\N2360690.tif, I:\Geauga\N2360695.tif, I:\Geauga\N2360700.tif, I:\Geauga\N2360705.tif, I:\Geauga\N2360710.tif, I:\Geauga\N2360715.tif, I:\Geauga\N2360720.tif, I:\Geauga\N2360725.tif, I:\Geauga\N2360730.tif, I:\Geauga\N2360735.tif, I:\Geauga\N2360740.tif, I:\Geauga\N2360745.tif, I:\Geauga\N2360750.tif, I:\Geauga\N2365610.tif, I:\Geauga\N2365615.tif, I:\Geauga\N2365620.tif, I:\Geauga\N2365625.tif, I:\Geauga\N2365630.tif, I:\Geauga\N2365635.tif, I:\Geauga\N2365640.tif, I:\Geauga\N2365645.tif, I:\Geauga\N2365650.tif, I:\Geauga\N2365655.tif, I:\Geauga\N2365660.tif, I:\Geauga\N2365665.tif, I:\Geauga\N2365670.tif, I:\Geauga\N2365675.tif, I:\Geauga\N2365680.tif, I:\Geauga\N2365685.tif, I:\Geauga\N2365690.tif, I:\Geauga\N2365695.tif, I:\Geauga\N2365700.tif, I:\Geauga\N2365705.tif, I:\Geauga\N2365710.tif, I:\Geauga\N2365715.tif, I:\Geauga\N2365720.tif, I:\Geauga\N2365725.tif, I:\Geauga\N2365730.tif, I:\Geauga\N2365735.tif, I:\Geauga\N2365740.tif, I:\Geauga\N2365745.tif, I:\Geauga\N2365750.tif, I:\Geauga\N2370610.tif, I:\Geauga\N2370615.tif, I:\Geauga\N2370620.tif, I:\Geauga\N2370625.tif, I:\Geauga\N2370630.tif, I:\Geauga\N2370635.tif, I:\Geauga\N2370640.tif, I:\Geauga\N2370645.tif, I:\Geauga\N2370650.tif, I:\Geauga\N2370655.tif, I:\Geauga\N2370660.tif, I:\Geauga\N2370665.tif, I:\Geauga\N2370670.tif, I:\Geauga\N2370675.tif, I:\Geauga\N2370680.tif, I:\Geauga\N2370685.tif, I:\Geauga\N2370690.tif, I:\Geauga\N2370695.tif, I:\Geauga\N2370700.tif, I:\Geauga\N2370705.tif, I:\Geauga\N2370710.tif, I:\Geauga\N2370715.tif, I:\Geauga\N2370720.tif, I:\Geauga\N2370725.tif, I:\Geauga\N2370730.tif, I:\Geauga\N2370735.tif, I:\Geauga\N2370740.tif, I:\Geauga\N2370745.tif, I:\Geauga\N2370750.tif, I:\Geauga\N2375610.tif, I:\Geauga\N2375615.tif, I:\Geauga\N2375620.tif, I:\Geauga\N2375625.tif, I:\Geauga\N2375630.tif, I:\Geauga\N2375635.tif, I:\Geauga\N2375640.tif, I:\Geauga\N2375645.tif, I:\Geauga\N2375650.tif, I:\Geauga\N2375655.tif, I:\Geauga\N2375660.tif, I:\Geauga\N2375665.tif, I:\Geauga\N2375670.tif, I:\Geauga\N2375675.tif, I:\Geauga\N2375680.tif, I:\Geauga\N2375685.tif, I:\Geauga\N2375690.tif, I:\Geauga\N2375695.tif, I:\Geauga\N2375700.tif, I:\Geauga\N2375705.tif, I:\Geauga\N2375710.tif, I:\Geauga\N2375715.tif, I:\Geauga\N2375720.tif, I:\Geauga\N2375725.tif, I:\Geauga\N2375730.tif, I:\Geauga\N2375735.tif, I:\Geauga\N2375740.tif, I:\Geauga\N2375745.tif, I:\Geauga\N2375750.tif
+
+Record 5:
+  Tag: IMAGE::LTI_ESDK_VERSION
+  Type: ASCII[1]
+  Data: 
+    [0]: 8.5.0.3330 win64-vc9/Release                                          
+
+Record 6:
+  Tag: IMAGE::MODIFICATIONS
+  Type: ASCII[1]
+  Data: 
+    [0]: COMPRESSED EMBEDDED REORDERED-BANDS MOSAICKED UNKNOWN
+

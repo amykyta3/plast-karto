@@ -1,0 +1,13 @@
+!table
+!version 300
+!charset WindowsLatin1
+
+Definition Table
+  File "w_10530944_12_17100_4bd_2017.jp2"
+  Type "RASTER"
+  (996000.000000, 1120000.000000) (0, 0) Label "NW",
+  (996000.000000, 892000.000000) (0, 228000) Label "SW",
+  (1056000.000000, 1120000.000000) (60000, 0) Label "NE",
+  (1056000.000000, 892000.000000) (60000, 228000) Label "SE"
+  CoordSys Earth Projection 8, 74, "survey ft", -78.5833333333333, 40, 0.9999375, 1148291.66666667, 0
+  Units "survey ft"

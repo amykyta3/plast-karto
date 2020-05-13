@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="../fgdc_classic.xsl" ?><metadata><idinfo><citation><citeinfo><origin>NYS Office of Information Technology Services, GIS Program Office</origin><pubdate>20141103</pubdate><title>Erie and Niagara Counties Ortho 4 bd 12in</title><geoform>raster digital data</geoform><serinfo><sername>NYS Digital Ortho-imagery Program (NYSDOP)</sername><issue>2014 imagery in Erie and Niagara Counties</issue></serinfo><pubinfo><pubplace>Albany, New York</pubplace><publish>NYS Office of Information Technology Services, GIS Program Office</publish></pubinfo></citeinfo></citation><descript><abstract>These files contain 2014 digital Ortho-imagery of Erie and Niagara
+Counties, New York. Image pixel size is 1' GSD. Image type is 4-band,
+RGB &amp; NIR. Image horizontal accuracy is within 4' at the 95%
+confidence level (NSSDA). Each file contains an image covering 2000
+ft. by 3000 ft. on the ground.</abstract><purpose>This digital Ortho-imagery can serve a variety of purposes, from
+general planning to field reference for spatial analysis to a tool
+for revision of vector maps. It can also serve as a reference layer
+for GIS.</purpose></descript><timeperd><timeinfo><sngdate><caldate>20140419</caldate><caldate>20140420</caldate></sngdate></timeinfo><current>ground condition</current></timeperd><status><progress>Complete</progress><update>Irregular</update></status><spdom><bounding><westbc>-79.138538</westbc><eastbc>-78.454000</eastbc><northbc>43.379848</northbc><southbc>42.432551</southbc></bounding></spdom><keywords><theme><themekt>none</themekt><themekey>Digital Ortho-imagery</themekey></theme><place><placekt>none</placekt><placekey>Erie and Niagara Counties</placekey><placekey>New York</placekey></place></keywords><accconst>Some imagery tiles are classified as sensitive due to their content.</accconst><useconst>Use of sensitive imagery, if granted, is only for the use specified in the request.</useconst><ptcontac><cntinfo><cntperp><cntper>Tim Ruhren</cntper><cntorg>NYS ITS GIS Program Office</cntorg></cntperp><cntaddr><addrtype>mailing and physical address</addrtype><address>State Office Campus Building 7A, 4th Floor, 1220 Washington Avenue</address><city>Albany</city><state>New York</state><postal>12242</postal><country>USA</country></cntaddr><cntvoice>518-242-5029</cntvoice><cntfax>518-322-4976</cntfax><cntemail>tim.ruhren@its.ny.gov</cntemail><hours>9am -4:30pm Easten time</hours></cntinfo></ptcontac><datacred>NYS ITS GIS Progam Office</datacred><secinfo></secinfo><native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcCatalog 10.2</native></idinfo><dataqual><logic>The dataset contains raster images or digital ortho images so the
+logical consistency report is not applicable. The file naming
+convention was supplied by New York State. When the ortho tiles were
+created the file names were restricted to a numeric value representing
+the lower left corner of the ortho tile. These tiles were then all
+renamed using a batch script so that they reflected the N.Y. state
+standard (i.e. "c_10470162_12_09600_4bd_2009.tif"). Consistency of
+file naming was ensured by using a batch process. The file naming
+convention consists of the first letter for Central, East, West or
+Long Island for New York State Plane Coordinate Systems (NYSPCS). The
+following four numeric characters represent the first four characters
+of the "X" coordinate value for the tile's lower left corner
+coordinate in NYSPCS and the next four characters represent the first
+four characters of the "Y" coordinate value for the tile's lower left
+corner coordinate in NYSPCS. The next two numeric characters represent
+the tile's Ground Sampling Distance (GSD) value in ft. The following
+five numeric characters represent the Above Mean Terrain (AMT) nominal
+height at which the DMC sensor recorded or collected the original
+imagery for the corresponding area. The next three characters are
+"4bd" for 4-band ortho-photos. Lastly, the last four numeric digits
+represent the year in which the particular ortho was created.</logic><complete>The project consisted of 7838 final tiles.</complete><posacc><horizpa><horizpar>+/-4 ft. at the 95% confidence level (NSSDA) for 12 inch resolution.</horizpar></horizpa></posacc><lineage><procstep><procdesc>This dataset contains orthoimagery as part of the contract to
+provide new natural color digital aerial imagery with airborne
+GPS-IMU control and ground surveyed control to develop and support
+4 band (RGBIR) 8 bit 12 inch pixel resolution of the West region
+of New York, including Erie and Niagara Counties. An North-South
+flight line orientation was planned and flown for Erie and Niagara
+Counties. The area was planned and flown with Keystone's Aerial
+Survey's Ultracam Eagle digital mapping camera UCE-00817310
+equipped with flight navigation systems and airborne GPS and
+inertial measurement units flown at an approximate altitude of
+15108' above mean ground elevation. An average image footprint of
+20010' x 13080' size image was captured. A total of 20 flight
+lines and 1015 exposures were captured for the West region.
+Imagery was captured between April 19th and April 20th, 2014, with
+a sun angle exceeding 30 degrees. Images were broken into blocks,
+which were divided into sub-blocks for aerial triangulation (AT)
+processing. Automatic Point Measurement (APM) was run on the
+images to measure terrain points to tie the images together. The
+imagery was then used in the AT process in Socet Set/Orima where
+tie point measurement was performed and independent ground control
+points and airborne GPS were introduced to further refine the
+data. The DTM data was then applied in the orthorectification
+process to produce 4-band RGB-IR digital orthoimages free of
+distortion. All ortho rectified images were reviewed for
+consistency with project requirements before the mosaicking and
+tiling process. Bridge distortions and other errors were corrected
+at this stage. As part of the mosaicking and tiling process in
+OrthoVista, all images were adjusted for color and radiometric
+differences over large blocks. The individual tiles produced were
+then inspected in a final QA/QC process for overall image quality
+with all undesirable artifacts and errors corrected before
+delivery. The end product for the South region was 7838 seamless
+8-bit 4-band RGB-IR image tiles, 2000 by 3000 feet wide in
+TIFF/TFW format. Imagery was also delivered in JP2/J2W format at a
+10:1 compression ratio.</procdesc><procdate>201409</procdate><srcprod>Aerial Imagery</srcprod><proccont><cntinfo><cntperp><cntper>Brian Tolley</cntper><cntorg>Axis Geospatial, LLC</cntorg></cntperp><cntpos>Production Manager</cntpos><cntaddr><addrtype>mailing and physical address</addrtype><address>101 Bay St</address><city>Easton</city><state>Maryland</state><postal>21601</postal><country>USA</country></cntaddr><cntvoice>410-822-1441</cntvoice><cntemail>btolley@axisgeospatial.com</cntemail><hours>9am - 5pm Eastern Time</hours></cntinfo></proccont></procstep></lineage><cloud>&lt;1%</cloud></dataqual><spdoinfo><direct>Raster</direct><rastinfo></rastinfo></spdoinfo><spref><horizsys><planar><mapproj><mapprojn>Transverse Mercator</mapprojn><transmer><sfctrmer>0.999375</sfctrmer><longcm>-76.583333333333333333</longcm><latprjo>40.0</latprjo><feast>249999.9998983998</feast><fnorth>0.000000</fnorth></transmer></mapproj><planci><plance>coordinate pair</plance><coordrep><absres>0.000000</absres><ordres>0.000000</ordres></coordrep><plandu>survey feet</plandu></planci></planar><geodetic><horizdn>D_North_American_1983</horizdn><ellips>Geodetic Reference System 80</ellips><semiaxis>6378137.000000</semiaxis><denflat>298.257222</denflat></geodetic></horizsys></spref><eainfo></eainfo><distinfo><resdesc>Downloadable Data</resdesc><stdorder><digform><digtinfo><transize>0.004</transize></digtinfo></digform></stdorder></distinfo><metainfo><metd>20141103</metd><metc><cntinfo><cntperp><cntper>Tim Ruhren</cntper><cntorg>NYS ITS GIS Program Office</cntorg></cntperp><cntpos>NYS GIS Clearinghouse</cntpos><cntaddr><addrtype>mailing and physical address</addrtype><address>State Office Campus Building 7A, 4th Floor, 1220 Washington Avenue</address><city>Albany</city><state>New York</state><postal>12242</postal><country>USA</country></cntaddr><cntvoice>518-242-5029</cntvoice><cntfax>518-322-4976</cntfax><cntemail>tim.ruhren@its.ny.gov</cntemail></cntinfo></metc><metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn><metstdv>FGDC-STD-001-1998</metstdv><mettc>local time</mettc></metainfo></metadata>

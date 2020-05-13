@@ -1,0 +1,2399 @@
+<PAMDataset>
+  <SRS>LOCAL_CS[&quot;NAD_1983_HARN_StatePlane_Ohio_North_FIPS_3401_Feet&quot;,UNIT[&quot;us_survey_feet&quot;,0.3048006096012192]]</SRS>
+  <GeoTransform> 2.2700000000000000e+006, 1.0000000000000000e+000, 0.0000000000000000e+000, 7.5500000000000000e+005, 0.0000000000000000e+000,-1.0000000000000000e+000</GeoTransform>
+  <Metadata>
+    <MDI key="GEOTIFF_CHAR__GTModelTypeGeoKey">Undefined</MDI>
+    <MDI key="GEOTIFF_CHAR__GTRasterTypeGeoKey">RasterPixelIsArea</MDI>
+    <MDI key="GEOTIFF_CHAR__ProjLinearUnitsGeoKey">Linear_Foot_US_Survey</MDI>
+    <MDI key="GEOTIFF_NUM__1024__GTModelTypeGeoKey">0</MDI>
+    <MDI key="GEOTIFF_NUM__1025__GTRasterTypeGeoKey">1</MDI>
+    <MDI key="GEOTIFF_NUM__1026__GTCitationGeoKey">IMAGINE GeoTIFF Support
+Copyright 1991 - 2001 by ERDAS, Inc. All Rights Reserved
+@(#)$RCSfile: egtf.c $ $Revision: 1.9.2.9 $ $Date: 2002/10/28 15:14:13EST $
+Geocoding information not available
+Projection Name = NAD_1983_HARN_StatePlane_Ohio_North_FIPS_3401
+Units = us_survey_feet
+GeoTIFF Units = feet</MDI>
+    <MDI key="GEOTIFF_NUM__3076__ProjLinearUnitsGeoKey">9003</MDI>
+    <MDI key="IMAGE__BITS_PER_SAMPLE">8</MDI>
+    <MDI key="IMAGE__COMPRESSION_BLOCK_SIZE">2048</MDI>
+    <MDI key="IMAGE__COMPRESSION_GAMMA">2.000000</MDI>
+    <MDI key="IMAGE__COMPRESSION_NLEV">9</MDI>
+    <MDI key="IMAGE__COMPRESSION_VERSION">2,0,0</MDI>
+    <MDI key="IMAGE__COMPRESSION_WEIGHT">4.000000</MDI>
+    <MDI key="IMAGE__CREATION_DATE">Fri May 18 19:29:19 2007
+</MDI>
+    <MDI key="IMAGE__DYNAMIC_RANGE_LEVEL">127.500000</MDI>
+    <MDI key="IMAGE__DYNAMIC_RANGE_WINDOW">256.000000</MDI>
+    <MDI key="IMAGE__ENCODING_APPLICATION">GeoExpress 6.1.1.1513</MDI>
+    <MDI key="IMAGE__INPUT_FILE_SIZE">39246370826.000000</MDI>
+    <MDI key="IMAGE__INPUT_FORMAT">TIFF w/ World File</MDI>
+    <MDI key="IMAGE__INPUT_NAME">N:\65148_OH_Statewide_final_lut\N2375750.tif, N:\65148_OH_Statewide_final_lut\N2375745.tif, N:\65148_OH_Statewide_final_lut\N2375740.tif, N:\65148_OH_Statewide_final_lut\N2375735.tif, N:\65148_OH_Statewide_final_lut\N2375730.tif, N:\65148_OH_Statewide_final_lut\N2375725.tif, N:\65148_OH_Statewide_final_lut\N2375720.tif, N:\65148_OH_Statewide_final_lut\N2375715.tif, N:\65148_OH_Statewide_final_lut\N2375710.tif, N:\65148_OH_Statewide_final_lut\N2375705.tif, N:\65148_OH_Statewide_final_lut\N2375700.tif, N:\65148_OH_Statewide_final_lut\N2375695.tif, N:\65148_OH_Statewide_final_lut\N2375690.tif, N:\65148_OH_Statewide_final_lut\N2375685.tif, N:\65148_OH_Statewide_final_lut\N2375680.tif, N:\65148_OH_Statewide_final_lut\N2375675.tif, N:\65148_OH_Statewide_final_lut\N2375670.tif, N:\65148_OH_Statewide_final_lut\N2375665.tif, N:\65148_OH_Statewide_final_lut\N2375660.tif, N:\65148_OH_Statewide_final_lut\N2375655.tif, N:\65148_OH_Statewide_final_lut\N2375650.tif, N:\65148_OH_Statewide_final_lut\N2375645.tif, N:\65148_OH_Statewide_final_lut\N2375640.tif, N:\65148_OH_Statewide_final_lut\N2375635.tif, N:\65148_OH_Statewide_final_lut\N2375630.tif, N:\65148_OH_Statewide_final_lut\N2375625.tif, N:\65148_OH_Statewide_final_lut\N2375620.tif, N:\65148_OH_Statewide_final_lut\N2375615.tif, N:\65148_OH_Statewide_final_lut\N2375610.tif, N:\65148_OH_Statewide_final_lut\N2370750.tif, N:\65148_OH_Statewide_final_lut\N2370745.tif, N:\65148_OH_Statewide_final_lut\N2370740.tif, N:\65148_OH_Statewide_final_lut\N2370735.tif, N:\65148_OH_Statewide_final_lut\N2370730.tif, N:\65148_OH_Statewide_final_lut\N2370725.tif, N:\65148_OH_Statewide_final_lut\N2370720.tif, N:\65148_OH_Statewide_final_lut\N2370715.tif, N:\65148_OH_Statewide_final_lut\N2370710.tif, N:\65148_OH_Statewide_final_lut\N2370705.tif, N:\65148_OH_Statewide_final_lut\N2370700.tif, N:\65148_OH_Statewide_final_lut\N2370695.tif, N:\65148_OH_Statewide_final_lut\N2370690.tif, N:\65148_OH_Statewide_final_lut\N2370685.tif, N:\65148_OH_Statewide_final_lut\N2370680.tif, N:\65148_OH_Statewide_final_lut\N2370675.tif, N:\65148_OH_Statewide_final_lut\N2370670.tif, N:\65148_OH_Statewide_final_lut\N2370665.tif, N:\65148_OH_Statewide_final_lut\N2370660.tif, N:\65148_OH_Statewide_final_lut\N2370655.tif, N:\65148_OH_Statewide_final_lut\N2370650.tif, N:\65148_OH_Statewide_final_lut\N2370645.tif, N:\65148_OH_Statewide_final_lut\N2370640.tif, N:\65148_OH_Statewide_final_lut\N2370635.tif, N:\65148_OH_Statewide_final_lut\N2370630.tif, N:\65148_OH_Statewide_final_lut\N2370625.tif, N:\65148_OH_Statewide_final_lut\N2370620.tif, N:\65148_OH_Statewide_final_lut\N2370615.tif, N:\65148_OH_Statewide_final_lut\N2370610.tif, N:\65148_OH_Statewide_final_lut\N2365750.tif, N:\65148_OH_Statewide_final_lut\N2365745.tif, N:\65148_OH_Statewide_final_lut\N2365740.tif, N:\65148_OH_Statewide_final_lut\N2365735.tif, N:\65148_OH_Statewide_final_lut\N2365730.tif, N:\65148_OH_Statewide_final_lut\N2365725.tif, N:\65148_OH_Statewide_final_lut\N2365720.tif, N:\65148_OH_Statewide_final_lut\N2365715.tif, N:\65148_OH_Statewide_final_lut\N2365710.tif, N:\65148_OH_Statewide_final_lut\N2365705.tif, N:\65148_OH_Statewide_final_lut\N2365700.tif, N:\65148_OH_Statewide_final_lut\N2365695.tif, N:\65148_OH_Statewide_final_lut\N2365690.tif, N:\65148_OH_Statewide_final_lut\N2365685.tif, N:\65148_OH_Statewide_final_lut\N2365680.tif, N:\65148_OH_Statewide_final_lut\N2365675.tif, N:\65148_OH_Statewide_final_lut\N2365670.tif, N:\65148_OH_Statewide_final_lut\N2365665.tif, N:\65148_OH_Statewide_final_lut\N2365660.tif, N:\65148_OH_Statewide_final_lut\N2365655.tif, N:\65148_OH_Statewide_final_lut\N2365650.tif, N:\65148_OH_Statewide_final_lut\N2365645.tif, N:\65148_OH_Statewide_final_lut\N2365640.tif, N:\65148_OH_Statewide_final_lut\N2365635.tif, N:\65148_OH_Statewide_final_lut\N2365630.tif, N:\65148_OH_Statewide_final_lut\N2365625.tif, N:\65148_OH_Statewide_final_lut\N2365620.tif, N:\65148_OH_Statewide_final_lut\N2365615.tif, N:\65148_OH_Statewide_final_lut\N2365610.tif, N:\65148_OH_Statewide_final_lut\N2360750.tif, N:\65148_OH_Statewide_final_lut\N2360745.tif, N:\65148_OH_Statewide_final_lut\N2360740.tif, N:\65148_OH_Statewide_final_lut\N2360735.tif, N:\65148_OH_Statewide_final_lut\N2360730.tif, N:\65148_OH_Statewide_final_lut\N2360725.tif, N:\65148_OH_Statewide_final_lut\N2360720.tif, N:\65148_OH_Statewide_final_lut\N2360715.tif, N:\65148_OH_Statewide_final_lut\N2360710.tif, N:\65148_OH_Statewide_final_lut\N2360705.tif, N:\65148_OH_Statewide_final_lut\N2360700.tif, N:\65148_OH_Statewide_final_lut\N2360695.tif, N:\65148_OH_Statewide_final_lut\N2360690.tif, N:\65148_OH_Statewide_final_lut\N2360685.tif, N:\65148_OH_Statewide_final_lut\N2360680.tif, N:\65148_OH_Statewide_final_lut\N2360675.tif, N:\65148_OH_Statewide_final_lut\N2360670.tif, N:\65148_OH_Statewide_final_lut\N2360665.tif, N:\65148_OH_Statewide_final_lut\N2360660.tif, N:\65148_OH_Statewide_final_lut\N2360655.tif, N:\65148_OH_Statewide_final_lut\N2360650.tif, N:\65148_OH_Statewide_final_lut\N2360645.tif, N:\65148_OH_Statewide_final_lut\N2360640.tif, N:\65148_OH_Statewide_final_lut\N2360635.tif, N:\65148_OH_Statewide_final_lut\N2360630.tif, N:\65148_OH_Statewide_final_lut\N2360625.tif, N:\65148_OH_Statewide_final_lut\N2360620.tif, N:\65148_OH_Statewide_final_lut\N2360615.tif, N:\65148_OH_Statewide_final_lut\N2360610.tif, N:\65148_OH_Statewide_final_lut\N2355750.tif, N:\65148_OH_Statewide_final_lut\N2355745.tif, N:\65148_OH_Statewide_final_lut\N2355740.tif, N:\65148_OH_Statewide_final_lut\N2355735.tif, N:\65148_OH_Statewide_final_lut\N2355730.tif, N:\65148_OH_Statewide_final_lut\N2355725.tif, N:\65148_OH_Statewide_final_lut\N2355720.tif, N:\65148_OH_Statewide_final_lut\N2355715.tif, N:\65148_OH_Statewide_final_lut\N2355710.tif, N:\65148_OH_Statewide_final_lut\N2355705.tif, N:\65148_OH_Statewide_final_lut\N2355700.tif, N:\65148_OH_Statewide_final_lut\N2355695.tif, N:\65148_OH_Statewide_final_lut\N2355690.tif, N:\65148_OH_Statewide_final_lut\N2355685.tif, N:\65148_OH_Statewide_final_lut\N2355680.tif, N:\65148_OH_Statewide_final_lut\N2355675.tif, N:\65148_OH_Statewide_final_lut\N2355670.tif, N:\65148_OH_Statewide_final_lut\N2355665.tif, N:\65148_OH_Statewide_final_lut\N2355660.tif, N:\65148_OH_Statewide_final_lut\N2355655.tif, N:\65148_OH_Statewide_final_lut\N2355650.tif, N:\65148_OH_Statewide_final_lut\N2355645.tif, N:\65148_OH_Statewide_final_lut\N2355640.tif, N:\65148_OH_Statewide_final_lut\N2355635.tif, N:\65148_OH_Statewide_final_lut\N2355630.tif, N:\65148_OH_Statewide_final_lut\N2355625.tif, N:\65148_OH_Statewide_final_lut\N2355620.tif, N:\65148_OH_Statewide_final_lut\N2355615.tif, N:\65148_OH_Statewide_final_lut\N2355610.tif, N:\65148_OH_Statewide_final_lut\N2350750.tif, N:\65148_OH_Statewide_final_lut\N2350745.tif, N:\65148_OH_Statewide_final_lut\N2350740.tif, N:\65148_OH_Statewide_final_lut\N2350735.tif, N:\65148_OH_Statewide_final_lut\N2350730.tif, N:\65148_OH_Statewide_final_lut\N2350725.tif, N:\65148_OH_Statewide_final_lut\N2350720.tif, N:\65148_OH_Statewide_final_lut\N2350715.tif, N:\65148_OH_Statewide_final_lut\N2350710.tif, N:\65148_OH_Statewide_final_lut\N2350705.tif, N:\65148_OH_Statewide_final_lut\N2350700.tif, N:\65148_OH_Statewide_final_lut\N2350695.tif, N:\65148_OH_Statewide_final_lut\N2350690.tif, N:\65148_OH_Statewide_final_lut\N2350685.tif, N:\65148_OH_Statewide_final_lut\N2350680.tif, N:\65148_OH_Statewide_final_lut\N2350675.tif, N:\65148_OH_Statewide_final_lut\N2350670.tif, N:\65148_OH_Statewide_final_lut\N2350665.tif, N:\65148_OH_Statewide_final_lut\N2350660.tif, N:\65148_OH_Statewide_final_lut\N2350655.tif, N:\65148_OH_Statewide_final_lut\N2350650.tif, N:\65148_OH_Statewide_final_lut\N2350645.tif, N:\65148_OH_Statewide_final_lut\N2350640.tif, N:\65148_OH_Statewide_final_lut\N2350635.tif, N:\65148_OH_Statewide_final_lut\N2350630.tif, N:\65148_OH_Statewide_final_lut\N2350625.tif, N:\65148_OH_Statewide_final_lut\N2350620.tif, N:\65148_OH_Statewide_final_lut\N2350615.tif, N:\65148_OH_Statewide_final_lut\N2350610.tif, N:\65148_OH_Statewide_final_lut\N2345750.tif, N:\65148_OH_Statewide_final_lut\N2345745.tif, N:\65148_OH_Statewide_final_lut\N2345740.tif, N:\65148_OH_Statewide_final_lut\N2345735.tif, N:\65148_OH_Statewide_final_lut\N2345730.tif, N:\65148_OH_Statewide_final_lut\N2345725.tif, N:\65148_OH_Statewide_final_lut\N2345720.tif, N:\65148_OH_Statewide_final_lut\N2345715.tif, N:\65148_OH_Statewide_final_lut\N2345710.tif, N:\65148_OH_Statewide_final_lut\N2345705.tif, N:\65148_OH_Statewide_final_lut\N2345700.tif, N:\65148_OH_Statewide_final_lut\N2345695.tif, N:\65148_OH_Statewide_final_lut\N2345690.tif, N:\65148_OH_Statewide_final_lut\N2345685.tif, N:\65148_OH_Statewide_final_lut\N2345680.tif, N:\65148_OH_Statewide_final_lut\N2345675.tif, N:\65148_OH_Statewide_final_lut\N2345670.tif, N:\65148_OH_Statewide_final_lut\N2345665.tif, N:\65148_OH_Statewide_final_lut\N2345660.tif, N:\65148_OH_Statewide_final_lut\N2345655.tif, N:\65148_OH_Statewide_final_lut\N2345650.tif, N:\65148_OH_Statewide_final_lut\N2345645.tif, N:\65148_OH_Statewide_final_lut\N2345640.tif, N:\65148_OH_Statewide_final_lut\N2345635.tif, N:\65148_OH_Statewide_final_lut\N2345630.tif, N:\65148_OH_Statewide_final_lut\N2345625.tif, N:\65148_OH_Statewide_final_lut\N2345620.tif, N:\65148_OH_Statewide_final_lut\N2345615.tif, N:\65148_OH_Statewide_final_lut\N2345610.tif, N:\65148_OH_Statewide_final_lut\N2340720.tif, N:\65148_OH_Statewide_final_lut\N2340715.tif, N:\65148_OH_Statewide_final_lut\N2340710.tif, N:\65148_OH_Statewide_final_lut\N2340705.tif, N:\65148_OH_Statewide_final_lut\N2340700.tif, N:\65148_OH_Statewide_final_lut\N2340695.tif, N:\65148_OH_Statewide_final_lut\N2340690.tif, N:\65148_OH_Statewide_final_lut\N2340685.tif, N:\65148_OH_Statewide_final_lut\N2340680.tif, N:\65148_OH_Statewide_final_lut\N2340675.tif, N:\65148_OH_Statewide_final_lut\N2340670.tif, N:\65148_OH_Statewide_final_lut\N2340665.tif, N:\65148_OH_Statewide_final_lut\N2340660.tif, N:\65148_OH_Statewide_final_lut\N2340655.tif, N:\65148_OH_Statewide_final_lut\N2340650.tif, N:\65148_OH_Statewide_final_lut\N2340645.tif, N:\65148_OH_Statewide_final_lut\N2340640.tif, N:\65148_OH_Statewide_final_lut\N2340635.tif, N:\65148_OH_Statewide_final_lut\N2340630.tif, N:\65148_OH_Statewide_final_lut\N2340625.tif, N:\65148_OH_Statewide_final_lut\N2340620.tif, N:\65148_OH_Statewide_final_lut\N2340615.tif, N:\65148_OH_Statewide_final_lut\N2340610.tif, N:\65148_OH_Statewide_final_lut\N2335720.tif, N:\65148_OH_Statewide_final_lut\N2335715.tif, N:\65148_OH_Statewide_final_lut\N2335710.tif, N:\65148_OH_Statewide_final_lut\N2335705.tif, N:\65148_OH_Statewide_final_lut\N2335700.tif, N:\65148_OH_Statewide_final_lut\N2335695.tif, N:\65148_OH_Statewide_final_lut\N2335690.tif, N:\65148_OH_Statewide_final_lut\N2335685.tif, N:\65148_OH_Statewide_final_lut\N2335680.tif, N:\65148_OH_Statewide_final_lut\N2335675.tif, N:\65148_OH_Statewide_final_lut\N2335670.tif, N:\65148_OH_Statewide_final_lut\N2335665.tif, N:\65148_OH_Statewide_final_lut\N2335660.tif, N:\65148_OH_Statewide_final_lut\N2335655.tif, N:\65148_OH_Statewide_final_lut\N2335650.tif, N:\65148_OH_Statewide_final_lut\N2335645.tif, N:\65148_OH_Statewide_final_lut\N2335640.tif, N:\65148_OH_Statewide_final_lut\N2335635.tif, N:\65148_OH_Statewide_final_lut\N2335630.tif, N:\65148_OH_Statewide_final_lut\N2335625.tif, N:\65148_OH_Statewide_final_lut\N2335620.tif, N:\65148_OH_Statewide_final_lut\N2335615.tif, N:\65148_OH_Statewide_final_lut\N2335610.tif, N:\65148_OH_Statewide_final_lut\N2320720.tif, N:\65148_OH_Statewide_final_lut\N2320715.tif, N:\65148_OH_Statewide_final_lut\N2320710.tif, N:\65148_OH_Statewide_final_lut\N2320705.tif, N:\65148_OH_Statewide_final_lut\N2320700.tif, N:\65148_OH_Statewide_final_lut\N2320695.tif, N:\65148_OH_Statewide_final_lut\N2320690.tif, N:\65148_OH_Statewide_final_lut\N2320685.tif, N:\65148_OH_Statewide_final_lut\N2320680.tif, N:\65148_OH_Statewide_final_lut\N2320675.tif, N:\65148_OH_Statewide_final_lut\N2320670.tif, N:\65148_OH_Statewide_final_lut\N2320665.tif, N:\65148_OH_Statewide_final_lut\N2320660.tif, N:\65148_OH_Statewide_final_lut\N2320655.tif, N:\65148_OH_Statewide_final_lut\N2320650.tif, N:\65148_OH_Statewide_final_lut\N2320645.tif, N:\65148_OH_Statewide_final_lut\N2320640.tif, N:\65148_OH_Statewide_final_lut\N2320635.tif, N:\65148_OH_Statewide_final_lut\N2320630.tif, N:\65148_OH_Statewide_final_lut\N2320625.tif, N:\65148_OH_Statewide_final_lut\N2320620.tif, N:\65148_OH_Statewide_final_lut\N2320615.tif, N:\65148_OH_Statewide_final_lut\N2320610.tif, N:\65148_OH_Statewide_final_lut\N2315720.tif, N:\65148_OH_Statewide_final_lut\N2315715.tif, N:\65148_OH_Statewide_final_lut\N2315710.tif, N:\65148_OH_Statewide_final_lut\N2315705.tif, N:\65148_OH_Statewide_final_lut\N2315700.tif, N:\65148_OH_Statewide_final_lut\N2315695.tif, N:\65148_OH_Statewide_final_lut\N2315690.tif, N:\65148_OH_Statewide_final_lut\N2315685.tif, N:\65148_OH_Statewide_final_lut\N2315680.tif, N:\65148_OH_Statewide_final_lut\N2315675.tif, N:\65148_OH_Statewide_final_lut\N2315670.tif, N:\65148_OH_Statewide_final_lut\N2315665.tif, N:\65148_OH_Statewide_final_lut\N2330720.tif, N:\65148_OH_Statewide_final_lut\N2330715.tif, N:\65148_OH_Statewide_final_lut\N2330710.tif, N:\65148_OH_Statewide_final_lut\N2330705.tif, N:\65148_OH_Statewide_final_lut\N2330700.tif, N:\65148_OH_Statewide_final_lut\N2330695.tif, N:\65148_OH_Statewide_final_lut\N2330690.tif, N:\65148_OH_Statewide_final_lut\N2330685.tif, N:\65148_OH_Statewide_final_lut\N2330680.tif, N:\65148_OH_Statewide_final_lut\N2330675.tif, N:\65148_OH_Statewide_final_lut\N2330670.tif, N:\65148_OH_Statewide_final_lut\N2330665.tif, N:\65148_OH_Statewide_final_lut\N2330660.tif, N:\65148_OH_Statewide_final_lut\N2330655.tif, N:\65148_OH_Statewide_final_lut\N2330650.tif, N:\65148_OH_Statewide_final_lut\N2330645.tif, N:\65148_OH_Statewide_final_lut\N2330640.tif, N:\65148_OH_Statewide_final_lut\N2330635.tif, N:\65148_OH_Statewide_final_lut\N2330630.tif, N:\65148_OH_Statewide_final_lut\N2330625.tif, N:\65148_OH_Statewide_final_lut\N2330620.tif, N:\65148_OH_Statewide_final_lut\N2330615.tif, N:\65148_OH_Statewide_final_lut\N2330610.tif, N:\65148_OH_Statewide_final_lut\N2315660.tif, N:\65148_OH_Statewide_final_lut\N2315655.tif, N:\65148_OH_Statewide_final_lut\N2315650.tif, N:\65148_OH_Statewide_final_lut\N2315645.tif, N:\65148_OH_Statewide_final_lut\N2315640.tif, N:\65148_OH_Statewide_final_lut\N2315635.tif, N:\65148_OH_Statewide_final_lut\N2315630.tif, N:\65148_OH_Statewide_final_lut\N2315625.tif, N:\65148_OH_Statewide_final_lut\N2315620.tif, N:\65148_OH_Statewide_final_lut\N2315615.tif, N:\65148_OH_Statewide_final_lut\N2315610.tif, N:\65148_OH_Statewide_final_lut\N2310720.tif, N:\65148_OH_Statewide_final_lut\N2310715.tif, N:\65148_OH_Statewide_final_lut\N2310710.tif, N:\65148_OH_Statewide_final_lut\N2310705.tif, N:\65148_OH_Statewide_final_lut\N2310700.tif, N:\65148_OH_Statewide_final_lut\N2310695.tif, N:\65148_OH_Statewide_final_lut\N2310690.tif, N:\65148_OH_Statewide_final_lut\N2310685.tif, N:\65148_OH_Statewide_final_lut\N2310680.tif, N:\65148_OH_Statewide_final_lut\N2310675.tif, N:\65148_OH_Statewide_final_lut\N2310670.tif, N:\65148_OH_Statewide_final_lut\N2310665.tif, N:\65148_OH_Statewide_final_lut\N2310660.tif, N:\65148_OH_Statewide_final_lut\N2310655.tif, N:\65148_OH_Statewide_final_lut\N2310650.tif, N:\65148_OH_Statewide_final_lut\N2310645.tif, N:\65148_OH_Statewide_final_lut\N2310640.tif, N:\65148_OH_Statewide_final_lut\N2310635.tif, N:\65148_OH_Statewide_final_lut\N2310630.tif, N:\65148_OH_Statewide_final_lut\N2310625.tif, N:\65148_OH_Statewide_final_lut\N2310620.tif, N:\65148_OH_Statewide_final_lut\N2310615.tif, N:\65148_OH_Statewide_final_lut\N2310610.tif, N:\65148_OH_Statewide_final_lut\N2305720.tif, N:\65148_OH_Statewide_final_lut\N2305715.tif, N:\65148_OH_Statewide_final_lut\N2305710.tif, N:\65148_OH_Statewide_final_lut\N2305705.tif, N:\65148_OH_Statewide_final_lut\N2305700.tif, N:\65148_OH_Statewide_final_lut\N2305695.tif, N:\65148_OH_Statewide_final_lut\N2305690.tif, N:\65148_OH_Statewide_final_lut\N2305685.tif, N:\65148_OH_Statewide_final_lut\N2305680.tif, N:\65148_OH_Statewide_final_lut\N2305675.tif, N:\65148_OH_Statewide_final_lut\N2305670.tif, N:\65148_OH_Statewide_final_lut\N2305665.tif, N:\65148_OH_Statewide_final_lut\N2305660.tif, N:\65148_OH_Statewide_final_lut\N2305655.tif, N:\65148_OH_Statewide_final_lut\N2305650.tif, N:\65148_OH_Statewide_final_lut\N2305645.tif, N:\65148_OH_Statewide_final_lut\N2305640.tif, N:\65148_OH_Statewide_final_lut\N2305635.tif, N:\65148_OH_Statewide_final_lut\N2305630.tif, N:\65148_OH_Statewide_final_lut\N2305625.tif, N:\65148_OH_Statewide_final_lut\N2305620.tif, N:\65148_OH_Statewide_final_lut\N2305615.tif, N:\65148_OH_Statewide_final_lut\N2305610.tif, N:\65148_OH_Statewide_final_lut\N2300720.tif, N:\65148_OH_Statewide_final_lut\N2300715.tif, N:\65148_OH_Statewide_final_lut\N2300710.tif, N:\65148_OH_Statewide_final_lut\N2300705.tif, N:\65148_OH_Statewide_final_lut\N2300700.tif, N:\65148_OH_Statewide_final_lut\N2300695.tif, N:\65148_OH_Statewide_final_lut\N2300690.tif, N:\65148_OH_Statewide_final_lut\N2300685.tif, N:\65148_OH_Statewide_final_lut\N2300680.tif, N:\65148_OH_Statewide_final_lut\N2300675.tif, N:\65148_OH_Statewide_final_lut\N2300670.tif, N:\65148_OH_Statewide_final_lut\N2300665.tif, N:\65148_OH_Statewide_final_lut\N2300660.tif, N:\65148_OH_Statewide_final_lut\N2300655.tif, N:\65148_OH_Statewide_final_lut\N2300650.tif, N:\65148_OH_Statewide_final_lut\N2300645.tif, N:\65148_OH_Statewide_final_lut\N2300640.tif, N:\65148_OH_Statewide_final_lut\N2300635.tif, N:\65148_OH_Statewide_final_lut\N2300630.tif, N:\65148_OH_Statewide_final_lut\N2300625.tif, N:\65148_OH_Statewide_final_lut\N2300620.tif, N:\65148_OH_Statewide_final_lut\N2300615.tif, N:\65148_OH_Statewide_final_lut\N2300610.tif, N:\65148_OH_Statewide_final_lut\N2295720.tif, N:\65148_OH_Statewide_final_lut\N2295715.tif, N:\65148_OH_Statewide_final_lut\N2295710.tif, N:\65148_OH_Statewide_final_lut\N2295705.tif, N:\65148_OH_Statewide_final_lut\N2295700.tif, N:\65148_OH_Statewide_final_lut\N2295695.tif, N:\65148_OH_Statewide_final_lut\N2295690.tif, N:\65148_OH_Statewide_final_lut\N2295685.tif, N:\65148_OH_Statewide_final_lut\N2295680.tif, N:\65148_OH_Statewide_final_lut\N2295675.tif, N:\65148_OH_Statewide_final_lut\N2295670.tif, N:\65148_OH_Statewide_final_lut\N2295665.tif, N:\65148_OH_Statewide_final_lut\N2295660.tif, N:\65148_OH_Statewide_final_lut\N2295655.tif, N:\65148_OH_Statewide_final_lut\N2295650.tif, N:\65148_OH_Statewide_final_lut\N2295645.tif, N:\65148_OH_Statewide_final_lut\N2295640.tif, N:\65148_OH_Statewide_final_lut\N2295635.tif, N:\65148_OH_Statewide_final_lut\N2295630.tif, N:\65148_OH_Statewide_final_lut\N2295625.tif, N:\65148_OH_Statewide_final_lut\N2295620.tif, N:\65148_OH_Statewide_final_lut\N2295615.tif, N:\65148_OH_Statewide_final_lut\N2295610.tif, N:\65148_OH_Statewide_final_lut\N2290695.tif, N:\65148_OH_Statewide_final_lut\N2290690.tif, N:\65148_OH_Statewide_final_lut\N2290685.tif, N:\65148_OH_Statewide_final_lut\N2290680.tif, N:\65148_OH_Statewide_final_lut\N2290675.tif, N:\65148_OH_Statewide_final_lut\N2290670.tif, N:\65148_OH_Statewide_final_lut\N2290665.tif, N:\65148_OH_Statewide_final_lut\N2290660.tif, N:\65148_OH_Statewide_final_lut\N2290655.tif, N:\65148_OH_Statewide_final_lut\N2290650.tif, N:\65148_OH_Statewide_final_lut\N2290645.tif, N:\65148_OH_Statewide_final_lut\N2290640.tif, N:\65148_OH_Statewide_final_lut\N2290635.tif, N:\65148_OH_Statewide_final_lut\N2290630.tif, N:\65148_OH_Statewide_final_lut\N2290625.tif, N:\65148_OH_Statewide_final_lut\N2290620.tif, N:\65148_OH_Statewide_final_lut\N2290615.tif, N:\65148_OH_Statewide_final_lut\N2290610.tif, N:\65148_OH_Statewide_final_lut\N2280695.tif, N:\65148_OH_Statewide_final_lut\N2280690.tif, N:\65148_OH_Statewide_final_lut\N2280685.tif, N:\65148_OH_Statewide_final_lut\N2280680.tif, N:\65148_OH_Statewide_final_lut\N2280675.tif, N:\65148_OH_Statewide_final_lut\N2280670.tif, N:\65148_OH_Statewide_final_lut\N2280665.tif, N:\65148_OH_Statewide_final_lut\N2280660.tif, N:\65148_OH_Statewide_final_lut\N2280655.tif, N:\65148_OH_Statewide_final_lut\N2280650.tif, N:\65148_OH_Statewide_final_lut\N2280645.tif, N:\65148_OH_Statewide_final_lut\N2280640.tif, N:\65148_OH_Statewide_final_lut\N2280635.tif, N:\65148_OH_Statewide_final_lut\N2280630.tif, N:\65148_OH_Statewide_final_lut\N2280625.tif, N:\65148_OH_Statewide_final_lut\N2280620.tif, N:\65148_OH_Statewide_final_lut\N2280615.tif, N:\65148_OH_Statewide_final_lut\N2280610.tif, N:\65148_OH_Statewide_final_lut\N2275695.tif, N:\65148_OH_Statewide_final_lut\N2275690.tif, N:\65148_OH_Statewide_final_lut\N2275685.tif, N:\65148_OH_Statewide_final_lut\N2275680.tif, N:\65148_OH_Statewide_final_lut\N2275675.tif, N:\65148_OH_Statewide_final_lut\N2275670.tif, N:\65148_OH_Statewide_final_lut\N2275665.tif, N:\65148_OH_Statewide_final_lut\N2275660.tif, N:\65148_OH_Statewide_final_lut\N2275655.tif, N:\65148_OH_Statewide_final_lut\N2275650.tif, N:\65148_OH_Statewide_final_lut\N2275645.tif, N:\65148_OH_Statewide_final_lut\N2275640.tif, N:\65148_OH_Statewide_final_lut\N2275635.tif, N:\65148_OH_Statewide_final_lut\N2275630.tif, N:\65148_OH_Statewide_final_lut\N2275625.tif, N:\65148_OH_Statewide_final_lut\N2275620.tif, N:\65148_OH_Statewide_final_lut\N2275615.tif, N:\65148_OH_Statewide_final_lut\N2275610.tif, N:\65148_OH_Statewide_final_lut\N2270695.tif, N:\65148_OH_Statewide_final_lut\N2270690.tif, N:\65148_OH_Statewide_final_lut\N2270685.tif, N:\65148_OH_Statewide_final_lut\N2270680.tif, N:\65148_OH_Statewide_final_lut\N2270675.tif, N:\65148_OH_Statewide_final_lut\N2270670.tif, N:\65148_OH_Statewide_final_lut\N2270665.tif, N:\65148_OH_Statewide_final_lut\N2270660.tif, N:\65148_OH_Statewide_final_lut\N2270655.tif, N:\65148_OH_Statewide_final_lut\N2270650.tif, N:\65148_OH_Statewide_final_lut\N2270645.tif, N:\65148_OH_Statewide_final_lut\N2270640.tif, N:\65148_OH_Statewide_final_lut\N2270635.tif, N:\65148_OH_Statewide_final_lut\N2270630.tif, N:\65148_OH_Statewide_final_lut\N2270625.tif, N:\65148_OH_Statewide_final_lut\N2270620.tif, N:\65148_OH_Statewide_final_lut\N2270615.tif, N:\65148_OH_Statewide_final_lut\N2270610.tif, N:\65148_OH_Statewide_final_lut\N2325720.tif, N:\65148_OH_Statewide_final_lut\N2325715.tif, N:\65148_OH_Statewide_final_lut\N2325710.tif, N:\65148_OH_Statewide_final_lut\N2325705.tif, N:\65148_OH_Statewide_final_lut\N2325700.tif, N:\65148_OH_Statewide_final_lut\N2325695.tif, N:\65148_OH_Statewide_final_lut\N2325690.tif, N:\65148_OH_Statewide_final_lut\N2325685.tif, N:\65148_OH_Statewide_final_lut\N2325680.tif, N:\65148_OH_Statewide_final_lut\N2325675.tif, N:\65148_OH_Statewide_final_lut\N2325670.tif, N:\65148_OH_Statewide_final_lut\N2325665.tif, N:\65148_OH_Statewide_final_lut\N2325660.tif, N:\65148_OH_Statewide_final_lut\N2325655.tif, N:\65148_OH_Statewide_final_lut\N2325650.tif, N:\65148_OH_Statewide_final_lut\N2325645.tif, N:\65148_OH_Statewide_final_lut\N2325640.tif, N:\65148_OH_Statewide_final_lut\N2325635.tif, N:\65148_OH_Statewide_final_lut\N2325630.tif, N:\65148_OH_Statewide_final_lut\N2325625.tif, N:\65148_OH_Statewide_final_lut\N2325620.tif, N:\65148_OH_Statewide_final_lut\N2325615.tif, N:\65148_OH_Statewide_final_lut\N2325610.tif, N:\65148_OH_Statewide_final_lut\N2285695.tif, N:\65148_OH_Statewide_final_lut\N2285690.tif, N:\65148_OH_Statewide_final_lut\N2285685.tif, N:\65148_OH_Statewide_final_lut\N2285680.tif, N:\65148_OH_Statewide_final_lut\N2285675.tif, N:\65148_OH_Statewide_final_lut\N2285670.tif, N:\65148_OH_Statewide_final_lut\N2285665.tif, N:\65148_OH_Statewide_final_lut\N2285660.tif, N:\65148_OH_Statewide_final_lut\N2285655.tif, N:\65148_OH_Statewide_final_lut\N2285650.tif, N:\65148_OH_Statewide_final_lut\N2285645.tif, N:\65148_OH_Statewide_final_lut\N2285640.tif, N:\65148_OH_Statewide_final_lut\N2285635.tif, N:\65148_OH_Statewide_final_lut\N2285630.tif, N:\65148_OH_Statewide_final_lut\N2285625.tif, N:\65148_OH_Statewide_final_lut\N2285620.tif, N:\65148_OH_Statewide_final_lut\N2285615.tif, N:\65148_OH_Statewide_final_lut\N2285610.tif</MDI>
+    <MDI key="IMAGE__NO_DITHER">0</MDI>
+    <MDI key="IMAGE__TARGET_COMPRESSION_RATIO">29.999998</MDI>
+    <MDI key="IMAGE__WIDTH">110000</MDI>
+    <MDI key="IMAGE__HEIGHT">145000</MDI>
+    <MDI key="IMAGE__NO_DATA_VALUE">255,255,255</MDI>
+    <MDI key="IMAGE__TRANSPARENT_DATA_VALUE">255,255,255</MDI>
+    <MDI key="IMAGE__COLOR_SCHEME">0</MDI>
+    <MDI key="IMAGE__DATA_TYPE">0</MDI>
+    <MDI key="IMAGE__XY_ORIGIN">2270000.500000,754999.500000</MDI>
+    <MDI key="IMAGE__X_RESOLUTION">1.000000</MDI>
+    <MDI key="IMAGE__Y_RESOLUTION">1.000000</MDI>
+  </Metadata>
+  <Metadata domain="xml:ESRI" format="xml">
+    <GeodataXform xsi:type="typens:IdentityXform" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:typens="http://www.esri.com/schemas/ArcGIS/9.2">
+      <SpatialReference xsi:type="typens:ProjectedCoordinateSystem">
+        <WKT>PROJCS[&quot;NAD_1983_HARN_StatePlane_Ohio_North_FIPS_3401&quot;,GEOGCS[&quot;GCS_North_American_1983_HARN&quot;,DATUM[&quot;D_North_American_1983_HARN&quot;,SPHEROID[&quot;GRS_1980&quot;,6378137.0,298.257222101]],PRIMEM[&quot;Greenwich&quot;,0.0],UNIT[&quot;Degree&quot;,0.0174532925199433]],PROJECTION[&quot;Lambert_Conformal_Conic&quot;],PARAMETER[&quot;False_Easting&quot;,1968500.0],PARAMETER[&quot;False_Northing&quot;,0.0],PARAMETER[&quot;Central_Meridian&quot;,-82.5],PARAMETER[&quot;Standard_Parallel_1&quot;,40.43333333333333],PARAMETER[&quot;Standard_Parallel_2&quot;,41.7],PARAMETER[&quot;Latitude_Of_Origin&quot;,39.66666666666666],UNIT[&quot;Foot_US&quot;,0.3048006096012192]]</WKT>
+        <XOrigin>-118963900</XOrigin>
+        <YOrigin>-96373800</YOrigin>
+        <XYScale>37240637.1441441</XYScale>
+        <XYTolerance>3.28083333333333E-03</XYTolerance>
+        <HighPrecision>true</HighPrecision>
+      </SpatialReference>
+    </GeodataXform>
+  </Metadata>
+  <PAMRasterBand band="1">
+    <GDALRasterAttributeTable>
+      <FieldDefn index="0">
+        <Name>Histogram</Name>
+        <Type>0</Type>
+        <Usage>0</Usage>
+      </FieldDefn>
+      <Row index="0">
+        <F>0</F>
+      </Row>
+      <Row index="1">
+        <F>0</F>
+      </Row>
+      <Row index="2">
+        <F>0</F>
+      </Row>
+      <Row index="3">
+        <F>0</F>
+      </Row>
+      <Row index="4">
+        <F>0</F>
+      </Row>
+      <Row index="5">
+        <F>0</F>
+      </Row>
+      <Row index="6">
+        <F>0</F>
+      </Row>
+      <Row index="7">
+        <F>0</F>
+      </Row>
+      <Row index="8">
+        <F>0</F>
+      </Row>
+      <Row index="9">
+        <F>0</F>
+      </Row>
+      <Row index="10">
+        <F>0</F>
+      </Row>
+      <Row index="11">
+        <F>0</F>
+      </Row>
+      <Row index="12">
+        <F>0</F>
+      </Row>
+      <Row index="13">
+        <F>0</F>
+      </Row>
+      <Row index="14">
+        <F>0</F>
+      </Row>
+      <Row index="15">
+        <F>0</F>
+      </Row>
+      <Row index="16">
+        <F>0</F>
+      </Row>
+      <Row index="17">
+        <F>0</F>
+      </Row>
+      <Row index="18">
+        <F>0</F>
+      </Row>
+      <Row index="19">
+        <F>0</F>
+      </Row>
+      <Row index="20">
+        <F>0</F>
+      </Row>
+      <Row index="21">
+        <F>0</F>
+      </Row>
+      <Row index="22">
+        <F>0</F>
+      </Row>
+      <Row index="23">
+        <F>0</F>
+      </Row>
+      <Row index="24">
+        <F>0</F>
+      </Row>
+      <Row index="25">
+        <F>0</F>
+      </Row>
+      <Row index="26">
+        <F>0</F>
+      </Row>
+      <Row index="27">
+        <F>0</F>
+      </Row>
+      <Row index="28">
+        <F>0</F>
+      </Row>
+      <Row index="29">
+        <F>65025</F>
+      </Row>
+      <Row index="30">
+        <F>0</F>
+      </Row>
+      <Row index="31">
+        <F>0</F>
+      </Row>
+      <Row index="32">
+        <F>65025</F>
+      </Row>
+      <Row index="33">
+        <F>65025</F>
+      </Row>
+      <Row index="34">
+        <F>0</F>
+      </Row>
+      <Row index="35">
+        <F>130050</F>
+      </Row>
+      <Row index="36">
+        <F>65025</F>
+      </Row>
+      <Row index="37">
+        <F>65025</F>
+      </Row>
+      <Row index="38">
+        <F>130050</F>
+      </Row>
+      <Row index="39">
+        <F>325125</F>
+      </Row>
+      <Row index="40">
+        <F>195075</F>
+      </Row>
+      <Row index="41">
+        <F>260100</F>
+      </Row>
+      <Row index="42">
+        <F>195075</F>
+      </Row>
+      <Row index="43">
+        <F>195075</F>
+      </Row>
+      <Row index="44">
+        <F>130050</F>
+      </Row>
+      <Row index="45">
+        <F>130050</F>
+      </Row>
+      <Row index="46">
+        <F>390150</F>
+      </Row>
+      <Row index="47">
+        <F>520200</F>
+      </Row>
+      <Row index="48">
+        <F>325125</F>
+      </Row>
+      <Row index="49">
+        <F>910350</F>
+      </Row>
+      <Row index="50">
+        <F>455175</F>
+      </Row>
+      <Row index="51">
+        <F>780300</F>
+      </Row>
+      <Row index="52">
+        <F>585225</F>
+      </Row>
+      <Row index="53">
+        <F>1300500</F>
+      </Row>
+      <Row index="54">
+        <F>1040400</F>
+      </Row>
+      <Row index="55">
+        <F>1170450</F>
+      </Row>
+      <Row index="56">
+        <F>1040400</F>
+      </Row>
+      <Row index="57">
+        <F>2666025</F>
+      </Row>
+      <Row index="58">
+        <F>2145825</F>
+      </Row>
+      <Row index="59">
+        <F>2405925</F>
+      </Row>
+      <Row index="60">
+        <F>2861100</F>
+      </Row>
+      <Row index="61">
+        <F>2340900</F>
+      </Row>
+      <Row index="62">
+        <F>2470950</F>
+      </Row>
+      <Row index="63">
+        <F>3511350</F>
+      </Row>
+      <Row index="64">
+        <F>4031550</F>
+      </Row>
+      <Row index="65">
+        <F>3446325</F>
+      </Row>
+      <Row index="66">
+        <F>4291650</F>
+      </Row>
+      <Row index="67">
+        <F>4226625</F>
+      </Row>
+      <Row index="68">
+        <F>5787225</F>
+      </Row>
+      <Row index="69">
+        <F>5592150</F>
+      </Row>
+      <Row index="70">
+        <F>6437475</F>
+      </Row>
+      <Row index="71">
+        <F>8193150</F>
+      </Row>
+      <Row index="72">
+        <F>8648325</F>
+      </Row>
+      <Row index="73">
+        <F>7998075</F>
+      </Row>
+      <Row index="74">
+        <F>10143900</F>
+      </Row>
+      <Row index="75">
+        <F>8778375</F>
+      </Row>
+      <Row index="76">
+        <F>10989225</F>
+      </Row>
+      <Row index="77">
+        <F>10208925</F>
+      </Row>
+      <Row index="78">
+        <F>12679875</F>
+      </Row>
+      <Row index="79">
+        <F>14045400</F>
+      </Row>
+      <Row index="80">
+        <F>12874950</F>
+      </Row>
+      <Row index="81">
+        <F>13785300</F>
+      </Row>
+      <Row index="82">
+        <F>18467100</F>
+      </Row>
+      <Row index="83">
+        <F>19507500</F>
+      </Row>
+      <Row index="84">
+        <F>23278950</F>
+      </Row>
+      <Row index="85">
+        <F>26075025</F>
+      </Row>
+      <Row index="86">
+        <F>25164675</F>
+      </Row>
+      <Row index="87">
+        <F>31016925</F>
+      </Row>
+      <Row index="88">
+        <F>33552900</F>
+      </Row>
+      <Row index="89">
+        <F>33943050</F>
+      </Row>
+      <Row index="90">
+        <F>43761825</F>
+      </Row>
+      <Row index="91">
+        <F>43436700</F>
+      </Row>
+      <Row index="92">
+        <F>46883025</F>
+      </Row>
+      <Row index="93">
+        <F>51759900</F>
+      </Row>
+      <Row index="94">
+        <F>58912650</F>
+      </Row>
+      <Row index="95">
+        <F>67105800</F>
+      </Row>
+      <Row index="96">
+        <F>73543275</F>
+      </Row>
+      <Row index="97">
+        <F>79915725</F>
+      </Row>
+      <Row index="98">
+        <F>84597525</F>
+      </Row>
+      <Row index="99">
+        <F>97537500</F>
+      </Row>
+      <Row index="100">
+        <F>108916875</F>
+      </Row>
+      <Row index="101">
+        <F>114639075</F>
+      </Row>
+      <Row index="102">
+        <F>127774125</F>
+      </Row>
+      <Row index="103">
+        <F>142729875</F>
+      </Row>
+      <Row index="104">
+        <F>149817600</F>
+      </Row>
+      <Row index="105">
+        <F>166138875</F>
+      </Row>
+      <Row index="106">
+        <F>171731025</F>
+      </Row>
+      <Row index="107">
+        <F>185061150</F>
+      </Row>
+      <Row index="108">
+        <F>196570575</F>
+      </Row>
+      <Row index="109">
+        <F>208535175</F>
+      </Row>
+      <Row index="110">
+        <F>227067300</F>
+      </Row>
+      <Row index="111">
+        <F>232854525</F>
+      </Row>
+      <Row index="112">
+        <F>245989575</F>
+      </Row>
+      <Row index="113">
+        <F>262701000</F>
+      </Row>
+      <Row index="114">
+        <F>280647900</F>
+      </Row>
+      <Row index="115">
+        <F>287280450</F>
+      </Row>
+      <Row index="116">
+        <F>295993800</F>
+      </Row>
+      <Row index="117">
+        <F>297879525</F>
+      </Row>
+      <Row index="118">
+        <F>313615575</F>
+      </Row>
+      <Row index="119">
+        <F>323954550</F>
+      </Row>
+      <Row index="120">
+        <F>329936850</F>
+      </Row>
+      <Row index="121">
+        <F>338130000</F>
+      </Row>
+      <Row index="122">
+        <F>332342775</F>
+      </Row>
+      <Row index="123">
+        <F>338195025</F>
+      </Row>
+      <Row index="124">
+        <F>337219650</F>
+      </Row>
+      <Row index="125">
+        <F>343201950</F>
+      </Row>
+      <Row index="126">
+        <F>340991100</F>
+      </Row>
+      <Row index="127">
+        <F>334813725</F>
+      </Row>
+      <Row index="128">
+        <F>324279675</F>
+      </Row>
+      <Row index="129">
+        <F>311014575</F>
+      </Row>
+      <Row index="130">
+        <F>303406650</F>
+      </Row>
+      <Row index="131">
+        <F>283248900</F>
+      </Row>
+      <Row index="132">
+        <F>268423200</F>
+      </Row>
+      <Row index="133">
+        <F>250216200</F>
+      </Row>
+      <Row index="134">
+        <F>239226975</F>
+      </Row>
+      <Row index="135">
+        <F>223360875</F>
+      </Row>
+      <Row index="136">
+        <F>208730250</F>
+      </Row>
+      <Row index="137">
+        <F>193124250</F>
+      </Row>
+      <Row index="138">
+        <F>174332025</F>
+      </Row>
+      <Row index="139">
+        <F>163342800</F>
+      </Row>
+      <Row index="140">
+        <F>147151575</F>
+      </Row>
+      <Row index="141">
+        <F>130960350</F>
+      </Row>
+      <Row index="142">
+        <F>124717950</F>
+      </Row>
+      <Row index="143">
+        <F>110997675</F>
+      </Row>
+      <Row index="144">
+        <F>102804525</F>
+      </Row>
+      <Row index="145">
+        <F>93440925</F>
+      </Row>
+      <Row index="146">
+        <F>80110800</F>
+      </Row>
+      <Row index="147">
+        <F>77639850</F>
+      </Row>
+      <Row index="148">
+        <F>72372825</F>
+      </Row>
+      <Row index="149">
+        <F>61838775</F>
+      </Row>
+      <Row index="150">
+        <F>58197375</F>
+      </Row>
+      <Row index="151">
+        <F>56701800</F>
+      </Row>
+      <Row index="152">
+        <F>49809150</F>
+      </Row>
+      <Row index="153">
+        <F>46492875</F>
+      </Row>
+      <Row index="154">
+        <F>47728350</F>
+      </Row>
+      <Row index="155">
+        <F>46167750</F>
+      </Row>
+      <Row index="156">
+        <F>41095800</F>
+      </Row>
+      <Row index="157">
+        <F>39210075</F>
+      </Row>
+      <Row index="158">
+        <F>34333200</F>
+      </Row>
+      <Row index="159">
+        <F>34268175</F>
+      </Row>
+      <Row index="160">
+        <F>34073100</F>
+      </Row>
+      <Row index="161">
+        <F>30691800</F>
+      </Row>
+      <Row index="162">
+        <F>31081950</F>
+      </Row>
+      <Row index="163">
+        <F>27440550</F>
+      </Row>
+      <Row index="164">
+        <F>28155825</F>
+      </Row>
+      <Row index="165">
+        <F>25619850</F>
+      </Row>
+      <Row index="166">
+        <F>24774525</F>
+      </Row>
+      <Row index="167">
+        <F>22368600</F>
+      </Row>
+      <Row index="168">
+        <F>20808000</F>
+      </Row>
+      <Row index="169">
+        <F>19182375</F>
+      </Row>
+      <Row index="170">
+        <F>17556750</F>
+      </Row>
+      <Row index="171">
+        <F>16516350</F>
+      </Row>
+      <Row index="172">
+        <F>15866100</F>
+      </Row>
+      <Row index="173">
+        <F>15020775</F>
+      </Row>
+      <Row index="174">
+        <F>13980375</F>
+      </Row>
+      <Row index="175">
+        <F>12614850</F>
+      </Row>
+      <Row index="176">
+        <F>13460175</F>
+      </Row>
+      <Row index="177">
+        <F>12484800</F>
+      </Row>
+      <Row index="178">
+        <F>11249325</F>
+      </Row>
+      <Row index="179">
+        <F>9623700</F>
+      </Row>
+      <Row index="180">
+        <F>8128125</F>
+      </Row>
+      <Row index="181">
+        <F>8388225</F>
+      </Row>
+      <Row index="182">
+        <F>6567525</F>
+      </Row>
+      <Row index="183">
+        <F>7087725</F>
+      </Row>
+      <Row index="184">
+        <F>7217775</F>
+      </Row>
+      <Row index="185">
+        <F>6177375</F>
+      </Row>
+      <Row index="186">
+        <F>4811850</F>
+      </Row>
+      <Row index="187">
+        <F>5592150</F>
+      </Row>
+      <Row index="188">
+        <F>5202000</F>
+      </Row>
+      <Row index="189">
+        <F>4031550</F>
+      </Row>
+      <Row index="190">
+        <F>4161600</F>
+      </Row>
+      <Row index="191">
+        <F>4421700</F>
+      </Row>
+      <Row index="192">
+        <F>2861100</F>
+      </Row>
+      <Row index="193">
+        <F>3381300</F>
+      </Row>
+      <Row index="194">
+        <F>4291650</F>
+      </Row>
+      <Row index="195">
+        <F>2601000</F>
+      </Row>
+      <Row index="196">
+        <F>2340900</F>
+      </Row>
+      <Row index="197">
+        <F>2015775</F>
+      </Row>
+      <Row index="198">
+        <F>2015775</F>
+      </Row>
+      <Row index="199">
+        <F>1495575</F>
+      </Row>
+      <Row index="200">
+        <F>1365525</F>
+      </Row>
+      <Row index="201">
+        <F>1300500</F>
+      </Row>
+      <Row index="202">
+        <F>910350</F>
+      </Row>
+      <Row index="203">
+        <F>1365525</F>
+      </Row>
+      <Row index="204">
+        <F>520200</F>
+      </Row>
+      <Row index="205">
+        <F>715275</F>
+      </Row>
+      <Row index="206">
+        <F>910350</F>
+      </Row>
+      <Row index="207">
+        <F>585225</F>
+      </Row>
+      <Row index="208">
+        <F>650250</F>
+      </Row>
+      <Row index="209">
+        <F>845325</F>
+      </Row>
+      <Row index="210">
+        <F>780300</F>
+      </Row>
+      <Row index="211">
+        <F>715275</F>
+      </Row>
+      <Row index="212">
+        <F>845325</F>
+      </Row>
+      <Row index="213">
+        <F>1235475</F>
+      </Row>
+      <Row index="214">
+        <F>910350</F>
+      </Row>
+      <Row index="215">
+        <F>1040400</F>
+      </Row>
+      <Row index="216">
+        <F>1170450</F>
+      </Row>
+      <Row index="217">
+        <F>910350</F>
+      </Row>
+      <Row index="218">
+        <F>1820700</F>
+      </Row>
+      <Row index="219">
+        <F>1885725</F>
+      </Row>
+      <Row index="220">
+        <F>1755675</F>
+      </Row>
+      <Row index="221">
+        <F>1755675</F>
+      </Row>
+      <Row index="222">
+        <F>1365525</F>
+      </Row>
+      <Row index="223">
+        <F>715275</F>
+      </Row>
+      <Row index="224">
+        <F>975375</F>
+      </Row>
+      <Row index="225">
+        <F>455175</F>
+      </Row>
+      <Row index="226">
+        <F>455175</F>
+      </Row>
+      <Row index="227">
+        <F>455175</F>
+      </Row>
+      <Row index="228">
+        <F>455175</F>
+      </Row>
+      <Row index="229">
+        <F>455175</F>
+      </Row>
+      <Row index="230">
+        <F>455175</F>
+      </Row>
+      <Row index="231">
+        <F>325125</F>
+      </Row>
+      <Row index="232">
+        <F>585225</F>
+      </Row>
+      <Row index="233">
+        <F>65025</F>
+      </Row>
+      <Row index="234">
+        <F>65025</F>
+      </Row>
+      <Row index="235">
+        <F>260100</F>
+      </Row>
+      <Row index="236">
+        <F>65025</F>
+      </Row>
+      <Row index="237">
+        <F>0</F>
+      </Row>
+      <Row index="238">
+        <F>130050</F>
+      </Row>
+      <Row index="239">
+        <F>0</F>
+      </Row>
+      <Row index="240">
+        <F>130050</F>
+      </Row>
+      <Row index="241">
+        <F>0</F>
+      </Row>
+      <Row index="242">
+        <F>130050</F>
+      </Row>
+      <Row index="243">
+        <F>0</F>
+      </Row>
+      <Row index="244">
+        <F>0</F>
+      </Row>
+      <Row index="245">
+        <F>65025</F>
+      </Row>
+      <Row index="246">
+        <F>130050</F>
+      </Row>
+      <Row index="247">
+        <F>0</F>
+      </Row>
+      <Row index="248">
+        <F>0</F>
+      </Row>
+      <Row index="249">
+        <F>0</F>
+      </Row>
+      <Row index="250">
+        <F>0</F>
+      </Row>
+      <Row index="251">
+        <F>65025</F>
+      </Row>
+      <Row index="252">
+        <F>3966525</F>
+      </Row>
+      <Row index="253">
+        <F>10273950</F>
+      </Row>
+      <Row index="254">
+        <F>7152750</F>
+      </Row>
+      <Row index="255">
+        <F>-1462803421</F>
+      </Row>
+    </GDALRasterAttributeTable>
+    <Metadata>
+      <MDI key="LAYER_TYPE">athematic</MDI>
+      <MDI key="STATISTICS_HISTOBINVALUES">0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|65025|0|0|65025|65025|0|130050|65025|65025|130050|325125|195075|260100|195075|195075|130050|130050|390150|520200|325125|910350|455175|780300|585225|1300500|1040400|1170450|1040400|2666025|2145825|2405925|2861100|2340900|2470950|3511350|4031550|3446325|4291650|4226625|5787225|5592150|6437475|8193150|8648325|7998075|10143900|8778375|10989225|10208925|12679875|14045400|12874950|13785300|18467100|19507500|23278950|26075025|25164675|31016925|33552900|33943050|43761825|43436700|46883025|51759900|58912650|67105800|73543275|79915725|84597525|97537500|108916875|114639075|127774125|142729875|149817600|166138875|171731025|185061150|196570575|208535175|227067300|232854525|245989575|262701000|280647900|287280450|295993800|297879525|313615575|323954550|329936850|338130000|332342775|338195025|337219650|343201950|340991100|334813725|324279675|311014575|303406650|283248900|268423200|250216200|239226975|223360875|208730250|193124250|174332025|163342800|147151575|130960350|124717950|110997675|102804525|93440925|80110800|77639850|72372825|61838775|58197375|56701800|49809150|46492875|47728350|46167750|41095800|39210075|34333200|34268175|34073100|30691800|31081950|27440550|28155825|25619850|24774525|22368600|20808000|19182375|17556750|16516350|15866100|15020775|13980375|12614850|13460175|12484800|11249325|9623700|8128125|8388225|6567525|7087725|7217775|6177375|4811850|5592150|5202000|4031550|4161600|4421700|2861100|3381300|4291650|2601000|2340900|2015775|2015775|1495575|1365525|1300500|910350|1365525|520200|715275|910350|585225|650250|845325|780300|715275|845325|1235475|910350|1040400|1170450|910350|1820700|1885725|1755675|1755675|1365525|715275|975375|455175|455175|455175|455175|455175|455175|325125|585225|65025|65025|260100|65025|0|130050|0|130050|0|130050|0|0|65025|130050|0|0|0|0|65025|3966525|10273950|7152750|-1462803421|</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="2">
+    <GDALRasterAttributeTable>
+      <FieldDefn index="0">
+        <Name>Histogram</Name>
+        <Type>0</Type>
+        <Usage>0</Usage>
+      </FieldDefn>
+      <Row index="0">
+        <F>0</F>
+      </Row>
+      <Row index="1">
+        <F>0</F>
+      </Row>
+      <Row index="2">
+        <F>0</F>
+      </Row>
+      <Row index="3">
+        <F>0</F>
+      </Row>
+      <Row index="4">
+        <F>0</F>
+      </Row>
+      <Row index="5">
+        <F>0</F>
+      </Row>
+      <Row index="6">
+        <F>0</F>
+      </Row>
+      <Row index="7">
+        <F>0</F>
+      </Row>
+      <Row index="8">
+        <F>0</F>
+      </Row>
+      <Row index="9">
+        <F>0</F>
+      </Row>
+      <Row index="10">
+        <F>0</F>
+      </Row>
+      <Row index="11">
+        <F>0</F>
+      </Row>
+      <Row index="12">
+        <F>0</F>
+      </Row>
+      <Row index="13">
+        <F>0</F>
+      </Row>
+      <Row index="14">
+        <F>0</F>
+      </Row>
+      <Row index="15">
+        <F>0</F>
+      </Row>
+      <Row index="16">
+        <F>0</F>
+      </Row>
+      <Row index="17">
+        <F>0</F>
+      </Row>
+      <Row index="18">
+        <F>0</F>
+      </Row>
+      <Row index="19">
+        <F>0</F>
+      </Row>
+      <Row index="20">
+        <F>0</F>
+      </Row>
+      <Row index="21">
+        <F>0</F>
+      </Row>
+      <Row index="22">
+        <F>0</F>
+      </Row>
+      <Row index="23">
+        <F>65025</F>
+      </Row>
+      <Row index="24">
+        <F>65025</F>
+      </Row>
+      <Row index="25">
+        <F>0</F>
+      </Row>
+      <Row index="26">
+        <F>0</F>
+      </Row>
+      <Row index="27">
+        <F>0</F>
+      </Row>
+      <Row index="28">
+        <F>0</F>
+      </Row>
+      <Row index="29">
+        <F>130050</F>
+      </Row>
+      <Row index="30">
+        <F>0</F>
+      </Row>
+      <Row index="31">
+        <F>130050</F>
+      </Row>
+      <Row index="32">
+        <F>130050</F>
+      </Row>
+      <Row index="33">
+        <F>325125</F>
+      </Row>
+      <Row index="34">
+        <F>130050</F>
+      </Row>
+      <Row index="35">
+        <F>195075</F>
+      </Row>
+      <Row index="36">
+        <F>325125</F>
+      </Row>
+      <Row index="37">
+        <F>195075</F>
+      </Row>
+      <Row index="38">
+        <F>130050</F>
+      </Row>
+      <Row index="39">
+        <F>195075</F>
+      </Row>
+      <Row index="40">
+        <F>130050</F>
+      </Row>
+      <Row index="41">
+        <F>130050</F>
+      </Row>
+      <Row index="42">
+        <F>260100</F>
+      </Row>
+      <Row index="43">
+        <F>455175</F>
+      </Row>
+      <Row index="44">
+        <F>650250</F>
+      </Row>
+      <Row index="45">
+        <F>585225</F>
+      </Row>
+      <Row index="46">
+        <F>455175</F>
+      </Row>
+      <Row index="47">
+        <F>455175</F>
+      </Row>
+      <Row index="48">
+        <F>455175</F>
+      </Row>
+      <Row index="49">
+        <F>845325</F>
+      </Row>
+      <Row index="50">
+        <F>910350</F>
+      </Row>
+      <Row index="51">
+        <F>845325</F>
+      </Row>
+      <Row index="52">
+        <F>845325</F>
+      </Row>
+      <Row index="53">
+        <F>1040400</F>
+      </Row>
+      <Row index="54">
+        <F>1170450</F>
+      </Row>
+      <Row index="55">
+        <F>585225</F>
+      </Row>
+      <Row index="56">
+        <F>780300</F>
+      </Row>
+      <Row index="57">
+        <F>1170450</F>
+      </Row>
+      <Row index="58">
+        <F>1105425</F>
+      </Row>
+      <Row index="59">
+        <F>1300500</F>
+      </Row>
+      <Row index="60">
+        <F>1430550</F>
+      </Row>
+      <Row index="61">
+        <F>2080800</F>
+      </Row>
+      <Row index="62">
+        <F>1560600</F>
+      </Row>
+      <Row index="63">
+        <F>2731050</F>
+      </Row>
+      <Row index="64">
+        <F>2210850</F>
+      </Row>
+      <Row index="65">
+        <F>2340900</F>
+      </Row>
+      <Row index="66">
+        <F>1755675</F>
+      </Row>
+      <Row index="67">
+        <F>2601000</F>
+      </Row>
+      <Row index="68">
+        <F>2666025</F>
+      </Row>
+      <Row index="69">
+        <F>3121200</F>
+      </Row>
+      <Row index="70">
+        <F>3836475</F>
+      </Row>
+      <Row index="71">
+        <F>4291650</F>
+      </Row>
+      <Row index="72">
+        <F>5136975</F>
+      </Row>
+      <Row index="73">
+        <F>4096575</F>
+      </Row>
+      <Row index="74">
+        <F>4616775</F>
+      </Row>
+      <Row index="75">
+        <F>4681800</F>
+      </Row>
+      <Row index="76">
+        <F>5657175</F>
+      </Row>
+      <Row index="77">
+        <F>5071950</F>
+      </Row>
+      <Row index="78">
+        <F>5527125</F>
+      </Row>
+      <Row index="79">
+        <F>8323200</F>
+      </Row>
+      <Row index="80">
+        <F>7347825</F>
+      </Row>
+      <Row index="81">
+        <F>6372450</F>
+      </Row>
+      <Row index="82">
+        <F>8583300</F>
+      </Row>
+      <Row index="83">
+        <F>10273950</F>
+      </Row>
+      <Row index="84">
+        <F>10013850</F>
+      </Row>
+      <Row index="85">
+        <F>11249325</F>
+      </Row>
+      <Row index="86">
+        <F>12679875</F>
+      </Row>
+      <Row index="87">
+        <F>13590225</F>
+      </Row>
+      <Row index="88">
+        <F>15280875</F>
+      </Row>
+      <Row index="89">
+        <F>17491725</F>
+      </Row>
+      <Row index="90">
+        <F>18076950</F>
+      </Row>
+      <Row index="91">
+        <F>21263175</F>
+      </Row>
+      <Row index="92">
+        <F>21198150</F>
+      </Row>
+      <Row index="93">
+        <F>27375525</F>
+      </Row>
+      <Row index="94">
+        <F>27700650</F>
+      </Row>
+      <Row index="95">
+        <F>34723350</F>
+      </Row>
+      <Row index="96">
+        <F>38429775</F>
+      </Row>
+      <Row index="97">
+        <F>47988450</F>
+      </Row>
+      <Row index="98">
+        <F>52085025</F>
+      </Row>
+      <Row index="99">
+        <F>59302800</F>
+      </Row>
+      <Row index="100">
+        <F>64179675</F>
+      </Row>
+      <Row index="101">
+        <F>75038850</F>
+      </Row>
+      <Row index="102">
+        <F>79980750</F>
+      </Row>
+      <Row index="103">
+        <F>94026150</F>
+      </Row>
+      <Row index="104">
+        <F>105145425</F>
+      </Row>
+      <Row index="105">
+        <F>117305100</F>
+      </Row>
+      <Row index="106">
+        <F>129594825</F>
+      </Row>
+      <Row index="107">
+        <F>142274700</F>
+      </Row>
+      <Row index="108">
+        <F>162367425</F>
+      </Row>
+      <Row index="109">
+        <F>181809900</F>
+      </Row>
+      <Row index="110">
+        <F>196505550</F>
+      </Row>
+      <Row index="111">
+        <F>224531325</F>
+      </Row>
+      <Row index="112">
+        <F>228237750</F>
+      </Row>
+      <Row index="113">
+        <F>247810275</F>
+      </Row>
+      <Row index="114">
+        <F>267447825</F>
+      </Row>
+      <Row index="115">
+        <F>283378950</F>
+      </Row>
+      <Row index="116">
+        <F>295018425</F>
+      </Row>
+      <Row index="117">
+        <F>310949550</F>
+      </Row>
+      <Row index="118">
+        <F>349184250</F>
+      </Row>
+      <Row index="119">
+        <F>354126150</F>
+      </Row>
+      <Row index="120">
+        <F>358222725</F>
+      </Row>
+      <Row index="121">
+        <F>370837575</F>
+      </Row>
+      <Row index="122">
+        <F>367196175</F>
+      </Row>
+      <Row index="123">
+        <F>390995325</F>
+      </Row>
+      <Row index="124">
+        <F>383062275</F>
+      </Row>
+      <Row index="125">
+        <F>394051500</F>
+      </Row>
+      <Row index="126">
+        <F>388589400</F>
+      </Row>
+      <Row index="127">
+        <F>368691750</F>
+      </Row>
+      <Row index="128">
+        <F>368756775</F>
+      </Row>
+      <Row index="129">
+        <F>360563625</F>
+      </Row>
+      <Row index="130">
+        <F>350159625</F>
+      </Row>
+      <Row index="131">
+        <F>320053050</F>
+      </Row>
+      <Row index="132">
+        <F>311729850</F>
+      </Row>
+      <Row index="133">
+        <F>284549400</F>
+      </Row>
+      <Row index="134">
+        <F>267837975</F>
+      </Row>
+      <Row index="135">
+        <F>255548250</F>
+      </Row>
+      <Row index="136">
+        <F>233244675</F>
+      </Row>
+      <Row index="137">
+        <F>213151950</F>
+      </Row>
+      <Row index="138">
+        <F>199756800</F>
+      </Row>
+      <Row index="139">
+        <F>182980350</F>
+      </Row>
+      <Row index="140">
+        <F>170040375</F>
+      </Row>
+      <Row index="141">
+        <F>155409750</F>
+      </Row>
+      <Row index="142">
+        <F>144095400</F>
+      </Row>
+      <Row index="143">
+        <F>121791825</F>
+      </Row>
+      <Row index="144">
+        <F>118020375</F>
+      </Row>
+      <Row index="145">
+        <F>106250850</F>
+      </Row>
+      <Row index="146">
+        <F>96952275</F>
+      </Row>
+      <Row index="147">
+        <F>86873400</F>
+      </Row>
+      <Row index="148">
+        <F>85767975</F>
+      </Row>
+      <Row index="149">
+        <F>76014225</F>
+      </Row>
+      <Row index="150">
+        <F>72437850</F>
+      </Row>
+      <Row index="151">
+        <F>71462475</F>
+      </Row>
+      <Row index="152">
+        <F>60538275</F>
+      </Row>
+      <Row index="153">
+        <F>60343200</F>
+      </Row>
+      <Row index="154">
+        <F>54035775</F>
+      </Row>
+      <Row index="155">
+        <F>48378600</F>
+      </Row>
+      <Row index="156">
+        <F>46297800</F>
+      </Row>
+      <Row index="157">
+        <F>41681025</F>
+      </Row>
+      <Row index="158">
+        <F>42396300</F>
+      </Row>
+      <Row index="159">
+        <F>35113500</F>
+      </Row>
+      <Row index="160">
+        <F>32967675</F>
+      </Row>
+      <Row index="161">
+        <F>31146975</F>
+      </Row>
+      <Row index="162">
+        <F>29586375</F>
+      </Row>
+      <Row index="163">
+        <F>29586375</F>
+      </Row>
+      <Row index="164">
+        <F>23864175</F>
+      </Row>
+      <Row index="165">
+        <F>24319350</F>
+      </Row>
+      <Row index="166">
+        <F>20873025</F>
+      </Row>
+      <Row index="167">
+        <F>22563675</F>
+      </Row>
+      <Row index="168">
+        <F>20808000</F>
+      </Row>
+      <Row index="169">
+        <F>18402075</F>
+      </Row>
+      <Row index="170">
+        <F>15866100</F>
+      </Row>
+      <Row index="171">
+        <F>15671025</F>
+      </Row>
+      <Row index="172">
+        <F>14110425</F>
+      </Row>
+      <Row index="173">
+        <F>13265100</F>
+      </Row>
+      <Row index="174">
+        <F>11574450</F>
+      </Row>
+      <Row index="175">
+        <F>9623700</F>
+      </Row>
+      <Row index="176">
+        <F>9818775</F>
+      </Row>
+      <Row index="177">
+        <F>9038475</F>
+      </Row>
+      <Row index="178">
+        <F>8648325</F>
+      </Row>
+      <Row index="179">
+        <F>8518275</F>
+      </Row>
+      <Row index="180">
+        <F>7152750</F>
+      </Row>
+      <Row index="181">
+        <F>5982300</F>
+      </Row>
+      <Row index="182">
+        <F>6502500</F>
+      </Row>
+      <Row index="183">
+        <F>5787225</F>
+      </Row>
+      <Row index="184">
+        <F>4876875</F>
+      </Row>
+      <Row index="185">
+        <F>5332050</F>
+      </Row>
+      <Row index="186">
+        <F>4486725</F>
+      </Row>
+      <Row index="187">
+        <F>5852250</F>
+      </Row>
+      <Row index="188">
+        <F>3511350</F>
+      </Row>
+      <Row index="189">
+        <F>3511350</F>
+      </Row>
+      <Row index="190">
+        <F>3186225</F>
+      </Row>
+      <Row index="191">
+        <F>2861100</F>
+      </Row>
+      <Row index="192">
+        <F>2796075</F>
+      </Row>
+      <Row index="193">
+        <F>2861100</F>
+      </Row>
+      <Row index="194">
+        <F>2145825</F>
+      </Row>
+      <Row index="195">
+        <F>1755675</F>
+      </Row>
+      <Row index="196">
+        <F>2275875</F>
+      </Row>
+      <Row index="197">
+        <F>1625625</F>
+      </Row>
+      <Row index="198">
+        <F>1950750</F>
+      </Row>
+      <Row index="199">
+        <F>1560600</F>
+      </Row>
+      <Row index="200">
+        <F>1235475</F>
+      </Row>
+      <Row index="201">
+        <F>910350</F>
+      </Row>
+      <Row index="202">
+        <F>1040400</F>
+      </Row>
+      <Row index="203">
+        <F>845325</F>
+      </Row>
+      <Row index="204">
+        <F>520200</F>
+      </Row>
+      <Row index="205">
+        <F>650250</F>
+      </Row>
+      <Row index="206">
+        <F>780300</F>
+      </Row>
+      <Row index="207">
+        <F>585225</F>
+      </Row>
+      <Row index="208">
+        <F>780300</F>
+      </Row>
+      <Row index="209">
+        <F>910350</F>
+      </Row>
+      <Row index="210">
+        <F>780300</F>
+      </Row>
+      <Row index="211">
+        <F>780300</F>
+      </Row>
+      <Row index="212">
+        <F>715275</F>
+      </Row>
+      <Row index="213">
+        <F>650250</F>
+      </Row>
+      <Row index="214">
+        <F>650250</F>
+      </Row>
+      <Row index="215">
+        <F>910350</F>
+      </Row>
+      <Row index="216">
+        <F>1560600</F>
+      </Row>
+      <Row index="217">
+        <F>2015775</F>
+      </Row>
+      <Row index="218">
+        <F>1755675</F>
+      </Row>
+      <Row index="219">
+        <F>1690650</F>
+      </Row>
+      <Row index="220">
+        <F>2405925</F>
+      </Row>
+      <Row index="221">
+        <F>910350</F>
+      </Row>
+      <Row index="222">
+        <F>780300</F>
+      </Row>
+      <Row index="223">
+        <F>1105425</F>
+      </Row>
+      <Row index="224">
+        <F>585225</F>
+      </Row>
+      <Row index="225">
+        <F>390150</F>
+      </Row>
+      <Row index="226">
+        <F>520200</F>
+      </Row>
+      <Row index="227">
+        <F>520200</F>
+      </Row>
+      <Row index="228">
+        <F>455175</F>
+      </Row>
+      <Row index="229">
+        <F>260100</F>
+      </Row>
+      <Row index="230">
+        <F>585225</F>
+      </Row>
+      <Row index="231">
+        <F>195075</F>
+      </Row>
+      <Row index="232">
+        <F>390150</F>
+      </Row>
+      <Row index="233">
+        <F>195075</F>
+      </Row>
+      <Row index="234">
+        <F>195075</F>
+      </Row>
+      <Row index="235">
+        <F>130050</F>
+      </Row>
+      <Row index="236">
+        <F>130050</F>
+      </Row>
+      <Row index="237">
+        <F>65025</F>
+      </Row>
+      <Row index="238">
+        <F>65025</F>
+      </Row>
+      <Row index="239">
+        <F>0</F>
+      </Row>
+      <Row index="240">
+        <F>195075</F>
+      </Row>
+      <Row index="241">
+        <F>0</F>
+      </Row>
+      <Row index="242">
+        <F>130050</F>
+      </Row>
+      <Row index="243">
+        <F>0</F>
+      </Row>
+      <Row index="244">
+        <F>0</F>
+      </Row>
+      <Row index="245">
+        <F>0</F>
+      </Row>
+      <Row index="246">
+        <F>65025</F>
+      </Row>
+      <Row index="247">
+        <F>65025</F>
+      </Row>
+      <Row index="248">
+        <F>0</F>
+      </Row>
+      <Row index="249">
+        <F>0</F>
+      </Row>
+      <Row index="250">
+        <F>65025</F>
+      </Row>
+      <Row index="251">
+        <F>0</F>
+      </Row>
+      <Row index="252">
+        <F>3446325</F>
+      </Row>
+      <Row index="253">
+        <F>11119275</F>
+      </Row>
+      <Row index="254">
+        <F>6437475</F>
+      </Row>
+      <Row index="255">
+        <F>-1462413271</F>
+      </Row>
+    </GDALRasterAttributeTable>
+    <Metadata>
+      <MDI key="LAYER_TYPE">athematic</MDI>
+      <MDI key="STATISTICS_HISTOBINVALUES">0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|65025|65025|0|0|0|0|130050|0|130050|130050|325125|130050|195075|325125|195075|130050|195075|130050|130050|260100|455175|650250|585225|455175|455175|455175|845325|910350|845325|845325|1040400|1170450|585225|780300|1170450|1105425|1300500|1430550|2080800|1560600|2731050|2210850|2340900|1755675|2601000|2666025|3121200|3836475|4291650|5136975|4096575|4616775|4681800|5657175|5071950|5527125|8323200|7347825|6372450|8583300|10273950|10013850|11249325|12679875|13590225|15280875|17491725|18076950|21263175|21198150|27375525|27700650|34723350|38429775|47988450|52085025|59302800|64179675|75038850|79980750|94026150|105145425|117305100|129594825|142274700|162367425|181809900|196505550|224531325|228237750|247810275|267447825|283378950|295018425|310949550|349184250|354126150|358222725|370837575|367196175|390995325|383062275|394051500|388589400|368691750|368756775|360563625|350159625|320053050|311729850|284549400|267837975|255548250|233244675|213151950|199756800|182980350|170040375|155409750|144095400|121791825|118020375|106250850|96952275|86873400|85767975|76014225|72437850|71462475|60538275|60343200|54035775|48378600|46297800|41681025|42396300|35113500|32967675|31146975|29586375|29586375|23864175|24319350|20873025|22563675|20808000|18402075|15866100|15671025|14110425|13265100|11574450|9623700|9818775|9038475|8648325|8518275|7152750|5982300|6502500|5787225|4876875|5332050|4486725|5852250|3511350|3511350|3186225|2861100|2796075|2861100|2145825|1755675|2275875|1625625|1950750|1560600|1235475|910350|1040400|845325|520200|650250|780300|585225|780300|910350|780300|780300|715275|650250|650250|910350|1560600|2015775|1755675|1690650|2405925|910350|780300|1105425|585225|390150|520200|520200|455175|260100|585225|195075|390150|195075|195075|130050|130050|65025|65025|0|195075|0|130050|0|0|0|65025|65025|0|0|65025|0|3446325|11119275|6437475|-1462413271|</MDI>
+    </Metadata>
+  </PAMRasterBand>
+  <PAMRasterBand band="3">
+    <GDALRasterAttributeTable>
+      <FieldDefn index="0">
+        <Name>Histogram</Name>
+        <Type>0</Type>
+        <Usage>0</Usage>
+      </FieldDefn>
+      <Row index="0">
+        <F>0</F>
+      </Row>
+      <Row index="1">
+        <F>0</F>
+      </Row>
+      <Row index="2">
+        <F>0</F>
+      </Row>
+      <Row index="3">
+        <F>0</F>
+      </Row>
+      <Row index="4">
+        <F>0</F>
+      </Row>
+      <Row index="5">
+        <F>0</F>
+      </Row>
+      <Row index="6">
+        <F>0</F>
+      </Row>
+      <Row index="7">
+        <F>0</F>
+      </Row>
+      <Row index="8">
+        <F>0</F>
+      </Row>
+      <Row index="9">
+        <F>0</F>
+      </Row>
+      <Row index="10">
+        <F>0</F>
+      </Row>
+      <Row index="11">
+        <F>0</F>
+      </Row>
+      <Row index="12">
+        <F>0</F>
+      </Row>
+      <Row index="13">
+        <F>0</F>
+      </Row>
+      <Row index="14">
+        <F>0</F>
+      </Row>
+      <Row index="15">
+        <F>0</F>
+      </Row>
+      <Row index="16">
+        <F>0</F>
+      </Row>
+      <Row index="17">
+        <F>0</F>
+      </Row>
+      <Row index="18">
+        <F>0</F>
+      </Row>
+      <Row index="19">
+        <F>0</F>
+      </Row>
+      <Row index="20">
+        <F>0</F>
+      </Row>
+      <Row index="21">
+        <F>0</F>
+      </Row>
+      <Row index="22">
+        <F>0</F>
+      </Row>
+      <Row index="23">
+        <F>0</F>
+      </Row>
+      <Row index="24">
+        <F>0</F>
+      </Row>
+      <Row index="25">
+        <F>0</F>
+      </Row>
+      <Row index="26">
+        <F>0</F>
+      </Row>
+      <Row index="27">
+        <F>0</F>
+      </Row>
+      <Row index="28">
+        <F>65025</F>
+      </Row>
+      <Row index="29">
+        <F>65025</F>
+      </Row>
+      <Row index="30">
+        <F>0</F>
+      </Row>
+      <Row index="31">
+        <F>130050</F>
+      </Row>
+      <Row index="32">
+        <F>195075</F>
+      </Row>
+      <Row index="33">
+        <F>195075</F>
+      </Row>
+      <Row index="34">
+        <F>130050</F>
+      </Row>
+      <Row index="35">
+        <F>130050</F>
+      </Row>
+      <Row index="36">
+        <F>390150</F>
+      </Row>
+      <Row index="37">
+        <F>390150</F>
+      </Row>
+      <Row index="38">
+        <F>65025</F>
+      </Row>
+      <Row index="39">
+        <F>455175</F>
+      </Row>
+      <Row index="40">
+        <F>325125</F>
+      </Row>
+      <Row index="41">
+        <F>845325</F>
+      </Row>
+      <Row index="42">
+        <F>845325</F>
+      </Row>
+      <Row index="43">
+        <F>520200</F>
+      </Row>
+      <Row index="44">
+        <F>975375</F>
+      </Row>
+      <Row index="45">
+        <F>1105425</F>
+      </Row>
+      <Row index="46">
+        <F>1170450</F>
+      </Row>
+      <Row index="47">
+        <F>1625625</F>
+      </Row>
+      <Row index="48">
+        <F>1430550</F>
+      </Row>
+      <Row index="49">
+        <F>1690650</F>
+      </Row>
+      <Row index="50">
+        <F>1885725</F>
+      </Row>
+      <Row index="51">
+        <F>1755675</F>
+      </Row>
+      <Row index="52">
+        <F>2210850</F>
+      </Row>
+      <Row index="53">
+        <F>2666025</F>
+      </Row>
+      <Row index="54">
+        <F>2861100</F>
+      </Row>
+      <Row index="55">
+        <F>2601000</F>
+      </Row>
+      <Row index="56">
+        <F>3446325</F>
+      </Row>
+      <Row index="57">
+        <F>4356675</F>
+      </Row>
+      <Row index="58">
+        <F>4356675</F>
+      </Row>
+      <Row index="59">
+        <F>3771450</F>
+      </Row>
+      <Row index="60">
+        <F>5527125</F>
+      </Row>
+      <Row index="61">
+        <F>3901500</F>
+      </Row>
+      <Row index="62">
+        <F>6112350</F>
+      </Row>
+      <Row index="63">
+        <F>5462100</F>
+      </Row>
+      <Row index="64">
+        <F>5527125</F>
+      </Row>
+      <Row index="65">
+        <F>4681800</F>
+      </Row>
+      <Row index="66">
+        <F>5202000</F>
+      </Row>
+      <Row index="67">
+        <F>6242400</F>
+      </Row>
+      <Row index="68">
+        <F>5917275</F>
+      </Row>
+      <Row index="69">
+        <F>5852250</F>
+      </Row>
+      <Row index="70">
+        <F>6112350</F>
+      </Row>
+      <Row index="71">
+        <F>6697575</F>
+      </Row>
+      <Row index="72">
+        <F>8778375</F>
+      </Row>
+      <Row index="73">
+        <F>8648325</F>
+      </Row>
+      <Row index="74">
+        <F>8323200</F>
+      </Row>
+      <Row index="75">
+        <F>9298575</F>
+      </Row>
+      <Row index="76">
+        <F>10404000</F>
+      </Row>
+      <Row index="77">
+        <F>12094650</F>
+      </Row>
+      <Row index="78">
+        <F>13395150</F>
+      </Row>
+      <Row index="79">
+        <F>15020775</F>
+      </Row>
+      <Row index="80">
+        <F>16321275</F>
+      </Row>
+      <Row index="81">
+        <F>18922275</F>
+      </Row>
+      <Row index="82">
+        <F>21978450</F>
+      </Row>
+      <Row index="83">
+        <F>26465175</F>
+      </Row>
+      <Row index="84">
+        <F>30236625</F>
+      </Row>
+      <Row index="85">
+        <F>34333200</F>
+      </Row>
+      <Row index="86">
+        <F>38429775</F>
+      </Row>
+      <Row index="87">
+        <F>46818000</F>
+      </Row>
+      <Row index="88">
+        <F>54425925</F>
+      </Row>
+      <Row index="89">
+        <F>62619075</F>
+      </Row>
+      <Row index="90">
+        <F>71137350</F>
+      </Row>
+      <Row index="91">
+        <F>78420150</F>
+      </Row>
+      <Row index="92">
+        <F>88499025</F>
+      </Row>
+      <Row index="93">
+        <F>107616375</F>
+      </Row>
+      <Row index="94">
+        <F>121921875</F>
+      </Row>
+      <Row index="95">
+        <F>133106175</F>
+      </Row>
+      <Row index="96">
+        <F>143965350</F>
+      </Row>
+      <Row index="97">
+        <F>170300475</F>
+      </Row>
+      <Row index="98">
+        <F>177648300</F>
+      </Row>
+      <Row index="99">
+        <F>193514400</F>
+      </Row>
+      <Row index="100">
+        <F>211591350</F>
+      </Row>
+      <Row index="101">
+        <F>225896850</F>
+      </Row>
+      <Row index="102">
+        <F>253597500</F>
+      </Row>
+      <Row index="103">
+        <F>268228125</F>
+      </Row>
+      <Row index="104">
+        <F>278241975</F>
+      </Row>
+      <Row index="105">
+        <F>300025350</F>
+      </Row>
+      <Row index="106">
+        <F>307373175</F>
+      </Row>
+      <Row index="107">
+        <F>321223500</F>
+      </Row>
+      <Row index="108">
+        <F>337284675</F>
+      </Row>
+      <Row index="109">
+        <F>348078825</F>
+      </Row>
+      <Row index="110">
+        <F>352695600</F>
+      </Row>
+      <Row index="111">
+        <F>368041500</F>
+      </Row>
+      <Row index="112">
+        <F>382347000</F>
+      </Row>
+      <Row index="113">
+        <F>376169625</F>
+      </Row>
+      <Row index="114">
+        <F>377795250</F>
+      </Row>
+      <Row index="115">
+        <F>369732150</F>
+      </Row>
+      <Row index="116">
+        <F>383322375</F>
+      </Row>
+      <Row index="117">
+        <F>378055350</F>
+      </Row>
+      <Row index="118">
+        <F>358092675</F>
+      </Row>
+      <Row index="119">
+        <F>349899525</F>
+      </Row>
+      <Row index="120">
+        <F>338650200</F>
+      </Row>
+      <Row index="121">
+        <F>324214650</F>
+      </Row>
+      <Row index="122">
+        <F>302756400</F>
+      </Row>
+      <Row index="123">
+        <F>289881450</F>
+      </Row>
+      <Row index="124">
+        <F>272259675</F>
+      </Row>
+      <Row index="125">
+        <F>249435900</F>
+      </Row>
+      <Row index="126">
+        <F>240072300</F>
+      </Row>
+      <Row index="127">
+        <F>213216975</F>
+      </Row>
+      <Row index="128">
+        <F>203398200</F>
+      </Row>
+      <Row index="129">
+        <F>179534025</F>
+      </Row>
+      <Row index="130">
+        <F>164578275</F>
+      </Row>
+      <Row index="131">
+        <F>155149650</F>
+      </Row>
+      <Row index="132">
+        <F>133561350</F>
+      </Row>
+      <Row index="133">
+        <F>120296250</F>
+      </Row>
+      <Row index="134">
+        <F>110152350</F>
+      </Row>
+      <Row index="135">
+        <F>96041925</F>
+      </Row>
+      <Row index="136">
+        <F>87718725</F>
+      </Row>
+      <Row index="137">
+        <F>81346275</F>
+      </Row>
+      <Row index="138">
+        <F>76274325</F>
+      </Row>
+      <Row index="139">
+        <F>70487100</F>
+      </Row>
+      <Row index="140">
+        <F>59823000</F>
+      </Row>
+      <Row index="141">
+        <F>54686025</F>
+      </Row>
+      <Row index="142">
+        <F>49939200</F>
+      </Row>
+      <Row index="143">
+        <F>49744125</F>
+      </Row>
+      <Row index="144">
+        <F>43436700</F>
+      </Row>
+      <Row index="145">
+        <F>43111575</F>
+      </Row>
+      <Row index="146">
+        <F>39470175</F>
+      </Row>
+      <Row index="147">
+        <F>37324350</F>
+      </Row>
+      <Row index="148">
+        <F>34073100</F>
+      </Row>
+      <Row index="149">
+        <F>33422850</F>
+      </Row>
+      <Row index="150">
+        <F>31212000</F>
+      </Row>
+      <Row index="151">
+        <F>27375525</F>
+      </Row>
+      <Row index="152">
+        <F>25619850</F>
+      </Row>
+      <Row index="153">
+        <F>25489800</F>
+      </Row>
+      <Row index="154">
+        <F>24124275</F>
+      </Row>
+      <Row index="155">
+        <F>22693725</F>
+      </Row>
+      <Row index="156">
+        <F>22953825</F>
+      </Row>
+      <Row index="157">
+        <F>19637550</F>
+      </Row>
+      <Row index="158">
+        <F>18076950</F>
+      </Row>
+      <Row index="159">
+        <F>17231625</F>
+      </Row>
+      <Row index="160">
+        <F>16581375</F>
+      </Row>
+      <Row index="161">
+        <F>16191225</F>
+      </Row>
+      <Row index="162">
+        <F>14630625</F>
+      </Row>
+      <Row index="163">
+        <F>13590225</F>
+      </Row>
+      <Row index="164">
+        <F>12224700</F>
+      </Row>
+      <Row index="165">
+        <F>11054250</F>
+      </Row>
+      <Row index="166">
+        <F>9493650</F>
+      </Row>
+      <Row index="167">
+        <F>7672950</F>
+      </Row>
+      <Row index="168">
+        <F>8193150</F>
+      </Row>
+      <Row index="169">
+        <F>8388225</F>
+      </Row>
+      <Row index="170">
+        <F>7087725</F>
+      </Row>
+      <Row index="171">
+        <F>6762600</F>
+      </Row>
+      <Row index="172">
+        <F>5917275</F>
+      </Row>
+      <Row index="173">
+        <F>5397075</F>
+      </Row>
+      <Row index="174">
+        <F>4811850</F>
+      </Row>
+      <Row index="175">
+        <F>4941900</F>
+      </Row>
+      <Row index="176">
+        <F>4226625</F>
+      </Row>
+      <Row index="177">
+        <F>4421700</F>
+      </Row>
+      <Row index="178">
+        <F>4291650</F>
+      </Row>
+      <Row index="179">
+        <F>3511350</F>
+      </Row>
+      <Row index="180">
+        <F>3576375</F>
+      </Row>
+      <Row index="181">
+        <F>3251250</F>
+      </Row>
+      <Row index="182">
+        <F>2926125</F>
+      </Row>
+      <Row index="183">
+        <F>3056175</F>
+      </Row>
+      <Row index="184">
+        <F>2666025</F>
+      </Row>
+      <Row index="185">
+        <F>2535975</F>
+      </Row>
+      <Row index="186">
+        <F>2080800</F>
+      </Row>
+      <Row index="187">
+        <F>2080800</F>
+      </Row>
+      <Row index="188">
+        <F>1690650</F>
+      </Row>
+      <Row index="189">
+        <F>2015775</F>
+      </Row>
+      <Row index="190">
+        <F>1820700</F>
+      </Row>
+      <Row index="191">
+        <F>1950750</F>
+      </Row>
+      <Row index="192">
+        <F>650250</F>
+      </Row>
+      <Row index="193">
+        <F>1625625</F>
+      </Row>
+      <Row index="194">
+        <F>975375</F>
+      </Row>
+      <Row index="195">
+        <F>1105425</F>
+      </Row>
+      <Row index="196">
+        <F>1170450</F>
+      </Row>
+      <Row index="197">
+        <F>650250</F>
+      </Row>
+      <Row index="198">
+        <F>780300</F>
+      </Row>
+      <Row index="199">
+        <F>455175</F>
+      </Row>
+      <Row index="200">
+        <F>975375</F>
+      </Row>
+      <Row index="201">
+        <F>455175</F>
+      </Row>
+      <Row index="202">
+        <F>715275</F>
+      </Row>
+      <Row index="203">
+        <F>455175</F>
+      </Row>
+      <Row index="204">
+        <F>715275</F>
+      </Row>
+      <Row index="205">
+        <F>520200</F>
+      </Row>
+      <Row index="206">
+        <F>780300</F>
+      </Row>
+      <Row index="207">
+        <F>390150</F>
+      </Row>
+      <Row index="208">
+        <F>455175</F>
+      </Row>
+      <Row index="209">
+        <F>650250</F>
+      </Row>
+      <Row index="210">
+        <F>585225</F>
+      </Row>
+      <Row index="211">
+        <F>780300</F>
+      </Row>
+      <Row index="212">
+        <F>910350</F>
+      </Row>
+      <Row index="213">
+        <F>975375</F>
+      </Row>
+      <Row index="214">
+        <F>1365525</F>
+      </Row>
+      <Row index="215">
+        <F>1560600</F>
+      </Row>
+      <Row index="216">
+        <F>1755675</F>
+      </Row>
+      <Row index="217">
+        <F>2015775</F>
+      </Row>
+      <Row index="218">
+        <F>1560600</F>
+      </Row>
+      <Row index="219">
+        <F>1365525</F>
+      </Row>
+      <Row index="220">
+        <F>780300</F>
+      </Row>
+      <Row index="221">
+        <F>520200</F>
+      </Row>
+      <Row index="222">
+        <F>455175</F>
+      </Row>
+      <Row index="223">
+        <F>455175</F>
+      </Row>
+      <Row index="224">
+        <F>195075</F>
+      </Row>
+      <Row index="225">
+        <F>260100</F>
+      </Row>
+      <Row index="226">
+        <F>455175</F>
+      </Row>
+      <Row index="227">
+        <F>520200</F>
+      </Row>
+      <Row index="228">
+        <F>390150</F>
+      </Row>
+      <Row index="229">
+        <F>325125</F>
+      </Row>
+      <Row index="230">
+        <F>130050</F>
+      </Row>
+      <Row index="231">
+        <F>390150</F>
+      </Row>
+      <Row index="232">
+        <F>260100</F>
+      </Row>
+      <Row index="233">
+        <F>0</F>
+      </Row>
+      <Row index="234">
+        <F>65025</F>
+      </Row>
+      <Row index="235">
+        <F>0</F>
+      </Row>
+      <Row index="236">
+        <F>65025</F>
+      </Row>
+      <Row index="237">
+        <F>195075</F>
+      </Row>
+      <Row index="238">
+        <F>0</F>
+      </Row>
+      <Row index="239">
+        <F>130050</F>
+      </Row>
+      <Row index="240">
+        <F>65025</F>
+      </Row>
+      <Row index="241">
+        <F>0</F>
+      </Row>
+      <Row index="242">
+        <F>65025</F>
+      </Row>
+      <Row index="243">
+        <F>65025</F>
+      </Row>
+      <Row index="244">
+        <F>0</F>
+      </Row>
+      <Row index="245">
+        <F>0</F>
+      </Row>
+      <Row index="246">
+        <F>65025</F>
+      </Row>
+      <Row index="247">
+        <F>65025</F>
+      </Row>
+      <Row index="248">
+        <F>0</F>
+      </Row>
+      <Row index="249">
+        <F>65025</F>
+      </Row>
+      <Row index="250">
+        <F>65025</F>
+      </Row>
+      <Row index="251">
+        <F>0</F>
+      </Row>
+      <Row index="252">
+        <F>5462100</F>
+      </Row>
+      <Row index="253">
+        <F>10469025</F>
+      </Row>
+      <Row index="254">
+        <F>4941900</F>
+      </Row>
+      <Row index="255">
+        <F>-1462283221</F>
+      </Row>
+    </GDALRasterAttributeTable>
+    <Metadata>
+      <MDI key="LAYER_TYPE">athematic</MDI>
+      <MDI key="STATISTICS_HISTOBINVALUES">0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|65025|65025|0|130050|195075|195075|130050|130050|390150|390150|65025|455175|325125|845325|845325|520200|975375|1105425|1170450|1625625|1430550|1690650|1885725|1755675|2210850|2666025|2861100|2601000|3446325|4356675|4356675|3771450|5527125|3901500|6112350|5462100|5527125|4681800|5202000|6242400|5917275|5852250|6112350|6697575|8778375|8648325|8323200|9298575|10404000|12094650|13395150|15020775|16321275|18922275|21978450|26465175|30236625|34333200|38429775|46818000|54425925|62619075|71137350|78420150|88499025|107616375|121921875|133106175|143965350|170300475|177648300|193514400|211591350|225896850|253597500|268228125|278241975|300025350|307373175|321223500|337284675|348078825|352695600|368041500|382347000|376169625|377795250|369732150|383322375|378055350|358092675|349899525|338650200|324214650|302756400|289881450|272259675|249435900|240072300|213216975|203398200|179534025|164578275|155149650|133561350|120296250|110152350|96041925|87718725|81346275|76274325|70487100|59823000|54686025|49939200|49744125|43436700|43111575|39470175|37324350|34073100|33422850|31212000|27375525|25619850|25489800|24124275|22693725|22953825|19637550|18076950|17231625|16581375|16191225|14630625|13590225|12224700|11054250|9493650|7672950|8193150|8388225|7087725|6762600|5917275|5397075|4811850|4941900|4226625|4421700|4291650|3511350|3576375|3251250|2926125|3056175|2666025|2535975|2080800|2080800|1690650|2015775|1820700|1950750|650250|1625625|975375|1105425|1170450|650250|780300|455175|975375|455175|715275|455175|715275|520200|780300|390150|455175|650250|585225|780300|910350|975375|1365525|1560600|1755675|2015775|1560600|1365525|780300|520200|455175|455175|195075|260100|455175|520200|390150|325125|130050|390150|260100|0|65025|0|65025|195075|0|130050|65025|0|65025|65025|0|0|65025|65025|0|65025|65025|0|5462100|10469025|4941900|-1462283221|</MDI>
+    </Metadata>
+  </PAMRasterBand>
+</PAMDataset>

@@ -1,0 +1,241 @@
+<?xml version="1.0"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>State of Ohio Office of Information Technology, Ohio Geographically Referenced Information Program</origin>
+        <pubdate>20171213</pubdate>
+        <pubtime>Unknown</pubtime>
+        <title>Geauga_2017_rgb_20x.sid</title>
+        <geoform>raster digital file</geoform>
+        <pubinfo>
+          <pubplace>Columbus, OH</pubplace>
+          <publish>OGRIP</publish>
+        </pubinfo>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>2017 OSIP Base Digital Orthoimagery Project – 
+The OSIP project is divided into four (4) project areas. Area 1 (+/- 9,862 square mile)  is the northeast zone and performed in 2017. Area 2 (+/- 10,606 square miles) will be the western zone and performed in 2018. Area 3 (10,405) will be the central zone and performed in 2019. Area (+/- 410,392) will be the southeast zone and performed in 2020.
+The new 3-band orthoimagery will encompass the entire land area of the State of Ohio, or ~41,276 square miles. The tile border will be 1,000 feet beyond the state boundary with the following exceptions. The tile border with the states of Kentucky and West Virginia along the Ohio River shall be buffered a minimum distance of 1,000 feet or to the opposite river bank, whichever distance is greater. Border areas of the State proximate to Lake Erie, as well as islands, shall be buffered beyond the shoreline a minimum distance of 2,500 feet.
+Area 1: The aerial imagery was collected during leaf-off conditions at a minimum resolution of 0.5-foot.  The orthos are delivered as countywide datasets, consisting of 5,000' x 5,000' uncompressed 8-bit, 3-band color geotiff files. Adjacent flight lines overlap by an average of 30 percent. Imagery was collected with VisionMap A3 Edge digital camera systems and rectified using existing LiDAR data. The file naming convention is as follows: nxxxxyyy (Ohio North Zone); Please note that xxxx and yyy represent the easting and northing coordinates (respectively) in state plane feet. The naming convention is based upon the previous OSIP project.  Each geotiff ortho file is approximately 100 megabytes in size. Ownership of the data products resides with OGRIP and the state of Ohio. Orthoimagery and ancillary data products produced through this contract are public domain data.</abstract>
+      <purpose>The State of Ohio has a goal to develop and/or update certain geospatial data sets for use by state government agencies, other levels of government, academia, and the general public, and to provide these data sets for inclusion to OGRIP.  OGRIP is a resource for geographic information technology users inside Ohio and beyond.  Funds for the statewide orthoimagery program will come from state agencies.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <mdattim>
+          <sngdate>
+            <caldate>20170423</caldate>
+          </sngdate>
+          <sngdate>
+            <caldate>20170424</caldate>
+          </sngdate>
+        </mdattim>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-81.402067</westbc>
+        <eastbc>-80.992437</eastbc>
+        <northbc>41.733693</northbc>
+        <southbc>41.331288</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Raster</themekey>
+        <themekey>Orthophoto</themekey>
+        <themekey>MrSID</themekey>
+      </theme>
+      <place>
+        <placekt>none</placekt>
+        <placekey>United States</placekey>
+        <placekey>Ohio</placekey>
+        <placekey>OGRIP</placekey>
+      </place>
+    </keywords>
+    <accconst>This data set is in the public domain, and the recipient may not assert any proprietary rights thereto nor represent it to any one as other than a data set produced by the Ohio Statewide Imagery Program.</accconst>
+    <useconst>This data is for planning purposes only and should not be used for legal or cadastral purposes. This data set is provided "as-is" without warranty of any kind, including, but not limited to, the implied warranties of merchantability and fitness for a particular purpose. User must assume responsiblity for determining the suitability of these data for their purposes.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>OGRIP</cntorg>
+        </cntorgp>
+        <cntpos>GIS Manager</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>77 S. High St. - Rm 1990</address>
+          <city>Columbus</city>
+          <state>OH</state>
+          <postal>43215</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>(614) 466-4747</cntvoice>
+        <cntfax>(614) 728-5297</cntfax>
+      </cntinfo>
+    </ptcontac>
+    <secinfo>
+      <secsys>Unclassified</secsys>
+      <secclass>Unclassified</secclass>
+      <sechandl>Unclassified</sechandl>
+    </secinfo>
+    <native>Microsoft Windows 7 Professional Version 6.1 (Build 7600)</native>
+  </idinfo>
+  <dataqual>
+    <logic>All formatted data are validated using commercial GIS software to ensure proper formatting and loading prior to delivery.</logic>
+    <complete>The dataset is complete.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>The orthoimagery meets ±3.7 feet horizontal accuracy. </horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdesc>The VisionMap A3 EDGE Aerial Camera System is a large format frame-based sensor, collecting 12-bit RGB data. The sensor is capable of collecting multiple spectral bands and angles simultaneously at image pixel resolutions of 5 cm using the side-stepping gimbal technology. VisionMap's A3 Edge contains dual 300mm focal length telescopes (Red, Green, Blue x 2) that are optimized for capturing high altitude RGB imagery. The A3 Edge camera system has no ITAR restriction concerns. The imagery for this task order was acquired using the VisionMap A3 Edge camera system. The airborne GPS data were reduced using Waypoint's POSGNSS software package. All of the source imagery was processed using the VisionMaps's  LightSpeed software package. This package provides the capability to perform digital image processing, aerial triangulation, and image rectification. The image frames were ortho rectified to existing LiDAR digtial elevation model (DEM) data. The individual rectified frames of ortho rectified imagery were then mosaicked together to form a seamless imagery database over the entire task order area through the VisionMap's LightSpeed software package. The final digital orthophoto imagery (DOI) were extracted using OrthoVista.</procdesc>
+        <procdate>2017</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Woolpert, Inc.</cntorg>
+            </cntorgp>
+            <cntpos>Geospatial Services</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>4454 Idea Center Blvd.</address>
+              <city>Dayton</city>
+              <state>OH</state>
+              <postal>45430</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>(937) 461-5660</cntvoice>
+            <cntfax>(937) 461-0743</cntfax>
+            <hours>8:00 a.m. to 5:00 p.m. Eastern Time</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+    <cloud>0</cloud>
+  </dataqual>
+  <spdoinfo>
+    <direct>Raster</direct>
+    <rastinfo>
+      <rasttype>Pixel</rasttype>
+      <rowcount>290000</rowcount>
+      <colcount>220000</colcount>
+    </rastinfo>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>NAD83 HARN Ohio North ftUS</mapprojn>
+          <lambertc>
+            <stdparll>41.7</stdparll>
+            <stdparll>40.43333333333333</stdparll>
+            <longcm>-82.5</longcm>
+            <latprjo>39.66666666666666</latprjo>
+            <feast>1968500.0</feast>
+            <fnorth>0.0</fnorth>
+          </lambertc>
+        </mapproj>
+        <planci>
+          <plance>row and column</plance>
+          <coordrep>
+            <absres>0.5</absres>
+            <ordres>0.5</ordres>
+          </coordrep>
+          <plandu>foot_us</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983 HARN</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>OGRIP</cntorg>
+        </cntorgp>
+        <cntpos>GIS Manager</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>77 S. High St. - Rm 1990</address>
+          <city>Columbus</city>
+          <state>OH</state>
+          <postal>43215</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>(614) 466-4747</cntvoice>
+        <cntfax>(614) 728-5297</cntfax>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>The information contained in these data is dynamic and may change over time. The data are not better than the original sources from which they were derived. It is the responsibility of the data user to use the data appropriately and within the limitations of the data for which it was requested and prepared, in general, and these data in particular. The related graphics are intended to aid the data user in acquiring relevant data. It is not appropriate to use the related graphics as data. Woolpert gives no warranty, expressed or implied, as to the accuracy, reliability, or completeness of these data. It is strongly recommended that these data are directly acquired from a Woolpert server, and not indirectly through other sources which may have changed the data in some way. Although these data have been processed successfully upon Woolpert's computer system, no warranty, expressed or implied, is made regarding the utility of the data on another system, or for general or scientific purposes; nor shall the act of distribution constitute any such warranty. This disclaimer applies both to individual use of the data and aggregate use with other data.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>SID</formname>
+          <transize>9126.66320419</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>http://ogrip.oit.ohio.gov/ServicesData/StatewideImagery/tabid/86/Default.aspx</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+          <offoptn>
+            <offmedia>unknown</offmedia>
+            <recfmt>Digital</recfmt>
+          </offoptn>
+        </digtopt>
+      </digform>
+      <fees>unknown</fees>
+    </stdorder>
+    <availabl>
+      <timeinfo>
+        <sngdate>
+          <caldate>unknown</caldate>
+          <time>unknown</time>
+        </sngdate>
+      </timeinfo>
+    </availabl>
+  </distinfo>
+  <metainfo>
+    <metd>20171213</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>OGRIP</cntorg>
+          <cntper>Jeff Smith</cntper>
+        </cntorgp>
+        <cntpos>GIS Manager</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>77 S. High St. - Rm 1990</address>
+          <city>Columbus</city>
+          <state>OH</state>
+          <postal>43215</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>(614) 466-4747</cntvoice>
+        <cntfax>(614) 728-5297</cntfax>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>
