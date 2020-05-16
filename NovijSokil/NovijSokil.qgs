@@ -1,0 +1,2909 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis version="3.4.11-Madeira" projectname="">
+  <homePath path=""/>
+  <title></title>
+  <autotransaction active="0"/>
+  <evaluateDefaultValues active="0"/>
+  <trust active="0"/>
+  <projectCrs>
+    <spatialrefsys>
+      <proj4>+proj=utm +zone=17 +datum=WGS84 +units=m +no_defs</proj4>
+      <srsid>3101</srsid>
+      <srid>32617</srid>
+      <authid>EPSG:32617</authid>
+      <description>WGS 84 / UTM zone 17N</description>
+      <projectionacronym>utm</projectionacronym>
+      <ellipsoidacronym>WGS84</ellipsoidacronym>
+      <geographicflag>false</geographicflag>
+    </spatialrefsys>
+  </projectCrs>
+  <layer-tree-group>
+    <customproperties/>
+    <layer-tree-group expanded="1" checked="Qt::Checked" name="isolines">
+      <customproperties/>
+      <layer-tree-layer providerKey="ogr" expanded="1" id="iso_5ft_2e031bab_001b_486a_b4da_6ba0fe0c63e7" checked="Qt::Unchecked" name="iso-5ft" source="./public_data/processed/iso-5ft.shp">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer providerKey="ogr" expanded="1" id="iso_1m_3247249a_83bd_4f30_8cef_02f3333bf8b7" checked="Qt::Checked" name="iso-1m" source="./public_data/processed/iso-1m.shp">
+        <customproperties/>
+      </layer-tree-layer>
+    </layer-tree-group>
+    <layer-tree-group expanded="1" checked="Qt::Checked" name="reference data">
+      <customproperties/>
+      <layer-tree-group expanded="0" checked="Qt::Checked" name="imagery">
+        <customproperties/>
+        <layer-tree-group expanded="0" checked="Qt::Checked" name="nysdop8 (2017)">
+          <customproperties/>
+          <layer-tree-layer providerKey="gdal" expanded="1" id="w_10560946_12_17100_4bd_2017_27526d1b_0043_4a3d_9993_c5571fde9fdb" checked="Qt::Checked" name="w_10560946_12_17100_4bd_2017" source="./public_data/nysdop8/w_10560946_12_17100_4bd_2017.jp2">
+            <customproperties/>
+          </layer-tree-layer>
+          <layer-tree-layer providerKey="gdal" expanded="1" id="w_10560944_12_17100_4bd_2017_f264627a_6acf_43e2_8a90_dcba23f1777b" checked="Qt::Checked" name="w_10560944_12_17100_4bd_2017" source="./public_data/nysdop8/w_10560944_12_17100_4bd_2017.jp2">
+            <customproperties/>
+          </layer-tree-layer>
+          <layer-tree-layer providerKey="gdal" expanded="1" id="w_10530946_12_17100_4bd_2017_1f575392_4faf_4b38_a410_220d518e136f" checked="Qt::Checked" name="w_10530946_12_17100_4bd_2017" source="./public_data/nysdop8/w_10530946_12_17100_4bd_2017.jp2">
+            <customproperties/>
+          </layer-tree-layer>
+          <layer-tree-layer providerKey="gdal" expanded="1" id="w_10530944_12_17100_4bd_2017_117d37ce_4977_4d8e_b5d9_e0eb130e45b6" checked="Qt::Checked" name="w_10530944_12_17100_4bd_2017" source="./public_data/nysdop8/w_10530944_12_17100_4bd_2017.jp2">
+            <customproperties/>
+          </layer-tree-layer>
+        </layer-tree-group>
+        <layer-tree-group expanded="0" checked="Qt::Unchecked" name="nysdop7 (2014)">
+          <customproperties/>
+          <layer-tree-layer providerKey="gdal" expanded="1" id="w_10560946_12_15100_4bd_2014_2e3f8d11_d548_45e5_abd7_ef23343a8698" checked="Qt::Checked" name="w_10560946_12_15100_4bd_2014" source="./public_data/nysdop7/w_10560946_12_15100_4bd_2014.jp2">
+            <customproperties/>
+          </layer-tree-layer>
+          <layer-tree-layer providerKey="gdal" expanded="1" id="w_10560944_12_15100_4bd_2014_8f710b18_6390_4005_a341_56474117ca15" checked="Qt::Checked" name="w_10560944_12_15100_4bd_2014" source="./public_data/nysdop7/w_10560944_12_15100_4bd_2014.jp2">
+            <customproperties/>
+          </layer-tree-layer>
+          <layer-tree-layer providerKey="gdal" expanded="1" id="w_10530946_12_15100_4bd_2014_f55ca2d9_4138_4f0e_8204_34dfa7629dd6" checked="Qt::Checked" name="w_10530946_12_15100_4bd_2014" source="./public_data/nysdop7/w_10530946_12_15100_4bd_2014.jp2">
+            <customproperties/>
+          </layer-tree-layer>
+          <layer-tree-layer providerKey="gdal" expanded="1" id="w_10530944_12_15100_4bd_2014_616fbf1b_690e_40ba_a820_37f4fc63e754" checked="Qt::Checked" name="w_10530944_12_15100_4bd_2014" source="./public_data/nysdop7/w_10530944_12_15100_4bd_2014.jp2">
+            <customproperties/>
+          </layer-tree-layer>
+        </layer-tree-group>
+        <layer-tree-group expanded="1" checked="Qt::Unchecked" name="nysdop5 (2011)">
+          <customproperties/>
+          <layer-tree-layer providerKey="gdal" expanded="1" id="w_10560944_24_19200_4bd_2011_51941985_1565_4650_ae35_5e1792c757ef" checked="Qt::Checked" name="w_10560944_24_19200_4bd_2011" source="./public_data/nysdop5/w_10560944_24_19200_4bd_2011.jp2">
+            <customproperties/>
+          </layer-tree-layer>
+          <layer-tree-layer providerKey="gdal" expanded="1" id="w_10500944_24_19200_4bd_2011_f816b168_a043_4f7c_9db0_9308dc90ea30" checked="Qt::Checked" name="w_10500944_24_19200_4bd_2011" source="./public_data/nysdop5/w_10500944_24_19200_4bd_2011.jp2">
+            <customproperties/>
+          </layer-tree-layer>
+        </layer-tree-group>
+      </layer-tree-group>
+      <layer-tree-layer providerKey="gdal" expanded="0" id="hillshade_014ca784_31ce_4fe9_8f2c_8dd1d24e3512" checked="Qt::Unchecked" name="hillshade" source="./public_data/processed/hillshade.png">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer providerKey="gdal" expanded="0" id="ground_intensity_2e0a8a45_973a_46c0_81fb_d09b080d2f2f" checked="Qt::Unchecked" name="ground-intensity" source="./public_data/processed/ground-intensity.jpg">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer providerKey="gdal" expanded="1" id="veg_heightmap_373a8081_5929_4036_b690_92b40b5534af" checked="Qt::Unchecked" name="veg-heightmap" source="./public_data/processed/veg-heightmap.jpg">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer providerKey="ogr" expanded="1" id="Erie_2018_Tax_Parcels_SHP_1907_34d5d56a_4e70_47f4_8439_a2d15d2f2216" checked="Qt::Unchecked" name="Erie_2018_Tax_Parcels_SHP_1907" source="./public_data/NYS-Tax-Parcels-SHP/Erie_2018_Tax_Parcels_SHP_1907.shp">
+        <customproperties/>
+      </layer-tree-layer>
+    </layer-tree-group>
+    <custom-order enabled="0">
+      <item>w_10500944_24_19200_4bd_2011_f816b168_a043_4f7c_9db0_9308dc90ea30</item>
+      <item>w_10560944_24_19200_4bd_2011_51941985_1565_4650_ae35_5e1792c757ef</item>
+      <item>w_10530944_12_15100_4bd_2014_616fbf1b_690e_40ba_a820_37f4fc63e754</item>
+      <item>w_10530946_12_15100_4bd_2014_f55ca2d9_4138_4f0e_8204_34dfa7629dd6</item>
+      <item>w_10560944_12_15100_4bd_2014_8f710b18_6390_4005_a341_56474117ca15</item>
+      <item>w_10560946_12_15100_4bd_2014_2e3f8d11_d548_45e5_abd7_ef23343a8698</item>
+      <item>w_10530944_12_17100_4bd_2017_117d37ce_4977_4d8e_b5d9_e0eb130e45b6</item>
+      <item>w_10530946_12_17100_4bd_2017_1f575392_4faf_4b38_a410_220d518e136f</item>
+      <item>w_10560944_12_17100_4bd_2017_f264627a_6acf_43e2_8a90_dcba23f1777b</item>
+      <item>w_10560946_12_17100_4bd_2017_27526d1b_0043_4a3d_9993_c5571fde9fdb</item>
+      <item>Erie_2018_Tax_Parcels_SHP_1907_34d5d56a_4e70_47f4_8439_a2d15d2f2216</item>
+      <item>ground_intensity_2e0a8a45_973a_46c0_81fb_d09b080d2f2f</item>
+      <item>hillshade_014ca784_31ce_4fe9_8f2c_8dd1d24e3512</item>
+      <item>veg_heightmap_373a8081_5929_4036_b690_92b40b5534af</item>
+      <item>iso_1m_3247249a_83bd_4f30_8cef_02f3333bf8b7</item>
+      <item>iso_5ft_2e031bab_001b_486a_b4da_6ba0fe0c63e7</item>
+    </custom-order>
+  </layer-tree-group>
+  <snapping-settings mode="2" type="1" enabled="0" tolerance="12" unit="1" intersection-snapping="0">
+    <individual-layer-settings>
+      <layer-setting type="1" id="iso_5ft_2e031bab_001b_486a_b4da_6ba0fe0c63e7" enabled="0" units="1" tolerance="12"/>
+      <layer-setting type="1" id="iso_1m_3247249a_83bd_4f30_8cef_02f3333bf8b7" enabled="0" units="1" tolerance="12"/>
+      <layer-setting type="1" id="Erie_2018_Tax_Parcels_SHP_1907_34d5d56a_4e70_47f4_8439_a2d15d2f2216" enabled="0" units="1" tolerance="12"/>
+    </individual-layer-settings>
+  </snapping-settings>
+  <relations/>
+  <mapcanvas annotationsVisible="1" name="theMapCanvas">
+    <units>meters</units>
+    <extent>
+      <xmin>669878.90650507772807032</xmin>
+      <ymin>4717676.35065891593694687</ymin>
+      <xmax>670777.3518902804935351</xmax>
+      <ymax>4718668.91051843017339706</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=utm +zone=17 +datum=WGS84 +units=m +no_defs</proj4>
+        <srsid>3101</srsid>
+        <srid>32617</srid>
+        <authid>EPSG:32617</authid>
+        <description>WGS 84 / UTM zone 17N</description>
+        <projectionacronym>utm</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>false</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+  </mapcanvas>
+  <projectModels/>
+  <legend updateDrawingOrder="true">
+    <legendgroup checked="Qt::Checked" name="isolines" open="true">
+      <legendlayer checked="Qt::Unchecked" name="iso-5ft" showFeatureCount="0" drawingOrder="-1" open="true">
+        <filegroup hidden="false" open="true">
+          <legendlayerfile isInOverview="0" layerid="iso_5ft_2e031bab_001b_486a_b4da_6ba0fe0c63e7" visible="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer checked="Qt::Checked" name="iso-1m" showFeatureCount="0" drawingOrder="-1" open="true">
+        <filegroup hidden="false" open="true">
+          <legendlayerfile isInOverview="0" layerid="iso_1m_3247249a_83bd_4f30_8cef_02f3333bf8b7" visible="1"/>
+        </filegroup>
+      </legendlayer>
+    </legendgroup>
+    <legendgroup checked="Qt::Checked" name="reference data" open="true">
+      <legendgroup checked="Qt::Checked" name="imagery" open="false">
+        <legendgroup checked="Qt::Checked" name="nysdop8 (2017)" open="false">
+          <legendlayer checked="Qt::Checked" name="w_10560946_12_17100_4bd_2017" showFeatureCount="0" drawingOrder="-1" open="true">
+            <filegroup hidden="false" open="true">
+              <legendlayerfile isInOverview="0" layerid="w_10560946_12_17100_4bd_2017_27526d1b_0043_4a3d_9993_c5571fde9fdb" visible="1"/>
+            </filegroup>
+          </legendlayer>
+          <legendlayer checked="Qt::Checked" name="w_10560944_12_17100_4bd_2017" showFeatureCount="0" drawingOrder="-1" open="true">
+            <filegroup hidden="false" open="true">
+              <legendlayerfile isInOverview="0" layerid="w_10560944_12_17100_4bd_2017_f264627a_6acf_43e2_8a90_dcba23f1777b" visible="1"/>
+            </filegroup>
+          </legendlayer>
+          <legendlayer checked="Qt::Checked" name="w_10530946_12_17100_4bd_2017" showFeatureCount="0" drawingOrder="-1" open="true">
+            <filegroup hidden="false" open="true">
+              <legendlayerfile isInOverview="0" layerid="w_10530946_12_17100_4bd_2017_1f575392_4faf_4b38_a410_220d518e136f" visible="1"/>
+            </filegroup>
+          </legendlayer>
+          <legendlayer checked="Qt::Checked" name="w_10530944_12_17100_4bd_2017" showFeatureCount="0" drawingOrder="-1" open="true">
+            <filegroup hidden="false" open="true">
+              <legendlayerfile isInOverview="0" layerid="w_10530944_12_17100_4bd_2017_117d37ce_4977_4d8e_b5d9_e0eb130e45b6" visible="1"/>
+            </filegroup>
+          </legendlayer>
+        </legendgroup>
+        <legendgroup checked="Qt::Unchecked" name="nysdop7 (2014)" open="false">
+          <legendlayer checked="Qt::Checked" name="w_10560946_12_15100_4bd_2014" showFeatureCount="0" drawingOrder="-1" open="true">
+            <filegroup hidden="false" open="true">
+              <legendlayerfile isInOverview="0" layerid="w_10560946_12_15100_4bd_2014_2e3f8d11_d548_45e5_abd7_ef23343a8698" visible="0"/>
+            </filegroup>
+          </legendlayer>
+          <legendlayer checked="Qt::Checked" name="w_10560944_12_15100_4bd_2014" showFeatureCount="0" drawingOrder="-1" open="true">
+            <filegroup hidden="false" open="true">
+              <legendlayerfile isInOverview="0" layerid="w_10560944_12_15100_4bd_2014_8f710b18_6390_4005_a341_56474117ca15" visible="0"/>
+            </filegroup>
+          </legendlayer>
+          <legendlayer checked="Qt::Checked" name="w_10530946_12_15100_4bd_2014" showFeatureCount="0" drawingOrder="-1" open="true">
+            <filegroup hidden="false" open="true">
+              <legendlayerfile isInOverview="0" layerid="w_10530946_12_15100_4bd_2014_f55ca2d9_4138_4f0e_8204_34dfa7629dd6" visible="0"/>
+            </filegroup>
+          </legendlayer>
+          <legendlayer checked="Qt::Checked" name="w_10530944_12_15100_4bd_2014" showFeatureCount="0" drawingOrder="-1" open="true">
+            <filegroup hidden="false" open="true">
+              <legendlayerfile isInOverview="0" layerid="w_10530944_12_15100_4bd_2014_616fbf1b_690e_40ba_a820_37f4fc63e754" visible="0"/>
+            </filegroup>
+          </legendlayer>
+        </legendgroup>
+        <legendgroup checked="Qt::Unchecked" name="nysdop5 (2011)" open="true">
+          <legendlayer checked="Qt::Checked" name="w_10560944_24_19200_4bd_2011" showFeatureCount="0" drawingOrder="-1" open="true">
+            <filegroup hidden="false" open="true">
+              <legendlayerfile isInOverview="0" layerid="w_10560944_24_19200_4bd_2011_51941985_1565_4650_ae35_5e1792c757ef" visible="0"/>
+            </filegroup>
+          </legendlayer>
+          <legendlayer checked="Qt::Checked" name="w_10500944_24_19200_4bd_2011" showFeatureCount="0" drawingOrder="-1" open="true">
+            <filegroup hidden="false" open="true">
+              <legendlayerfile isInOverview="0" layerid="w_10500944_24_19200_4bd_2011_f816b168_a043_4f7c_9db0_9308dc90ea30" visible="0"/>
+            </filegroup>
+          </legendlayer>
+        </legendgroup>
+      </legendgroup>
+      <legendlayer checked="Qt::Unchecked" name="hillshade" showFeatureCount="0" drawingOrder="-1" open="false">
+        <filegroup hidden="false" open="false">
+          <legendlayerfile isInOverview="0" layerid="hillshade_014ca784_31ce_4fe9_8f2c_8dd1d24e3512" visible="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer checked="Qt::Unchecked" name="ground-intensity" showFeatureCount="0" drawingOrder="-1" open="false">
+        <filegroup hidden="false" open="false">
+          <legendlayerfile isInOverview="0" layerid="ground_intensity_2e0a8a45_973a_46c0_81fb_d09b080d2f2f" visible="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer checked="Qt::Unchecked" name="veg-heightmap" showFeatureCount="0" drawingOrder="-1" open="true">
+        <filegroup hidden="false" open="true">
+          <legendlayerfile isInOverview="0" layerid="veg_heightmap_373a8081_5929_4036_b690_92b40b5534af" visible="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer checked="Qt::Unchecked" name="Erie_2018_Tax_Parcels_SHP_1907" showFeatureCount="0" drawingOrder="-1" open="true">
+        <filegroup hidden="false" open="true">
+          <legendlayerfile isInOverview="0" layerid="Erie_2018_Tax_Parcels_SHP_1907_34d5d56a_4e70_47f4_8439_a2d15d2f2216" visible="0"/>
+        </filegroup>
+      </legendlayer>
+    </legendgroup>
+  </legend>
+  <mapViewDocks/>
+  <mapViewDocks3D/>
+  <mapcanvas annotationsVisible="1" name="mAreaCanvas">
+    <units>degrees</units>
+    <extent>
+      <xmin>0</xmin>
+      <ymin>0</ymin>
+      <xmax>0</xmax>
+      <ymax>0</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+  </mapcanvas>
+  <mapcanvas annotationsVisible="1" name="mAreaCanvas">
+    <units>degrees</units>
+    <extent>
+      <xmin>0</xmin>
+      <ymin>0</ymin>
+      <xmax>0</xmax>
+      <ymax>0</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+  </mapcanvas>
+  <mapcanvas annotationsVisible="1" name="mAreaCanvas">
+    <units>degrees</units>
+    <extent>
+      <xmin>0</xmin>
+      <ymin>0</ymin>
+      <xmax>0</xmax>
+      <ymax>0</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+  </mapcanvas>
+  <projectlayers>
+    <maplayer simplifyLocal="1" hasScaleBasedVisibilityFlag="0" simplifyDrawingTol="1" refreshOnNotifyEnabled="0" type="vector" styleCategories="AllStyleCategories" simplifyMaxScale="1" autoRefreshEnabled="0" refreshOnNotifyMessage="" simplifyDrawingHints="1" minScale="1e+8" readOnly="0" maxScale="0" geometry="Polygon" labelsEnabled="0" autoRefreshTime="0" simplifyAlgorithm="0">
+      <extent>
+        <xmin>177532.8974999999627471</xmin>
+        <ymin>4722483.27300000004470348</ymin>
+        <xmax>179396.92580000031739473</xmax>
+        <ymax>4724625.35180000029504299</ymax>
+      </extent>
+      <id>Erie_2018_Tax_Parcels_SHP_1907_34d5d56a_4e70_47f4_8439_a2d15d2f2216</id>
+      <datasource>./public_data/NYS-Tax-Parcels-SHP/Erie_2018_Tax_Parcels_SHP_1907.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Erie_2018_Tax_Parcels_SHP_1907</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=utm +zone=18 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>2295</srsid>
+          <srid>26918</srid>
+          <authid>EPSG:26918</authid>
+          <description>NAD83 / UTM zone 18N</description>
+          <projectionacronym>utm</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 forceraster="0" type="singleSymbol" enableorderby="0" symbollevels="0">
+        <symbols>
+          <symbol force_rhr="0" type="fill" alpha="1" clip_to_extent="1" name="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleFill">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="133,182,111,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.26" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="COUNTY">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="MUNI_NAME">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SWIS">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PARCELADDR">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PRINT_KEY">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SBL">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CT_NAME">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CT_SWIS">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LOC_ST_NBR">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LOC_STREET">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LOC_UNIT">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LOC_ZIP">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PROP_CLASS">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ROLL_SECT">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LAND_AV">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="TOTAL_AV">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="FULL_MV">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="YR_BLT">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="FRONT">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="DEPTH">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SQ_FT">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ACRES">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SCH_CODE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SCH_NAME">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SEWER_TYPE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SEWER_DESC">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="WATER_SUPP">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="WATER_DESC">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="UTILITIES">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="UTIL_DESC">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="BLDG_STYLE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="BLDG_DESC">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="HEAT_TYPE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="HEAT_DESC">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="FUEL_TYPE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="FUEL_DESC">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SQFT_LIV">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NBR_KITCHN">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NBR_F_BATH">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NBR_BEDRM">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="USEDASCODE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="USEDASDESC">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="AGDISTCODE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="AGDISTNAME">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PRMY_OWNER">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="MAIL_ADDR">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PO_BOX">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="MAIL_CITY">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="MAIL_STATE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="MAIL_ZIP">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ADD_OWNER">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ADD_ADDR">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ADD_POBOX">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ADD_CITY">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ADD_STATE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ADD_ZIP">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="BOOK">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PAGE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="GRID_EAST">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="GRID_NORTH">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="MUNI_PCLID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SWISSBLID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SWISPKID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ROLL_YR">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SPATIAL_YR">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="OWNER_TYPE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NYS_NAME">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NAMESOURCE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="DUP_GEO">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CALC_ACRES">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="COUNTY" name="" index="0"/>
+        <alias field="MUNI_NAME" name="" index="1"/>
+        <alias field="SWIS" name="" index="2"/>
+        <alias field="PARCELADDR" name="" index="3"/>
+        <alias field="PRINT_KEY" name="" index="4"/>
+        <alias field="SBL" name="" index="5"/>
+        <alias field="CT_NAME" name="" index="6"/>
+        <alias field="CT_SWIS" name="" index="7"/>
+        <alias field="LOC_ST_NBR" name="" index="8"/>
+        <alias field="LOC_STREET" name="" index="9"/>
+        <alias field="LOC_UNIT" name="" index="10"/>
+        <alias field="LOC_ZIP" name="" index="11"/>
+        <alias field="PROP_CLASS" name="" index="12"/>
+        <alias field="ROLL_SECT" name="" index="13"/>
+        <alias field="LAND_AV" name="" index="14"/>
+        <alias field="TOTAL_AV" name="" index="15"/>
+        <alias field="FULL_MV" name="" index="16"/>
+        <alias field="YR_BLT" name="" index="17"/>
+        <alias field="FRONT" name="" index="18"/>
+        <alias field="DEPTH" name="" index="19"/>
+        <alias field="SQ_FT" name="" index="20"/>
+        <alias field="ACRES" name="" index="21"/>
+        <alias field="SCH_CODE" name="" index="22"/>
+        <alias field="SCH_NAME" name="" index="23"/>
+        <alias field="SEWER_TYPE" name="" index="24"/>
+        <alias field="SEWER_DESC" name="" index="25"/>
+        <alias field="WATER_SUPP" name="" index="26"/>
+        <alias field="WATER_DESC" name="" index="27"/>
+        <alias field="UTILITIES" name="" index="28"/>
+        <alias field="UTIL_DESC" name="" index="29"/>
+        <alias field="BLDG_STYLE" name="" index="30"/>
+        <alias field="BLDG_DESC" name="" index="31"/>
+        <alias field="HEAT_TYPE" name="" index="32"/>
+        <alias field="HEAT_DESC" name="" index="33"/>
+        <alias field="FUEL_TYPE" name="" index="34"/>
+        <alias field="FUEL_DESC" name="" index="35"/>
+        <alias field="SQFT_LIV" name="" index="36"/>
+        <alias field="NBR_KITCHN" name="" index="37"/>
+        <alias field="NBR_F_BATH" name="" index="38"/>
+        <alias field="NBR_BEDRM" name="" index="39"/>
+        <alias field="USEDASCODE" name="" index="40"/>
+        <alias field="USEDASDESC" name="" index="41"/>
+        <alias field="AGDISTCODE" name="" index="42"/>
+        <alias field="AGDISTNAME" name="" index="43"/>
+        <alias field="PRMY_OWNER" name="" index="44"/>
+        <alias field="MAIL_ADDR" name="" index="45"/>
+        <alias field="PO_BOX" name="" index="46"/>
+        <alias field="MAIL_CITY" name="" index="47"/>
+        <alias field="MAIL_STATE" name="" index="48"/>
+        <alias field="MAIL_ZIP" name="" index="49"/>
+        <alias field="ADD_OWNER" name="" index="50"/>
+        <alias field="ADD_ADDR" name="" index="51"/>
+        <alias field="ADD_POBOX" name="" index="52"/>
+        <alias field="ADD_CITY" name="" index="53"/>
+        <alias field="ADD_STATE" name="" index="54"/>
+        <alias field="ADD_ZIP" name="" index="55"/>
+        <alias field="BOOK" name="" index="56"/>
+        <alias field="PAGE" name="" index="57"/>
+        <alias field="GRID_EAST" name="" index="58"/>
+        <alias field="GRID_NORTH" name="" index="59"/>
+        <alias field="MUNI_PCLID" name="" index="60"/>
+        <alias field="SWISSBLID" name="" index="61"/>
+        <alias field="SWISPKID" name="" index="62"/>
+        <alias field="ROLL_YR" name="" index="63"/>
+        <alias field="SPATIAL_YR" name="" index="64"/>
+        <alias field="OWNER_TYPE" name="" index="65"/>
+        <alias field="NYS_NAME" name="" index="66"/>
+        <alias field="NAMESOURCE" name="" index="67"/>
+        <alias field="DUP_GEO" name="" index="68"/>
+        <alias field="CALC_ACRES" name="" index="69"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default expression="" applyOnUpdate="0" field="COUNTY"/>
+        <default expression="" applyOnUpdate="0" field="MUNI_NAME"/>
+        <default expression="" applyOnUpdate="0" field="SWIS"/>
+        <default expression="" applyOnUpdate="0" field="PARCELADDR"/>
+        <default expression="" applyOnUpdate="0" field="PRINT_KEY"/>
+        <default expression="" applyOnUpdate="0" field="SBL"/>
+        <default expression="" applyOnUpdate="0" field="CT_NAME"/>
+        <default expression="" applyOnUpdate="0" field="CT_SWIS"/>
+        <default expression="" applyOnUpdate="0" field="LOC_ST_NBR"/>
+        <default expression="" applyOnUpdate="0" field="LOC_STREET"/>
+        <default expression="" applyOnUpdate="0" field="LOC_UNIT"/>
+        <default expression="" applyOnUpdate="0" field="LOC_ZIP"/>
+        <default expression="" applyOnUpdate="0" field="PROP_CLASS"/>
+        <default expression="" applyOnUpdate="0" field="ROLL_SECT"/>
+        <default expression="" applyOnUpdate="0" field="LAND_AV"/>
+        <default expression="" applyOnUpdate="0" field="TOTAL_AV"/>
+        <default expression="" applyOnUpdate="0" field="FULL_MV"/>
+        <default expression="" applyOnUpdate="0" field="YR_BLT"/>
+        <default expression="" applyOnUpdate="0" field="FRONT"/>
+        <default expression="" applyOnUpdate="0" field="DEPTH"/>
+        <default expression="" applyOnUpdate="0" field="SQ_FT"/>
+        <default expression="" applyOnUpdate="0" field="ACRES"/>
+        <default expression="" applyOnUpdate="0" field="SCH_CODE"/>
+        <default expression="" applyOnUpdate="0" field="SCH_NAME"/>
+        <default expression="" applyOnUpdate="0" field="SEWER_TYPE"/>
+        <default expression="" applyOnUpdate="0" field="SEWER_DESC"/>
+        <default expression="" applyOnUpdate="0" field="WATER_SUPP"/>
+        <default expression="" applyOnUpdate="0" field="WATER_DESC"/>
+        <default expression="" applyOnUpdate="0" field="UTILITIES"/>
+        <default expression="" applyOnUpdate="0" field="UTIL_DESC"/>
+        <default expression="" applyOnUpdate="0" field="BLDG_STYLE"/>
+        <default expression="" applyOnUpdate="0" field="BLDG_DESC"/>
+        <default expression="" applyOnUpdate="0" field="HEAT_TYPE"/>
+        <default expression="" applyOnUpdate="0" field="HEAT_DESC"/>
+        <default expression="" applyOnUpdate="0" field="FUEL_TYPE"/>
+        <default expression="" applyOnUpdate="0" field="FUEL_DESC"/>
+        <default expression="" applyOnUpdate="0" field="SQFT_LIV"/>
+        <default expression="" applyOnUpdate="0" field="NBR_KITCHN"/>
+        <default expression="" applyOnUpdate="0" field="NBR_F_BATH"/>
+        <default expression="" applyOnUpdate="0" field="NBR_BEDRM"/>
+        <default expression="" applyOnUpdate="0" field="USEDASCODE"/>
+        <default expression="" applyOnUpdate="0" field="USEDASDESC"/>
+        <default expression="" applyOnUpdate="0" field="AGDISTCODE"/>
+        <default expression="" applyOnUpdate="0" field="AGDISTNAME"/>
+        <default expression="" applyOnUpdate="0" field="PRMY_OWNER"/>
+        <default expression="" applyOnUpdate="0" field="MAIL_ADDR"/>
+        <default expression="" applyOnUpdate="0" field="PO_BOX"/>
+        <default expression="" applyOnUpdate="0" field="MAIL_CITY"/>
+        <default expression="" applyOnUpdate="0" field="MAIL_STATE"/>
+        <default expression="" applyOnUpdate="0" field="MAIL_ZIP"/>
+        <default expression="" applyOnUpdate="0" field="ADD_OWNER"/>
+        <default expression="" applyOnUpdate="0" field="ADD_ADDR"/>
+        <default expression="" applyOnUpdate="0" field="ADD_POBOX"/>
+        <default expression="" applyOnUpdate="0" field="ADD_CITY"/>
+        <default expression="" applyOnUpdate="0" field="ADD_STATE"/>
+        <default expression="" applyOnUpdate="0" field="ADD_ZIP"/>
+        <default expression="" applyOnUpdate="0" field="BOOK"/>
+        <default expression="" applyOnUpdate="0" field="PAGE"/>
+        <default expression="" applyOnUpdate="0" field="GRID_EAST"/>
+        <default expression="" applyOnUpdate="0" field="GRID_NORTH"/>
+        <default expression="" applyOnUpdate="0" field="MUNI_PCLID"/>
+        <default expression="" applyOnUpdate="0" field="SWISSBLID"/>
+        <default expression="" applyOnUpdate="0" field="SWISPKID"/>
+        <default expression="" applyOnUpdate="0" field="ROLL_YR"/>
+        <default expression="" applyOnUpdate="0" field="SPATIAL_YR"/>
+        <default expression="" applyOnUpdate="0" field="OWNER_TYPE"/>
+        <default expression="" applyOnUpdate="0" field="NYS_NAME"/>
+        <default expression="" applyOnUpdate="0" field="NAMESOURCE"/>
+        <default expression="" applyOnUpdate="0" field="DUP_GEO"/>
+        <default expression="" applyOnUpdate="0" field="CALC_ACRES"/>
+      </defaults>
+      <constraints>
+        <constraint constraints="0" exp_strength="0" field="COUNTY" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="MUNI_NAME" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="SWIS" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="PARCELADDR" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="PRINT_KEY" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="SBL" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="CT_NAME" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="CT_SWIS" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="LOC_ST_NBR" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="LOC_STREET" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="LOC_UNIT" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="LOC_ZIP" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="PROP_CLASS" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="ROLL_SECT" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="LAND_AV" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="TOTAL_AV" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="FULL_MV" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="YR_BLT" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="FRONT" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="DEPTH" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="SQ_FT" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="ACRES" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="SCH_CODE" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="SCH_NAME" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="SEWER_TYPE" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="SEWER_DESC" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="WATER_SUPP" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="WATER_DESC" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="UTILITIES" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="UTIL_DESC" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="BLDG_STYLE" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="BLDG_DESC" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="HEAT_TYPE" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="HEAT_DESC" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="FUEL_TYPE" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="FUEL_DESC" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="SQFT_LIV" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="NBR_KITCHN" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="NBR_F_BATH" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="NBR_BEDRM" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="USEDASCODE" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="USEDASDESC" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="AGDISTCODE" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="AGDISTNAME" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="PRMY_OWNER" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="MAIL_ADDR" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="PO_BOX" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="MAIL_CITY" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="MAIL_STATE" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="MAIL_ZIP" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="ADD_OWNER" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="ADD_ADDR" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="ADD_POBOX" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="ADD_CITY" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="ADD_STATE" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="ADD_ZIP" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="BOOK" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="PAGE" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="GRID_EAST" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="GRID_NORTH" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="MUNI_PCLID" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="SWISSBLID" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="SWISPKID" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="ROLL_YR" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="SPATIAL_YR" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="OWNER_TYPE" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="NYS_NAME" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="NAMESOURCE" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="DUP_GEO" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="CALC_ACRES" notnull_strength="0" unique_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" field="COUNTY" exp=""/>
+        <constraint desc="" field="MUNI_NAME" exp=""/>
+        <constraint desc="" field="SWIS" exp=""/>
+        <constraint desc="" field="PARCELADDR" exp=""/>
+        <constraint desc="" field="PRINT_KEY" exp=""/>
+        <constraint desc="" field="SBL" exp=""/>
+        <constraint desc="" field="CT_NAME" exp=""/>
+        <constraint desc="" field="CT_SWIS" exp=""/>
+        <constraint desc="" field="LOC_ST_NBR" exp=""/>
+        <constraint desc="" field="LOC_STREET" exp=""/>
+        <constraint desc="" field="LOC_UNIT" exp=""/>
+        <constraint desc="" field="LOC_ZIP" exp=""/>
+        <constraint desc="" field="PROP_CLASS" exp=""/>
+        <constraint desc="" field="ROLL_SECT" exp=""/>
+        <constraint desc="" field="LAND_AV" exp=""/>
+        <constraint desc="" field="TOTAL_AV" exp=""/>
+        <constraint desc="" field="FULL_MV" exp=""/>
+        <constraint desc="" field="YR_BLT" exp=""/>
+        <constraint desc="" field="FRONT" exp=""/>
+        <constraint desc="" field="DEPTH" exp=""/>
+        <constraint desc="" field="SQ_FT" exp=""/>
+        <constraint desc="" field="ACRES" exp=""/>
+        <constraint desc="" field="SCH_CODE" exp=""/>
+        <constraint desc="" field="SCH_NAME" exp=""/>
+        <constraint desc="" field="SEWER_TYPE" exp=""/>
+        <constraint desc="" field="SEWER_DESC" exp=""/>
+        <constraint desc="" field="WATER_SUPP" exp=""/>
+        <constraint desc="" field="WATER_DESC" exp=""/>
+        <constraint desc="" field="UTILITIES" exp=""/>
+        <constraint desc="" field="UTIL_DESC" exp=""/>
+        <constraint desc="" field="BLDG_STYLE" exp=""/>
+        <constraint desc="" field="BLDG_DESC" exp=""/>
+        <constraint desc="" field="HEAT_TYPE" exp=""/>
+        <constraint desc="" field="HEAT_DESC" exp=""/>
+        <constraint desc="" field="FUEL_TYPE" exp=""/>
+        <constraint desc="" field="FUEL_DESC" exp=""/>
+        <constraint desc="" field="SQFT_LIV" exp=""/>
+        <constraint desc="" field="NBR_KITCHN" exp=""/>
+        <constraint desc="" field="NBR_F_BATH" exp=""/>
+        <constraint desc="" field="NBR_BEDRM" exp=""/>
+        <constraint desc="" field="USEDASCODE" exp=""/>
+        <constraint desc="" field="USEDASDESC" exp=""/>
+        <constraint desc="" field="AGDISTCODE" exp=""/>
+        <constraint desc="" field="AGDISTNAME" exp=""/>
+        <constraint desc="" field="PRMY_OWNER" exp=""/>
+        <constraint desc="" field="MAIL_ADDR" exp=""/>
+        <constraint desc="" field="PO_BOX" exp=""/>
+        <constraint desc="" field="MAIL_CITY" exp=""/>
+        <constraint desc="" field="MAIL_STATE" exp=""/>
+        <constraint desc="" field="MAIL_ZIP" exp=""/>
+        <constraint desc="" field="ADD_OWNER" exp=""/>
+        <constraint desc="" field="ADD_ADDR" exp=""/>
+        <constraint desc="" field="ADD_POBOX" exp=""/>
+        <constraint desc="" field="ADD_CITY" exp=""/>
+        <constraint desc="" field="ADD_STATE" exp=""/>
+        <constraint desc="" field="ADD_ZIP" exp=""/>
+        <constraint desc="" field="BOOK" exp=""/>
+        <constraint desc="" field="PAGE" exp=""/>
+        <constraint desc="" field="GRID_EAST" exp=""/>
+        <constraint desc="" field="GRID_NORTH" exp=""/>
+        <constraint desc="" field="MUNI_PCLID" exp=""/>
+        <constraint desc="" field="SWISSBLID" exp=""/>
+        <constraint desc="" field="SWISPKID" exp=""/>
+        <constraint desc="" field="ROLL_YR" exp=""/>
+        <constraint desc="" field="SPATIAL_YR" exp=""/>
+        <constraint desc="" field="OWNER_TYPE" exp=""/>
+        <constraint desc="" field="NYS_NAME" exp=""/>
+        <constraint desc="" field="NAMESOURCE" exp=""/>
+        <constraint desc="" field="DUP_GEO" exp=""/>
+        <constraint desc="" field="CALC_ACRES" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" type="raster" styleCategories="AllStyleCategories" autoRefreshEnabled="0" refreshOnNotifyMessage="" minScale="1e+8" maxScale="0" autoRefreshTime="0">
+      <extent>
+        <xmin>1055000</xmin>
+        <ymin>944000</ymin>
+        <xmax>1059000</xmax>
+        <ymax>948000</ymax>
+      </extent>
+      <id>ground_intensity_2e0a8a45_973a_46c0_81fb_d09b080d2f2f</id>
+      <datasource>./public_data/processed/ground-intensity.jpg</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>ground-intensity</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=tmerc +lat_0=40 +lon_0=-78.58333333333333 +k=0.9999375 +x_0=350000.0000000001 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs</proj4>
+          <srsid>29670</srsid>
+          <srid>103119</srid>
+          <authid>EPSG:103119</authid>
+          <description>NAD_1983_2011_StatePlane_New_York_West_FIPS_3103_Ft_US</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>0</Searchable>
+      </flags>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" gradient="BlackToWhite" alphaBand="-1" opacity="1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>MinMax</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+          <contrastEnhancement>
+            <minValue>4</minValue>
+            <maxValue>237</maxValue>
+            <algorithm>StretchToMinimumMaximum</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+        <brightnesscontrast contrast="0" brightness="0"/>
+        <huesaturation colorizeRed="255" colorizeStrength="100" colorizeBlue="128" colorizeOn="0" grayscaleMode="0" saturation="0" colorizeGreen="128"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" type="raster" styleCategories="AllStyleCategories" autoRefreshEnabled="0" refreshOnNotifyMessage="" minScale="1e+8" maxScale="0" autoRefreshTime="0">
+      <extent>
+        <xmin>1055000</xmin>
+        <ymin>944000</ymin>
+        <xmax>1059000</xmax>
+        <ymax>948000</ymax>
+      </extent>
+      <id>hillshade_014ca784_31ce_4fe9_8f2c_8dd1d24e3512</id>
+      <datasource>./public_data/processed/hillshade.png</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>hillshade</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=tmerc +lat_0=40 +lon_0=-78.58333333333333 +k=0.9999375 +x_0=350000.0000000001 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs</proj4>
+          <srsid>29670</srsid>
+          <srid>103119</srid>
+          <authid>EPSG:103119</authid>
+          <description>NAD_1983_2011_StatePlane_New_York_West_FIPS_3103_Ft_US</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+        <noDataList bandNo="2" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>0</Searchable>
+      </flags>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" gradient="BlackToWhite" alphaBand="2" opacity="1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>MinMax</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+          <contrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>255</maxValue>
+            <algorithm>StretchToMinimumMaximum</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+        <brightnesscontrast contrast="0" brightness="0"/>
+        <huesaturation colorizeRed="255" colorizeStrength="100" colorizeBlue="128" colorizeOn="0" grayscaleMode="0" saturation="0" colorizeGreen="128"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer simplifyLocal="1" hasScaleBasedVisibilityFlag="0" simplifyDrawingTol="1" refreshOnNotifyEnabled="0" type="vector" styleCategories="AllStyleCategories" simplifyMaxScale="1" autoRefreshEnabled="0" refreshOnNotifyMessage="" simplifyDrawingHints="1" minScale="1e+8" readOnly="0" maxScale="0" geometry="Line" labelsEnabled="0" autoRefreshTime="0" simplifyAlgorithm="0">
+      <extent>
+        <xmin>1055000.01945452415384352</xmin>
+        <ymin>944000.01041666604578495</ymin>
+        <xmax>1058999.97972656250931323</xmax>
+        <ymax>947999.98876953125</ymax>
+      </extent>
+      <id>iso_1m_3247249a_83bd_4f30_8cef_02f3333bf8b7</id>
+      <datasource>./public_data/processed/iso-1m.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>iso-1m</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=tmerc +lat_0=40 +lon_0=-78.5833333333333 +k=0.9999375 +x_0=349999.9999999991 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=ft +no_defs</proj4>
+          <srsid>100026</srsid>
+          <srid>0</srid>
+          <authid>USER:100026</authid>
+          <description> * Generated CRS (+proj=tmerc +lat_0=40 +lon_0=-78.5833333333333 +k=0.9999375 +x_0=349999.9999999991 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=ft +no_defs)</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 forceraster="0" type="singleSymbol" enableorderby="0" symbollevels="0">
+        <symbols>
+          <symbol force_rhr="0" type="line" alpha="1" clip_to_extent="1" name="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleLine">
+              <prop v="square" k="capstyle"/>
+              <prop v="5;2" k="customdash"/>
+              <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+              <prop v="MM" k="customdash_unit"/>
+              <prop v="0" k="draw_inside_polygon"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="164,113,88,255" k="line_color"/>
+              <prop v="solid" k="line_style"/>
+              <prop v="0.26" k="line_width"/>
+              <prop v="MM" k="line_width_unit"/>
+              <prop v="0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="0" k="ring_filter"/>
+              <prop v="0" k="use_custom_dash"/>
+              <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration/>
+      <aliases/>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults/>
+      <constraints/>
+      <constraintExpressions/>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer simplifyLocal="1" hasScaleBasedVisibilityFlag="0" simplifyDrawingTol="1" refreshOnNotifyEnabled="0" type="vector" styleCategories="AllStyleCategories" simplifyMaxScale="1" autoRefreshEnabled="0" refreshOnNotifyMessage="" simplifyDrawingHints="1" minScale="1e+8" readOnly="0" maxScale="0" geometry="Line" labelsEnabled="0" autoRefreshTime="0" simplifyAlgorithm="0">
+      <extent>
+        <xmin>1055000.02251392719335854</xmin>
+        <ymin>944000.01697835139930248</ymin>
+        <xmax>1058999.97948242188431323</xmax>
+        <ymax>947999.988525390625</ymax>
+      </extent>
+      <id>iso_5ft_2e031bab_001b_486a_b4da_6ba0fe0c63e7</id>
+      <datasource>./public_data/processed/iso-5ft.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>iso-5ft</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=tmerc +lat_0=40 +lon_0=-78.5833333333333 +k=0.9999375 +x_0=349999.9999999991 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=ft +no_defs</proj4>
+          <srsid>100026</srsid>
+          <srid>0</srid>
+          <authid>USER:100026</authid>
+          <description> * Generated CRS (+proj=tmerc +lat_0=40 +lon_0=-78.5833333333333 +k=0.9999375 +x_0=349999.9999999991 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=ft +no_defs)</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 forceraster="0" type="singleSymbol" enableorderby="0" symbollevels="0">
+        <symbols>
+          <symbol force_rhr="0" type="line" alpha="1" clip_to_extent="1" name="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleLine">
+              <prop v="square" k="capstyle"/>
+              <prop v="5;2" k="customdash"/>
+              <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+              <prop v="MM" k="customdash_unit"/>
+              <prop v="0" k="draw_inside_polygon"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="213,180,60,255" k="line_color"/>
+              <prop v="solid" k="line_style"/>
+              <prop v="0.26" k="line_width"/>
+              <prop v="MM" k="line_width_unit"/>
+              <prop v="0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="0" k="ring_filter"/>
+              <prop v="0" k="use_custom_dash"/>
+              <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration/>
+      <aliases/>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults/>
+      <constraints/>
+      <constraintExpressions/>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" type="raster" styleCategories="AllStyleCategories" autoRefreshEnabled="0" refreshOnNotifyMessage="" minScale="1e+8" maxScale="0" autoRefreshTime="0">
+      <extent>
+        <xmin>1055000</xmin>
+        <ymin>944000</ymin>
+        <xmax>1059000</xmax>
+        <ymax>948000</ymax>
+      </extent>
+      <id>veg_heightmap_373a8081_5929_4036_b690_92b40b5534af</id>
+      <datasource>./public_data/processed/veg-heightmap.jpg</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>veg-heightmap</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=tmerc +lat_0=40 +lon_0=-78.58333333333333 +k=0.9999375 +x_0=350000.0000000001 +y_0=0 +ellps=GRS80 +units=us-ft +no_defs</proj4>
+          <srsid>29670</srsid>
+          <srid>103119</srid>
+          <authid>EPSG:103119</authid>
+          <description>NAD_1983_2011_StatePlane_New_York_West_FIPS_3103_Ft_US</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+        <noDataList bandNo="2" useSrcNoData="0"/>
+        <noDataList bandNo="3" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>0</Searchable>
+      </flags>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <pipe>
+        <rasterrenderer redBand="1" type="multibandcolor" blueBand="3" greenBand="2" alphaBand="-1" opacity="1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>MinMax</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+          <redContrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>255</maxValue>
+            <algorithm>NoEnhancement</algorithm>
+          </redContrastEnhancement>
+          <greenContrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>255</maxValue>
+            <algorithm>NoEnhancement</algorithm>
+          </greenContrastEnhancement>
+          <blueContrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>255</maxValue>
+            <algorithm>NoEnhancement</algorithm>
+          </blueContrastEnhancement>
+        </rasterrenderer>
+        <brightnesscontrast contrast="0" brightness="0"/>
+        <huesaturation colorizeRed="255" colorizeStrength="100" colorizeBlue="128" colorizeOn="0" grayscaleMode="0" saturation="0" colorizeGreen="128"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" type="raster" styleCategories="AllStyleCategories" autoRefreshEnabled="0" refreshOnNotifyMessage="" minScale="1e+8" maxScale="0" autoRefreshTime="0">
+      <extent>
+        <xmin>1050000</xmin>
+        <ymin>944000</ymin>
+        <xmax>1056000</xmax>
+        <ymax>948000</ymax>
+      </extent>
+      <id>w_10500944_24_19200_4bd_2011_f816b168_a043_4f7c_9db0_9308dc90ea30</id>
+      <datasource>./public_data/nysdop5/w_10500944_24_19200_4bd_2011.jp2</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>w_10500944_24_19200_4bd_2011</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=tmerc +lat_0=40 +lon_0=-78.58333333333333 +k=0.9999375 +x_0=350000.0000000001 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs</proj4>
+          <srsid>100027</srsid>
+          <srid>0</srid>
+          <authid>USER:100027</authid>
+          <description> * Generated CRS (+proj=tmerc +lat_0=40 +lon_0=-78.58333333333333 +k=0.9999375 +x_0=350000.0000000001 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs)</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+        <noDataList bandNo="2" useSrcNoData="0"/>
+        <noDataList bandNo="3" useSrcNoData="0"/>
+        <noDataList bandNo="4" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>0</Searchable>
+      </flags>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <pipe>
+        <rasterrenderer redBand="1" type="multibandcolor" blueBand="3" greenBand="2" alphaBand="-1" opacity="1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>MinMax</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+          <redContrastEnhancement>
+            <minValue>21</minValue>
+            <maxValue>255</maxValue>
+            <algorithm>NoEnhancement</algorithm>
+          </redContrastEnhancement>
+          <greenContrastEnhancement>
+            <minValue>23</minValue>
+            <maxValue>255</maxValue>
+            <algorithm>NoEnhancement</algorithm>
+          </greenContrastEnhancement>
+          <blueContrastEnhancement>
+            <minValue>27</minValue>
+            <maxValue>255</maxValue>
+            <algorithm>NoEnhancement</algorithm>
+          </blueContrastEnhancement>
+        </rasterrenderer>
+        <brightnesscontrast contrast="0" brightness="0"/>
+        <huesaturation colorizeRed="255" colorizeStrength="100" colorizeBlue="128" colorizeOn="0" grayscaleMode="0" saturation="0" colorizeGreen="128"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" type="raster" styleCategories="AllStyleCategories" autoRefreshEnabled="0" refreshOnNotifyMessage="" minScale="1e+8" maxScale="0" autoRefreshTime="0">
+      <extent>
+        <xmin>1053000</xmin>
+        <ymin>944000</ymin>
+        <xmax>1056000</xmax>
+        <ymax>946000</ymax>
+      </extent>
+      <id>w_10530944_12_15100_4bd_2014_616fbf1b_690e_40ba_a820_37f4fc63e754</id>
+      <datasource>./public_data/nysdop7/w_10530944_12_15100_4bd_2014.jp2</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>w_10530944_12_15100_4bd_2014</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=tmerc +lat_0=40 +lon_0=-78.58333333333333 +k=0.9999375 +x_0=350000.0000000001 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs</proj4>
+          <srsid>100027</srsid>
+          <srid>0</srid>
+          <authid>USER:100027</authid>
+          <description> * Generated CRS (+proj=tmerc +lat_0=40 +lon_0=-78.58333333333333 +k=0.9999375 +x_0=350000.0000000001 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs)</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+        <noDataList bandNo="2" useSrcNoData="0"/>
+        <noDataList bandNo="3" useSrcNoData="0"/>
+        <noDataList bandNo="4" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>0</Searchable>
+      </flags>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <pipe>
+        <rasterrenderer redBand="1" type="multibandcolor" blueBand="3" greenBand="2" alphaBand="-1" opacity="1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>MinMax</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+          <redContrastEnhancement>
+            <minValue>25</minValue>
+            <maxValue>223</maxValue>
+            <algorithm>NoEnhancement</algorithm>
+          </redContrastEnhancement>
+          <greenContrastEnhancement>
+            <minValue>37</minValue>
+            <maxValue>227</maxValue>
+            <algorithm>NoEnhancement</algorithm>
+          </greenContrastEnhancement>
+          <blueContrastEnhancement>
+            <minValue>49</minValue>
+            <maxValue>229</maxValue>
+            <algorithm>NoEnhancement</algorithm>
+          </blueContrastEnhancement>
+        </rasterrenderer>
+        <brightnesscontrast contrast="0" brightness="0"/>
+        <huesaturation colorizeRed="255" colorizeStrength="100" colorizeBlue="128" colorizeOn="0" grayscaleMode="0" saturation="0" colorizeGreen="128"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" type="raster" styleCategories="AllStyleCategories" autoRefreshEnabled="0" refreshOnNotifyMessage="" minScale="1e+8" maxScale="0" autoRefreshTime="0">
+      <extent>
+        <xmin>1053000</xmin>
+        <ymin>944000</ymin>
+        <xmax>1056000</xmax>
+        <ymax>946000</ymax>
+      </extent>
+      <id>w_10530944_12_17100_4bd_2017_117d37ce_4977_4d8e_b5d9_e0eb130e45b6</id>
+      <datasource>./public_data/nysdop8/w_10530944_12_17100_4bd_2017.jp2</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>w_10530944_12_17100_4bd_2017</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=tmerc +lat_0=40 +lon_0=-78.58333333333333 +k=0.9999375 +x_0=350000.0000000001 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs</proj4>
+          <srsid>100027</srsid>
+          <srid>0</srid>
+          <authid>USER:100027</authid>
+          <description> * Generated CRS (+proj=tmerc +lat_0=40 +lon_0=-78.58333333333333 +k=0.9999375 +x_0=350000.0000000001 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs)</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+        <noDataList bandNo="2" useSrcNoData="0"/>
+        <noDataList bandNo="3" useSrcNoData="0"/>
+        <noDataList bandNo="4" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>0</Searchable>
+      </flags>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <pipe>
+        <rasterrenderer redBand="1" type="multibandcolor" blueBand="3" greenBand="2" alphaBand="-1" opacity="1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>MinMax</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+          <redContrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>255</maxValue>
+            <algorithm>NoEnhancement</algorithm>
+          </redContrastEnhancement>
+          <greenContrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>255</maxValue>
+            <algorithm>NoEnhancement</algorithm>
+          </greenContrastEnhancement>
+          <blueContrastEnhancement>
+            <minValue>14</minValue>
+            <maxValue>255</maxValue>
+            <algorithm>NoEnhancement</algorithm>
+          </blueContrastEnhancement>
+        </rasterrenderer>
+        <brightnesscontrast contrast="0" brightness="0"/>
+        <huesaturation colorizeRed="255" colorizeStrength="100" colorizeBlue="128" colorizeOn="0" grayscaleMode="0" saturation="0" colorizeGreen="128"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" type="raster" styleCategories="AllStyleCategories" autoRefreshEnabled="0" refreshOnNotifyMessage="" minScale="1e+8" maxScale="0" autoRefreshTime="0">
+      <extent>
+        <xmin>1053000</xmin>
+        <ymin>946000</ymin>
+        <xmax>1056000</xmax>
+        <ymax>948000</ymax>
+      </extent>
+      <id>w_10530946_12_15100_4bd_2014_f55ca2d9_4138_4f0e_8204_34dfa7629dd6</id>
+      <datasource>./public_data/nysdop7/w_10530946_12_15100_4bd_2014.jp2</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>w_10530946_12_15100_4bd_2014</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=tmerc +lat_0=40 +lon_0=-78.58333333333333 +k=0.9999375 +x_0=350000.0000000001 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs</proj4>
+          <srsid>100027</srsid>
+          <srid>0</srid>
+          <authid>USER:100027</authid>
+          <description> * Generated CRS (+proj=tmerc +lat_0=40 +lon_0=-78.58333333333333 +k=0.9999375 +x_0=350000.0000000001 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs)</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+        <noDataList bandNo="2" useSrcNoData="0"/>
+        <noDataList bandNo="3" useSrcNoData="0"/>
+        <noDataList bandNo="4" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>0</Searchable>
+      </flags>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <pipe>
+        <rasterrenderer redBand="1" type="multibandcolor" blueBand="3" greenBand="2" alphaBand="-1" opacity="1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>MinMax</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+          <redContrastEnhancement>
+            <minValue>22</minValue>
+            <maxValue>235</maxValue>
+            <algorithm>NoEnhancement</algorithm>
+          </redContrastEnhancement>
+          <greenContrastEnhancement>
+            <minValue>38</minValue>
+            <maxValue>235</maxValue>
+            <algorithm>NoEnhancement</algorithm>
+          </greenContrastEnhancement>
+          <blueContrastEnhancement>
+            <minValue>52</minValue>
+            <maxValue>238</maxValue>
+            <algorithm>NoEnhancement</algorithm>
+          </blueContrastEnhancement>
+        </rasterrenderer>
+        <brightnesscontrast contrast="0" brightness="0"/>
+        <huesaturation colorizeRed="255" colorizeStrength="100" colorizeBlue="128" colorizeOn="0" grayscaleMode="0" saturation="0" colorizeGreen="128"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" type="raster" styleCategories="AllStyleCategories" autoRefreshEnabled="0" refreshOnNotifyMessage="" minScale="1e+8" maxScale="0" autoRefreshTime="0">
+      <extent>
+        <xmin>1053000</xmin>
+        <ymin>946000</ymin>
+        <xmax>1056000</xmax>
+        <ymax>948000</ymax>
+      </extent>
+      <id>w_10530946_12_17100_4bd_2017_1f575392_4faf_4b38_a410_220d518e136f</id>
+      <datasource>./public_data/nysdop8/w_10530946_12_17100_4bd_2017.jp2</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>w_10530946_12_17100_4bd_2017</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=tmerc +lat_0=40 +lon_0=-78.58333333333333 +k=0.9999375 +x_0=350000.0000000001 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs</proj4>
+          <srsid>100027</srsid>
+          <srid>0</srid>
+          <authid>USER:100027</authid>
+          <description> * Generated CRS (+proj=tmerc +lat_0=40 +lon_0=-78.58333333333333 +k=0.9999375 +x_0=350000.0000000001 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs)</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+        <noDataList bandNo="2" useSrcNoData="0"/>
+        <noDataList bandNo="3" useSrcNoData="0"/>
+        <noDataList bandNo="4" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>0</Searchable>
+      </flags>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <pipe>
+        <rasterrenderer redBand="1" type="multibandcolor" blueBand="3" greenBand="2" alphaBand="-1" opacity="1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>MinMax</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+          <redContrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>255</maxValue>
+            <algorithm>NoEnhancement</algorithm>
+          </redContrastEnhancement>
+          <greenContrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>255</maxValue>
+            <algorithm>NoEnhancement</algorithm>
+          </greenContrastEnhancement>
+          <blueContrastEnhancement>
+            <minValue>14</minValue>
+            <maxValue>255</maxValue>
+            <algorithm>NoEnhancement</algorithm>
+          </blueContrastEnhancement>
+        </rasterrenderer>
+        <brightnesscontrast contrast="0" brightness="0"/>
+        <huesaturation colorizeRed="255" colorizeStrength="100" colorizeBlue="128" colorizeOn="0" grayscaleMode="0" saturation="0" colorizeGreen="128"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" type="raster" styleCategories="AllStyleCategories" autoRefreshEnabled="0" refreshOnNotifyMessage="" minScale="1e+8" maxScale="0" autoRefreshTime="0">
+      <extent>
+        <xmin>1056000</xmin>
+        <ymin>944000</ymin>
+        <xmax>1059000</xmax>
+        <ymax>946000</ymax>
+      </extent>
+      <id>w_10560944_12_15100_4bd_2014_8f710b18_6390_4005_a341_56474117ca15</id>
+      <datasource>./public_data/nysdop7/w_10560944_12_15100_4bd_2014.jp2</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>w_10560944_12_15100_4bd_2014</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=tmerc +lat_0=40 +lon_0=-78.58333333333333 +k=0.9999375 +x_0=350000.0000000001 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs</proj4>
+          <srsid>100027</srsid>
+          <srid>0</srid>
+          <authid>USER:100027</authid>
+          <description> * Generated CRS (+proj=tmerc +lat_0=40 +lon_0=-78.58333333333333 +k=0.9999375 +x_0=350000.0000000001 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs)</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+        <noDataList bandNo="2" useSrcNoData="0"/>
+        <noDataList bandNo="3" useSrcNoData="0"/>
+        <noDataList bandNo="4" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>0</Searchable>
+      </flags>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <pipe>
+        <rasterrenderer redBand="1" type="multibandcolor" blueBand="3" greenBand="2" alphaBand="-1" opacity="1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>MinMax</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+          <redContrastEnhancement>
+            <minValue>24</minValue>
+            <maxValue>184</maxValue>
+            <algorithm>NoEnhancement</algorithm>
+          </redContrastEnhancement>
+          <greenContrastEnhancement>
+            <minValue>34</minValue>
+            <maxValue>187</maxValue>
+            <algorithm>NoEnhancement</algorithm>
+          </greenContrastEnhancement>
+          <blueContrastEnhancement>
+            <minValue>52</minValue>
+            <maxValue>186</maxValue>
+            <algorithm>NoEnhancement</algorithm>
+          </blueContrastEnhancement>
+        </rasterrenderer>
+        <brightnesscontrast contrast="0" brightness="0"/>
+        <huesaturation colorizeRed="255" colorizeStrength="100" colorizeBlue="128" colorizeOn="0" grayscaleMode="0" saturation="0" colorizeGreen="128"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" type="raster" styleCategories="AllStyleCategories" autoRefreshEnabled="0" refreshOnNotifyMessage="" minScale="1e+8" maxScale="0" autoRefreshTime="0">
+      <extent>
+        <xmin>1056000</xmin>
+        <ymin>944000</ymin>
+        <xmax>1059000</xmax>
+        <ymax>946000</ymax>
+      </extent>
+      <id>w_10560944_12_17100_4bd_2017_f264627a_6acf_43e2_8a90_dcba23f1777b</id>
+      <datasource>./public_data/nysdop8/w_10560944_12_17100_4bd_2017.jp2</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>w_10560944_12_17100_4bd_2017</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=tmerc +lat_0=40 +lon_0=-78.58333333333333 +k=0.9999375 +x_0=350000.0000000001 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs</proj4>
+          <srsid>100027</srsid>
+          <srid>0</srid>
+          <authid>USER:100027</authid>
+          <description> * Generated CRS (+proj=tmerc +lat_0=40 +lon_0=-78.58333333333333 +k=0.9999375 +x_0=350000.0000000001 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs)</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+        <noDataList bandNo="2" useSrcNoData="0"/>
+        <noDataList bandNo="3" useSrcNoData="0"/>
+        <noDataList bandNo="4" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>0</Searchable>
+      </flags>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <pipe>
+        <rasterrenderer redBand="1" type="multibandcolor" blueBand="3" greenBand="2" alphaBand="-1" opacity="1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>MinMax</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+          <redContrastEnhancement>
+            <minValue>2</minValue>
+            <maxValue>208</maxValue>
+            <algorithm>NoEnhancement</algorithm>
+          </redContrastEnhancement>
+          <greenContrastEnhancement>
+            <minValue>16</minValue>
+            <maxValue>211</maxValue>
+            <algorithm>NoEnhancement</algorithm>
+          </greenContrastEnhancement>
+          <blueContrastEnhancement>
+            <minValue>31</minValue>
+            <maxValue>201</maxValue>
+            <algorithm>NoEnhancement</algorithm>
+          </blueContrastEnhancement>
+        </rasterrenderer>
+        <brightnesscontrast contrast="0" brightness="0"/>
+        <huesaturation colorizeRed="255" colorizeStrength="100" colorizeBlue="128" colorizeOn="0" grayscaleMode="0" saturation="0" colorizeGreen="128"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" type="raster" styleCategories="AllStyleCategories" autoRefreshEnabled="0" refreshOnNotifyMessage="" minScale="1e+8" maxScale="0" autoRefreshTime="0">
+      <extent>
+        <xmin>1056000</xmin>
+        <ymin>944000</ymin>
+        <xmax>1062000</xmax>
+        <ymax>948000</ymax>
+      </extent>
+      <id>w_10560944_24_19200_4bd_2011_51941985_1565_4650_ae35_5e1792c757ef</id>
+      <datasource>./public_data/nysdop5/w_10560944_24_19200_4bd_2011.jp2</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>w_10560944_24_19200_4bd_2011</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=tmerc +lat_0=40 +lon_0=-78.58333333333333 +k=0.9999375 +x_0=350000.0000000001 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs</proj4>
+          <srsid>100027</srsid>
+          <srid>0</srid>
+          <authid>USER:100027</authid>
+          <description> * Generated CRS (+proj=tmerc +lat_0=40 +lon_0=-78.58333333333333 +k=0.9999375 +x_0=350000.0000000001 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs)</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+        <noDataList bandNo="2" useSrcNoData="0"/>
+        <noDataList bandNo="3" useSrcNoData="0"/>
+        <noDataList bandNo="4" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>0</Searchable>
+      </flags>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <pipe>
+        <rasterrenderer redBand="1" type="multibandcolor" blueBand="3" greenBand="2" alphaBand="-1" opacity="1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>MinMax</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+          <redContrastEnhancement>
+            <minValue>16</minValue>
+            <maxValue>251</maxValue>
+            <algorithm>NoEnhancement</algorithm>
+          </redContrastEnhancement>
+          <greenContrastEnhancement>
+            <minValue>16</minValue>
+            <maxValue>238</maxValue>
+            <algorithm>NoEnhancement</algorithm>
+          </greenContrastEnhancement>
+          <blueContrastEnhancement>
+            <minValue>23</minValue>
+            <maxValue>236</maxValue>
+            <algorithm>NoEnhancement</algorithm>
+          </blueContrastEnhancement>
+        </rasterrenderer>
+        <brightnesscontrast contrast="0" brightness="0"/>
+        <huesaturation colorizeRed="255" colorizeStrength="100" colorizeBlue="128" colorizeOn="0" grayscaleMode="0" saturation="0" colorizeGreen="128"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" type="raster" styleCategories="AllStyleCategories" autoRefreshEnabled="0" refreshOnNotifyMessage="" minScale="1e+8" maxScale="0" autoRefreshTime="0">
+      <extent>
+        <xmin>1056000</xmin>
+        <ymin>946000</ymin>
+        <xmax>1059000</xmax>
+        <ymax>948000</ymax>
+      </extent>
+      <id>w_10560946_12_15100_4bd_2014_2e3f8d11_d548_45e5_abd7_ef23343a8698</id>
+      <datasource>./public_data/nysdop7/w_10560946_12_15100_4bd_2014.jp2</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>w_10560946_12_15100_4bd_2014</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=tmerc +lat_0=40 +lon_0=-78.58333333333333 +k=0.9999375 +x_0=350000.0000000001 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs</proj4>
+          <srsid>100027</srsid>
+          <srid>0</srid>
+          <authid>USER:100027</authid>
+          <description> * Generated CRS (+proj=tmerc +lat_0=40 +lon_0=-78.58333333333333 +k=0.9999375 +x_0=350000.0000000001 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs)</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+        <noDataList bandNo="2" useSrcNoData="0"/>
+        <noDataList bandNo="3" useSrcNoData="0"/>
+        <noDataList bandNo="4" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>0</Searchable>
+      </flags>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <pipe>
+        <rasterrenderer redBand="1" type="multibandcolor" blueBand="3" greenBand="2" alphaBand="-1" opacity="1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>MinMax</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+          <redContrastEnhancement>
+            <minValue>22</minValue>
+            <maxValue>190</maxValue>
+            <algorithm>NoEnhancement</algorithm>
+          </redContrastEnhancement>
+          <greenContrastEnhancement>
+            <minValue>30</minValue>
+            <maxValue>165</maxValue>
+            <algorithm>NoEnhancement</algorithm>
+          </greenContrastEnhancement>
+          <blueContrastEnhancement>
+            <minValue>49</minValue>
+            <maxValue>161</maxValue>
+            <algorithm>NoEnhancement</algorithm>
+          </blueContrastEnhancement>
+        </rasterrenderer>
+        <brightnesscontrast contrast="0" brightness="0"/>
+        <huesaturation colorizeRed="255" colorizeStrength="100" colorizeBlue="128" colorizeOn="0" grayscaleMode="0" saturation="0" colorizeGreen="128"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" type="raster" styleCategories="AllStyleCategories" autoRefreshEnabled="0" refreshOnNotifyMessage="" minScale="1e+8" maxScale="0" autoRefreshTime="0">
+      <extent>
+        <xmin>1056000</xmin>
+        <ymin>946000</ymin>
+        <xmax>1059000</xmax>
+        <ymax>948000</ymax>
+      </extent>
+      <id>w_10560946_12_17100_4bd_2017_27526d1b_0043_4a3d_9993_c5571fde9fdb</id>
+      <datasource>./public_data/nysdop8/w_10560946_12_17100_4bd_2017.jp2</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>w_10560946_12_17100_4bd_2017</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=tmerc +lat_0=40 +lon_0=-78.58333333333333 +k=0.9999375 +x_0=350000.0000000001 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs</proj4>
+          <srsid>100027</srsid>
+          <srid>0</srid>
+          <authid>USER:100027</authid>
+          <description> * Generated CRS (+proj=tmerc +lat_0=40 +lon_0=-78.58333333333333 +k=0.9999375 +x_0=350000.0000000001 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs)</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+        <noDataList bandNo="2" useSrcNoData="0"/>
+        <noDataList bandNo="3" useSrcNoData="0"/>
+        <noDataList bandNo="4" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>0</Searchable>
+      </flags>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <pipe>
+        <rasterrenderer redBand="1" type="multibandcolor" blueBand="3" greenBand="2" alphaBand="-1" opacity="1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>MinMax</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+          <redContrastEnhancement>
+            <minValue>6</minValue>
+            <maxValue>245</maxValue>
+            <algorithm>NoEnhancement</algorithm>
+          </redContrastEnhancement>
+          <greenContrastEnhancement>
+            <minValue>19</minValue>
+            <maxValue>210</maxValue>
+            <algorithm>NoEnhancement</algorithm>
+          </greenContrastEnhancement>
+          <blueContrastEnhancement>
+            <minValue>36</minValue>
+            <maxValue>207</maxValue>
+            <algorithm>NoEnhancement</algorithm>
+          </blueContrastEnhancement>
+        </rasterrenderer>
+        <brightnesscontrast contrast="0" brightness="0"/>
+        <huesaturation colorizeRed="255" colorizeStrength="100" colorizeBlue="128" colorizeOn="0" grayscaleMode="0" saturation="0" colorizeGreen="128"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+  </projectlayers>
+  <layerorder>
+    <layer id="w_10500944_24_19200_4bd_2011_f816b168_a043_4f7c_9db0_9308dc90ea30"/>
+    <layer id="w_10560944_24_19200_4bd_2011_51941985_1565_4650_ae35_5e1792c757ef"/>
+    <layer id="w_10530944_12_15100_4bd_2014_616fbf1b_690e_40ba_a820_37f4fc63e754"/>
+    <layer id="w_10530946_12_15100_4bd_2014_f55ca2d9_4138_4f0e_8204_34dfa7629dd6"/>
+    <layer id="w_10560944_12_15100_4bd_2014_8f710b18_6390_4005_a341_56474117ca15"/>
+    <layer id="w_10560946_12_15100_4bd_2014_2e3f8d11_d548_45e5_abd7_ef23343a8698"/>
+    <layer id="w_10530944_12_17100_4bd_2017_117d37ce_4977_4d8e_b5d9_e0eb130e45b6"/>
+    <layer id="w_10530946_12_17100_4bd_2017_1f575392_4faf_4b38_a410_220d518e136f"/>
+    <layer id="w_10560944_12_17100_4bd_2017_f264627a_6acf_43e2_8a90_dcba23f1777b"/>
+    <layer id="w_10560946_12_17100_4bd_2017_27526d1b_0043_4a3d_9993_c5571fde9fdb"/>
+    <layer id="Erie_2018_Tax_Parcels_SHP_1907_34d5d56a_4e70_47f4_8439_a2d15d2f2216"/>
+    <layer id="ground_intensity_2e0a8a45_973a_46c0_81fb_d09b080d2f2f"/>
+    <layer id="hillshade_014ca784_31ce_4fe9_8f2c_8dd1d24e3512"/>
+    <layer id="veg_heightmap_373a8081_5929_4036_b690_92b40b5534af"/>
+    <layer id="iso_1m_3247249a_83bd_4f30_8cef_02f3333bf8b7"/>
+    <layer id="iso_5ft_2e031bab_001b_486a_b4da_6ba0fe0c63e7"/>
+  </layerorder>
+  <properties>
+    <WMTSPngLayers>
+      <Project type="bool">false</Project>
+      <Group type="QStringList"/>
+      <Layer type="QStringList"/>
+    </WMTSPngLayers>
+    <WMSOnlineResource type="QString"></WMSOnlineResource>
+    <PositionPrecision>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+      <Automatic type="bool">true</Automatic>
+      <DegreeFormat type="QString">D</DegreeFormat>
+    </PositionPrecision>
+    <WMSRequestDefinedDataSources type="bool">false</WMSRequestDefinedDataSources>
+    <WMSAddWktGeometry type="bool">false</WMSAddWktGeometry>
+    <WCSLayers type="QStringList"/>
+    <WMSServiceTitle type="QString"></WMSServiceTitle>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <WMSContactPerson type="QString"></WMSContactPerson>
+    <WMTSUrl type="QString"></WMTSUrl>
+    <WMSImageQuality type="int">90</WMSImageQuality>
+    <WMSSegmentizeFeatureInfoGeometry type="bool">false</WMSSegmentizeFeatureInfoGeometry>
+    <Gui>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+    </Gui>
+    <WFSLayers type="QStringList"/>
+    <SpatialRefSys>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
+    <DefaultStyles>
+      <Opacity type="double">1</Opacity>
+      <RandomColors type="bool">true</RandomColors>
+      <Line type="QString"></Line>
+      <Marker type="QString"></Marker>
+      <ColorRamp type="QString"></ColorRamp>
+      <Fill type="QString"></Fill>
+    </DefaultStyles>
+    <WMSAccessConstraints type="QString">None</WMSAccessConstraints>
+    <WMSContactPhone type="QString"></WMSContactPhone>
+    <WFSUrl type="QString"></WFSUrl>
+    <WMTSJpegLayers>
+      <Project type="bool">false</Project>
+      <Group type="QStringList"/>
+      <Layer type="QStringList"/>
+    </WMTSJpegLayers>
+    <WMSDefaultMapUnitsPerMm type="double">0.305</WMSDefaultMapUnitsPerMm>
+    <WMTSMinScale type="int">5000</WMTSMinScale>
+    <Measurement>
+      <DistanceUnits type="QString">meters</DistanceUnits>
+      <AreaUnits type="QString">m2</AreaUnits>
+    </Measurement>
+    <Measure>
+      <Ellipsoid type="QString">WGS84</Ellipsoid>
+    </Measure>
+    <WMSFees type="QString">conditions unknown</WMSFees>
+    <WMTSLayers>
+      <Project type="bool">false</Project>
+      <Group type="QStringList"/>
+      <Layer type="QStringList"/>
+    </WMTSLayers>
+    <WMSServiceCapabilities type="bool">false</WMSServiceCapabilities>
+    <WFSTLayers>
+      <Update type="QStringList"/>
+      <Delete type="QStringList"/>
+      <Insert type="QStringList"/>
+    </WFSTLayers>
+    <WMSServiceAbstract type="QString"></WMSServiceAbstract>
+    <WMSUrl type="QString"></WMSUrl>
+    <WCSUrl type="QString"></WCSUrl>
+    <WMSContactOrganization type="QString"></WMSContactOrganization>
+    <WMSRootName type="QString"></WMSRootName>
+    <WMSPrecision type="QString">8</WMSPrecision>
+    <WMSKeywordList type="QStringList">
+      <value></value>
+    </WMSKeywordList>
+    <WMSUseLayerIDs type="bool">false</WMSUseLayerIDs>
+    <WMSContactPosition type="QString"></WMSContactPosition>
+    <PAL>
+      <CandidatesPoint type="int">16</CandidatesPoint>
+      <ShowingAllLabels type="bool">false</ShowingAllLabels>
+      <CandidatesPolygon type="int">30</CandidatesPolygon>
+      <ShowingPartialsLabels type="bool">true</ShowingPartialsLabels>
+      <DrawRectOnly type="bool">false</DrawRectOnly>
+      <SearchMethod type="int">0</SearchMethod>
+      <TextFormat type="int">0</TextFormat>
+      <ShowingCandidates type="bool">false</ShowingCandidates>
+      <CandidatesLine type="int">50</CandidatesLine>
+    </PAL>
+    <WMSContactMail type="QString"></WMSContactMail>
+    <Macros>
+      <pythonCode type="QString"></pythonCode>
+    </Macros>
+  </properties>
+  <visibility-presets/>
+  <transformContext/>
+  <projectMetadata>
+    <identifier></identifier>
+    <parentidentifier></parentidentifier>
+    <language></language>
+    <type></type>
+    <title></title>
+    <abstract></abstract>
+    <contact>
+      <name></name>
+      <organization></organization>
+      <position></position>
+      <voice></voice>
+      <fax></fax>
+      <email></email>
+      <role></role>
+    </contact>
+    <links/>
+    <author>Alex</author>
+    <creation>2020-05-16T14:19:22</creation>
+  </projectMetadata>
+  <Annotations/>
+  <Layouts/>
+</qgis>

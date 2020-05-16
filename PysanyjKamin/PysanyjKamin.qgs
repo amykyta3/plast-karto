@@ -1,0 +1,3177 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis version="3.4.11-Madeira" projectname="">
+  <homePath path=""/>
+  <title></title>
+  <autotransaction active="0"/>
+  <evaluateDefaultValues active="0"/>
+  <trust active="0"/>
+  <projectCrs>
+    <spatialrefsys>
+      <proj4>+proj=utm +zone=17 +datum=WGS84 +units=m +no_defs</proj4>
+      <srsid>3101</srsid>
+      <srid>32617</srid>
+      <authid>EPSG:32617</authid>
+      <description>WGS 84 / UTM zone 17N</description>
+      <projectionacronym>utm</projectionacronym>
+      <ellipsoidacronym>WGS84</ellipsoidacronym>
+      <geographicflag>false</geographicflag>
+    </spatialrefsys>
+  </projectCrs>
+  <layer-tree-group>
+    <customproperties/>
+    <layer-tree-group expanded="0" checked="Qt::Checked" name="isolines">
+      <customproperties/>
+      <layer-tree-layer providerKey="ogr" expanded="1" id="iso_5ft_47ee46f7_6c8c_43a1_851d_4243c9a0ef5f" checked="Qt::Unchecked" name="iso-5ft" source="./public_data/processed/iso-5ft.shp">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer providerKey="ogr" expanded="1" id="iso_1m_a2301255_6e67_4857_a223_8cfe5e40619b" checked="Qt::Checked" name="iso-1m" source="./public_data/processed/iso-1m.shp">
+        <customproperties/>
+      </layer-tree-layer>
+    </layer-tree-group>
+    <layer-tree-group expanded="0" checked="Qt::Checked" name="reference data">
+      <customproperties/>
+      <layer-tree-layer providerKey="ogr" expanded="1" id="Parcel_lines_2020January_a59fdd21_c25a_452a_9bec_6b086dcc1e85" checked="Qt::Unchecked" name="Parcel_lines_2020January" source="./public_data/Parcels-January2020/Parcel_lines_2020January.shp">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-group expanded="0" checked="Qt::Checked" name="imagery">
+        <customproperties/>
+        <layer-tree-layer providerKey="gdal" expanded="1" id="pk_osip_iii_b107fae7_d893_433b_8a51_243373c1b069" checked="Qt::Checked" name="OSIP III (2017)" source="./public_data/processed/pk-osip-iii.jpg">
+          <customproperties/>
+        </layer-tree-layer>
+        <layer-tree-layer providerKey="gdal" expanded="1" id="pk_osip_ii_96339c68_f2cf_43fc_9c77_478bd292a1f9" checked="Qt::Unchecked" name="OSIP II (2011)" source="./public_data/processed/pk-osip-ii.jpg">
+          <customproperties/>
+        </layer-tree-layer>
+        <layer-tree-layer providerKey="gdal" expanded="1" id="pk_osip_i_5161ed26_4f9d_4610_935a_3c77c356a2ea" checked="Qt::Unchecked" name="OSIP I (2006)" source="./public_data/processed/pk-osip-i.jpg">
+          <customproperties/>
+        </layer-tree-layer>
+      </layer-tree-group>
+      <layer-tree-layer providerKey="gdal" expanded="0" id="hillshade_3751c927_db0b_44d1_90b8_12cb3bf499cd" checked="Qt::Unchecked" name="hillshade" source="./public_data/processed/hillshade.png">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer providerKey="gdal" expanded="1" id="veg_heightmap_fc8b8cf1_930b_41fa_9a8f_4a5e3d27bf5c" checked="Qt::Unchecked" name="veg-heightmap" source="./public_data/processed/veg-heightmap.jpg">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer providerKey="gdal" expanded="0" id="ground_intensity_016d0a33_ed81_4df1_8a18_e3495f13964e" checked="Qt::Unchecked" name="ground-intensity" source="./public_data/processed/ground-intensity.jpg">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer providerKey="ogr" expanded="1" id="Parcels_2020January_74a720f0_9cae_497e_a5a5_86387519b6fd" checked="Qt::Unchecked" name="Parcels_2020January" source="./public_data/Parcels-January2020/Parcels_2020January.shp">
+        <customproperties/>
+      </layer-tree-layer>
+    </layer-tree-group>
+    <custom-order enabled="0">
+      <item>pk_osip_iii_b107fae7_d893_433b_8a51_243373c1b069</item>
+      <item>pk_osip_ii_96339c68_f2cf_43fc_9c77_478bd292a1f9</item>
+      <item>pk_osip_i_5161ed26_4f9d_4610_935a_3c77c356a2ea</item>
+      <item>veg_heightmap_fc8b8cf1_930b_41fa_9a8f_4a5e3d27bf5c</item>
+      <item>hillshade_3751c927_db0b_44d1_90b8_12cb3bf499cd</item>
+      <item>ground_intensity_016d0a33_ed81_4df1_8a18_e3495f13964e</item>
+      <item>Parcel_lines_2020January_a59fdd21_c25a_452a_9bec_6b086dcc1e85</item>
+      <item>Parcels_2020January_74a720f0_9cae_497e_a5a5_86387519b6fd</item>
+      <item>iso_1m_a2301255_6e67_4857_a223_8cfe5e40619b</item>
+      <item>iso_5ft_47ee46f7_6c8c_43a1_851d_4243c9a0ef5f</item>
+    </custom-order>
+  </layer-tree-group>
+  <snapping-settings mode="2" type="1" enabled="0" tolerance="12" unit="1" intersection-snapping="0">
+    <individual-layer-settings>
+      <layer-setting type="1" id="iso_5ft_47ee46f7_6c8c_43a1_851d_4243c9a0ef5f" enabled="0" units="1" tolerance="12"/>
+      <layer-setting type="1" id="Parcel_lines_2020January_a59fdd21_c25a_452a_9bec_6b086dcc1e85" enabled="0" units="1" tolerance="12"/>
+      <layer-setting type="1" id="Parcels_2020January_74a720f0_9cae_497e_a5a5_86387519b6fd" enabled="0" units="1" tolerance="12"/>
+      <layer-setting type="1" id="iso_1m_a2301255_6e67_4857_a223_8cfe5e40619b" enabled="0" units="1" tolerance="12"/>
+    </individual-layer-settings>
+  </snapping-settings>
+  <relations/>
+  <mapcanvas annotationsVisible="1" name="theMapCanvas">
+    <units>meters</units>
+    <extent>
+      <xmin>496780.43784708780003712</xmin>
+      <ymin>4585872.79060864076018333</ymin>
+      <xmax>497784.39550452184630558</xmax>
+      <ymax>4586984.46267655119299889</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=utm +zone=17 +datum=WGS84 +units=m +no_defs</proj4>
+        <srsid>3101</srsid>
+        <srid>32617</srid>
+        <authid>EPSG:32617</authid>
+        <description>WGS 84 / UTM zone 17N</description>
+        <projectionacronym>utm</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>false</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+  </mapcanvas>
+  <projectModels/>
+  <legend updateDrawingOrder="true">
+    <legendgroup checked="Qt::Checked" name="isolines" open="false">
+      <legendlayer checked="Qt::Unchecked" name="iso-5ft" showFeatureCount="0" drawingOrder="-1" open="true">
+        <filegroup hidden="false" open="true">
+          <legendlayerfile isInOverview="0" layerid="iso_5ft_47ee46f7_6c8c_43a1_851d_4243c9a0ef5f" visible="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer checked="Qt::Checked" name="iso-1m" showFeatureCount="0" drawingOrder="-1" open="true">
+        <filegroup hidden="false" open="true">
+          <legendlayerfile isInOverview="0" layerid="iso_1m_a2301255_6e67_4857_a223_8cfe5e40619b" visible="1"/>
+        </filegroup>
+      </legendlayer>
+    </legendgroup>
+    <legendgroup checked="Qt::Checked" name="reference data" open="false">
+      <legendlayer checked="Qt::Unchecked" name="Parcel_lines_2020January" showFeatureCount="0" drawingOrder="-1" open="true">
+        <filegroup hidden="false" open="true">
+          <legendlayerfile isInOverview="0" layerid="Parcel_lines_2020January_a59fdd21_c25a_452a_9bec_6b086dcc1e85" visible="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendgroup checked="Qt::Checked" name="imagery" open="false">
+        <legendlayer checked="Qt::Checked" name="OSIP III (2017)" showFeatureCount="0" drawingOrder="-1" open="true">
+          <filegroup hidden="false" open="true">
+            <legendlayerfile isInOverview="0" layerid="pk_osip_iii_b107fae7_d893_433b_8a51_243373c1b069" visible="1"/>
+          </filegroup>
+        </legendlayer>
+        <legendlayer checked="Qt::Unchecked" name="OSIP II (2011)" showFeatureCount="0" drawingOrder="-1" open="true">
+          <filegroup hidden="false" open="true">
+            <legendlayerfile isInOverview="0" layerid="pk_osip_ii_96339c68_f2cf_43fc_9c77_478bd292a1f9" visible="0"/>
+          </filegroup>
+        </legendlayer>
+        <legendlayer checked="Qt::Unchecked" name="OSIP I (2006)" showFeatureCount="0" drawingOrder="-1" open="true">
+          <filegroup hidden="false" open="true">
+            <legendlayerfile isInOverview="0" layerid="pk_osip_i_5161ed26_4f9d_4610_935a_3c77c356a2ea" visible="0"/>
+          </filegroup>
+        </legendlayer>
+      </legendgroup>
+      <legendlayer checked="Qt::Unchecked" name="hillshade" showFeatureCount="0" drawingOrder="-1" open="false">
+        <filegroup hidden="false" open="false">
+          <legendlayerfile isInOverview="0" layerid="hillshade_3751c927_db0b_44d1_90b8_12cb3bf499cd" visible="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer checked="Qt::Unchecked" name="veg-heightmap" showFeatureCount="0" drawingOrder="-1" open="true">
+        <filegroup hidden="false" open="true">
+          <legendlayerfile isInOverview="0" layerid="veg_heightmap_fc8b8cf1_930b_41fa_9a8f_4a5e3d27bf5c" visible="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer checked="Qt::Unchecked" name="ground-intensity" showFeatureCount="0" drawingOrder="-1" open="false">
+        <filegroup hidden="false" open="false">
+          <legendlayerfile isInOverview="0" layerid="ground_intensity_016d0a33_ed81_4df1_8a18_e3495f13964e" visible="0"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer checked="Qt::Unchecked" name="Parcels_2020January" showFeatureCount="0" drawingOrder="-1" open="true">
+        <filegroup hidden="false" open="true">
+          <legendlayerfile isInOverview="0" layerid="Parcels_2020January_74a720f0_9cae_497e_a5a5_86387519b6fd" visible="0"/>
+        </filegroup>
+      </legendlayer>
+    </legendgroup>
+  </legend>
+  <mapViewDocks/>
+  <mapViewDocks3D/>
+  <mapcanvas annotationsVisible="1" name="mAreaCanvas">
+    <units>degrees</units>
+    <extent>
+      <xmin>0</xmin>
+      <ymin>0</ymin>
+      <xmax>0</xmax>
+      <ymax>0</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+  </mapcanvas>
+  <mapcanvas annotationsVisible="1" name="mAreaCanvas">
+    <units>degrees</units>
+    <extent>
+      <xmin>0</xmin>
+      <ymin>0</ymin>
+      <xmax>0</xmax>
+      <ymax>0</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+  </mapcanvas>
+  <mapcanvas annotationsVisible="1" name="mAreaCanvas">
+    <units>degrees</units>
+    <extent>
+      <xmin>0</xmin>
+      <ymin>0</ymin>
+      <xmax>0</xmax>
+      <ymax>0</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+        <srsid>3452</srsid>
+        <srid>4326</srid>
+        <authid>EPSG:4326</authid>
+        <description>WGS 84</description>
+        <projectionacronym>longlat</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>true</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+  </mapcanvas>
+  <projectlayers>
+    <maplayer simplifyLocal="1" hasScaleBasedVisibilityFlag="0" simplifyDrawingTol="1" refreshOnNotifyEnabled="0" type="vector" styleCategories="AllStyleCategories" simplifyMaxScale="1" autoRefreshEnabled="0" refreshOnNotifyMessage="" simplifyDrawingHints="1" minScale="1e+8" readOnly="0" maxScale="0" geometry="Line" labelsEnabled="0" autoRefreshTime="0" simplifyAlgorithm="0">
+      <extent>
+        <xmin>2368284.98065507272258401</xmin>
+        <ymin>643884.86269746522884816</ymin>
+        <xmax>2372878.88499496458098292</xmax>
+        <ymax>648282.69192986201960593</ymax>
+      </extent>
+      <id>Parcel_lines_2020January_a59fdd21_c25a_452a_9bec_6b086dcc1e85</id>
+      <datasource>./public_data/Parcels-January2020/Parcel_lines_2020January.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Parcel_lines_2020January</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=lcc +lat_1=41.7 +lat_2=40.43333333333333 +lat_0=39.66666666666666 +lon_0=-82.5 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs</proj4>
+          <srsid>1692</srsid>
+          <srid>3734</srid>
+          <authid>EPSG:3734</authid>
+          <description>NAD83 / Ohio North (ftUS)</description>
+          <projectionacronym>lcc</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 forceraster="0" type="singleSymbol" enableorderby="0" symbollevels="0">
+        <symbols>
+          <symbol force_rhr="0" type="line" alpha="1" clip_to_extent="1" name="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleLine">
+              <prop v="square" k="capstyle"/>
+              <prop v="5;2" k="customdash"/>
+              <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+              <prop v="MM" k="customdash_unit"/>
+              <prop v="0" k="draw_inside_polygon"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="232,113,141,255" k="line_color"/>
+              <prop v="solid" k="line_style"/>
+              <prop v="0.26" k="line_width"/>
+              <prop v="MM" k="line_width_unit"/>
+              <prop v="0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="0" k="ring_filter"/>
+              <prop v="0" k="use_custom_dash"/>
+              <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="FNODE_">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="TNODE_">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LPOLY_">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="RPOLY_">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LENGTH">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PARCEL_">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PARCEL_ID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ANGLE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="DISTANCE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="RADIUS">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="DELTA">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="TANGENT">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ARCLENGTH">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SIDE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="RADIUS2">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="TANGENT2">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="QUALITY">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="FNODE_" name="" index="0"/>
+        <alias field="TNODE_" name="" index="1"/>
+        <alias field="LPOLY_" name="" index="2"/>
+        <alias field="RPOLY_" name="" index="3"/>
+        <alias field="LENGTH" name="" index="4"/>
+        <alias field="PARCEL_" name="" index="5"/>
+        <alias field="PARCEL_ID" name="" index="6"/>
+        <alias field="ANGLE" name="" index="7"/>
+        <alias field="DISTANCE" name="" index="8"/>
+        <alias field="RADIUS" name="" index="9"/>
+        <alias field="DELTA" name="" index="10"/>
+        <alias field="TANGENT" name="" index="11"/>
+        <alias field="ARCLENGTH" name="" index="12"/>
+        <alias field="SIDE" name="" index="13"/>
+        <alias field="RADIUS2" name="" index="14"/>
+        <alias field="TANGENT2" name="" index="15"/>
+        <alias field="QUALITY" name="" index="16"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default expression="" applyOnUpdate="0" field="FNODE_"/>
+        <default expression="" applyOnUpdate="0" field="TNODE_"/>
+        <default expression="" applyOnUpdate="0" field="LPOLY_"/>
+        <default expression="" applyOnUpdate="0" field="RPOLY_"/>
+        <default expression="" applyOnUpdate="0" field="LENGTH"/>
+        <default expression="" applyOnUpdate="0" field="PARCEL_"/>
+        <default expression="" applyOnUpdate="0" field="PARCEL_ID"/>
+        <default expression="" applyOnUpdate="0" field="ANGLE"/>
+        <default expression="" applyOnUpdate="0" field="DISTANCE"/>
+        <default expression="" applyOnUpdate="0" field="RADIUS"/>
+        <default expression="" applyOnUpdate="0" field="DELTA"/>
+        <default expression="" applyOnUpdate="0" field="TANGENT"/>
+        <default expression="" applyOnUpdate="0" field="ARCLENGTH"/>
+        <default expression="" applyOnUpdate="0" field="SIDE"/>
+        <default expression="" applyOnUpdate="0" field="RADIUS2"/>
+        <default expression="" applyOnUpdate="0" field="TANGENT2"/>
+        <default expression="" applyOnUpdate="0" field="QUALITY"/>
+      </defaults>
+      <constraints>
+        <constraint constraints="0" exp_strength="0" field="FNODE_" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="TNODE_" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="LPOLY_" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="RPOLY_" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="LENGTH" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="PARCEL_" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="PARCEL_ID" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="ANGLE" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="DISTANCE" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="RADIUS" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="DELTA" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="TANGENT" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="ARCLENGTH" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="SIDE" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="RADIUS2" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="TANGENT2" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="QUALITY" notnull_strength="0" unique_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" field="FNODE_" exp=""/>
+        <constraint desc="" field="TNODE_" exp=""/>
+        <constraint desc="" field="LPOLY_" exp=""/>
+        <constraint desc="" field="RPOLY_" exp=""/>
+        <constraint desc="" field="LENGTH" exp=""/>
+        <constraint desc="" field="PARCEL_" exp=""/>
+        <constraint desc="" field="PARCEL_ID" exp=""/>
+        <constraint desc="" field="ANGLE" exp=""/>
+        <constraint desc="" field="DISTANCE" exp=""/>
+        <constraint desc="" field="RADIUS" exp=""/>
+        <constraint desc="" field="DELTA" exp=""/>
+        <constraint desc="" field="TANGENT" exp=""/>
+        <constraint desc="" field="ARCLENGTH" exp=""/>
+        <constraint desc="" field="SIDE" exp=""/>
+        <constraint desc="" field="RADIUS2" exp=""/>
+        <constraint desc="" field="TANGENT2" exp=""/>
+        <constraint desc="" field="QUALITY" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer simplifyLocal="1" hasScaleBasedVisibilityFlag="0" simplifyDrawingTol="1" refreshOnNotifyEnabled="0" type="vector" styleCategories="AllStyleCategories" simplifyMaxScale="1" autoRefreshEnabled="0" refreshOnNotifyMessage="" simplifyDrawingHints="1" minScale="1e+8" readOnly="0" maxScale="0" geometry="Polygon" labelsEnabled="0" autoRefreshTime="0" simplifyAlgorithm="0">
+      <extent>
+        <xmin>2367257.63110300013795495</xmin>
+        <ymin>642986.05423602706287056</ymin>
+        <xmax>2374451.97848178585991263</xmax>
+        <ymax>648432.13980129454284906</ymax>
+      </extent>
+      <id>Parcels_2020January_74a720f0_9cae_497e_a5a5_86387519b6fd</id>
+      <datasource>./public_data/Parcels-January2020/Parcels_2020January.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Parcels_2020January</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=lcc +lat_1=41.7 +lat_2=40.43333333333333 +lat_0=39.66666666666666 +lon_0=-82.5 +x_0=600000 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=us-ft +no_defs</proj4>
+          <srsid>1692</srsid>
+          <srid>3734</srid>
+          <authid>EPSG:3734</authid>
+          <description>NAD83 / Ohio North (ftUS)</description>
+          <projectionacronym>lcc</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 forceraster="0" type="singleSymbol" enableorderby="0" symbollevels="0">
+        <symbols>
+          <symbol force_rhr="0" type="fill" alpha="1" clip_to_extent="1" name="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleFill">
+              <prop v="3x:0,0,0,0,0,0" k="border_width_map_unit_scale"/>
+              <prop v="255,158,23,255" k="color"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="0,0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="35,35,35,255" k="outline_color"/>
+              <prop v="solid" k="outline_style"/>
+              <prop v="0.26" k="outline_width"/>
+              <prop v="MM" k="outline_width_unit"/>
+              <prop v="solid" k="style"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="PARCEL_ID">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="AREA">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PERIMETER">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ACRE_CALC">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PARCEL_ID2">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Rout_Id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Par_Status">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="GISFLD">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LOCATION_A">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LOC_NUM">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ROUT_NUM">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ROUT_PAGE">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Oname1">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Oname2">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="L_NAME">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="DEED">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Acres_Num">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ACRES">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Sale_Date">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Sale_Year">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Sale_Amt">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SaleSource">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Sale_Valid">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Convey_Num">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Deed_Num">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NumParcels">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Cert_Year">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LendId">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Neigh_code">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PropClass">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="HomeFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="RedFlag">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LegalDesc">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LegalDesc1">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LegalDesc2">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LegalDesc3">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LegalDesc4">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LegalFull">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LocDesc">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Path">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Affidavit">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PlatBook">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PlatPage">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Owner_Add1">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Owner_Add2">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="MktLandVal">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="MktImprVal">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="AgrLandVal">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="MktTotVal">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="TaxLandVal">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="TaxImprVal">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="AgrLandTax">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="TaxTotVal">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Land">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Impr">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="TotMkt">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="TaxLand">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="TaxImpr">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="TotTax">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CauvLand">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CauvTax">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="YearBuilt">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="YearRemode">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="LivingArea">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="GradeDesc">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="TaxDist">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="MailName1">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="MailName2">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="MailStreet">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="MailCitySt">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="MailZip">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Volume">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Page">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="AudMaintDt">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="AgApp">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="AgDate">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PriorChg">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PriorChgAd">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PDInt">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PDIntAdj">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PDPaid">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PDOwed">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PDSPAPaid">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PDSPAOwed">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PDTotPaid">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PDTotOwed">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Charge1">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ChargeAdj1">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Credit1">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CreditAdj1">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SubTotal1">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Roll1">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="RollAdj1">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Red1">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="RedAdj1">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Home1">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="HomeAdj1">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Pen1">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PenAdj1">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Paid1">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Owed1">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SPAPaid1">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SPAOwed1">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="TotPaid1">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Charge2">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ChargeAdj2">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Credit2">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="CreditAdj2">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SubTotal2">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Roll2">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="RollAdj2">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Red2">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="RedAdj2">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Home2">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="HomeAdj2">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Pen2">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PenAdj2">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Paid2">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Owed2">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SPAPaid2">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="SPAOwed2">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="TotPaid2">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PDSubTot1">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PDSubTot2">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="DecSubTot2">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="JunSubTot2">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="DecTotOwed">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="JunTotOwed">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="TotalPaid">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="TotOwedDel">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="DecTotOwe2">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="GrandPaid">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="NetTotOwed">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Surplus">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PaidDates">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="PARCEL_ID" name="" index="0"/>
+        <alias field="AREA" name="" index="1"/>
+        <alias field="PERIMETER" name="" index="2"/>
+        <alias field="ACRE_CALC" name="" index="3"/>
+        <alias field="PARCEL_ID2" name="" index="4"/>
+        <alias field="Rout_Id" name="" index="5"/>
+        <alias field="Par_Status" name="" index="6"/>
+        <alias field="GISFLD" name="" index="7"/>
+        <alias field="LOCATION_A" name="" index="8"/>
+        <alias field="LOC_NUM" name="" index="9"/>
+        <alias field="ROUT_NUM" name="" index="10"/>
+        <alias field="ROUT_PAGE" name="" index="11"/>
+        <alias field="Oname1" name="" index="12"/>
+        <alias field="Oname2" name="" index="13"/>
+        <alias field="L_NAME" name="" index="14"/>
+        <alias field="DEED" name="" index="15"/>
+        <alias field="Acres_Num" name="" index="16"/>
+        <alias field="ACRES" name="" index="17"/>
+        <alias field="Sale_Date" name="" index="18"/>
+        <alias field="Sale_Year" name="" index="19"/>
+        <alias field="Sale_Amt" name="" index="20"/>
+        <alias field="SaleSource" name="" index="21"/>
+        <alias field="Sale_Valid" name="" index="22"/>
+        <alias field="Convey_Num" name="" index="23"/>
+        <alias field="Deed_Num" name="" index="24"/>
+        <alias field="NumParcels" name="" index="25"/>
+        <alias field="Cert_Year" name="" index="26"/>
+        <alias field="LendId" name="" index="27"/>
+        <alias field="Neigh_code" name="" index="28"/>
+        <alias field="PropClass" name="" index="29"/>
+        <alias field="HomeFlag" name="" index="30"/>
+        <alias field="RedFlag" name="" index="31"/>
+        <alias field="LegalDesc" name="" index="32"/>
+        <alias field="LegalDesc1" name="" index="33"/>
+        <alias field="LegalDesc2" name="" index="34"/>
+        <alias field="LegalDesc3" name="" index="35"/>
+        <alias field="LegalDesc4" name="" index="36"/>
+        <alias field="LegalFull" name="" index="37"/>
+        <alias field="LocDesc" name="" index="38"/>
+        <alias field="Path" name="" index="39"/>
+        <alias field="Affidavit" name="" index="40"/>
+        <alias field="PlatBook" name="" index="41"/>
+        <alias field="PlatPage" name="" index="42"/>
+        <alias field="Owner_Add1" name="" index="43"/>
+        <alias field="Owner_Add2" name="" index="44"/>
+        <alias field="MktLandVal" name="" index="45"/>
+        <alias field="MktImprVal" name="" index="46"/>
+        <alias field="AgrLandVal" name="" index="47"/>
+        <alias field="MktTotVal" name="" index="48"/>
+        <alias field="TaxLandVal" name="" index="49"/>
+        <alias field="TaxImprVal" name="" index="50"/>
+        <alias field="AgrLandTax" name="" index="51"/>
+        <alias field="TaxTotVal" name="" index="52"/>
+        <alias field="Land" name="" index="53"/>
+        <alias field="Impr" name="" index="54"/>
+        <alias field="TotMkt" name="" index="55"/>
+        <alias field="TaxLand" name="" index="56"/>
+        <alias field="TaxImpr" name="" index="57"/>
+        <alias field="TotTax" name="" index="58"/>
+        <alias field="CauvLand" name="" index="59"/>
+        <alias field="CauvTax" name="" index="60"/>
+        <alias field="YearBuilt" name="" index="61"/>
+        <alias field="YearRemode" name="" index="62"/>
+        <alias field="LivingArea" name="" index="63"/>
+        <alias field="GradeDesc" name="" index="64"/>
+        <alias field="TaxDist" name="" index="65"/>
+        <alias field="MailName1" name="" index="66"/>
+        <alias field="MailName2" name="" index="67"/>
+        <alias field="MailStreet" name="" index="68"/>
+        <alias field="MailCitySt" name="" index="69"/>
+        <alias field="MailZip" name="" index="70"/>
+        <alias field="Volume" name="" index="71"/>
+        <alias field="Page" name="" index="72"/>
+        <alias field="AudMaintDt" name="" index="73"/>
+        <alias field="AgApp" name="" index="74"/>
+        <alias field="AgDate" name="" index="75"/>
+        <alias field="PriorChg" name="" index="76"/>
+        <alias field="PriorChgAd" name="" index="77"/>
+        <alias field="PDInt" name="" index="78"/>
+        <alias field="PDIntAdj" name="" index="79"/>
+        <alias field="PDPaid" name="" index="80"/>
+        <alias field="PDOwed" name="" index="81"/>
+        <alias field="PDSPAPaid" name="" index="82"/>
+        <alias field="PDSPAOwed" name="" index="83"/>
+        <alias field="PDTotPaid" name="" index="84"/>
+        <alias field="PDTotOwed" name="" index="85"/>
+        <alias field="Charge1" name="" index="86"/>
+        <alias field="ChargeAdj1" name="" index="87"/>
+        <alias field="Credit1" name="" index="88"/>
+        <alias field="CreditAdj1" name="" index="89"/>
+        <alias field="SubTotal1" name="" index="90"/>
+        <alias field="Roll1" name="" index="91"/>
+        <alias field="RollAdj1" name="" index="92"/>
+        <alias field="Red1" name="" index="93"/>
+        <alias field="RedAdj1" name="" index="94"/>
+        <alias field="Home1" name="" index="95"/>
+        <alias field="HomeAdj1" name="" index="96"/>
+        <alias field="Pen1" name="" index="97"/>
+        <alias field="PenAdj1" name="" index="98"/>
+        <alias field="Paid1" name="" index="99"/>
+        <alias field="Owed1" name="" index="100"/>
+        <alias field="SPAPaid1" name="" index="101"/>
+        <alias field="SPAOwed1" name="" index="102"/>
+        <alias field="TotPaid1" name="" index="103"/>
+        <alias field="Charge2" name="" index="104"/>
+        <alias field="ChargeAdj2" name="" index="105"/>
+        <alias field="Credit2" name="" index="106"/>
+        <alias field="CreditAdj2" name="" index="107"/>
+        <alias field="SubTotal2" name="" index="108"/>
+        <alias field="Roll2" name="" index="109"/>
+        <alias field="RollAdj2" name="" index="110"/>
+        <alias field="Red2" name="" index="111"/>
+        <alias field="RedAdj2" name="" index="112"/>
+        <alias field="Home2" name="" index="113"/>
+        <alias field="HomeAdj2" name="" index="114"/>
+        <alias field="Pen2" name="" index="115"/>
+        <alias field="PenAdj2" name="" index="116"/>
+        <alias field="Paid2" name="" index="117"/>
+        <alias field="Owed2" name="" index="118"/>
+        <alias field="SPAPaid2" name="" index="119"/>
+        <alias field="SPAOwed2" name="" index="120"/>
+        <alias field="TotPaid2" name="" index="121"/>
+        <alias field="PDSubTot1" name="" index="122"/>
+        <alias field="PDSubTot2" name="" index="123"/>
+        <alias field="DecSubTot2" name="" index="124"/>
+        <alias field="JunSubTot2" name="" index="125"/>
+        <alias field="DecTotOwed" name="" index="126"/>
+        <alias field="JunTotOwed" name="" index="127"/>
+        <alias field="TotalPaid" name="" index="128"/>
+        <alias field="TotOwedDel" name="" index="129"/>
+        <alias field="DecTotOwe2" name="" index="130"/>
+        <alias field="GrandPaid" name="" index="131"/>
+        <alias field="NetTotOwed" name="" index="132"/>
+        <alias field="Surplus" name="" index="133"/>
+        <alias field="PaidDates" name="" index="134"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default expression="" applyOnUpdate="0" field="PARCEL_ID"/>
+        <default expression="" applyOnUpdate="0" field="AREA"/>
+        <default expression="" applyOnUpdate="0" field="PERIMETER"/>
+        <default expression="" applyOnUpdate="0" field="ACRE_CALC"/>
+        <default expression="" applyOnUpdate="0" field="PARCEL_ID2"/>
+        <default expression="" applyOnUpdate="0" field="Rout_Id"/>
+        <default expression="" applyOnUpdate="0" field="Par_Status"/>
+        <default expression="" applyOnUpdate="0" field="GISFLD"/>
+        <default expression="" applyOnUpdate="0" field="LOCATION_A"/>
+        <default expression="" applyOnUpdate="0" field="LOC_NUM"/>
+        <default expression="" applyOnUpdate="0" field="ROUT_NUM"/>
+        <default expression="" applyOnUpdate="0" field="ROUT_PAGE"/>
+        <default expression="" applyOnUpdate="0" field="Oname1"/>
+        <default expression="" applyOnUpdate="0" field="Oname2"/>
+        <default expression="" applyOnUpdate="0" field="L_NAME"/>
+        <default expression="" applyOnUpdate="0" field="DEED"/>
+        <default expression="" applyOnUpdate="0" field="Acres_Num"/>
+        <default expression="" applyOnUpdate="0" field="ACRES"/>
+        <default expression="" applyOnUpdate="0" field="Sale_Date"/>
+        <default expression="" applyOnUpdate="0" field="Sale_Year"/>
+        <default expression="" applyOnUpdate="0" field="Sale_Amt"/>
+        <default expression="" applyOnUpdate="0" field="SaleSource"/>
+        <default expression="" applyOnUpdate="0" field="Sale_Valid"/>
+        <default expression="" applyOnUpdate="0" field="Convey_Num"/>
+        <default expression="" applyOnUpdate="0" field="Deed_Num"/>
+        <default expression="" applyOnUpdate="0" field="NumParcels"/>
+        <default expression="" applyOnUpdate="0" field="Cert_Year"/>
+        <default expression="" applyOnUpdate="0" field="LendId"/>
+        <default expression="" applyOnUpdate="0" field="Neigh_code"/>
+        <default expression="" applyOnUpdate="0" field="PropClass"/>
+        <default expression="" applyOnUpdate="0" field="HomeFlag"/>
+        <default expression="" applyOnUpdate="0" field="RedFlag"/>
+        <default expression="" applyOnUpdate="0" field="LegalDesc"/>
+        <default expression="" applyOnUpdate="0" field="LegalDesc1"/>
+        <default expression="" applyOnUpdate="0" field="LegalDesc2"/>
+        <default expression="" applyOnUpdate="0" field="LegalDesc3"/>
+        <default expression="" applyOnUpdate="0" field="LegalDesc4"/>
+        <default expression="" applyOnUpdate="0" field="LegalFull"/>
+        <default expression="" applyOnUpdate="0" field="LocDesc"/>
+        <default expression="" applyOnUpdate="0" field="Path"/>
+        <default expression="" applyOnUpdate="0" field="Affidavit"/>
+        <default expression="" applyOnUpdate="0" field="PlatBook"/>
+        <default expression="" applyOnUpdate="0" field="PlatPage"/>
+        <default expression="" applyOnUpdate="0" field="Owner_Add1"/>
+        <default expression="" applyOnUpdate="0" field="Owner_Add2"/>
+        <default expression="" applyOnUpdate="0" field="MktLandVal"/>
+        <default expression="" applyOnUpdate="0" field="MktImprVal"/>
+        <default expression="" applyOnUpdate="0" field="AgrLandVal"/>
+        <default expression="" applyOnUpdate="0" field="MktTotVal"/>
+        <default expression="" applyOnUpdate="0" field="TaxLandVal"/>
+        <default expression="" applyOnUpdate="0" field="TaxImprVal"/>
+        <default expression="" applyOnUpdate="0" field="AgrLandTax"/>
+        <default expression="" applyOnUpdate="0" field="TaxTotVal"/>
+        <default expression="" applyOnUpdate="0" field="Land"/>
+        <default expression="" applyOnUpdate="0" field="Impr"/>
+        <default expression="" applyOnUpdate="0" field="TotMkt"/>
+        <default expression="" applyOnUpdate="0" field="TaxLand"/>
+        <default expression="" applyOnUpdate="0" field="TaxImpr"/>
+        <default expression="" applyOnUpdate="0" field="TotTax"/>
+        <default expression="" applyOnUpdate="0" field="CauvLand"/>
+        <default expression="" applyOnUpdate="0" field="CauvTax"/>
+        <default expression="" applyOnUpdate="0" field="YearBuilt"/>
+        <default expression="" applyOnUpdate="0" field="YearRemode"/>
+        <default expression="" applyOnUpdate="0" field="LivingArea"/>
+        <default expression="" applyOnUpdate="0" field="GradeDesc"/>
+        <default expression="" applyOnUpdate="0" field="TaxDist"/>
+        <default expression="" applyOnUpdate="0" field="MailName1"/>
+        <default expression="" applyOnUpdate="0" field="MailName2"/>
+        <default expression="" applyOnUpdate="0" field="MailStreet"/>
+        <default expression="" applyOnUpdate="0" field="MailCitySt"/>
+        <default expression="" applyOnUpdate="0" field="MailZip"/>
+        <default expression="" applyOnUpdate="0" field="Volume"/>
+        <default expression="" applyOnUpdate="0" field="Page"/>
+        <default expression="" applyOnUpdate="0" field="AudMaintDt"/>
+        <default expression="" applyOnUpdate="0" field="AgApp"/>
+        <default expression="" applyOnUpdate="0" field="AgDate"/>
+        <default expression="" applyOnUpdate="0" field="PriorChg"/>
+        <default expression="" applyOnUpdate="0" field="PriorChgAd"/>
+        <default expression="" applyOnUpdate="0" field="PDInt"/>
+        <default expression="" applyOnUpdate="0" field="PDIntAdj"/>
+        <default expression="" applyOnUpdate="0" field="PDPaid"/>
+        <default expression="" applyOnUpdate="0" field="PDOwed"/>
+        <default expression="" applyOnUpdate="0" field="PDSPAPaid"/>
+        <default expression="" applyOnUpdate="0" field="PDSPAOwed"/>
+        <default expression="" applyOnUpdate="0" field="PDTotPaid"/>
+        <default expression="" applyOnUpdate="0" field="PDTotOwed"/>
+        <default expression="" applyOnUpdate="0" field="Charge1"/>
+        <default expression="" applyOnUpdate="0" field="ChargeAdj1"/>
+        <default expression="" applyOnUpdate="0" field="Credit1"/>
+        <default expression="" applyOnUpdate="0" field="CreditAdj1"/>
+        <default expression="" applyOnUpdate="0" field="SubTotal1"/>
+        <default expression="" applyOnUpdate="0" field="Roll1"/>
+        <default expression="" applyOnUpdate="0" field="RollAdj1"/>
+        <default expression="" applyOnUpdate="0" field="Red1"/>
+        <default expression="" applyOnUpdate="0" field="RedAdj1"/>
+        <default expression="" applyOnUpdate="0" field="Home1"/>
+        <default expression="" applyOnUpdate="0" field="HomeAdj1"/>
+        <default expression="" applyOnUpdate="0" field="Pen1"/>
+        <default expression="" applyOnUpdate="0" field="PenAdj1"/>
+        <default expression="" applyOnUpdate="0" field="Paid1"/>
+        <default expression="" applyOnUpdate="0" field="Owed1"/>
+        <default expression="" applyOnUpdate="0" field="SPAPaid1"/>
+        <default expression="" applyOnUpdate="0" field="SPAOwed1"/>
+        <default expression="" applyOnUpdate="0" field="TotPaid1"/>
+        <default expression="" applyOnUpdate="0" field="Charge2"/>
+        <default expression="" applyOnUpdate="0" field="ChargeAdj2"/>
+        <default expression="" applyOnUpdate="0" field="Credit2"/>
+        <default expression="" applyOnUpdate="0" field="CreditAdj2"/>
+        <default expression="" applyOnUpdate="0" field="SubTotal2"/>
+        <default expression="" applyOnUpdate="0" field="Roll2"/>
+        <default expression="" applyOnUpdate="0" field="RollAdj2"/>
+        <default expression="" applyOnUpdate="0" field="Red2"/>
+        <default expression="" applyOnUpdate="0" field="RedAdj2"/>
+        <default expression="" applyOnUpdate="0" field="Home2"/>
+        <default expression="" applyOnUpdate="0" field="HomeAdj2"/>
+        <default expression="" applyOnUpdate="0" field="Pen2"/>
+        <default expression="" applyOnUpdate="0" field="PenAdj2"/>
+        <default expression="" applyOnUpdate="0" field="Paid2"/>
+        <default expression="" applyOnUpdate="0" field="Owed2"/>
+        <default expression="" applyOnUpdate="0" field="SPAPaid2"/>
+        <default expression="" applyOnUpdate="0" field="SPAOwed2"/>
+        <default expression="" applyOnUpdate="0" field="TotPaid2"/>
+        <default expression="" applyOnUpdate="0" field="PDSubTot1"/>
+        <default expression="" applyOnUpdate="0" field="PDSubTot2"/>
+        <default expression="" applyOnUpdate="0" field="DecSubTot2"/>
+        <default expression="" applyOnUpdate="0" field="JunSubTot2"/>
+        <default expression="" applyOnUpdate="0" field="DecTotOwed"/>
+        <default expression="" applyOnUpdate="0" field="JunTotOwed"/>
+        <default expression="" applyOnUpdate="0" field="TotalPaid"/>
+        <default expression="" applyOnUpdate="0" field="TotOwedDel"/>
+        <default expression="" applyOnUpdate="0" field="DecTotOwe2"/>
+        <default expression="" applyOnUpdate="0" field="GrandPaid"/>
+        <default expression="" applyOnUpdate="0" field="NetTotOwed"/>
+        <default expression="" applyOnUpdate="0" field="Surplus"/>
+        <default expression="" applyOnUpdate="0" field="PaidDates"/>
+      </defaults>
+      <constraints>
+        <constraint constraints="0" exp_strength="0" field="PARCEL_ID" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="AREA" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="PERIMETER" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="ACRE_CALC" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="PARCEL_ID2" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="Rout_Id" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="Par_Status" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="GISFLD" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="LOCATION_A" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="LOC_NUM" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="ROUT_NUM" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="ROUT_PAGE" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="Oname1" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="Oname2" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="L_NAME" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="DEED" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="Acres_Num" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="ACRES" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="Sale_Date" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="Sale_Year" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="Sale_Amt" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="SaleSource" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="Sale_Valid" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="Convey_Num" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="Deed_Num" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="NumParcels" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="Cert_Year" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="LendId" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="Neigh_code" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="PropClass" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="HomeFlag" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="RedFlag" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="LegalDesc" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="LegalDesc1" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="LegalDesc2" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="LegalDesc3" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="LegalDesc4" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="LegalFull" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="LocDesc" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="Path" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="Affidavit" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="PlatBook" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="PlatPage" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="Owner_Add1" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="Owner_Add2" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="MktLandVal" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="MktImprVal" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="AgrLandVal" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="MktTotVal" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="TaxLandVal" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="TaxImprVal" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="AgrLandTax" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="TaxTotVal" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="Land" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="Impr" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="TotMkt" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="TaxLand" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="TaxImpr" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="TotTax" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="CauvLand" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="CauvTax" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="YearBuilt" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="YearRemode" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="LivingArea" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="GradeDesc" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="TaxDist" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="MailName1" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="MailName2" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="MailStreet" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="MailCitySt" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="MailZip" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="Volume" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="Page" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="AudMaintDt" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="AgApp" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="AgDate" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="PriorChg" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="PriorChgAd" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="PDInt" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="PDIntAdj" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="PDPaid" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="PDOwed" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="PDSPAPaid" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="PDSPAOwed" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="PDTotPaid" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="PDTotOwed" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="Charge1" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="ChargeAdj1" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="Credit1" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="CreditAdj1" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="SubTotal1" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="Roll1" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="RollAdj1" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="Red1" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="RedAdj1" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="Home1" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="HomeAdj1" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="Pen1" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="PenAdj1" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="Paid1" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="Owed1" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="SPAPaid1" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="SPAOwed1" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="TotPaid1" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="Charge2" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="ChargeAdj2" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="Credit2" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="CreditAdj2" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="SubTotal2" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="Roll2" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="RollAdj2" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="Red2" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="RedAdj2" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="Home2" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="HomeAdj2" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="Pen2" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="PenAdj2" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="Paid2" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="Owed2" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="SPAPaid2" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="SPAOwed2" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="TotPaid2" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="PDSubTot1" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="PDSubTot2" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="DecSubTot2" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="JunSubTot2" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="DecTotOwed" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="JunTotOwed" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="TotalPaid" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="TotOwedDel" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="DecTotOwe2" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="GrandPaid" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="NetTotOwed" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="Surplus" notnull_strength="0" unique_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="PaidDates" notnull_strength="0" unique_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" field="PARCEL_ID" exp=""/>
+        <constraint desc="" field="AREA" exp=""/>
+        <constraint desc="" field="PERIMETER" exp=""/>
+        <constraint desc="" field="ACRE_CALC" exp=""/>
+        <constraint desc="" field="PARCEL_ID2" exp=""/>
+        <constraint desc="" field="Rout_Id" exp=""/>
+        <constraint desc="" field="Par_Status" exp=""/>
+        <constraint desc="" field="GISFLD" exp=""/>
+        <constraint desc="" field="LOCATION_A" exp=""/>
+        <constraint desc="" field="LOC_NUM" exp=""/>
+        <constraint desc="" field="ROUT_NUM" exp=""/>
+        <constraint desc="" field="ROUT_PAGE" exp=""/>
+        <constraint desc="" field="Oname1" exp=""/>
+        <constraint desc="" field="Oname2" exp=""/>
+        <constraint desc="" field="L_NAME" exp=""/>
+        <constraint desc="" field="DEED" exp=""/>
+        <constraint desc="" field="Acres_Num" exp=""/>
+        <constraint desc="" field="ACRES" exp=""/>
+        <constraint desc="" field="Sale_Date" exp=""/>
+        <constraint desc="" field="Sale_Year" exp=""/>
+        <constraint desc="" field="Sale_Amt" exp=""/>
+        <constraint desc="" field="SaleSource" exp=""/>
+        <constraint desc="" field="Sale_Valid" exp=""/>
+        <constraint desc="" field="Convey_Num" exp=""/>
+        <constraint desc="" field="Deed_Num" exp=""/>
+        <constraint desc="" field="NumParcels" exp=""/>
+        <constraint desc="" field="Cert_Year" exp=""/>
+        <constraint desc="" field="LendId" exp=""/>
+        <constraint desc="" field="Neigh_code" exp=""/>
+        <constraint desc="" field="PropClass" exp=""/>
+        <constraint desc="" field="HomeFlag" exp=""/>
+        <constraint desc="" field="RedFlag" exp=""/>
+        <constraint desc="" field="LegalDesc" exp=""/>
+        <constraint desc="" field="LegalDesc1" exp=""/>
+        <constraint desc="" field="LegalDesc2" exp=""/>
+        <constraint desc="" field="LegalDesc3" exp=""/>
+        <constraint desc="" field="LegalDesc4" exp=""/>
+        <constraint desc="" field="LegalFull" exp=""/>
+        <constraint desc="" field="LocDesc" exp=""/>
+        <constraint desc="" field="Path" exp=""/>
+        <constraint desc="" field="Affidavit" exp=""/>
+        <constraint desc="" field="PlatBook" exp=""/>
+        <constraint desc="" field="PlatPage" exp=""/>
+        <constraint desc="" field="Owner_Add1" exp=""/>
+        <constraint desc="" field="Owner_Add2" exp=""/>
+        <constraint desc="" field="MktLandVal" exp=""/>
+        <constraint desc="" field="MktImprVal" exp=""/>
+        <constraint desc="" field="AgrLandVal" exp=""/>
+        <constraint desc="" field="MktTotVal" exp=""/>
+        <constraint desc="" field="TaxLandVal" exp=""/>
+        <constraint desc="" field="TaxImprVal" exp=""/>
+        <constraint desc="" field="AgrLandTax" exp=""/>
+        <constraint desc="" field="TaxTotVal" exp=""/>
+        <constraint desc="" field="Land" exp=""/>
+        <constraint desc="" field="Impr" exp=""/>
+        <constraint desc="" field="TotMkt" exp=""/>
+        <constraint desc="" field="TaxLand" exp=""/>
+        <constraint desc="" field="TaxImpr" exp=""/>
+        <constraint desc="" field="TotTax" exp=""/>
+        <constraint desc="" field="CauvLand" exp=""/>
+        <constraint desc="" field="CauvTax" exp=""/>
+        <constraint desc="" field="YearBuilt" exp=""/>
+        <constraint desc="" field="YearRemode" exp=""/>
+        <constraint desc="" field="LivingArea" exp=""/>
+        <constraint desc="" field="GradeDesc" exp=""/>
+        <constraint desc="" field="TaxDist" exp=""/>
+        <constraint desc="" field="MailName1" exp=""/>
+        <constraint desc="" field="MailName2" exp=""/>
+        <constraint desc="" field="MailStreet" exp=""/>
+        <constraint desc="" field="MailCitySt" exp=""/>
+        <constraint desc="" field="MailZip" exp=""/>
+        <constraint desc="" field="Volume" exp=""/>
+        <constraint desc="" field="Page" exp=""/>
+        <constraint desc="" field="AudMaintDt" exp=""/>
+        <constraint desc="" field="AgApp" exp=""/>
+        <constraint desc="" field="AgDate" exp=""/>
+        <constraint desc="" field="PriorChg" exp=""/>
+        <constraint desc="" field="PriorChgAd" exp=""/>
+        <constraint desc="" field="PDInt" exp=""/>
+        <constraint desc="" field="PDIntAdj" exp=""/>
+        <constraint desc="" field="PDPaid" exp=""/>
+        <constraint desc="" field="PDOwed" exp=""/>
+        <constraint desc="" field="PDSPAPaid" exp=""/>
+        <constraint desc="" field="PDSPAOwed" exp=""/>
+        <constraint desc="" field="PDTotPaid" exp=""/>
+        <constraint desc="" field="PDTotOwed" exp=""/>
+        <constraint desc="" field="Charge1" exp=""/>
+        <constraint desc="" field="ChargeAdj1" exp=""/>
+        <constraint desc="" field="Credit1" exp=""/>
+        <constraint desc="" field="CreditAdj1" exp=""/>
+        <constraint desc="" field="SubTotal1" exp=""/>
+        <constraint desc="" field="Roll1" exp=""/>
+        <constraint desc="" field="RollAdj1" exp=""/>
+        <constraint desc="" field="Red1" exp=""/>
+        <constraint desc="" field="RedAdj1" exp=""/>
+        <constraint desc="" field="Home1" exp=""/>
+        <constraint desc="" field="HomeAdj1" exp=""/>
+        <constraint desc="" field="Pen1" exp=""/>
+        <constraint desc="" field="PenAdj1" exp=""/>
+        <constraint desc="" field="Paid1" exp=""/>
+        <constraint desc="" field="Owed1" exp=""/>
+        <constraint desc="" field="SPAPaid1" exp=""/>
+        <constraint desc="" field="SPAOwed1" exp=""/>
+        <constraint desc="" field="TotPaid1" exp=""/>
+        <constraint desc="" field="Charge2" exp=""/>
+        <constraint desc="" field="ChargeAdj2" exp=""/>
+        <constraint desc="" field="Credit2" exp=""/>
+        <constraint desc="" field="CreditAdj2" exp=""/>
+        <constraint desc="" field="SubTotal2" exp=""/>
+        <constraint desc="" field="Roll2" exp=""/>
+        <constraint desc="" field="RollAdj2" exp=""/>
+        <constraint desc="" field="Red2" exp=""/>
+        <constraint desc="" field="RedAdj2" exp=""/>
+        <constraint desc="" field="Home2" exp=""/>
+        <constraint desc="" field="HomeAdj2" exp=""/>
+        <constraint desc="" field="Pen2" exp=""/>
+        <constraint desc="" field="PenAdj2" exp=""/>
+        <constraint desc="" field="Paid2" exp=""/>
+        <constraint desc="" field="Owed2" exp=""/>
+        <constraint desc="" field="SPAPaid2" exp=""/>
+        <constraint desc="" field="SPAOwed2" exp=""/>
+        <constraint desc="" field="TotPaid2" exp=""/>
+        <constraint desc="" field="PDSubTot1" exp=""/>
+        <constraint desc="" field="PDSubTot2" exp=""/>
+        <constraint desc="" field="DecSubTot2" exp=""/>
+        <constraint desc="" field="JunSubTot2" exp=""/>
+        <constraint desc="" field="DecTotOwed" exp=""/>
+        <constraint desc="" field="JunTotOwed" exp=""/>
+        <constraint desc="" field="TotalPaid" exp=""/>
+        <constraint desc="" field="TotOwedDel" exp=""/>
+        <constraint desc="" field="DecTotOwe2" exp=""/>
+        <constraint desc="" field="GrandPaid" exp=""/>
+        <constraint desc="" field="NetTotOwed" exp=""/>
+        <constraint desc="" field="Surplus" exp=""/>
+        <constraint desc="" field="PaidDates" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" type="raster" styleCategories="AllStyleCategories" autoRefreshEnabled="0" refreshOnNotifyMessage="" minScale="1e+8" maxScale="0" autoRefreshTime="0">
+      <extent>
+        <xmin>2368500</xmin>
+        <ymin>643500</ymin>
+        <xmax>2373000</xmax>
+        <ymax>648500</ymax>
+      </extent>
+      <id>ground_intensity_016d0a33_ed81_4df1_8a18_e3495f13964e</id>
+      <datasource>./public_data/processed/ground-intensity.jpg</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>ground-intensity</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=lcc +lat_1=40.43333333333333 +lat_2=41.7 +lat_0=39.66666666666666 +lon_0=-82.5 +x_0=600000.0000000001 +y_0=0 +datum=NAD83 +units=us-ft +no_defs</proj4>
+          <srsid>27549</srsid>
+          <srid>102722</srid>
+          <authid>EPSG:102722</authid>
+          <description>NAD_1983_StatePlane_Ohio_North_FIPS_3401_Feet</description>
+          <projectionacronym>lcc</projectionacronym>
+          <ellipsoidacronym></ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>0</Searchable>
+      </flags>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" gradient="BlackToWhite" alphaBand="-1" opacity="1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>MinMax</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+          <contrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>254</maxValue>
+            <algorithm>StretchToMinimumMaximum</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+        <brightnesscontrast contrast="0" brightness="0"/>
+        <huesaturation colorizeRed="255" colorizeStrength="100" colorizeBlue="128" colorizeOn="0" grayscaleMode="0" saturation="0" colorizeGreen="128"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" type="raster" styleCategories="AllStyleCategories" autoRefreshEnabled="0" refreshOnNotifyMessage="" minScale="1e+8" maxScale="0" autoRefreshTime="0">
+      <extent>
+        <xmin>2368500</xmin>
+        <ymin>643500</ymin>
+        <xmax>2373000</xmax>
+        <ymax>648500</ymax>
+      </extent>
+      <id>hillshade_3751c927_db0b_44d1_90b8_12cb3bf499cd</id>
+      <datasource>./public_data/processed/hillshade.png</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>hillshade</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=lcc +lat_1=40.43333333333333 +lat_2=41.7 +lat_0=39.66666666666666 +lon_0=-82.5 +x_0=600000.0000000001 +y_0=0 +datum=NAD83 +units=us-ft +no_defs</proj4>
+          <srsid>27549</srsid>
+          <srid>102722</srid>
+          <authid>EPSG:102722</authid>
+          <description>NAD_1983_StatePlane_Ohio_North_FIPS_3401_Feet</description>
+          <projectionacronym>lcc</projectionacronym>
+          <ellipsoidacronym></ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+        <noDataList bandNo="2" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>0</Searchable>
+      </flags>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <pipe>
+        <rasterrenderer type="singlebandgray" grayBand="1" gradient="BlackToWhite" alphaBand="2" opacity="1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>MinMax</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+          <contrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>255</maxValue>
+            <algorithm>StretchToMinimumMaximum</algorithm>
+          </contrastEnhancement>
+        </rasterrenderer>
+        <brightnesscontrast contrast="0" brightness="0"/>
+        <huesaturation colorizeRed="255" colorizeStrength="100" colorizeBlue="128" colorizeOn="0" grayscaleMode="0" saturation="0" colorizeGreen="128"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer simplifyLocal="1" hasScaleBasedVisibilityFlag="0" simplifyDrawingTol="1" refreshOnNotifyEnabled="0" type="vector" styleCategories="AllStyleCategories" simplifyMaxScale="1" autoRefreshEnabled="0" refreshOnNotifyMessage="" simplifyDrawingHints="1" minScale="1e+8" readOnly="0" maxScale="0" geometry="Line" labelsEnabled="0" autoRefreshTime="0" simplifyAlgorithm="0">
+      <extent>
+        <xmin>2368500.02904535504058003</xmin>
+        <ymin>643500.07038081693463027</ymin>
+        <xmax>2372999.89353515626862645</xmax>
+        <ymax>648499.98458984377793968</ymax>
+      </extent>
+      <id>iso_1m_a2301255_6e67_4857_a223_8cfe5e40619b</id>
+      <datasource>./public_data/processed/iso-1m.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>iso-1m</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=lcc +lat_1=41.7 +lat_2=40.4333333333333 +lat_0=39.6666666666667 +lon_0=-82.5 +x_0=599999.9999999988 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=ft +no_defs</proj4>
+          <srsid>100025</srsid>
+          <srid>0</srid>
+          <authid>USER:100025</authid>
+          <description> * Generated CRS (+proj=lcc +lat_1=41.7 +lat_2=40.4333333333333 +lat_0=39.6666666666667 +lon_0=-82.5 +x_0=599999.9999999988 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=ft +no_defs)</description>
+          <projectionacronym>lcc</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 forceraster="0" type="singleSymbol" enableorderby="0" symbollevels="0">
+        <symbols>
+          <symbol force_rhr="0" type="line" alpha="1" clip_to_extent="1" name="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleLine">
+              <prop v="square" k="capstyle"/>
+              <prop v="5;2" k="customdash"/>
+              <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+              <prop v="MM" k="customdash_unit"/>
+              <prop v="0" k="draw_inside_polygon"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="145,82,45,255" k="line_color"/>
+              <prop v="solid" k="line_style"/>
+              <prop v="0.26" k="line_width"/>
+              <prop v="MM" k="line_width_unit"/>
+              <prop v="0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="0" k="ring_filter"/>
+              <prop v="0" k="use_custom_dash"/>
+              <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration/>
+      <aliases/>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults/>
+      <constraints/>
+      <constraintExpressions/>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer simplifyLocal="1" hasScaleBasedVisibilityFlag="0" simplifyDrawingTol="1" refreshOnNotifyEnabled="0" type="vector" styleCategories="AllStyleCategories" simplifyMaxScale="1" autoRefreshEnabled="0" refreshOnNotifyMessage="" simplifyDrawingHints="1" minScale="1e+8" readOnly="0" maxScale="0" geometry="Line" labelsEnabled="0" autoRefreshTime="0" simplifyAlgorithm="0">
+      <extent>
+        <xmin>2368500.02519656158983707</xmin>
+        <ymin>643500.10065919789485633</ymin>
+        <xmax>2372999.85300781251862645</xmax>
+        <ymax>648499.97189453127793968</ymax>
+      </extent>
+      <id>iso_5ft_47ee46f7_6c8c_43a1_851d_4243c9a0ef5f</id>
+      <datasource>./public_data/processed/iso-5ft.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>iso-5ft</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=lcc +lat_1=41.7 +lat_2=40.4333333333333 +lat_0=39.6666666666667 +lon_0=-82.5 +x_0=599999.9999999988 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=ft +no_defs</proj4>
+          <srsid>100025</srsid>
+          <srid>0</srid>
+          <authid>USER:100025</authid>
+          <description> * Generated CRS (+proj=lcc +lat_1=41.7 +lat_2=40.4333333333333 +lat_0=39.6666666666667 +lon_0=-82.5 +x_0=599999.9999999988 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=ft +no_defs)</description>
+          <projectionacronym>lcc</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 forceraster="0" type="singleSymbol" enableorderby="0" symbollevels="0">
+        <symbols>
+          <symbol force_rhr="0" type="line" alpha="1" clip_to_extent="1" name="0">
+            <layer pass="0" locked="0" enabled="1" class="SimpleLine">
+              <prop v="square" k="capstyle"/>
+              <prop v="5;2" k="customdash"/>
+              <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+              <prop v="MM" k="customdash_unit"/>
+              <prop v="0" k="draw_inside_polygon"/>
+              <prop v="bevel" k="joinstyle"/>
+              <prop v="125,139,143,255" k="line_color"/>
+              <prop v="solid" k="line_style"/>
+              <prop v="0.26" k="line_width"/>
+              <prop v="MM" k="line_width_unit"/>
+              <prop v="0" k="offset"/>
+              <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+              <prop v="MM" k="offset_unit"/>
+              <prop v="0" k="ring_filter"/>
+              <prop v="0" k="use_custom_dash"/>
+              <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option type="QString" value="" name="name"/>
+                  <Option name="properties"/>
+                  <Option type="QString" value="collection" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration/>
+      <aliases/>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults/>
+      <constraints/>
+      <constraintExpressions/>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" type="raster" styleCategories="AllStyleCategories" autoRefreshEnabled="0" refreshOnNotifyMessage="" minScale="1e+8" maxScale="0" autoRefreshTime="0">
+      <extent>
+        <xmin>2368500</xmin>
+        <ymin>643499</ymin>
+        <xmax>2373001</xmax>
+        <ymax>648500</ymax>
+      </extent>
+      <id>pk_osip_i_5161ed26_4f9d_4610_935a_3c77c356a2ea</id>
+      <datasource>./public_data/processed/pk-osip-i.jpg</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>OSIP I (2006)</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=lcc +lat_1=40.43333333333333 +lat_2=41.7 +lat_0=39.66666666666666 +lon_0=-82.5 +x_0=600000.0000000001 +y_0=0 +datum=NAD83 +units=us-ft +no_defs</proj4>
+          <srsid>27549</srsid>
+          <srid>102722</srid>
+          <authid>EPSG:102722</authid>
+          <description>NAD_1983_StatePlane_Ohio_North_FIPS_3401_Feet</description>
+          <projectionacronym>lcc</projectionacronym>
+          <ellipsoidacronym></ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+        <noDataList bandNo="2" useSrcNoData="0"/>
+        <noDataList bandNo="3" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>0</Searchable>
+      </flags>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <pipe>
+        <rasterrenderer redBand="1" type="multibandcolor" blueBand="3" greenBand="2" alphaBand="-1" opacity="1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>MinMax</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+          <redContrastEnhancement>
+            <minValue>14</minValue>
+            <maxValue>250</maxValue>
+            <algorithm>NoEnhancement</algorithm>
+          </redContrastEnhancement>
+          <greenContrastEnhancement>
+            <minValue>14</minValue>
+            <maxValue>246</maxValue>
+            <algorithm>NoEnhancement</algorithm>
+          </greenContrastEnhancement>
+          <blueContrastEnhancement>
+            <minValue>29</minValue>
+            <maxValue>251</maxValue>
+            <algorithm>NoEnhancement</algorithm>
+          </blueContrastEnhancement>
+        </rasterrenderer>
+        <brightnesscontrast contrast="0" brightness="0"/>
+        <huesaturation colorizeRed="255" colorizeStrength="100" colorizeBlue="128" colorizeOn="0" grayscaleMode="0" saturation="0" colorizeGreen="128"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" type="raster" styleCategories="AllStyleCategories" autoRefreshEnabled="0" refreshOnNotifyMessage="" minScale="1e+8" maxScale="0" autoRefreshTime="0">
+      <extent>
+        <xmin>2368500</xmin>
+        <ymin>643499</ymin>
+        <xmax>2373001</xmax>
+        <ymax>648500</ymax>
+      </extent>
+      <id>pk_osip_ii_96339c68_f2cf_43fc_9c77_478bd292a1f9</id>
+      <datasource>./public_data/processed/pk-osip-ii.jpg</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>OSIP II (2011)</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=lcc +lat_1=40.43333333333333 +lat_2=41.7 +lat_0=39.66666666666666 +lon_0=-82.5 +x_0=600000.0000000001 +y_0=0 +datum=NAD83 +units=us-ft +no_defs</proj4>
+          <srsid>27549</srsid>
+          <srid>102722</srid>
+          <authid>EPSG:102722</authid>
+          <description>NAD_1983_StatePlane_Ohio_North_FIPS_3401_Feet</description>
+          <projectionacronym>lcc</projectionacronym>
+          <ellipsoidacronym></ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+        <noDataList bandNo="2" useSrcNoData="0"/>
+        <noDataList bandNo="3" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>0</Searchable>
+      </flags>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <pipe>
+        <rasterrenderer redBand="1" type="multibandcolor" blueBand="3" greenBand="2" alphaBand="-1" opacity="1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>MinMax</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+          <redContrastEnhancement>
+            <minValue>11</minValue>
+            <maxValue>254</maxValue>
+            <algorithm>NoEnhancement</algorithm>
+          </redContrastEnhancement>
+          <greenContrastEnhancement>
+            <minValue>14</minValue>
+            <maxValue>252</maxValue>
+            <algorithm>NoEnhancement</algorithm>
+          </greenContrastEnhancement>
+          <blueContrastEnhancement>
+            <minValue>17</minValue>
+            <maxValue>238</maxValue>
+            <algorithm>NoEnhancement</algorithm>
+          </blueContrastEnhancement>
+        </rasterrenderer>
+        <brightnesscontrast contrast="0" brightness="0"/>
+        <huesaturation colorizeRed="255" colorizeStrength="100" colorizeBlue="128" colorizeOn="0" grayscaleMode="0" saturation="0" colorizeGreen="128"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" type="raster" styleCategories="AllStyleCategories" autoRefreshEnabled="0" refreshOnNotifyMessage="" minScale="1e+8" maxScale="0" autoRefreshTime="0">
+      <extent>
+        <xmin>2368500</xmin>
+        <ymin>643499.5</ymin>
+        <xmax>2373000.5</xmax>
+        <ymax>648500</ymax>
+      </extent>
+      <id>pk_osip_iii_b107fae7_d893_433b_8a51_243373c1b069</id>
+      <datasource>./public_data/processed/pk-osip-iii.jpg</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>OSIP III (2017)</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=lcc +lat_1=40.43333333333333 +lat_2=41.7 +lat_0=39.66666666666666 +lon_0=-82.5 +x_0=600000.0000000001 +y_0=0 +datum=NAD83 +units=us-ft +no_defs</proj4>
+          <srsid>27549</srsid>
+          <srid>102722</srid>
+          <authid>EPSG:102722</authid>
+          <description>NAD_1983_StatePlane_Ohio_North_FIPS_3401_Feet</description>
+          <projectionacronym>lcc</projectionacronym>
+          <ellipsoidacronym></ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+        <noDataList bandNo="2" useSrcNoData="0"/>
+        <noDataList bandNo="3" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>0</Searchable>
+      </flags>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <pipe>
+        <rasterrenderer redBand="1" type="multibandcolor" blueBand="3" greenBand="2" alphaBand="-1" opacity="1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>MinMax</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+          <redContrastEnhancement>
+            <minValue>2</minValue>
+            <maxValue>249</maxValue>
+            <algorithm>NoEnhancement</algorithm>
+          </redContrastEnhancement>
+          <greenContrastEnhancement>
+            <minValue>3</minValue>
+            <maxValue>250</maxValue>
+            <algorithm>NoEnhancement</algorithm>
+          </greenContrastEnhancement>
+          <blueContrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>252</maxValue>
+            <algorithm>NoEnhancement</algorithm>
+          </blueContrastEnhancement>
+        </rasterrenderer>
+        <brightnesscontrast contrast="0" brightness="0"/>
+        <huesaturation colorizeRed="255" colorizeStrength="100" colorizeBlue="128" colorizeOn="0" grayscaleMode="0" saturation="0" colorizeGreen="128"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer hasScaleBasedVisibilityFlag="0" refreshOnNotifyEnabled="0" type="raster" styleCategories="AllStyleCategories" autoRefreshEnabled="0" refreshOnNotifyMessage="" minScale="1e+8" maxScale="0" autoRefreshTime="0">
+      <extent>
+        <xmin>2368500</xmin>
+        <ymin>643500</ymin>
+        <xmax>2373000</xmax>
+        <ymax>648500</ymax>
+      </extent>
+      <id>veg_heightmap_fc8b8cf1_930b_41fa_9a8f_4a5e3d27bf5c</id>
+      <datasource>./public_data/processed/veg-heightmap.jpg</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>veg-heightmap</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=lcc +lat_1=40.43333333333333 +lat_2=41.7 +lat_0=39.66666666666666 +lon_0=-82.5 +x_0=600000.0000000001 +y_0=0 +datum=NAD83 +units=us-ft +no_defs</proj4>
+          <srsid>27549</srsid>
+          <srid>102722</srid>
+          <authid>EPSG:102722</authid>
+          <description>NAD_1983_StatePlane_Ohio_North_FIPS_3401_Feet</description>
+          <projectionacronym>lcc</projectionacronym>
+          <ellipsoidacronym></ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+        <noDataList bandNo="2" useSrcNoData="0"/>
+        <noDataList bandNo="3" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>0</Searchable>
+      </flags>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <pipe>
+        <rasterrenderer redBand="1" type="multibandcolor" blueBand="3" greenBand="2" alphaBand="-1" opacity="1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>MinMax</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+          <redContrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>255</maxValue>
+            <algorithm>NoEnhancement</algorithm>
+          </redContrastEnhancement>
+          <greenContrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>255</maxValue>
+            <algorithm>NoEnhancement</algorithm>
+          </greenContrastEnhancement>
+          <blueContrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>255</maxValue>
+            <algorithm>NoEnhancement</algorithm>
+          </blueContrastEnhancement>
+        </rasterrenderer>
+        <brightnesscontrast contrast="0" brightness="0"/>
+        <huesaturation colorizeRed="255" colorizeStrength="100" colorizeBlue="128" colorizeOn="0" grayscaleMode="0" saturation="0" colorizeGreen="128"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+  </projectlayers>
+  <layerorder>
+    <layer id="pk_osip_iii_b107fae7_d893_433b_8a51_243373c1b069"/>
+    <layer id="pk_osip_ii_96339c68_f2cf_43fc_9c77_478bd292a1f9"/>
+    <layer id="pk_osip_i_5161ed26_4f9d_4610_935a_3c77c356a2ea"/>
+    <layer id="veg_heightmap_fc8b8cf1_930b_41fa_9a8f_4a5e3d27bf5c"/>
+    <layer id="hillshade_3751c927_db0b_44d1_90b8_12cb3bf499cd"/>
+    <layer id="ground_intensity_016d0a33_ed81_4df1_8a18_e3495f13964e"/>
+    <layer id="Parcel_lines_2020January_a59fdd21_c25a_452a_9bec_6b086dcc1e85"/>
+    <layer id="Parcels_2020January_74a720f0_9cae_497e_a5a5_86387519b6fd"/>
+    <layer id="iso_1m_a2301255_6e67_4857_a223_8cfe5e40619b"/>
+    <layer id="iso_5ft_47ee46f7_6c8c_43a1_851d_4243c9a0ef5f"/>
+  </layerorder>
+  <properties>
+    <WMTSPngLayers>
+      <Project type="bool">false</Project>
+      <Group type="QStringList"/>
+      <Layer type="QStringList"/>
+    </WMTSPngLayers>
+    <WMSOnlineResource type="QString"></WMSOnlineResource>
+    <PositionPrecision>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+      <Automatic type="bool">true</Automatic>
+      <DegreeFormat type="QString">D</DegreeFormat>
+    </PositionPrecision>
+    <WMSRequestDefinedDataSources type="bool">false</WMSRequestDefinedDataSources>
+    <WCSLayers type="QStringList"/>
+    <WMSAddWktGeometry type="bool">false</WMSAddWktGeometry>
+    <WMSServiceTitle type="QString"></WMSServiceTitle>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <WMSContactPerson type="QString"></WMSContactPerson>
+    <WMTSUrl type="QString"></WMTSUrl>
+    <WMSImageQuality type="int">90</WMSImageQuality>
+    <WMSSegmentizeFeatureInfoGeometry type="bool">false</WMSSegmentizeFeatureInfoGeometry>
+    <Gui>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+    </Gui>
+    <WFSLayers type="QStringList"/>
+    <SpatialRefSys>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
+    <DefaultStyles>
+      <Opacity type="double">1</Opacity>
+      <RandomColors type="bool">true</RandomColors>
+      <Line type="QString"></Line>
+      <Marker type="QString"></Marker>
+      <ColorRamp type="QString"></ColorRamp>
+      <Fill type="QString"></Fill>
+    </DefaultStyles>
+    <WMSAccessConstraints type="QString">None</WMSAccessConstraints>
+    <WMSContactPhone type="QString"></WMSContactPhone>
+    <WFSUrl type="QString"></WFSUrl>
+    <WMTSJpegLayers>
+      <Project type="bool">false</Project>
+      <Group type="QStringList"/>
+      <Layer type="QStringList"/>
+    </WMTSJpegLayers>
+    <WMSDefaultMapUnitsPerMm type="double">0.305</WMSDefaultMapUnitsPerMm>
+    <WMTSMinScale type="int">5000</WMTSMinScale>
+    <Measurement>
+      <DistanceUnits type="QString">meters</DistanceUnits>
+      <AreaUnits type="QString">m2</AreaUnits>
+    </Measurement>
+    <Measure>
+      <Ellipsoid type="QString">WGS84</Ellipsoid>
+    </Measure>
+    <WMSFees type="QString">conditions unknown</WMSFees>
+    <WMTSLayers>
+      <Project type="bool">false</Project>
+      <Group type="QStringList"/>
+      <Layer type="QStringList"/>
+    </WMTSLayers>
+    <WMSServiceCapabilities type="bool">false</WMSServiceCapabilities>
+    <WFSTLayers>
+      <Update type="QStringList"/>
+      <Delete type="QStringList"/>
+      <Insert type="QStringList"/>
+    </WFSTLayers>
+    <WMSServiceAbstract type="QString"></WMSServiceAbstract>
+    <WMSUrl type="QString"></WMSUrl>
+    <WCSUrl type="QString"></WCSUrl>
+    <WMSContactOrganization type="QString"></WMSContactOrganization>
+    <WMSRootName type="QString"></WMSRootName>
+    <WMSPrecision type="QString">8</WMSPrecision>
+    <WMSKeywordList type="QStringList">
+      <value></value>
+    </WMSKeywordList>
+    <WMSUseLayerIDs type="bool">false</WMSUseLayerIDs>
+    <WMSContactPosition type="QString"></WMSContactPosition>
+    <PAL>
+      <CandidatesPoint type="int">16</CandidatesPoint>
+      <ShowingAllLabels type="bool">false</ShowingAllLabels>
+      <CandidatesPolygon type="int">30</CandidatesPolygon>
+      <ShowingPartialsLabels type="bool">true</ShowingPartialsLabels>
+      <DrawRectOnly type="bool">false</DrawRectOnly>
+      <SearchMethod type="int">0</SearchMethod>
+      <TextFormat type="int">0</TextFormat>
+      <ShowingCandidates type="bool">false</ShowingCandidates>
+      <CandidatesLine type="int">50</CandidatesLine>
+    </PAL>
+    <WMSContactMail type="QString"></WMSContactMail>
+    <Macros>
+      <pythonCode type="QString"></pythonCode>
+    </Macros>
+  </properties>
+  <visibility-presets/>
+  <transformContext/>
+  <projectMetadata>
+    <identifier></identifier>
+    <parentidentifier></parentidentifier>
+    <language></language>
+    <type></type>
+    <title></title>
+    <abstract></abstract>
+    <contact>
+      <name></name>
+      <organization></organization>
+      <position></position>
+      <voice></voice>
+      <fax></fax>
+      <email></email>
+      <role></role>
+    </contact>
+    <links/>
+    <author>Alex</author>
+    <creation>2020-05-16T14:04:46</creation>
+  </projectMetadata>
+  <Annotations/>
+  <Layouts/>
+</qgis>
