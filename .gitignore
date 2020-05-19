@@ -2,3 +2,5 @@
 **/tmp
 
 **/*~
+**/*.gpkg-shm
+**/*.gpkg-wal

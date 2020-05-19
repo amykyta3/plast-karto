@@ -1,5 +1,5 @@
 # Plast Maps
-This repository is the project home for Пластові Оселі in the US.
+This repository is the project home for maps of Пластові Оселі in the US.
 
 
 ## Download latest maps
@@ -12,7 +12,7 @@ Check back later. They are not ready yet.
 The biggest thing I need help with is collecting survey data. If you have a
 handheld GPS, notebook, and love walking through the woods, you can help!
 
-See the [Projects](https://github.com/amykyta3/plast-maps/projects) page for
+Check out any [issues marked as "Survey Needed"](https://github.com/amykyta3/plast-maps/issues?q=is%3Aopen+is%3Aissue+label%3A%22Survey+Needed%22) for
 details on what needs to be done.
 
 ### Report inaccuracies
