@@ -8,12 +8,17 @@ Check back later. They are not ready yet.
 
 ## How can I contribute?
 
+Check out the issues page. If something is [marked as "Help Wanted"](https://github.com/amykyta3/plast-maps/labels/Help%20Wanted),
+it means I could use your help!
+
 ### Field Surveys
 The biggest thing I need help with is collecting survey data. If you have a
-handheld GPS, notebook, and love walking through the woods, you can help!
+handheld GPS, notebook, and love exploring our amazing Пластові оселі, you can help!
 
 Check out any [issues marked as "Survey Needed"](https://github.com/amykyta3/plast-maps/issues?q=is%3Aopen+is%3Aissue+label%3A%22Survey+Needed%22) for
 details on what needs to be done.
+
+Here are [some tips on how to do an effective field survey](https://github.com/amykyta3/plast-maps/wiki/How-to-survey-using-GPS).
 
 ### Report inaccuracies
 Is a map out of date because there is a new road or building?
