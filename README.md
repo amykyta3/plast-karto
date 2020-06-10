@@ -1,4 +1,4 @@
-# Plast Maps
+# Plast Karto
 This repository is the project home for maps of Пластові Оселі in the US.
 
 
