@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:gpxx="http://www.garmin.com/xmlschemas/WaypointExtension/v1" xmlns:gpxtrx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" creator="Oregon 450" version="1.1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/WaypointExtension/v1 http://www8.garmin.com/xmlschemas/WaypointExtensionv1.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd">
+  <metadata>
+    <link href="http://www.garmin.com">
+      <text>Garmin International</text>
+    </link>
+    <time>2014-01-01T17:54:20Z</time>
+  </metadata>
+  <wpt lat="41.428016" lon="-81.035397"><ele>343.724457</ele>
+    <time>2018-02-25T17:16:43Z</time>
+    <name>TR A START</name>
+  </wpt>
+
+  <wpt lat="41.428900" lon="-81.035967"><ele>347.421814</ele>
+    <time>2018-02-25T17:29:05Z</time>
+    <name>JCT BARRACKS TRAIL</name>
+  </wpt>
+
+  <wpt lat="41.429206" lon="-81.036077"><ele>346.856201</ele>
+    <time>2018-02-25T17:31:00Z</time>
+    <name>005 – probably Bridge 1 (culvert)</name>
+  </wpt>
+
+  <wpt lat="41.430213" lon="-81.035772"><ele>342.278900</ele>
+    <time>2018-02-25T17:36:54Z</time>
+    <name>Bridge 2 (culvert)</name>
+  </wpt>
+
+  <wpt lat="41.430436" lon="-81.035519"><ele>347.953705</ele>
+    <time>2018-02-25T17:39:58Z</time>
+    <name>Bridge 3</name>
+  </wpt>
+
+  <wpt lat="41.431475" lon="-81.033601"><ele>352.993408</ele>
+    <time>2018-02-25T17:46:37Z</time>
+    <name>Jct Ynk</name>
+  </wpt>
+
+  <wpt lat="41.431409" lon="-81.031630"><ele>351.292969</ele>
+    <time>2018-02-25T17:55:42Z</time>
+    <name>Big Bend</name>
+  </wpt>
+
+  <wpt lat="41.430771" lon="-81.031600"><ele>349.193512</ele>
+    <time>2018-02-25T17:59:21Z</time>
+    <name>ZigZag</name>
+  </wpt>
+
+  <wpt lat="41.429828" lon="-81.031678"><ele>344.114685</ele>
+    <time>2018-02-25T18:03:50Z</time>
+    <name>Jct Ych</name>
+  </wpt>
+
+  <wpt lat="41.429340" lon="-81.031744"><ele>337.112610</ele>
+    <time>2018-02-25T18:07:02Z</time>
+    <name>Sugar Shack</name>
+  </wpt>
+
+  <wpt lat="41.429237" lon="-81.031932"><ele>338.549225</ele>
+    <time>2018-02-25T18:08:50Z</time>
+    <name>FootbrS</name>
+  </wpt>
+
+  <wpt lat="41.429115" lon="-81.031404"><ele>336.827087</ele>
+    <time>2018-02-25T18:16:40Z</time>
+    <name>Lakes Tr W</name>
+  </wpt>
+
+  <wpt lat="41.428729" lon="-81.030793"><ele>337.911957</ele>
+    <time>2018-02-25T18:19:40Z</time>
+    <name>Culvert</name>
+  </wpt>
+
+  <wpt lat="41.427610" lon="-81.030571"><ele>350.872986</ele>
+    <time>2018-02-25T18:27:01Z</time>
+    <name>Lake Tr E</name>
+  </wpt>
+</gpx>
