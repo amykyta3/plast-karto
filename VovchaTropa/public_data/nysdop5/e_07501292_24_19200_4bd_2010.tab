@@ -1,0 +1,13 @@
+!table
+!version 300
+!charset WindowsLatin1
+
+Definition Table
+  File "e_07501292_24_19200_4bd_2010.jp2"
+  Type "RASTER"
+  (750000,1296000)  (0,0) Label "Pt 1",
+  (756000,1296000)  (3000,0) Label "Pt 2",
+  (756000,1292000)  (3000,2000) Label "Pt 3",
+  (750000,1292000)  (0,2000) Label "Pt 4"
+  CoordSys Earth Projection 8,74,"survey ft",-74.5,38.83333333,0.9999,492125,0
+  Units "survey ft"

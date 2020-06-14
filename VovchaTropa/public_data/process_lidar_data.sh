@@ -35,8 +35,8 @@ $LAStools/lasmerge \
 
 # Crop down to Vovcha region
 # Create a second shifted copy of everything to work around the black diagonal stripe
-$LAStools/las2las -keep_xy 621500 4693200 623400 4694700 -i tmp/merged.las -o tmp/cropped.las
-$LAStools/las2las -keep_xy 621510 4693200 623400 4694700 -i tmp/merged.las -o tmp/cropped-shifted.las
+$LAStools/las2las -keep_xy 621300 4693100 623400 4694700 -i tmp/merged.las -o tmp/cropped.las
+$LAStools/las2las -keep_xy 621310 4693100 623400 4694700 -i tmp/merged.las -o tmp/cropped-shifted.las
 
 #-------------------------------------------------------------------------------
 

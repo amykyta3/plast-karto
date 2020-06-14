@@ -1,0 +1,13 @@
+!table
+!version 300
+!charset WindowsLatin1
+
+Definition Table
+  File "e_07531292_12_15100_4bd_2014.jp2"
+  Type "RASTER"
+  (753000.000000, 1294000.000000) (0, 0) Label "NW",
+  (753000.000000, 1292001.000000) (0, 1999) Label "SW",
+  (755999.000000, 1294000.000000) (2999, 0) Label "NE",
+  (755999.000000, 1292001.000000) (2999, 1999) Label "SE"
+  CoordSys Earth Projection 8, 74, "survey ft", -74.5, 38.8333333333333, 0.9999, 492125, 0
+  Units "survey ft"

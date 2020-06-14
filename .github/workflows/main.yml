@@ -1,0 +1,54 @@
+name: Publish PDFs
+
+on:
+  push:
+    tags:
+    - 'release/*'
+
+jobs:
+  build:
+    runs-on: ubuntu-18.04
+
+    steps:
+    - name: Clone repo
+      uses: actions/checkout@v2
+
+    - name: Install QGIS
+      run: |
+        wget -O - https://qgis.org/downloads/qgis-2019.gpg.key | gpg --import
+        gpg --fingerprint 51F523511C7028C3
+        gpg --export --armor 51F523511C7028C3 | sudo apt-key add -
+        sudo add-apt-repository "deb https://qgis.org/debian bionic main"
+        sudo apt update
+        sudo apt install python-qgis xvfb
+
+    - name: Install Fonts
+      run: |
+        mkdir -p ~/.local/share/fonts
+        cp resources/fonts/*.ttf ~/.local/share/fonts/
+        fc-cache -f -v
+
+    - name: Confirm QGIS install
+      run: python3 -c "import qgis.core; print(qgis.core.Qgis.QGIS_VERSION)"
+
+    - name: Build Vovcha Maps
+      run: xvfb-run ./VovchaTropa/render_maps.py
+
+    - name: Build PK Maps
+      run: xvfb-run ./PysanyjKamin/render_maps.py
+
+    - name: Create Release
+      run: |
+        set -x
+        assets=()
+        for asset in ./VovchaTropa/rendered/*.pdf; do
+          assets+=("-a" "$asset")
+        done
+        for asset in ./PysanyjKamin/rendered/*.pdf; do
+          assets+=("-a" "$asset")
+        done
+        release_name="${GITHUB_REF##*/}"
+        tag_name="release/${GITHUB_REF##*/}"
+        hub release create "${assets[@]}" -m "$release_name" "$tag_name"
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
