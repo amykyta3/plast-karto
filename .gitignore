@@ -4,5 +4,6 @@
 **/__pycache__
 **/*.gpkg-shm
 **/*.gpkg-wal
+**/*.aux.xml
 **/*_attachments.zip
 .vscode

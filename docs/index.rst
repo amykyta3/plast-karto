@@ -50,6 +50,7 @@ Let me know by creating `an issue ticket <https://github.com/amykyta3/plast-kart
     :caption: Canada
 
     plastova-sich
+    baturyn
 
 .. toctree::
     :hidden:
