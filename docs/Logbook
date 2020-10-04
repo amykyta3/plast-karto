@@ -37,3 +37,6 @@ TODO
 - Add forest clearings
     There really ought to be a 2nd-level to woods. Not just the boolean woods/not-woods
     There should be a "clearing in woods" that denotes an intentionally cleared out area
+
+TODO: Sich
+    - Re-export isolines and smooth them

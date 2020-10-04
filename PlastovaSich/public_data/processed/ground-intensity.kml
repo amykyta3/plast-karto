@@ -1,0 +1,11 @@
+<GroundOverlay>
+  <name>E736.700k N4872.511k</name>
+  <Icon><href>ground-intensity.png</href></Icon>
+  <LatLonBox>
+  <south>43.9673399766</south>
+  <west>-78.0489518345</west>
+  <north>43.9825271150</north>
+  <east>-78.0265396832</east>
+  <rotation>-2.1673602145</rotation>
+  </LatLonBox>
+</GroundOverlay>
