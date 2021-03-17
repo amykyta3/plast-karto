@@ -15,10 +15,9 @@ jobs:
 
     - name: Install QGIS
       run: |
-        wget -O - https://qgis.org/downloads/qgis-2019.gpg.key | gpg --import
-        gpg --fingerprint 51F523511C7028C3
-        gpg --export --armor 51F523511C7028C3 | sudo apt-key add -
-        sudo add-apt-repository "deb https://qgis.org/debian bionic main"
+        wget -qO - https://qgis.org/downloads/qgis-2020.gpg.key | sudo gpg --no-default-keyring --keyring gnupg-ring:/etc/apt/trusted.gpg.d/qgis-archive.gpg --import
+        sudo chmod a+r /etc/apt/trusted.gpg.d/qgis-archive.gpg
+        sudo add-apt-repository "deb https://qgis.org/ubuntu $(lsb_release -c -s) main"
         sudo apt update
         sudo apt install python-qgis xvfb
 
@@ -37,6 +36,9 @@ jobs:
     - name: Build PK Maps
       run: xvfb-run ./PysanyjKamin/render_maps.py
 
+    - name: Build Sokil Maps
+      run: xvfb-run ./NovijSokil/render_maps.py
+
     - name: Create Release
       run: |
         set -x
@@ -45,6 +47,9 @@ jobs:
           assets+=("-a" "$asset")
         done
         for asset in ./PysanyjKamin/rendered/*.pdf; do
+          assets+=("-a" "$asset")
+        done
+        for asset in ./NovijSokil/rendered/*.pdf; do
           assets+=("-a" "$asset")
         done
         release_name="${GITHUB_REF##*/}"
