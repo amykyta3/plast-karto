@@ -27,7 +27,7 @@ class QgisSession:
     def __exit__(self, typ, value, traceback):
         self.app.exitQgis()
 
-def export_map(project_path, layout_name, pdf_path, thumbnail_path):
+def export_map(project_path, layout_name, pdf_path, thumbnail_path=None):
     # Open project
     project_instance = QgsProject.instance()
     project_instance.setFileName(project_path)
@@ -44,9 +44,10 @@ def export_map(project_path, layout_name, pdf_path, thumbnail_path):
         QgsLayoutExporter.PdfExportSettings()
     )
 
-    # Generate a thumbnail image
-    image = exporter.renderPageToImage(0, dpi=30)
-    image.save(thumbnail_path)
+    if thumbnail_path:
+        # Generate a thumbnail image
+        image = exporter.renderPageToImage(0, dpi=50)
+        image.save(thumbnail_path)
 
 
 #===============================================================================
@@ -55,12 +56,19 @@ if __name__ == "__main__":
 
     with QgisSession():
 
-        print("Exporting VT-USGS")
+        print("Exporting VT-USGS 8.5x11")
         export_map(
             os.path.join(this_dir, 'VovchaTropa-USGS.qgs'),
             "8.5x11",
             os.path.join(this_dir, "rendered/VovchaTropa-USGS-8.5x11.pdf"),
             os.path.join(this_dir, "rendered/VovchaTropa-USGS-8.5x11-thumb.png"),
+        )
+
+        print("Exporting VT-USGS 24x36")
+        export_map(
+            os.path.join(this_dir, 'VovchaTropa-USGS.qgs'),
+            "24x36",
+            os.path.join(this_dir, "rendered/VovchaTropa-USGS-24x36.pdf"),
         )
 
         print("Exporting VT-greyscale")

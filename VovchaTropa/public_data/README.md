@@ -22,6 +22,10 @@ Source files:
 * ftp://ftp.gis.ny.gov/ortho/nysdop8/columbia/spcs/tiles/e_07591294_12_15300_4bd_2017.zip
 * ftp://ftp.gis.ny.gov/ortho/nysdop8/columbia/spcs/tiles/e_07591296_12_15300_4bd_2017.zip
 * ftp://ftp.gis.ny.gov/ortho/nysdop8/columbia/spcs/tiles/e_07591298_12_15300_4bd_2017.zip
+* ftp://ftp.gis.ny.gov/ortho/nysdop8/columbia/spcs/tiles/e_07621292_12_15300_4bd_2017.zip
+* ftp://ftp.gis.ny.gov/ortho/nysdop8/columbia/spcs/tiles/e_07621294_12_15300_4bd_2017.zip
+* ftp://ftp.gis.ny.gov/ortho/nysdop8/columbia/spcs/tiles/e_07621296_12_15300_4bd_2017.zip
+* ftp://ftp.gis.ny.gov/ortho/nysdop8/columbia/spcs/tiles/e_07621298_12_15300_4bd_2017.zip
 
 Highlights from metadata:
 * Surveyed April 2017
