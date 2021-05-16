@@ -7,9 +7,20 @@ Color "USGS style" Topo
 Mimics color schemes and symbols used in the popular and familiar USGS topo map
 series.
 
-`Download 8.5x11 PDF <https://github.com/amykyta3/plast-karto/releases/latest/download/PysanyjKamin-USGS-8.5x11.pdf>`__
-
 .. image:: ../PysanyjKamin/rendered/PysanyjKamin-USGS-8.5x11-thumb.png
+
+.. list-table::
+    :header-rows: 1
+
+    *   - Page Size
+        - Map Scale
+        -
+    *   - 8.5 x 11 (Letter)
+        - 1:4500
+        - `Download <https://github.com/amykyta3/plast-karto/releases/latest/download/PysanyjKamin-USGS-8.5x11.pdf>`__
+    *   - 24 x 36 (Arch D)
+        - 1:1500
+        - `Download <https://github.com/amykyta3/plast-karto/releases/latest/download/PysanyjKamin-USGS-24x36.pdf>`__
 
 
 Black & White Topo
@@ -17,9 +28,17 @@ Black & White Topo
 Optimized for inexpensive black and white printing. Should hold up to
 photocopying as well.
 
-`Download 8.5x11 PDF <https://github.com/amykyta3/plast-karto/releases/latest/download/PysanyjKamin-greyscale-8.5x11.pdf>`__
-
 .. image:: ../PysanyjKamin/rendered/PysanyjKamin-greyscale-8.5x11-thumb.png
+
+.. list-table::
+    :header-rows: 1
+
+    *   - Page Size
+        - Map Scale
+        -
+    *   - 8.5 x 11 (Letter)
+        - 1:4500
+        - `Download <https://github.com/amykyta3/plast-karto/releases/latest/download/PysanyjKamin-greyscale-8.5x11.pdf>`__
 
 
 Data Sources and Attributions

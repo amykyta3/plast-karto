@@ -27,7 +27,7 @@ class QgisSession:
     def __exit__(self, typ, value, traceback):
         self.app.exitQgis()
 
-def export_map(project_path, layout_name, pdf_path, thumbnail_path):
+def export_map(project_path, layout_name, pdf_path, thumbnail_path=None):
     # Open project
     project_instance = QgsProject.instance()
     project_instance.setFileName(project_path)
@@ -44,9 +44,10 @@ def export_map(project_path, layout_name, pdf_path, thumbnail_path):
         QgsLayoutExporter.PdfExportSettings()
     )
 
-    # Generate a thumbnail image
-    image = exporter.renderPageToImage(0, dpi=30)
-    image.save(thumbnail_path)
+    if thumbnail_path:
+        # Generate a thumbnail image
+        image = exporter.renderPageToImage(0, dpi=50)
+        image.save(thumbnail_path)
 
 
 #===============================================================================
