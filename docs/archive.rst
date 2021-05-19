@@ -28,7 +28,7 @@ Author: Олесь Микита
 ---------------------
 Author: Марко Бей
 
-The original variants of this map was created in 1994 before GPS was ubiquitous.
+The original variants of this map were created in 1994 before GPS was ubiquitous.
 Trails were surveyed by meticulously walking PK with a compass and counting paces.
 
 * :download:`Color PDF, 8.5x11 <../archive/pk_topo_map_2004.pdf>`

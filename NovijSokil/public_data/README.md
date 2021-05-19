@@ -55,6 +55,8 @@ Highlights from metadata:
 http://gis.ny.gov/
 
 Source tiles are not included due to their size but can be downloaded from:
+* ftp://ftp.gis.ny.gov/elevation/LIDAR/County_Erie2008/10509400.las
+* ftp://ftp.gis.ny.gov/elevation/LIDAR/County_Erie2008/10509450.las
 * ftp://ftp.gis.ny.gov/elevation/LIDAR/County_Erie2008/10559400.las
 * ftp://ftp.gis.ny.gov/elevation/LIDAR/County_Erie2008/10559450.las
 

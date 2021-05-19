@@ -16,6 +16,8 @@ mkdir -p processed
 # Download LiDAR tiles
 
 cd downloads
+wget -nc -nv ftp://ftp.gis.ny.gov/elevation/LIDAR/County_Erie2008/10509400.las
+wget -nc -nv ftp://ftp.gis.ny.gov/elevation/LIDAR/County_Erie2008/10509450.las
 wget -nc -nv ftp://ftp.gis.ny.gov/elevation/LIDAR/County_Erie2008/10559400.las
 wget -nc -nv ftp://ftp.gis.ny.gov/elevation/LIDAR/County_Erie2008/10559450.las
 cd ..
@@ -26,12 +28,14 @@ cd ..
 $LAStools/lasmerge \
     -sp83 NY_W -feet -elevation_feet \
     -i \
+    downloads/10509400.las \
+    downloads/10509450.las \
     downloads/10559400.las \
     downloads/10559450.las \
     -o tmp/merged.las
 
 # Crop down to Sokil region
-$LAStools/las2las -keep_xy 1055000 944000 1059000 948000 -i tmp/merged.las -o tmp/cropped.las
+$LAStools/las2las -keep_xy 1054000 944000 1059000 948000 -i tmp/merged.las -o tmp/cropped.las
 
 #-------------------------------------------------------------------------------
 

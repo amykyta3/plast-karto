@@ -56,12 +56,19 @@ if __name__ == "__main__":
 
     with QgisSession():
 
-        print("Exporting NS-USGS")
+        print("Exporting NS-USGS 8.5x11")
         export_map(
             os.path.join(this_dir, 'NovijSokil-USGS.qgs'),
             "8.5x11",
             os.path.join(this_dir, "rendered/NovijSokil-USGS-8.5x11.pdf"),
             os.path.join(this_dir, "rendered/NovijSokil-USGS-8.5x11-thumb.png"),
+        )
+
+        print("Exporting NS-USGS 24x36")
+        export_map(
+            os.path.join(this_dir, 'NovijSokil-USGS.qgs'),
+            "24x36",
+            os.path.join(this_dir, "rendered/NovijSokil-USGS-24x36.pdf"),
         )
 
         print("Exporting NS-greyscale")

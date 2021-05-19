@@ -17,7 +17,10 @@ series.
         -
     *   - 8.5 x 11 (Letter)
         - 1:4000
-        - `Download 8.5x11 PDF <https://github.com/amykyta3/plast-karto/releases/latest/download/NovijSokil-USGS-8.5x11.pdf>`__
+        - `Download <https://github.com/amykyta3/plast-karto/releases/latest/download/NovijSokil-USGS-8.5x11.pdf>`__
+    *   - 24 x 36 (Arch D)
+        - 1:1250
+        - `Download <https://github.com/amykyta3/plast-karto/releases/latest/download/NovijSokil-USGS-24x36.pdf>`__
 
 
 Black & White Topo
