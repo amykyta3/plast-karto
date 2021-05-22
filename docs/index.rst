@@ -39,9 +39,15 @@ Let me know by creating `an issue ticket <https://github.com/amykyta3/plast-kart
 
 .. toctree::
     :hidden:
-    :caption: Пластові Оселі
+    :caption: Maps
 
     novyj-sokil
     pysanyj-kamin
     vovcha-tropa
     archive
+
+.. toctree::
+    :hidden:
+    :caption: Resources
+
+    orienteering-card
