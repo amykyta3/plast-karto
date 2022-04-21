@@ -1,6 +1,24 @@
 # Source GIS Data
 This folder contains original data files in their (mostly) unaltered forms.
 
+## 3DEP LiDAR
+
+LiDAR elevation scan data
+https://ogrip.oit.ohio.gov/ProjectsInitiatives/OSIPDataDownloads.aspx
+
+Source tiles are not included due to their size but can be downloaded via the processing script mentioned below.
+
+LiDAR data was post-processed using LAStools and their respective
+output products checked in to the [processed/3DEP_LiDAR](processed/3DEP_LiDAR) folder. To re-run this operation, see [process_3DEP_lidar_data.sh](process_3DEP_lidar_data.sh).
+
+Highlights from metadata: (see XML from original download zips)
+* Surveyed Nov 2019-May 2020
+* All units in feet
+* 10cm vertical accuracy
+* Nominal pulse spacing of 0.35 meters
+* Projection: EPSG:6549 - NAD83 (2011) State Plane Ohio North Zone US Survey Feet
+
+
 ## OGRIP LiDAR
 [OSIP_GEA_LiDAR/](OSIP_GEA_LiDAR)
 
@@ -11,7 +29,7 @@ Due to the file size, source LiDAR data is not included.
 Full download (3.3 GB): http://gis3.oit.ohio.gov/ZIPARCHIVES/ELEVATION/LIDAR/OSIP_GEA_LiDAR.zip
 
 LiDAR data was post-processed using LAStools and their respective
-output products checked in to the [processed/](processed) folder. To re-run this operation, see [process_lidar_data.sh](process_lidar_data.sh).
+output products checked in to the [processed/OSIP_I_LiDAR](processed/OSIP_I_LiDAR) folder. To re-run this operation, see [process_OSIP_I_lidar_data.sh](process_OSIP_I_lidar_data.sh).
 
 Highlights from metadata: (See XML files)
 * Surveyed March-May 2006

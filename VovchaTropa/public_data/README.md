@@ -89,7 +89,7 @@ Instead, tiles were downloaded temporarily and processed into their respective
 output products in [processed/](processed). To re-run this operation, see [process_lidar_data.sh](process_lidar_data.sh).
 
 Highlights from metadata:
-* Surveyed March-May 2006
+* Surveyed March-May 2016
 * Horizontal accuracy: 0.3273 meters
 * Vertical accuracy: 0.06 meters
 * 1.0 foot cell size
