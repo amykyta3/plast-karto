@@ -1,0 +1,22 @@
+--------------------------------------------------------------------------------
+Misc
+--------------------------------------------------------------------------------
+Vector files keep getting modified even though I didnt change anything
+    Running this in python console made it stop:
+        QSettings().setValue("/qgis/walForSqlite3", False)
+    https://github.com/qgis/QGIS/issues/23991
+
+--------------------------------------------------------------------------------
+TODO
+--------------------------------------------------------------------------------
+- Translations
+- "NPS-style" visitor maps
+    - remove contours (keep hillshade?)
+    - Add icons & labels for campsites, parking, etc
+    - Trail segment mileage labels
+    - No-parking near tabory. pick-up/drop-off only!
+    - Denote gates closed to visitors
+
+- Add forest clearings
+    There really ought to be a 2nd-level to woods. Not just the boolean woods/not-woods
+    There should be a "clearing in woods" that denotes an intentionally cleared out area
