@@ -6,6 +6,19 @@ http://gis.ny.gov/
 
 Imagery was downloaded and committed in its unaltered form.
 
+### NYSDOP10
+[nysdop10/](nysdop10)
+
+Source files:
+* ftp://ftp.gis.ny.gov/ortho/nysdop8/erie/spcs/tiles/w_10530944_12_19200_4bd_2021.zip
+* ftp://ftp.gis.ny.gov/ortho/nysdop8/erie/spcs/tiles/w_10560944_12_19200_4bd_2021.zip
+* ftp://ftp.gis.ny.gov/ortho/nysdop8/erie/spcs/tiles/w_10530946_12_19200_4bd_2021.zip
+* ftp://ftp.gis.ny.gov/ortho/nysdop8/erie/spcs/tiles/w_10560946_12_19200_4bd_2021.zip
+
+Highlights from metadata:
+* TODO:
+
+
 ### NYSDOP8
 [nysdop8/](nysdop8)
 
@@ -54,6 +67,18 @@ Highlights from metadata:
 ## NYSGPO LiDAR
 http://gis.ny.gov/
 
+### 2019 Series
+Tiles were downloaded temporarily and processed into their respective
+output products in [processed/2019NY_LiDAR/](processed/2019NY_LiDAR/). To re-run this operation, see [process_2019NY_lidar.sh](process_2019NY_lidar.sh).
+
+Highlights from metadata:
+* Surveyed April 2019
+* Nominal point spacing: 0.7 meters
+* Projection: EPSG:6350 - NAD83(2011) Conus Albers
+
+
+### 2008 Series
+
 Source tiles are not included due to their size but can be downloaded from:
 * ftp://ftp.gis.ny.gov/elevation/LIDAR/County_Erie2008/10509400.las
 * ftp://ftp.gis.ny.gov/elevation/LIDAR/County_Erie2008/10509450.las
@@ -69,6 +94,7 @@ Highlights from metadata:
 * Horizontal accuracy: 1.0 meters
 * Vertical accuracy: 0.37 meters
 * Projection: EPSG:103119 - NAD_1983_2011_StatePlane_New_York_West_FIPS_3103_Ft_US
+
 
 ## Parcel Shapefile
 [NYS-Tax-Parcels-SHP/](NYS-Tax-Parcels-SHP)

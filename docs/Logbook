@@ -7,6 +7,22 @@ Vector files keep getting modified even though I didnt change anything
     https://github.com/qgis/QGIS/issues/23991
 
 --------------------------------------------------------------------------------
+Smoothing Isolines
+--------------------------------------------------------------------------------
+LAStools's las2iso filters can only do so much when smoothing out isolines.
+Better to use a combination of las2iso + QGIS GRASS v.generalize tool.
+
+- Use las2iso to clean up most junk
+    - Use -smooth & -clean to get rid of superfluous squiggles
+    - Use -simplify sparingly
+- GRASS v.generalize
+    - 'snakes' algorithm seems to do quite well
+    - So far, default settings look great!
+    - IMPORTANT: write the output layer directly to an actual gpkg file instead of a "temporary file"
+        For some reason, when saving via a temporary layer --> gpkg, the Z coordinate is lost.
+
+
+--------------------------------------------------------------------------------
 TODO
 --------------------------------------------------------------------------------
 - Translations
@@ -22,5 +38,8 @@ TODO
     There should be a "clearing in woods" that denotes an intentionally cleared out area
 
 TODO: Sokil
-    - New LiDAR!
     - Add new trails
+
+TODO: Vovcha & PK
+    - Make sure hillshade uses cubic resampling
+    - Smooth isolines
