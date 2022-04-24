@@ -110,7 +110,7 @@ composite -geometry +10+0 tmp/hillshade-shifted-trans.png $out/hillshade.png $ou
 # Generate isocontours from ground elevation data
 
 wine $LAStools/las2iso -cpu64 -i tmp/elev-ft.las -o $out/iso-5ft.shp \
-    -iso_every 5 -smooth 100 -clean 100 -simplify 4
+    -iso_every 5 -smooth 50 -clean 100 -simplify 2
 
 wine $LAStools/las2iso -cpu64 -i tmp/elev-m.las -o $out/iso-1m.shp \
-    -iso_every 1 -smooth 100 -clean 100 -simplify 4
+    -iso_every 1 -smooth 50 -clean 100 -simplify 2

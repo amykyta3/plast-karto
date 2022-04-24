@@ -14,7 +14,8 @@ Better to use a combination of las2iso + QGIS GRASS v.generalize tool.
 
 - Use las2iso to clean up most junk
     - Use -smooth & -clean to get rid of superfluous squiggles
-    - Use -simplify sparingly
+    - Use -simplify sparingly, but necessary otherwise v.generalize takes a
+      long time to run
 - GRASS v.generalize
     - 'snakes' algorithm seems to do quite well
     - So far, default settings look great!
@@ -39,7 +40,3 @@ TODO
 
 TODO: Sokil
     - Add new trails
-
-TODO: Vovcha & PK
-    - Make sure hillshade uses cubic resampling
-    - Smooth isolines
