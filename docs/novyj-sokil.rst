@@ -66,6 +66,7 @@ Data Sources and Attributions
 * On-site surveys:
 
     * Лукаш Левицький - GPS Tracks & descriptions
+    * Захар Ганкевич - GPS Tracks & descriptions
 * Imagery and LiDAR datasets:
 
     * `NYS GIS Clearinghouse <http://gis.ny.gov>`_
