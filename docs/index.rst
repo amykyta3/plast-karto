@@ -2,9 +2,9 @@
 Plast Karto
 ===========
 
-This is the home for maps of Пластові Оселі in the US.
+This is the home for maps of Пластові Оселі in the US and Canada.
 
-To download the latest maps, see your favorite оселя's page in the sidebar.
+To download the latest maps, see your favorite оселя's page in the side navigation bar.
 
 
 How can I contribute?
@@ -39,15 +39,21 @@ Let me know by creating `an issue ticket <https://github.com/amykyta3/plast-kart
 
 .. toctree::
     :hidden:
-    :caption: Maps
+    :caption: USA
 
     novyj-sokil
     pysanyj-kamin
     vovcha-tropa
-    archive
+
+.. toctree::
+    :hidden:
+    :caption: Canada
+
+    plastova-sich
 
 .. toctree::
     :hidden:
     :caption: Resources
 
     orienteering-card
+    archive

@@ -40,5 +40,10 @@ File naming scheme (from https://www.sdc.gov.on.ca/sites/MNRF-PublicDocs/EN/CMID
     +-- Tile Size
 ```
 
+.. note::
+    LAZ files appear to no longer be available for public download.
+    I have a copy of the tiles stashed away in my archive if needed.
+
+
 ## Parcel Boundaries
-TBD
+From the Пласт Toronto archive (via АҐБ)
