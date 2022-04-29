@@ -34,7 +34,7 @@ diag_shift = 0.40
 r = corner_ruler(
     scale=scale,
     length=100,
-    major_interval=20, minor_per_major=5
+    major_interval=20, minor_per_major=10
 )
 translate_inch(r, tool_size - diag_shift, diag_shift)
 utm_tool.add(r)
