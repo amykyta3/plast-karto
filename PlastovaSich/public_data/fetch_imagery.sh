@@ -1,6 +1,7 @@
 #!/bin/bash
 set -e
 this_dir="$( cd "$(dirname "$0")" ; pwd -P )"
+tools=$this_dir/../../tools
 cd $this_dir
 
 mkdir -p downloads
