@@ -66,12 +66,12 @@ Data Sources and Attributions
 * Map author: Олесь Микита
 * On-site surveys:
 
-    * Олесь Микита - GPS tracks.
+  * Олесь Микита - GPS tracks.
 * Imagery and LiDAR datasets:
 
-    * `NYS GIS Clearinghouse <http://gis.ny.gov>`_
-    * nysdop5, nysdop7, nysdop8 Orthoimagery
-    * NYSGPO LiDAR
+  * `NYS GIS Clearinghouse <http://gis.ny.gov>`_
+  * nysdop5, nysdop7, nysdop8 Orthoimagery
+  * NYSGPO LiDAR
 * Parcel Boundaries:
 
-    * `Columbia County SDG Map Portal <https://sdg.giscloud.com/map/311797/columbia>`_
+  * `Columbia County SDG Map Portal <https://sdg.giscloud.com/map/311797/columbia>`_

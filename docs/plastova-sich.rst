@@ -101,8 +101,8 @@ Data Sources and Attributions
 * Map author: Олесь Микита
 * Imagery and LiDAR datasets:
 
-    * `Ontario Classified Point Cloud LiDAR Dataset <https://geohub.lio.gov.on.ca>`_
-    * `2018 SCOOP Aerial Imagery <https://maps.northumberlandcounty.ca/MunicipalServices/>`_
+  * `Ontario Classified Point Cloud LiDAR Dataset <https://geohub.lio.gov.on.ca>`_
+  * `2018 SCOOP Aerial Imagery <https://maps.northumberlandcounty.ca/MunicipalServices/>`_
 * Parcel Boundaries:
 
-    * Пласт Toronto Archive
+  * Пласт Toronto Archive

@@ -66,14 +66,14 @@ Data Sources and Attributions
 * Map author: Олесь Микита
 * On-site surveys:
 
-    * Марко Бей - Numerous contributions of GPS data and descriptions.
-    * Олесь Микита - GPS tracks.
+  * Марко Бей - Numerous contributions of GPS data and descriptions.
+  * Олесь Микита - GPS tracks.
 * Imagery and LiDAR datasets:
 
-    * `Ohio Geographically Referenced Information Program <https://ogrip.oit.ohio.gov>`_
-    * `OSIP I, II and III Imagery <https://ogrip.oit.ohio.gov/ProjectsInitiatives/OSIPDataDownloads.aspx>`_
-    * `OSIP I LiDAR dataset <https://ogrip.oit.ohio.gov/ProjectsInitiatives/OSIPDataDownloadsLiDAR.aspx>`_
+  * `Ohio Geographically Referenced Information Program <https://ogrip.oit.ohio.gov>`_
+  * `OSIP I, II and III Imagery <https://ogrip.oit.ohio.gov/ProjectsInitiatives/OSIPDataDownloads.aspx>`_
+  * `OSIP I LiDAR dataset <https://ogrip.oit.ohio.gov/ProjectsInitiatives/OSIPDataDownloadsLiDAR.aspx>`_
 * Parcel Boundaries:
 
-    * `Geauga County Auditor's Office <https://auditor.co.geauga.oh.us/GIS/Downloads>`_
-    * January 2020 shapefile.
+  * `Geauga County Auditor's Office <https://auditor.co.geauga.oh.us/GIS/Downloads>`_
+  * January 2020 shapefile.
