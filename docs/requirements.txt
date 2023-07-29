@@ -1,4 +1,2 @@
-sphinx >= 3.1
-
-# workaround for https://github.com/readthedocs/sphinx_rtd_theme/issues/1115
-docutils!=0.17,!=0.17.1
+sphinx >= 5
+sphinx_book_theme
