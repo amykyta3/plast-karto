@@ -1,0 +1,11 @@
+<GroundOverlay>
+  <name>E489.700k N5510.400k</name>
+  <Icon><href>veg-heightmap.png</href></Icon>
+  <LatLonBox>
+  <south>49.7460012642</south>
+  <west>-123.1429791402</west>
+  <north>49.7531972980</north>
+  <east>-123.1367320089</east>
+  <rotation>0.1169505921</rotation>
+  </LatLonBox>
+</GroundOverlay>

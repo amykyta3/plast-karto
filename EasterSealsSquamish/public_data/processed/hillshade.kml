@@ -1,0 +1,11 @@
+<GroundOverlay>
+  <name>E489.717k N5510.400k</name>
+  <Icon><href>hillshade.png</href></Icon>
+  <LatLonBox>
+  <south>49.7460014097</south>
+  <west>-123.1427431564</west>
+  <north>49.7531974435</north>
+  <east>-123.1367320089</east>
+  <rotation>0.1168519248</rotation>
+  </LatLonBox>
+</GroundOverlay>
