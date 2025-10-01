@@ -1,0 +1,17 @@
+name: Publish PDFs
+
+on:
+  push:
+    branches:
+    - 'dev/**'
+
+jobs:
+  build-22:
+    runs-on: ubuntu-22.04
+
+    steps:
+
+    - name: Install QGIS
+      run: |
+        sudo apt update
+        apt list --all-versions python3-qgis
