@@ -16,9 +16,10 @@
 
 
 # -- Project information -----------------------------------------------------
+import datetime
 
 project = 'Plast Karto'
-copyright = '2020, Alex Mykyta'
+copyright = f'{datetime.datetime.now().year}, Alex Mykyta'
 author = 'Alex Mykyta'
 html_title = project
 
