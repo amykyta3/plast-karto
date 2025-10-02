@@ -1,68 +1,55 @@
 name: Publish PDFs
 
 on:
-  push:
-    tags:
-    - 'release/*'
+  release:
+    types:
+      - published
+
+permissions:
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-22.04
 
     steps:
-    - name: Clone repo
-      uses: actions/checkout@v2
+      - name: Clone repo
+        uses: actions/checkout@v2
 
-    - name: Install QGIS
-      run: |
-        sudo apt update
-        sudo apt install python3-qgis xvfb
+      - name: Install QGIS
+        run: |
+          sudo apt update
+          sudo apt install python3-qgis xvfb
 
-    - name: Install Fonts
-      run: |
-        mkdir -p ~/.local/share/fonts
-        cp resources/fonts/*.ttf ~/.local/share/fonts/
-        fc-cache -f -v
+      - name: Install Fonts
+        run: |
+          mkdir -p ~/.local/share/fonts
+          cp resources/fonts/*.ttf ~/.local/share/fonts/
+          fc-cache -f -v
 
-    - name: Confirm QGIS install
-      run: python3 -c "import qgis.core; print(qgis.core.Qgis.QGIS_VERSION)"
+      - name: Confirm QGIS install
+        run: python3 -c "import qgis.core; print(qgis.core.Qgis.QGIS_VERSION)"
 
-    - name: Build Vovcha Maps
-      run: xvfb-run ./VovchaTropa/render_maps.py
+      - name: Build Vovcha Maps
+        run: xvfb-run ./VovchaTropa/render_maps.py
 
-    - name: Build PK Maps
-      run: xvfb-run ./PysanyjKamin/render_maps.py
+      - name: Build PK Maps
+        run: xvfb-run ./PysanyjKamin/render_maps.py
 
-    - name: Build Sokil Maps
-      run: xvfb-run ./NovijSokil/render_maps.py
+      - name: Build Sokil Maps
+        run: xvfb-run ./NovijSokil/render_maps.py
 
-    - name: Build Sich Maps
-      run: xvfb-run ./PlastovaSich/render_maps.py
+      - name: Build Sich Maps
+        run: xvfb-run ./PlastovaSich/render_maps.py
 
-    - name: Build Baturyn Maps
-      run: xvfb-run ./Baturyn/render_maps.py
+      - name: Build Baturyn Maps
+        run: xvfb-run ./Baturyn/render_maps.py
 
-    - name: Create Release
-      run: |
-        set -x
-        assets=()
-        for asset in ./VovchaTropa/rendered/*.pdf; do
-          assets+=("-a" "$asset")
-        done
-        for asset in ./PysanyjKamin/rendered/*.pdf; do
-          assets+=("-a" "$asset")
-        done
-        for asset in ./NovijSokil/rendered/*.pdf; do
-          assets+=("-a" "$asset")
-        done
-        for asset in ./PlastovaSich/rendered/*.pdf; do
-          assets+=("-a" "$asset")
-        done
-        for asset in ./Baturyn/rendered/*.pdf; do
-          assets+=("-a" "$asset")
-        done
-        release_name="${GITHUB_REF##*/}"
-        tag_name="release/${GITHUB_REF##*/}"
-        hub release create "${assets[@]}" -m "$release_name" "$tag_name"
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            VovchaTropa/rendered/*.pdf
+            PysanyjKamin/rendered/*.pdf
+            NovijSokil/rendered/*.pdf
+            PlastovaSich/rendered/*.pdf
+            Baturyn/rendered/*.pdf
