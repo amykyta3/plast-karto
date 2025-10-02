@@ -39,6 +39,9 @@ jobs:
     - name: Build Sich Maps
       run: xvfb-run ./PlastovaSich/render_maps.py
 
+    - name: Build Baturyn Maps
+      run: xvfb-run ./Baturyn/render_maps.py
+
     - name: Create Release
       run: |
         set -x
@@ -53,6 +56,9 @@ jobs:
           assets+=("-a" "$asset")
         done
         for asset in ./PlastovaSich/rendered/*.pdf; do
+          assets+=("-a" "$asset")
+        done
+        for asset in ./Baturyn/rendered/*.pdf; do
           assets+=("-a" "$asset")
         done
         release_name="${GITHUB_REF##*/}"
